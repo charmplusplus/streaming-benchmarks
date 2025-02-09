@@ -1,0 +1,102 @@
+[
+    {
+        "age": 57,
+        "biometrics": {
+            "heart_rate": 97,
+            "height_m": 1.7791986653234448,
+            "steps": 9236,
+            "weight_kg": 82.22877860281207
+        },
+        "name": "Elfrieda\r Faircloth"
+    },
+    {
+        "age": 46,
+        "biometrics": {
+            "heart_rate": 66,
+            "height_m": 1.6835372461454519,
+            "steps": 5797,
+            "weight_kg": 75.67824657859687
+        },
+        "name": "Andy\r Adler"
+    },
+    {
+        "age": 38,
+        "biometrics": {
+            "heart_rate": 93,
+            "height_m": 1.8928235461684921,
+            "steps": 11416,
+            "weight_kg": 88.18577607549729
+        },
+        "name": "Drucie\r Covington"
+    },
+    {
+        "age": 37,
+        "biometrics": {
+            "heart_rate": 103,
+            "height_m": 1.9878854885169517,
+            "steps": 12416,
+            "weight_kg": 79.22417787449622
+        },
+        "name": "Marne\r Cooke"
+    },
+    {
+        "age": 37,
+        "biometrics": {
+            "heart_rate": 115,
+            "height_m": 1.6764287754704081,
+            "steps": 6635,
+            "weight_kg": 74.8269287312635
+        },
+        "name": "Ddene\r Conway"
+    },
+    {
+        "age": 44,
+        "biometrics": {
+            "heart_rate": 61,
+            "height_m": 1.6457807367820148,
+            "steps": 8268,
+            "weight_kg": 75.0557719668189
+        },
+        "name": "Teresa\r Tyler"
+    },
+    {
+        "age": 54,
+        "biometrics": {
+            "heart_rate": 67,
+            "height_m": 1.7187859381641577,
+            "steps": 4459,
+            "weight_kg": 87.54274602168515
+        },
+        "name": "Merrili\r Miles"
+    },
+    {
+        "age": 50,
+        "biometrics": {
+            "heart_rate": 92,
+            "height_m": 1.5961604214600411,
+            "steps": 9098,
+            "weight_kg": 81.88992872344089
+        },
+        "name": "Ray\r Bates"
+    },
+    {
+        "age": 28,
+        "biometrics": {
+            "heart_rate": 101,
+            "height_m": 1.650771511742977,
+            "steps": 4099,
+            "weight_kg": 81.09142660949406
+        },
+        "name": "Kassi\r Parsons"
+    },
+    {
+        "age": 53,
+        "biometrics": {
+            "heart_rate": 84,
+            "height_m": 1.7528780226794547,
+            "steps": 7648,
+            "weight_kg": 79.68788576174275
+        },
+        "name": "Tami\r Rodgers"
+    }
+]
