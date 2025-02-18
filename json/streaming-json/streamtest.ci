@@ -7,13 +7,31 @@ mainmodule streamtest
 		entry void validatorsFiltersStreamMade(Ck::Stream::StreamIdMessage* msg);
 		entry void filtersTransformersStreamMade(Ck::Stream::StreamIdMessage* msg);
 		entry void transformersWritersStreamMade(Ck::Stream::StreamIdMessage* msg);
-
+		entry void getEndTime();
+		entry void getEndTimeAndExit();
+		entry [reductiontarget] void doneCreatingData(int total_records) {
+			serial {
+				CkPrintf("Total of %d records have been writing, broadcast to readers to start reading", total_records);
+			}
+		}
+		entry [reductiontarget] void doneReceivingInput() {
+			serial {
+				CkPrintf("All readers have received their inputs, beginning work, input generation took %f\n", CkWallTimer() - start_time);
+				start_time = CkWallTimer();
+				Ck::Stream::createNewStream(CkCallback(CkIndex_Main::readersValidatorsStreamMade(0), thisProxy));
+			}
+		}
+		
 
 	};
+
+	
+
 	array[1D] Readers {
 		entry Readers();
-		entry Readers(int num_records, std::string records_str);
+		entry Readers(int num_records, CProxy_Main);
 		entry void setOutputStreamId(StreamToken output_id);
+		entry void setInput(std::string);
 		entry void beginWork();
 	}
 
@@ -61,15 +79,24 @@ mainmodule streamtest
 
 
 	array[1D] Writers {
-		entry Writers();
+		entry Writers(CProxy_Main);
 		entry void setInputStreamId(StreamToken input_id);
 		entry void beginWork();
 		entry [threaded] void recvData(Ck::Stream::StreamDeliveryMsg* msg);
 		entry [reductiontarget] void finishedTask() {
 			serial {
 				CkPrintf("Writers all done!\n");
-				CkExit(0);
+				mainProxy.getEndTimeAndExit();
 			}
 		};
+	}
+	// THIS IS NOT A STAGE IN THE BENCHMARK. 
+	// THIS IS JUST TO GENERATE DATA
+	// number of generators must equal number of producers
+	array[1D] Generators {
+		entry Generators();
+		entry Generators(CProxy_Readers);
+		entry void generateJsonData(int num_record);
+		entry void readJsonData(std::string folder);
 	}
 }

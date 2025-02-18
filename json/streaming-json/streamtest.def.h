@@ -15,6 +15,89 @@
 #ifndef CK_TEMPLATES_ONLY
 #endif /* CK_TEMPLATES_ONLY */
 
+#ifndef CK_TEMPLATES_ONLY
+
+    struct Closure_Main::getEndTime_6_closure : public SDAG::Closure {
+      
+
+      getEndTime_6_closure() {
+        init();
+      }
+      getEndTime_6_closure(CkMigrateMessage*) {
+        init();
+      }
+            void pup(PUP::er& __p) {
+        packClosure(__p);
+      }
+      virtual ~getEndTime_6_closure() {
+      }
+      PUPable_decl(SINGLE_ARG(getEndTime_6_closure));
+    };
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+
+    struct Closure_Main::getEndTimeAndExit_7_closure : public SDAG::Closure {
+      
+
+      getEndTimeAndExit_7_closure() {
+        init();
+      }
+      getEndTimeAndExit_7_closure(CkMigrateMessage*) {
+        init();
+      }
+            void pup(PUP::er& __p) {
+        packClosure(__p);
+      }
+      virtual ~getEndTimeAndExit_7_closure() {
+      }
+      PUPable_decl(SINGLE_ARG(getEndTimeAndExit_7_closure));
+    };
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+
+    struct Closure_Main::doneCreatingData_8_closure : public SDAG::Closure {
+            int total_records;
+
+
+      doneCreatingData_8_closure() {
+        init();
+      }
+      doneCreatingData_8_closure(CkMigrateMessage*) {
+        init();
+      }
+            int & getP0() { return total_records;}
+      void pup(PUP::er& __p) {
+        __p | total_records;
+        packClosure(__p);
+      }
+      virtual ~doneCreatingData_8_closure() {
+      }
+      PUPable_decl(SINGLE_ARG(doneCreatingData_8_closure));
+    };
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+
+    struct Closure_Main::doneReceivingInput_9_closure : public SDAG::Closure {
+      
+
+      doneReceivingInput_9_closure() {
+        init();
+      }
+      doneReceivingInput_9_closure(CkMigrateMessage*) {
+        init();
+      }
+            void pup(PUP::er& __p) {
+        packClosure(__p);
+      }
+      virtual ~doneReceivingInput_9_closure() {
+      }
+      PUPable_decl(SINGLE_ARG(doneReceivingInput_9_closure));
+    };
+#endif /* CK_TEMPLATES_ONLY */
+
 
 /* ---------------- method closures -------------- */
 #ifndef CK_TEMPLATES_ONLY
@@ -48,21 +131,44 @@
 
 #ifndef CK_TEMPLATES_ONLY
 
-    struct Closure_Readers::beginWork_4_closure : public SDAG::Closure {
-      
+    struct Closure_Readers::setInput_4_closure : public SDAG::Closure {
+            std::string impl_noname_1;
 
-      beginWork_4_closure() {
+
+      setInput_4_closure() {
         init();
       }
-      beginWork_4_closure(CkMigrateMessage*) {
+      setInput_4_closure(CkMigrateMessage*) {
+        init();
+      }
+            std::string & getP0() { return impl_noname_1;}
+      void pup(PUP::er& __p) {
+        __p | impl_noname_1;
+        packClosure(__p);
+      }
+      virtual ~setInput_4_closure() {
+      }
+      PUPable_decl(SINGLE_ARG(setInput_4_closure));
+    };
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+
+    struct Closure_Readers::beginWork_5_closure : public SDAG::Closure {
+      
+
+      beginWork_5_closure() {
+        init();
+      }
+      beginWork_5_closure(CkMigrateMessage*) {
         init();
       }
             void pup(PUP::er& __p) {
         packClosure(__p);
       }
-      virtual ~beginWork_4_closure() {
+      virtual ~beginWork_5_closure() {
       }
-      PUPable_decl(SINGLE_ARG(beginWork_4_closure));
+      PUPable_decl(SINGLE_ARG(beginWork_5_closure));
     };
 #endif /* CK_TEMPLATES_ONLY */
 
@@ -435,6 +541,63 @@
 #endif /* CK_TEMPLATES_ONLY */
 
 
+/* ---------------- method closures -------------- */
+#ifndef CK_TEMPLATES_ONLY
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+
+    struct Closure_Generators::generateJsonData_3_closure : public SDAG::Closure {
+            int num_record;
+
+
+      generateJsonData_3_closure() {
+        init();
+      }
+      generateJsonData_3_closure(CkMigrateMessage*) {
+        init();
+      }
+            int & getP0() { return num_record;}
+      void pup(PUP::er& __p) {
+        __p | num_record;
+        packClosure(__p);
+      }
+      virtual ~generateJsonData_3_closure() {
+      }
+      PUPable_decl(SINGLE_ARG(generateJsonData_3_closure));
+    };
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+
+    struct Closure_Generators::readJsonData_4_closure : public SDAG::Closure {
+            std::string folder;
+
+
+      readJsonData_4_closure() {
+        init();
+      }
+      readJsonData_4_closure(CkMigrateMessage*) {
+        init();
+      }
+            std::string & getP0() { return folder;}
+      void pup(PUP::er& __p) {
+        __p | folder;
+        packClosure(__p);
+      }
+      virtual ~readJsonData_4_closure() {
+      }
+      PUPable_decl(SINGLE_ARG(readJsonData_4_closure));
+    };
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+#endif /* CK_TEMPLATES_ONLY */
+
+
 
 /* DEFS: mainchare Main: Chare{
 Main(CkArgMsg* impl_msg);
@@ -442,6 +605,10 @@ void readersValidatorsStreamMade(Ck::Stream::StreamIdMessage* impl_msg);
 void validatorsFiltersStreamMade(Ck::Stream::StreamIdMessage* impl_msg);
 void filtersTransformersStreamMade(Ck::Stream::StreamIdMessage* impl_msg);
 void transformersWritersStreamMade(Ck::Stream::StreamIdMessage* impl_msg);
+void getEndTime();
+void getEndTimeAndExit();
+void doneCreatingData(int total_records);
+void doneReceivingInput();
 };
  */
 #ifndef CK_TEMPLATES_ONLY
@@ -595,6 +762,217 @@ void CkIndex_Main::_call_transformersWritersStreamMade_StreamIdMessage(void* imp
 #endif /* CK_TEMPLATES_ONLY */
 
 #ifndef CK_TEMPLATES_ONLY
+/* DEFS: void getEndTime();
+ */
+void CProxy_Main::getEndTime(const CkEntryOptions *impl_e_opts)
+{
+  ckCheck();
+  void *impl_msg = CkAllocSysMsg(impl_e_opts);
+  if (ckIsDelegated()) {
+    int destPE=CkChareMsgPrep(CkIndex_Main::idx_getEndTime_void(), impl_msg, &ckGetChareID());
+    if (destPE!=-1) ckDelegatedTo()->ChareSend(ckDelegatedPtr(),CkIndex_Main::idx_getEndTime_void(), impl_msg, &ckGetChareID(),destPE);
+  } else {
+    CkSendMsg(CkIndex_Main::idx_getEndTime_void(), impl_msg, &ckGetChareID(),0);
+  }
+}
+
+// Entry point registration function
+int CkIndex_Main::reg_getEndTime_void() {
+  int epidx = CkRegisterEp("getEndTime()",
+      reinterpret_cast<CkCallFnPtr>(_call_getEndTime_void), 0, __idx, 0);
+  return epidx;
+}
+
+void CkIndex_Main::_call_getEndTime_void(void* impl_msg, void* impl_obj_void)
+{
+  Main* impl_obj = static_cast<Main*>(impl_obj_void);
+  impl_obj->getEndTime();
+  if(UsrToEnv(impl_msg)->isVarSysMsg() == 0)
+    CkFreeSysMsg(impl_msg);
+}
+PUPable_def(SINGLE_ARG(Closure_Main::getEndTime_6_closure))
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: void getEndTimeAndExit();
+ */
+void CProxy_Main::getEndTimeAndExit(const CkEntryOptions *impl_e_opts)
+{
+  ckCheck();
+  void *impl_msg = CkAllocSysMsg(impl_e_opts);
+  if (ckIsDelegated()) {
+    int destPE=CkChareMsgPrep(CkIndex_Main::idx_getEndTimeAndExit_void(), impl_msg, &ckGetChareID());
+    if (destPE!=-1) ckDelegatedTo()->ChareSend(ckDelegatedPtr(),CkIndex_Main::idx_getEndTimeAndExit_void(), impl_msg, &ckGetChareID(),destPE);
+  } else {
+    CkSendMsg(CkIndex_Main::idx_getEndTimeAndExit_void(), impl_msg, &ckGetChareID(),0);
+  }
+}
+
+// Entry point registration function
+int CkIndex_Main::reg_getEndTimeAndExit_void() {
+  int epidx = CkRegisterEp("getEndTimeAndExit()",
+      reinterpret_cast<CkCallFnPtr>(_call_getEndTimeAndExit_void), 0, __idx, 0);
+  return epidx;
+}
+
+void CkIndex_Main::_call_getEndTimeAndExit_void(void* impl_msg, void* impl_obj_void)
+{
+  Main* impl_obj = static_cast<Main*>(impl_obj_void);
+  impl_obj->getEndTimeAndExit();
+  if(UsrToEnv(impl_msg)->isVarSysMsg() == 0)
+    CkFreeSysMsg(impl_msg);
+}
+PUPable_def(SINGLE_ARG(Closure_Main::getEndTimeAndExit_7_closure))
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: void doneCreatingData(int total_records);
+ */
+void CProxy_Main::doneCreatingData(int total_records, const CkEntryOptions *impl_e_opts)
+{
+  ckCheck();
+  //Marshall: int total_records
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    implP|total_records;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    implP|total_records;
+  }
+  if (ckIsDelegated()) {
+    int destPE=CkChareMsgPrep(CkIndex_Main::idx_doneCreatingData_marshall8(), impl_msg, &ckGetChareID());
+    if (destPE!=-1) ckDelegatedTo()->ChareSend(ckDelegatedPtr(),CkIndex_Main::idx_doneCreatingData_marshall8(), impl_msg, &ckGetChareID(),destPE);
+  } else {
+    CkSendMsg(CkIndex_Main::idx_doneCreatingData_marshall8(), impl_msg, &ckGetChareID(),0);
+  }
+}
+void CkIndex_Main::_call_redn_wrapper_doneCreatingData_marshall8(void* impl_msg, void* impl_obj_void)
+{
+  Main* impl_obj = static_cast<Main*> (impl_obj_void);
+  char* impl_buf = (char*)((CkReductionMsg*)impl_msg)->getData();
+Closure_Main::doneCreatingData_8_closure* genClosure = new Closure_Main::doneCreatingData_8_closure();
+  /*Unmarshall pup'd fields: int total_records*/
+  PUP::fromMem implP(impl_buf);
+  /* non two-param case */
+  implP|genClosure->total_records;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  genClosure->setRefnum(CkGetRefNum((CkReductionMsg*)impl_msg));
+  impl_obj->doneCreatingData(genClosure);
+  genClosure->deref();
+  
+}
+
+
+// Entry point registration function
+int CkIndex_Main::reg_doneCreatingData_marshall8() {
+  int epidx = CkRegisterEp("doneCreatingData(int total_records)",
+      reinterpret_cast<CkCallFnPtr>(_call_doneCreatingData_marshall8), CkMarshallMsg::__idx, __idx, 0+CK_EP_NOKEEP);
+  CkRegisterMarshallUnpackFn(epidx, _callmarshall_doneCreatingData_marshall8);
+  CkRegisterMessagePupFn(epidx, _marshallmessagepup_doneCreatingData_marshall8);
+
+  return epidx;
+}
+
+
+// Redn wrapper registration function
+int CkIndex_Main::reg_redn_wrapper_doneCreatingData_marshall8() {
+  return CkRegisterEp("redn_wrapper_doneCreatingData(CkReductionMsg *impl_msg)",
+      reinterpret_cast<CkCallFnPtr>(_call_redn_wrapper_doneCreatingData_marshall8), CkMarshallMsg::__idx, __idx, 0);
+}
+
+void CkIndex_Main::_call_doneCreatingData_marshall8(void* impl_msg, void* impl_obj_void)
+{
+  Main* impl_obj = static_cast<Main*>(impl_obj_void);
+  CkMarshallMsg *impl_msg_typed=(CkMarshallMsg *)impl_msg;
+  char *impl_buf=impl_msg_typed->msgBuf;
+  envelope *env = UsrToEnv(impl_msg_typed);
+  PUP::fromMem implP(impl_buf);
+  Closure_Main::doneCreatingData_8_closure* genClosure = new Closure_Main::doneCreatingData_8_closure();
+  implP|genClosure->total_records;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  impl_obj->doneCreatingData(genClosure);
+  genClosure->deref();
+}
+int CkIndex_Main::_callmarshall_doneCreatingData_marshall8(char* impl_buf, void* impl_obj_void) {
+  Main* impl_obj = static_cast<Main*>(impl_obj_void);
+  envelope *env = UsrToEnv(impl_buf);
+  PUP::fromMem implP(impl_buf);
+  Closure_Main::doneCreatingData_8_closure* genClosure = new Closure_Main::doneCreatingData_8_closure();
+  implP|genClosure->total_records;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  impl_obj->doneCreatingData(genClosure);
+  genClosure->deref();
+  return implP.size();
+}
+void CkIndex_Main::_marshallmessagepup_doneCreatingData_marshall8(PUP::er &implDestP,void *impl_msg) {
+  CkMarshallMsg *impl_msg_typed=(CkMarshallMsg *)impl_msg;
+  char *impl_buf=impl_msg_typed->msgBuf;
+  envelope *env = UsrToEnv(impl_msg_typed);
+  /*Unmarshall pup'd fields: int total_records*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<int> total_records;
+  implP|total_records;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  if (implDestP.hasComments()) implDestP.comment("total_records");
+  implDestP|total_records;
+}
+PUPable_def(SINGLE_ARG(Closure_Main::doneCreatingData_8_closure))
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: void doneReceivingInput();
+ */
+void CProxy_Main::doneReceivingInput(const CkEntryOptions *impl_e_opts)
+{
+  ckCheck();
+  void *impl_msg = CkAllocSysMsg(impl_e_opts);
+  if (ckIsDelegated()) {
+    int destPE=CkChareMsgPrep(CkIndex_Main::idx_doneReceivingInput_void(), impl_msg, &ckGetChareID());
+    if (destPE!=-1) ckDelegatedTo()->ChareSend(ckDelegatedPtr(),CkIndex_Main::idx_doneReceivingInput_void(), impl_msg, &ckGetChareID(),destPE);
+  } else {
+    CkSendMsg(CkIndex_Main::idx_doneReceivingInput_void(), impl_msg, &ckGetChareID(),0);
+  }
+}
+void CkIndex_Main::_call_redn_wrapper_doneReceivingInput_void(void* impl_msg, void* impl_obj_void)
+{
+  Main* impl_obj = static_cast<Main*> (impl_obj_void);
+  char* impl_buf = (char*)((CkReductionMsg*)impl_msg)->getData();
+  impl_obj->doneReceivingInput();
+  
+}
+
+
+// Entry point registration function
+int CkIndex_Main::reg_doneReceivingInput_void() {
+  int epidx = CkRegisterEp("doneReceivingInput()",
+      reinterpret_cast<CkCallFnPtr>(_call_doneReceivingInput_void), 0, __idx, 0);
+  return epidx;
+}
+
+
+// Redn wrapper registration function
+int CkIndex_Main::reg_redn_wrapper_doneReceivingInput_void() {
+  return CkRegisterEp("redn_wrapper_doneReceivingInput(CkReductionMsg *impl_msg)",
+      reinterpret_cast<CkCallFnPtr>(_call_redn_wrapper_doneReceivingInput_void), CMessage_CkReductionMsg::__idx, __idx, 0);
+}
+
+void CkIndex_Main::_call_doneReceivingInput_void(void* impl_msg, void* impl_obj_void)
+{
+  Main* impl_obj = static_cast<Main*>(impl_obj_void);
+  impl_obj->doneReceivingInput();
+  if(UsrToEnv(impl_msg)->isVarSysMsg() == 0)
+    CkFreeSysMsg(impl_msg);
+}
+PUPable_def(SINGLE_ARG(Closure_Main::doneReceivingInput_9_closure))
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
 #endif /* CK_TEMPLATES_ONLY */
 #ifndef CK_TEMPLATES_ONLY
 void CkIndex_Main::__register(const char *s, size_t size) {
@@ -616,13 +994,200 @@ void CkIndex_Main::__register(const char *s, size_t size) {
   // REG: void transformersWritersStreamMade(Ck::Stream::StreamIdMessage* impl_msg);
   idx_transformersWritersStreamMade_StreamIdMessage();
 
+  // REG: void getEndTime();
+  idx_getEndTime_void();
+
+  // REG: void getEndTimeAndExit();
+  idx_getEndTimeAndExit_void();
+
+  // REG: void doneCreatingData(int total_records);
+  idx_doneCreatingData_marshall8();
+  idx_redn_wrapper_doneCreatingData_marshall8();
+
+  // REG: void doneReceivingInput();
+  idx_doneReceivingInput_void();
+  idx_redn_wrapper_doneReceivingInput_void();
+
+  Main::__sdag_register(); // Potentially missing Main_SDAG_CODE in your class definition?
 }
 #endif /* CK_TEMPLATES_ONLY */
 
+#ifndef CK_TEMPLATES_ONLY
+void Main::doneCreatingData(int total_records){
+  Closure_Main::doneCreatingData_8_closure* genClosure = new Closure_Main::doneCreatingData_8_closure();
+  genClosure->getP0() = total_records;
+  doneCreatingData(genClosure);
+  genClosure->deref();
+}
+
+#endif /* CK_TEMPLATES_ONLY */
+#ifndef CK_TEMPLATES_ONLY
+void Main::doneCreatingData(Closure_Main::doneCreatingData_8_closure* gen0) {
+  _TRACE_END_EXECUTE(); 
+  if (!__dep.get()) _sdag_init();
+  _slist_0(gen0);
+  _TRACE_BEGIN_EXECUTE_DETAILED(-1, -1, _sdagEP, CkMyPe(), 0, NULL, this); 
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+void Main::doneCreatingData_end(Closure_Main::doneCreatingData_8_closure* gen0) {
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+void Main::_slist_0(Closure_Main::doneCreatingData_8_closure* gen0) {
+  _serial_0(gen0);
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+void Main::_slist_0_end(Closure_Main::doneCreatingData_8_closure* gen0) {
+  doneCreatingData_end(gen0);
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+void Main::_serial_0(Closure_Main::doneCreatingData_8_closure* gen0) {
+  _TRACE_BEGIN_EXECUTE_DETAILED(-1, -1, (_sdag_idx_Main_serial_0()), CkMyPe(), 0, NULL, this); 
+  {
+    int& total_records = gen0->getP0();
+    { // begin serial block
+#line 13 "streamtest.ci"
+
+    CkPrintf("Total of %d records have been writing, broadcast to readers to start reading", total_records);
+   
+#line 1065 "streamtest.def.h"
+    } // end serial block
+  }
+  _TRACE_END_EXECUTE(); 
+  _slist_0_end(gen0);
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+void Main::doneReceivingInput() {
+  _TRACE_END_EXECUTE(); 
+  if (!__dep.get()) _sdag_init();
+  _slist_1();
+  _TRACE_BEGIN_EXECUTE_DETAILED(-1, -1, _sdagEP, CkMyPe(), 0, NULL, this); 
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+void Main::doneReceivingInput_end() {
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+void Main::_slist_1() {
+  _serial_1();
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+void Main::_slist_1_end() {
+  doneReceivingInput_end();
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+void Main::_serial_1() {
+  _TRACE_BEGIN_EXECUTE_DETAILED(-1, -1, (_sdag_idx_Main_serial_1()), CkMyPe(), 0, NULL, this); 
+  { // begin serial block
+#line 18 "streamtest.ci"
+
+    CkPrintf("All readers have received their inputs, beginning work, input generation took %f\n", CkWallTimer() - start_time);
+    start_time = CkWallTimer();
+    Ck::Stream::createNewStream(CkCallback(CkIndex_Main::readersValidatorsStreamMade(0), thisProxy));
+   
+#line 1114 "streamtest.def.h"
+  } // end serial block
+  _TRACE_END_EXECUTE(); 
+  _slist_1_end();
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+void Main::_sdag_init() { // Potentially missing Main_SDAG_CODE in your class definition?
+  __dep.reset(new SDAG::Dependency(0,0));
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+void Main::__sdag_init() { // Potentially missing Main_SDAG_CODE in your class definition?
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+void Main::_sdag_pup(PUP::er &p) {  // Potentially missing Main_SDAG_CODE in your class definition?
+  p|__dep;
+}
+#endif /* CK_TEMPLATES_ONLY */
+#ifndef CK_TEMPLATES_ONLY
+void Main::__sdag_register() { // Potentially missing Main_SDAG_CODE in your class definition?
+  (void)_sdag_idx_Main_serial_0();
+  (void)_sdag_idx_Main_serial_1();
+  PUPable_reg(SINGLE_ARG(Closure_Main::getEndTime_6_closure));
+  PUPable_reg(SINGLE_ARG(Closure_Main::getEndTimeAndExit_7_closure));
+  PUPable_reg(SINGLE_ARG(Closure_Main::doneCreatingData_8_closure));
+  PUPable_reg(SINGLE_ARG(Closure_Main::doneReceivingInput_9_closure));
+  PUPable_reg(SINGLE_ARG(Closure_Main::getEndTime_6_closure));
+  PUPable_reg(SINGLE_ARG(Closure_Main::getEndTimeAndExit_7_closure));
+  PUPable_reg(SINGLE_ARG(Closure_Main::doneCreatingData_8_closure));
+  PUPable_reg(SINGLE_ARG(Closure_Main::doneReceivingInput_9_closure));
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+int Main::_sdag_idx_Main_serial_0() { // Potentially missing Main_SDAG_CODE in your class definition?
+  static int epidx = _sdag_reg_Main_serial_0();
+  return epidx;
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+int Main::_sdag_reg_Main_serial_0() { // Potentially missing Main_SDAG_CODE in your class definition?
+  return CkRegisterEp("Main_serial_0", NULL, 0, CkIndex_Main::__idx, 0);
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+int Main::_sdag_idx_Main_serial_1() { // Potentially missing Main_SDAG_CODE in your class definition?
+  static int epidx = _sdag_reg_Main_serial_1();
+  return epidx;
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+#ifndef CK_TEMPLATES_ONLY
+int Main::_sdag_reg_Main_serial_1() { // Potentially missing Main_SDAG_CODE in your class definition?
+  return CkRegisterEp("Main_serial_1", NULL, 0, CkIndex_Main::__idx, 0);
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+
+
 /* DEFS: array Readers: ArrayElement{
 Readers();
-Readers(int num_records, const std::string &records_str);
+Readers(int num_records, const CProxy_Main &impl_noname_0);
 void setOutputStreamId(const StreamToken &output_id);
+void setInput(const std::string &impl_noname_1);
 void beginWork();
 Readers(CkMigrateMessage* impl_msg);
 };
@@ -688,17 +1253,17 @@ void CProxyElement_Readers::insert(int onPE, const CkEntryOptions *impl_e_opts)
 #endif /* CK_TEMPLATES_ONLY */
 
 #ifndef CK_TEMPLATES_ONLY
-/* DEFS: Readers(int num_records, const std::string &records_str);
+/* DEFS: Readers(int num_records, const CProxy_Main &impl_noname_0);
  */
-void CProxyElement_Readers::insert(int num_records, const std::string &records_str, int onPE, const CkEntryOptions *impl_e_opts)
+void CProxyElement_Readers::insert(int num_records, const CProxy_Main &impl_noname_0, int onPE, const CkEntryOptions *impl_e_opts)
 { 
-   //Marshall: int num_records, const std::string &records_str
+   //Marshall: int num_records, const CProxy_Main &impl_noname_0
   int impl_off=0;
   { //Find the size of the PUP'd data
     PUP::sizer implP;
     implP|num_records;
     //Have to cast away const-ness to get pup routine
-    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)records_str;
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_0;
     impl_off+=implP.size();
   }
   CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
@@ -706,7 +1271,7 @@ void CProxyElement_Readers::insert(int num_records, const std::string &records_s
     PUP::toMem implP((void *)impl_msg->msgBuf);
     implP|num_records;
     //Have to cast away const-ness to get pup routine
-    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)records_str;
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_0;
   }
    UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
    ckInsert((CkArrayMessage *)impl_msg,CkIndex_Readers::idx_Readers_marshall2(),onPE);
@@ -737,6 +1302,33 @@ void CProxyElement_Readers::setOutputStreamId(const StreamToken &output_id, cons
   CkArrayMessage *impl_amsg=(CkArrayMessage *)impl_msg;
   impl_amsg->array_setIfNotThere(CkArray_IfNotThere_buffer);
   ckSend(impl_amsg, CkIndex_Readers::idx_setOutputStreamId_marshall3(),0);
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: void setInput(const std::string &impl_noname_1);
+ */
+void CProxyElement_Readers::setInput(const std::string &impl_noname_1, const CkEntryOptions *impl_e_opts) 
+{
+  ckCheck();
+  //Marshall: const std::string &impl_noname_1
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)impl_noname_1;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)impl_noname_1;
+  }
+  UsrToEnv(impl_msg)->setMsgtype(ForArrayEltMsg);
+  CkArrayMessage *impl_amsg=(CkArrayMessage *)impl_msg;
+  impl_amsg->array_setIfNotThere(CkArray_IfNotThere_buffer);
+  ckSend(impl_amsg, CkIndex_Readers::idx_setInput_marshall4(),0);
 }
 #endif /* CK_TEMPLATES_ONLY */
 
@@ -808,17 +1400,17 @@ void CkIndex_Readers::_call_Readers_void(void* impl_msg, void* impl_obj_void)
 #endif /* CK_TEMPLATES_ONLY */
 
 #ifndef CK_TEMPLATES_ONLY
-/* DEFS: Readers(int num_records, const std::string &records_str);
+/* DEFS: Readers(int num_records, const CProxy_Main &impl_noname_0);
  */
-CkArrayID CProxy_Readers::ckNew(int num_records, const std::string &records_str, const CkArrayOptions &opts, const CkEntryOptions *impl_e_opts)
+CkArrayID CProxy_Readers::ckNew(int num_records, const CProxy_Main &impl_noname_0, const CkArrayOptions &opts, const CkEntryOptions *impl_e_opts)
 {
-  //Marshall: int num_records, const std::string &records_str
+  //Marshall: int num_records, const CProxy_Main &impl_noname_0
   int impl_off=0;
   { //Find the size of the PUP'd data
     PUP::sizer implP;
     implP|num_records;
     //Have to cast away const-ness to get pup routine
-    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)records_str;
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_0;
     impl_off+=implP.size();
   }
   CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
@@ -826,21 +1418,21 @@ CkArrayID CProxy_Readers::ckNew(int num_records, const std::string &records_str,
     PUP::toMem implP((void *)impl_msg->msgBuf);
     implP|num_records;
     //Have to cast away const-ness to get pup routine
-    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)records_str;
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_0;
   }
   UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
   CkArrayID gId = ckCreateArray((CkArrayMessage *)impl_msg, CkIndex_Readers::idx_Readers_marshall2(), opts);
   return gId;
 }
-void CProxy_Readers::ckNew(int num_records, const std::string &records_str, const CkArrayOptions &opts, CkCallback _ck_array_creation_cb, const CkEntryOptions *impl_e_opts)
+void CProxy_Readers::ckNew(int num_records, const CProxy_Main &impl_noname_0, const CkArrayOptions &opts, CkCallback _ck_array_creation_cb, const CkEntryOptions *impl_e_opts)
 {
-  //Marshall: int num_records, const std::string &records_str
+  //Marshall: int num_records, const CProxy_Main &impl_noname_0
   int impl_off=0;
   { //Find the size of the PUP'd data
     PUP::sizer implP;
     implP|num_records;
     //Have to cast away const-ness to get pup routine
-    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)records_str;
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_0;
     impl_off+=implP.size();
   }
   CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
@@ -848,20 +1440,20 @@ void CProxy_Readers::ckNew(int num_records, const std::string &records_str, cons
     PUP::toMem implP((void *)impl_msg->msgBuf);
     implP|num_records;
     //Have to cast away const-ness to get pup routine
-    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)records_str;
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_0;
   }
   UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
   CkSendAsyncCreateArray(CkIndex_Readers::idx_Readers_marshall2(), _ck_array_creation_cb, opts, impl_msg);
 }
-CkArrayID CProxy_Readers::ckNew(int num_records, const std::string &records_str, const int s1, const CkEntryOptions *impl_e_opts)
+CkArrayID CProxy_Readers::ckNew(int num_records, const CProxy_Main &impl_noname_0, const int s1, const CkEntryOptions *impl_e_opts)
 {
-  //Marshall: int num_records, const std::string &records_str
+  //Marshall: int num_records, const CProxy_Main &impl_noname_0
   int impl_off=0;
   { //Find the size of the PUP'd data
     PUP::sizer implP;
     implP|num_records;
     //Have to cast away const-ness to get pup routine
-    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)records_str;
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_0;
     impl_off+=implP.size();
   }
   CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
@@ -869,22 +1461,22 @@ CkArrayID CProxy_Readers::ckNew(int num_records, const std::string &records_str,
     PUP::toMem implP((void *)impl_msg->msgBuf);
     implP|num_records;
     //Have to cast away const-ness to get pup routine
-    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)records_str;
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_0;
   }
   CkArrayOptions opts(s1);
   UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
   CkArrayID gId = ckCreateArray((CkArrayMessage *)impl_msg, CkIndex_Readers::idx_Readers_marshall2(), opts);
   return gId;
 }
-void CProxy_Readers::ckNew(int num_records, const std::string &records_str, const int s1, CkCallback _ck_array_creation_cb, const CkEntryOptions *impl_e_opts)
+void CProxy_Readers::ckNew(int num_records, const CProxy_Main &impl_noname_0, const int s1, CkCallback _ck_array_creation_cb, const CkEntryOptions *impl_e_opts)
 {
-  //Marshall: int num_records, const std::string &records_str
+  //Marshall: int num_records, const CProxy_Main &impl_noname_0
   int impl_off=0;
   { //Find the size of the PUP'd data
     PUP::sizer implP;
     implP|num_records;
     //Have to cast away const-ness to get pup routine
-    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)records_str;
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_0;
     impl_off+=implP.size();
   }
   CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
@@ -892,7 +1484,7 @@ void CProxy_Readers::ckNew(int num_records, const std::string &records_str, cons
     PUP::toMem implP((void *)impl_msg->msgBuf);
     implP|num_records;
     //Have to cast away const-ness to get pup routine
-    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)records_str;
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_0;
   }
   CkArrayOptions opts(s1);
   UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
@@ -901,7 +1493,7 @@ void CProxy_Readers::ckNew(int num_records, const std::string &records_str, cons
 
 // Entry point registration function
 int CkIndex_Readers::reg_Readers_marshall2() {
-  int epidx = CkRegisterEp("Readers(int num_records, const std::string &records_str)",
+  int epidx = CkRegisterEp("Readers(int num_records, const CProxy_Main &impl_noname_0)",
       reinterpret_cast<CkCallFnPtr>(_call_Readers_marshall2), CkMarshallMsg::__idx, __idx, 0+CK_EP_NOKEEP);
   CkRegisterMarshallUnpackFn(epidx, _callmarshall_Readers_marshall2);
   CkRegisterMessagePupFn(epidx, _marshallmessagepup_Readers_marshall2);
@@ -915,46 +1507,46 @@ void CkIndex_Readers::_call_Readers_marshall2(void* impl_msg, void* impl_obj_voi
   CkMarshallMsg *impl_msg_typed=(CkMarshallMsg *)impl_msg;
   char *impl_buf=impl_msg_typed->msgBuf;
   envelope *env = UsrToEnv(impl_msg_typed);
-  /*Unmarshall pup'd fields: int num_records, const std::string &records_str*/
+  /*Unmarshall pup'd fields: int num_records, const CProxy_Main &impl_noname_0*/
   PUP::fromMem implP(impl_buf);
   PUP::detail::TemporaryObjectHolder<int> num_records;
   implP|num_records;
-  PUP::detail::TemporaryObjectHolder<std::string> records_str;
-  implP|records_str;
+  PUP::detail::TemporaryObjectHolder<CProxy_Main> impl_noname_0;
+  implP|impl_noname_0;
   impl_buf+=CK_ALIGN(implP.size(),16);
   /*Unmarshall arrays:*/
-  new (impl_obj_void) Readers(std::move(num_records.t), std::move(records_str.t));
+  new (impl_obj_void) Readers(std::move(num_records.t), std::move(impl_noname_0.t));
 }
 int CkIndex_Readers::_callmarshall_Readers_marshall2(char* impl_buf, void* impl_obj_void) {
   Readers* impl_obj = static_cast<Readers*>(impl_obj_void);
   envelope *env = UsrToEnv(impl_buf);
-  /*Unmarshall pup'd fields: int num_records, const std::string &records_str*/
+  /*Unmarshall pup'd fields: int num_records, const CProxy_Main &impl_noname_0*/
   PUP::fromMem implP(impl_buf);
   PUP::detail::TemporaryObjectHolder<int> num_records;
   implP|num_records;
-  PUP::detail::TemporaryObjectHolder<std::string> records_str;
-  implP|records_str;
+  PUP::detail::TemporaryObjectHolder<CProxy_Main> impl_noname_0;
+  implP|impl_noname_0;
   impl_buf+=CK_ALIGN(implP.size(),16);
   /*Unmarshall arrays:*/
-  new (impl_obj_void) Readers(std::move(num_records.t), std::move(records_str.t));
+  new (impl_obj_void) Readers(std::move(num_records.t), std::move(impl_noname_0.t));
   return implP.size();
 }
 void CkIndex_Readers::_marshallmessagepup_Readers_marshall2(PUP::er &implDestP,void *impl_msg) {
   CkMarshallMsg *impl_msg_typed=(CkMarshallMsg *)impl_msg;
   char *impl_buf=impl_msg_typed->msgBuf;
   envelope *env = UsrToEnv(impl_msg_typed);
-  /*Unmarshall pup'd fields: int num_records, const std::string &records_str*/
+  /*Unmarshall pup'd fields: int num_records, const CProxy_Main &impl_noname_0*/
   PUP::fromMem implP(impl_buf);
   PUP::detail::TemporaryObjectHolder<int> num_records;
   implP|num_records;
-  PUP::detail::TemporaryObjectHolder<std::string> records_str;
-  implP|records_str;
+  PUP::detail::TemporaryObjectHolder<CProxy_Main> impl_noname_0;
+  implP|impl_noname_0;
   impl_buf+=CK_ALIGN(implP.size(),16);
   /*Unmarshall arrays:*/
   if (implDestP.hasComments()) implDestP.comment("num_records");
   implDestP|num_records;
-  if (implDestP.hasComments()) implDestP.comment("records_str");
-  implDestP|records_str;
+  if (implDestP.hasComments()) implDestP.comment("impl_noname_0");
+  implDestP|impl_noname_0;
 }
 #endif /* CK_TEMPLATES_ONLY */
 
@@ -1037,6 +1629,84 @@ PUPable_def(SINGLE_ARG(Closure_Readers::setOutputStreamId_3_closure))
 #endif /* CK_TEMPLATES_ONLY */
 
 #ifndef CK_TEMPLATES_ONLY
+/* DEFS: void setInput(const std::string &impl_noname_1);
+ */
+void CProxy_Readers::setInput(const std::string &impl_noname_1, const CkEntryOptions *impl_e_opts) 
+{
+  ckCheck();
+  //Marshall: const std::string &impl_noname_1
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)impl_noname_1;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)impl_noname_1;
+  }
+  UsrToEnv(impl_msg)->setMsgtype(ForArrayEltMsg);
+  CkArrayMessage *impl_amsg=(CkArrayMessage *)impl_msg;
+  impl_amsg->array_setIfNotThere(CkArray_IfNotThere_buffer);
+  ckBroadcast(impl_amsg, CkIndex_Readers::idx_setInput_marshall4(),0);
+}
+
+// Entry point registration function
+int CkIndex_Readers::reg_setInput_marshall4() {
+  int epidx = CkRegisterEp("setInput(const std::string &impl_noname_1)",
+      reinterpret_cast<CkCallFnPtr>(_call_setInput_marshall4), CkMarshallMsg::__idx, __idx, 0+CK_EP_NOKEEP);
+  CkRegisterMarshallUnpackFn(epidx, _callmarshall_setInput_marshall4);
+  CkRegisterMessagePupFn(epidx, _marshallmessagepup_setInput_marshall4);
+
+  return epidx;
+}
+
+void CkIndex_Readers::_call_setInput_marshall4(void* impl_msg, void* impl_obj_void)
+{
+  Readers* impl_obj = static_cast<Readers*>(impl_obj_void);
+  CkMarshallMsg *impl_msg_typed=(CkMarshallMsg *)impl_msg;
+  char *impl_buf=impl_msg_typed->msgBuf;
+  envelope *env = UsrToEnv(impl_msg_typed);
+  /*Unmarshall pup'd fields: const std::string &impl_noname_1*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<std::string> impl_noname_1;
+  implP|impl_noname_1;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  impl_obj->setInput(std::move(impl_noname_1.t));
+}
+int CkIndex_Readers::_callmarshall_setInput_marshall4(char* impl_buf, void* impl_obj_void) {
+  Readers* impl_obj = static_cast<Readers*>(impl_obj_void);
+  envelope *env = UsrToEnv(impl_buf);
+  /*Unmarshall pup'd fields: const std::string &impl_noname_1*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<std::string> impl_noname_1;
+  implP|impl_noname_1;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  impl_obj->setInput(std::move(impl_noname_1.t));
+  return implP.size();
+}
+void CkIndex_Readers::_marshallmessagepup_setInput_marshall4(PUP::er &implDestP,void *impl_msg) {
+  CkMarshallMsg *impl_msg_typed=(CkMarshallMsg *)impl_msg;
+  char *impl_buf=impl_msg_typed->msgBuf;
+  envelope *env = UsrToEnv(impl_msg_typed);
+  /*Unmarshall pup'd fields: const std::string &impl_noname_1*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<std::string> impl_noname_1;
+  implP|impl_noname_1;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  if (implDestP.hasComments()) implDestP.comment("impl_noname_1");
+  implDestP|impl_noname_1;
+}
+PUPable_def(SINGLE_ARG(Closure_Readers::setInput_4_closure))
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
 /* DEFS: void beginWork();
  */
 void CProxy_Readers::beginWork(const CkEntryOptions *impl_e_opts) 
@@ -1063,7 +1733,7 @@ void CkIndex_Readers::_call_beginWork_void(void* impl_msg, void* impl_obj_void)
   if(UsrToEnv(impl_msg)->isVarSysMsg() == 0)
     CkFreeSysMsg(impl_msg);
 }
-PUPable_def(SINGLE_ARG(Closure_Readers::beginWork_4_closure))
+PUPable_def(SINGLE_ARG(Closure_Readers::beginWork_5_closure))
 #endif /* CK_TEMPLATES_ONLY */
 
 #ifndef CK_TEMPLATES_ONLY
@@ -1090,7 +1760,7 @@ void CkIndex_Readers::_call_Readers_CkMigrateMessage(void* impl_msg, void* impl_
 #endif /* CK_TEMPLATES_ONLY */
 
 #ifndef CK_TEMPLATES_ONLY
-/* DEFS: Readers(int num_records, const std::string &records_str);
+/* DEFS: Readers(int num_records, const CProxy_Main &impl_noname_0);
  */
 #endif /* CK_TEMPLATES_ONLY */
 
@@ -1118,6 +1788,33 @@ void CProxySection_Readers::setOutputStreamId(const StreamToken &output_id, cons
   CkArrayMessage *impl_amsg=(CkArrayMessage *)impl_msg;
   impl_amsg->array_setIfNotThere(CkArray_IfNotThere_buffer);
   ckSend(impl_amsg, CkIndex_Readers::idx_setOutputStreamId_marshall3(),0);
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: void setInput(const std::string &impl_noname_1);
+ */
+void CProxySection_Readers::setInput(const std::string &impl_noname_1, const CkEntryOptions *impl_e_opts) 
+{
+  ckCheck();
+  //Marshall: const std::string &impl_noname_1
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)impl_noname_1;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)impl_noname_1;
+  }
+  UsrToEnv(impl_msg)->setMsgtype(ForArrayEltMsg);
+  CkArrayMessage *impl_amsg=(CkArrayMessage *)impl_msg;
+  impl_amsg->array_setIfNotThere(CkArray_IfNotThere_buffer);
+  ckSend(impl_amsg, CkIndex_Readers::idx_setInput_marshall4(),0);
 }
 #endif /* CK_TEMPLATES_ONLY */
 
@@ -1151,11 +1848,14 @@ void CkIndex_Readers::__register(const char *s, size_t size) {
   idx_Readers_void();
   CkRegisterDefaultCtor(__idx, idx_Readers_void());
 
-  // REG: Readers(int num_records, const std::string &records_str);
+  // REG: Readers(int num_records, const CProxy_Main &impl_noname_0);
   idx_Readers_marshall2();
 
   // REG: void setOutputStreamId(const StreamToken &output_id);
   idx_setOutputStreamId_marshall3();
+
+  // REG: void setInput(const std::string &impl_noname_1);
+  idx_setInput_marshall4();
 
   // REG: void beginWork();
   idx_beginWork_void();
@@ -1848,12 +2548,12 @@ void Validators::_serial_0() {
   CmiObjId projID = this->ckGetArrayIndex().getProjectionID();
   _TRACE_BEGIN_EXECUTE_DETAILED(-1, -1, (_sdag_idx_Validators_serial_0()), CkMyPe(), 0, &projID, this); 
   { // begin serial block
-#line 27 "streamtest.ci"
+#line 39 "streamtest.ci"
 
-				CkPrintf("Validators all done!\n");
-				Ck::Stream::closeWriteStream(output_id);
-			
-#line 1857 "streamtest.def.h"
+    CkPrintf("Validators all done!\n");
+    Ck::Stream::closeWriteStream(output_id);
+   
+#line 2557 "streamtest.def.h"
   } // end serial block
   _TRACE_END_EXECUTE(); 
   _slist_0_end();
@@ -2591,12 +3291,12 @@ void Filters::_serial_0() {
   CmiObjId projID = this->ckGetArrayIndex().getProjectionID();
   _TRACE_BEGIN_EXECUTE_DETAILED(-1, -1, (_sdag_idx_Filters_serial_0()), CkMyPe(), 0, &projID, this); 
   { // begin serial block
-#line 41 "streamtest.ci"
+#line 52 "streamtest.ci"
 
-				CkPrintf("Filters all done!\n");
-				Ck::Stream::closeWriteStream(output_id);
-			
-#line 2600 "streamtest.def.h"
+    CkPrintf("Filters all done!\n");
+    Ck::Stream::closeWriteStream(output_id);
+   
+#line 3300 "streamtest.def.h"
   } // end serial block
   _TRACE_END_EXECUTE(); 
   _slist_0_end();
@@ -3334,12 +4034,12 @@ void Transformers::_serial_0() {
   CmiObjId projID = this->ckGetArrayIndex().getProjectionID();
   _TRACE_BEGIN_EXECUTE_DETAILED(-1, -1, (_sdag_idx_Transformers_serial_0()), CkMyPe(), 0, &projID, this); 
   { // begin serial block
-#line 55 "streamtest.ci"
+#line 65 "streamtest.ci"
 
-				CkPrintf("Transformers all done!\n");
-				Ck::Stream::closeWriteStream(output_id);
-			
-#line 3343 "streamtest.def.h"
+    CkPrintf("Transformers all done!\n");
+    Ck::Stream::closeWriteStream(output_id);
+   
+#line 4043 "streamtest.def.h"
   } // end serial block
   _TRACE_END_EXECUTE(); 
   _slist_0_end();
@@ -3397,7 +4097,7 @@ int Transformers::_sdag_reg_Transformers_serial_0() { // Potentially missing Tra
 
 
 /* DEFS: array Writers: ArrayElement{
-Writers();
+Writers(const CProxy_Main &impl_noname_2);
 void setInputStreamId(const StreamToken &input_id);
 void beginWork();
 threaded void recvData(Ck::Stream::StreamDeliveryMsg* impl_msg);
@@ -3455,13 +4155,26 @@ void CProxySection_Writers::contribute(std::vector<T> &data, CkReduction::reduce
 
 #endif /* CK_TEMPLATES_ONLY */
 #ifndef CK_TEMPLATES_ONLY
-/* DEFS: Writers();
+/* DEFS: Writers(const CProxy_Main &impl_noname_2);
  */
-void CProxyElement_Writers::insert(int onPE, const CkEntryOptions *impl_e_opts)
+void CProxyElement_Writers::insert(const CProxy_Main &impl_noname_2, int onPE, const CkEntryOptions *impl_e_opts)
 { 
-   void *impl_msg = CkAllocSysMsg(impl_e_opts);
+   //Marshall: const CProxy_Main &impl_noname_2
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_2;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_2;
+  }
    UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
-   ckInsert((CkArrayMessage *)impl_msg,CkIndex_Writers::idx_Writers_void(),onPE);
+   ckInsert((CkArrayMessage *)impl_msg,CkIndex_Writers::idx_Writers_marshall1(),onPE);
 }
 #endif /* CK_TEMPLATES_ONLY */
 
@@ -3547,50 +4260,137 @@ void CkIndex_Writers::_call_redn_wrapper_finishedTask_void(void* impl_msg, void*
 #endif /* CK_TEMPLATES_ONLY */
 
 #ifndef CK_TEMPLATES_ONLY
-/* DEFS: Writers();
+/* DEFS: Writers(const CProxy_Main &impl_noname_2);
  */
-CkArrayID CProxy_Writers::ckNew(const CkArrayOptions &opts, const CkEntryOptions *impl_e_opts)
+CkArrayID CProxy_Writers::ckNew(const CProxy_Main &impl_noname_2, const CkArrayOptions &opts, const CkEntryOptions *impl_e_opts)
 {
-  void *impl_msg = CkAllocSysMsg(impl_e_opts);
+  //Marshall: const CProxy_Main &impl_noname_2
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_2;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_2;
+  }
   UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
-  CkArrayID gId = ckCreateArray((CkArrayMessage *)impl_msg, CkIndex_Writers::idx_Writers_void(), opts);
+  CkArrayID gId = ckCreateArray((CkArrayMessage *)impl_msg, CkIndex_Writers::idx_Writers_marshall1(), opts);
   return gId;
 }
-void CProxy_Writers::ckNew(const CkArrayOptions &opts, CkCallback _ck_array_creation_cb, const CkEntryOptions *impl_e_opts)
+void CProxy_Writers::ckNew(const CProxy_Main &impl_noname_2, const CkArrayOptions &opts, CkCallback _ck_array_creation_cb, const CkEntryOptions *impl_e_opts)
 {
-  void *impl_msg = CkAllocSysMsg(impl_e_opts);
+  //Marshall: const CProxy_Main &impl_noname_2
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_2;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_2;
+  }
   UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
-  CkSendAsyncCreateArray(CkIndex_Writers::idx_Writers_void(), _ck_array_creation_cb, opts, impl_msg);
+  CkSendAsyncCreateArray(CkIndex_Writers::idx_Writers_marshall1(), _ck_array_creation_cb, opts, impl_msg);
 }
-CkArrayID CProxy_Writers::ckNew(const int s1, const CkEntryOptions *impl_e_opts)
+CkArrayID CProxy_Writers::ckNew(const CProxy_Main &impl_noname_2, const int s1, const CkEntryOptions *impl_e_opts)
 {
-  void *impl_msg = CkAllocSysMsg(impl_e_opts);
+  //Marshall: const CProxy_Main &impl_noname_2
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_2;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_2;
+  }
   CkArrayOptions opts(s1);
   UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
-  CkArrayID gId = ckCreateArray((CkArrayMessage *)impl_msg, CkIndex_Writers::idx_Writers_void(), opts);
+  CkArrayID gId = ckCreateArray((CkArrayMessage *)impl_msg, CkIndex_Writers::idx_Writers_marshall1(), opts);
   return gId;
 }
-void CProxy_Writers::ckNew(const int s1, CkCallback _ck_array_creation_cb, const CkEntryOptions *impl_e_opts)
+void CProxy_Writers::ckNew(const CProxy_Main &impl_noname_2, const int s1, CkCallback _ck_array_creation_cb, const CkEntryOptions *impl_e_opts)
 {
-  void *impl_msg = CkAllocSysMsg(impl_e_opts);
+  //Marshall: const CProxy_Main &impl_noname_2
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_2;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Main>::type>::type &)impl_noname_2;
+  }
   CkArrayOptions opts(s1);
   UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
-  CkSendAsyncCreateArray(CkIndex_Writers::idx_Writers_void(), _ck_array_creation_cb, opts, impl_msg);
+  CkSendAsyncCreateArray(CkIndex_Writers::idx_Writers_marshall1(), _ck_array_creation_cb, opts, impl_msg);
 }
 
 // Entry point registration function
-int CkIndex_Writers::reg_Writers_void() {
-  int epidx = CkRegisterEp("Writers()",
-      reinterpret_cast<CkCallFnPtr>(_call_Writers_void), 0, __idx, 0);
+int CkIndex_Writers::reg_Writers_marshall1() {
+  int epidx = CkRegisterEp("Writers(const CProxy_Main &impl_noname_2)",
+      reinterpret_cast<CkCallFnPtr>(_call_Writers_marshall1), CkMarshallMsg::__idx, __idx, 0+CK_EP_NOKEEP);
+  CkRegisterMarshallUnpackFn(epidx, _callmarshall_Writers_marshall1);
+  CkRegisterMessagePupFn(epidx, _marshallmessagepup_Writers_marshall1);
+
   return epidx;
 }
 
-void CkIndex_Writers::_call_Writers_void(void* impl_msg, void* impl_obj_void)
+void CkIndex_Writers::_call_Writers_marshall1(void* impl_msg, void* impl_obj_void)
 {
   Writers* impl_obj = static_cast<Writers*>(impl_obj_void);
-  new (impl_obj_void) Writers();
-  if(UsrToEnv(impl_msg)->isVarSysMsg() == 0)
-    CkFreeSysMsg(impl_msg);
+  CkMarshallMsg *impl_msg_typed=(CkMarshallMsg *)impl_msg;
+  char *impl_buf=impl_msg_typed->msgBuf;
+  envelope *env = UsrToEnv(impl_msg_typed);
+  /*Unmarshall pup'd fields: const CProxy_Main &impl_noname_2*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<CProxy_Main> impl_noname_2;
+  implP|impl_noname_2;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  new (impl_obj_void) Writers(std::move(impl_noname_2.t));
+}
+int CkIndex_Writers::_callmarshall_Writers_marshall1(char* impl_buf, void* impl_obj_void) {
+  Writers* impl_obj = static_cast<Writers*>(impl_obj_void);
+  envelope *env = UsrToEnv(impl_buf);
+  /*Unmarshall pup'd fields: const CProxy_Main &impl_noname_2*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<CProxy_Main> impl_noname_2;
+  implP|impl_noname_2;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  new (impl_obj_void) Writers(std::move(impl_noname_2.t));
+  return implP.size();
+}
+void CkIndex_Writers::_marshallmessagepup_Writers_marshall1(PUP::er &implDestP,void *impl_msg) {
+  CkMarshallMsg *impl_msg_typed=(CkMarshallMsg *)impl_msg;
+  char *impl_buf=impl_msg_typed->msgBuf;
+  envelope *env = UsrToEnv(impl_msg_typed);
+  /*Unmarshall pup'd fields: const CProxy_Main &impl_noname_2*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<CProxy_Main> impl_noname_2;
+  implP|impl_noname_2;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  if (implDestP.hasComments()) implDestP.comment("impl_noname_2");
+  implDestP|impl_noname_2;
 }
 #endif /* CK_TEMPLATES_ONLY */
 
@@ -3796,7 +4596,7 @@ void CkIndex_Writers::_call_Writers_CkMigrateMessage(void* impl_msg, void* impl_
 #endif /* CK_TEMPLATES_ONLY */
 
 #ifndef CK_TEMPLATES_ONLY
-/* DEFS: Writers();
+/* DEFS: Writers(const CProxy_Main &impl_noname_2);
  */
 #endif /* CK_TEMPLATES_ONLY */
 
@@ -3880,9 +4680,8 @@ void CkIndex_Writers::__register(const char *s, size_t size) {
   __idx = CkRegisterChare(s, size, TypeArray);
   CkRegisterArrayDimensions(__idx, 1);
   CkRegisterBase(__idx, CkIndex_ArrayElement::__idx);
-  // REG: Writers();
-  idx_Writers_void();
-  CkRegisterDefaultCtor(__idx, idx_Writers_void());
+  // REG: Writers(const CProxy_Main &impl_noname_2);
+  idx_Writers_marshall1();
 
   // REG: void setInputStreamId(const StreamToken &input_id);
   idx_setInputStreamId_marshall2();
@@ -3941,12 +4740,12 @@ void Writers::_serial_0() {
   CmiObjId projID = this->ckGetArrayIndex().getProjectionID();
   _TRACE_BEGIN_EXECUTE_DETAILED(-1, -1, (_sdag_idx_Writers_serial_0()), CkMyPe(), 0, &projID, this); 
   { // begin serial block
-#line 69 "streamtest.ci"
+#line 77 "streamtest.ci"
 
-				CkPrintf("Writers all done!\n");
-				CkExit(0);
-			
-#line 3950 "streamtest.def.h"
+    CkPrintf("Writers all done!\n");
+    mainProxy.getEndTimeAndExit();
+   
+#line 4749 "streamtest.def.h"
   } // end serial block
   _TRACE_END_EXECUTE(); 
   _slist_0_end();
@@ -4001,6 +4800,604 @@ int Writers::_sdag_reg_Writers_serial_0() { // Potentially missing Writers_SDAG_
 
 
 
+/* DEFS: array Generators: ArrayElement{
+Generators();
+Generators(const CProxy_Readers &impl_noname_3);
+void generateJsonData(int num_record);
+void readJsonData(const std::string &folder);
+Generators(CkMigrateMessage* impl_msg);
+};
+ */
+#ifndef CK_TEMPLATES_ONLY
+ int CkIndex_Generators::__idx=0;
+#endif /* CK_TEMPLATES_ONLY */
+#ifndef CK_TEMPLATES_ONLY
+void CProxySection_Generators::contribute(CkSectionInfo &sid, int userData, int fragSize)
+{
+   CkArray *ckarr = CProxy_CkArray(sid.get_aid()).ckLocalBranch();
+   CkMulticastMgr *mCastGrp = CProxy_CkMulticastMgr(ckarr->getmCastMgr()).ckLocalBranch();
+   mCastGrp->contribute(sid, userData, fragSize);
+}
+
+void CProxySection_Generators::contribute(int dataSize,void *data,CkReduction::reducerType type, CkSectionInfo &sid, int userData, int fragSize)
+{
+   CkArray *ckarr = CProxy_CkArray(sid.get_aid()).ckLocalBranch();
+   CkMulticastMgr *mCastGrp = CProxy_CkMulticastMgr(ckarr->getmCastMgr()).ckLocalBranch();
+   mCastGrp->contribute(dataSize, data, type, sid, userData, fragSize);
+}
+
+template <typename T>
+void CProxySection_Generators::contribute(std::vector<T> &data, CkReduction::reducerType type, CkSectionInfo &sid, int userData, int fragSize)
+{
+   CkArray *ckarr = CProxy_CkArray(sid.get_aid()).ckLocalBranch();
+   CkMulticastMgr *mCastGrp = CProxy_CkMulticastMgr(ckarr->getmCastMgr()).ckLocalBranch();
+   mCastGrp->contribute(data, type, sid, userData, fragSize);
+}
+
+void CProxySection_Generators::contribute(CkSectionInfo &sid, const CkCallback &cb, int userData, int fragSize)
+{
+   CkArray *ckarr = CProxy_CkArray(sid.get_aid()).ckLocalBranch();
+   CkMulticastMgr *mCastGrp = CProxy_CkMulticastMgr(ckarr->getmCastMgr()).ckLocalBranch();
+   mCastGrp->contribute(sid, cb, userData, fragSize);
+}
+
+void CProxySection_Generators::contribute(int dataSize,void *data,CkReduction::reducerType type, CkSectionInfo &sid, const CkCallback &cb, int userData, int fragSize)
+{
+   CkArray *ckarr = CProxy_CkArray(sid.get_aid()).ckLocalBranch();
+   CkMulticastMgr *mCastGrp = CProxy_CkMulticastMgr(ckarr->getmCastMgr()).ckLocalBranch();
+   mCastGrp->contribute(dataSize, data, type, sid, cb, userData, fragSize);
+}
+
+template <typename T>
+void CProxySection_Generators::contribute(std::vector<T> &data, CkReduction::reducerType type, CkSectionInfo &sid, const CkCallback &cb, int userData, int fragSize)
+{
+   CkArray *ckarr = CProxy_CkArray(sid.get_aid()).ckLocalBranch();
+   CkMulticastMgr *mCastGrp = CProxy_CkMulticastMgr(ckarr->getmCastMgr()).ckLocalBranch();
+   mCastGrp->contribute(data, type, sid, cb, userData, fragSize);
+}
+
+#endif /* CK_TEMPLATES_ONLY */
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: Generators();
+ */
+void CProxyElement_Generators::insert(int onPE, const CkEntryOptions *impl_e_opts)
+{ 
+   void *impl_msg = CkAllocSysMsg(impl_e_opts);
+   UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
+   ckInsert((CkArrayMessage *)impl_msg,CkIndex_Generators::idx_Generators_void(),onPE);
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: Generators(const CProxy_Readers &impl_noname_3);
+ */
+void CProxyElement_Generators::insert(const CProxy_Readers &impl_noname_3, int onPE, const CkEntryOptions *impl_e_opts)
+{ 
+   //Marshall: const CProxy_Readers &impl_noname_3
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Readers>::type>::type &)impl_noname_3;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Readers>::type>::type &)impl_noname_3;
+  }
+   UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
+   ckInsert((CkArrayMessage *)impl_msg,CkIndex_Generators::idx_Generators_marshall2(),onPE);
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: void generateJsonData(int num_record);
+ */
+void CProxyElement_Generators::generateJsonData(int num_record, const CkEntryOptions *impl_e_opts) 
+{
+  ckCheck();
+  //Marshall: int num_record
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    implP|num_record;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    implP|num_record;
+  }
+  UsrToEnv(impl_msg)->setMsgtype(ForArrayEltMsg);
+  CkArrayMessage *impl_amsg=(CkArrayMessage *)impl_msg;
+  impl_amsg->array_setIfNotThere(CkArray_IfNotThere_buffer);
+  ckSend(impl_amsg, CkIndex_Generators::idx_generateJsonData_marshall3(),0);
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: void readJsonData(const std::string &folder);
+ */
+void CProxyElement_Generators::readJsonData(const std::string &folder, const CkEntryOptions *impl_e_opts) 
+{
+  ckCheck();
+  //Marshall: const std::string &folder
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)folder;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)folder;
+  }
+  UsrToEnv(impl_msg)->setMsgtype(ForArrayEltMsg);
+  CkArrayMessage *impl_amsg=(CkArrayMessage *)impl_msg;
+  impl_amsg->array_setIfNotThere(CkArray_IfNotThere_buffer);
+  ckSend(impl_amsg, CkIndex_Generators::idx_readJsonData_marshall4(),0);
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: Generators(CkMigrateMessage* impl_msg);
+ */
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: Generators();
+ */
+CkArrayID CProxy_Generators::ckNew(const CkArrayOptions &opts, const CkEntryOptions *impl_e_opts)
+{
+  void *impl_msg = CkAllocSysMsg(impl_e_opts);
+  UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
+  CkArrayID gId = ckCreateArray((CkArrayMessage *)impl_msg, CkIndex_Generators::idx_Generators_void(), opts);
+  return gId;
+}
+void CProxy_Generators::ckNew(const CkArrayOptions &opts, CkCallback _ck_array_creation_cb, const CkEntryOptions *impl_e_opts)
+{
+  void *impl_msg = CkAllocSysMsg(impl_e_opts);
+  UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
+  CkSendAsyncCreateArray(CkIndex_Generators::idx_Generators_void(), _ck_array_creation_cb, opts, impl_msg);
+}
+CkArrayID CProxy_Generators::ckNew(const int s1, const CkEntryOptions *impl_e_opts)
+{
+  void *impl_msg = CkAllocSysMsg(impl_e_opts);
+  CkArrayOptions opts(s1);
+  UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
+  CkArrayID gId = ckCreateArray((CkArrayMessage *)impl_msg, CkIndex_Generators::idx_Generators_void(), opts);
+  return gId;
+}
+void CProxy_Generators::ckNew(const int s1, CkCallback _ck_array_creation_cb, const CkEntryOptions *impl_e_opts)
+{
+  void *impl_msg = CkAllocSysMsg(impl_e_opts);
+  CkArrayOptions opts(s1);
+  UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
+  CkSendAsyncCreateArray(CkIndex_Generators::idx_Generators_void(), _ck_array_creation_cb, opts, impl_msg);
+}
+
+// Entry point registration function
+int CkIndex_Generators::reg_Generators_void() {
+  int epidx = CkRegisterEp("Generators()",
+      reinterpret_cast<CkCallFnPtr>(_call_Generators_void), 0, __idx, 0);
+  return epidx;
+}
+
+void CkIndex_Generators::_call_Generators_void(void* impl_msg, void* impl_obj_void)
+{
+  Generators* impl_obj = static_cast<Generators*>(impl_obj_void);
+  new (impl_obj_void) Generators();
+  if(UsrToEnv(impl_msg)->isVarSysMsg() == 0)
+    CkFreeSysMsg(impl_msg);
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: Generators(const CProxy_Readers &impl_noname_3);
+ */
+CkArrayID CProxy_Generators::ckNew(const CProxy_Readers &impl_noname_3, const CkArrayOptions &opts, const CkEntryOptions *impl_e_opts)
+{
+  //Marshall: const CProxy_Readers &impl_noname_3
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Readers>::type>::type &)impl_noname_3;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Readers>::type>::type &)impl_noname_3;
+  }
+  UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
+  CkArrayID gId = ckCreateArray((CkArrayMessage *)impl_msg, CkIndex_Generators::idx_Generators_marshall2(), opts);
+  return gId;
+}
+void CProxy_Generators::ckNew(const CProxy_Readers &impl_noname_3, const CkArrayOptions &opts, CkCallback _ck_array_creation_cb, const CkEntryOptions *impl_e_opts)
+{
+  //Marshall: const CProxy_Readers &impl_noname_3
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Readers>::type>::type &)impl_noname_3;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Readers>::type>::type &)impl_noname_3;
+  }
+  UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
+  CkSendAsyncCreateArray(CkIndex_Generators::idx_Generators_marshall2(), _ck_array_creation_cb, opts, impl_msg);
+}
+CkArrayID CProxy_Generators::ckNew(const CProxy_Readers &impl_noname_3, const int s1, const CkEntryOptions *impl_e_opts)
+{
+  //Marshall: const CProxy_Readers &impl_noname_3
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Readers>::type>::type &)impl_noname_3;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Readers>::type>::type &)impl_noname_3;
+  }
+  CkArrayOptions opts(s1);
+  UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
+  CkArrayID gId = ckCreateArray((CkArrayMessage *)impl_msg, CkIndex_Generators::idx_Generators_marshall2(), opts);
+  return gId;
+}
+void CProxy_Generators::ckNew(const CProxy_Readers &impl_noname_3, const int s1, CkCallback _ck_array_creation_cb, const CkEntryOptions *impl_e_opts)
+{
+  //Marshall: const CProxy_Readers &impl_noname_3
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Readers>::type>::type &)impl_noname_3;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<CProxy_Readers>::type>::type &)impl_noname_3;
+  }
+  CkArrayOptions opts(s1);
+  UsrToEnv(impl_msg)->setMsgtype(ArrayEltInitMsg);
+  CkSendAsyncCreateArray(CkIndex_Generators::idx_Generators_marshall2(), _ck_array_creation_cb, opts, impl_msg);
+}
+
+// Entry point registration function
+int CkIndex_Generators::reg_Generators_marshall2() {
+  int epidx = CkRegisterEp("Generators(const CProxy_Readers &impl_noname_3)",
+      reinterpret_cast<CkCallFnPtr>(_call_Generators_marshall2), CkMarshallMsg::__idx, __idx, 0+CK_EP_NOKEEP);
+  CkRegisterMarshallUnpackFn(epidx, _callmarshall_Generators_marshall2);
+  CkRegisterMessagePupFn(epidx, _marshallmessagepup_Generators_marshall2);
+
+  return epidx;
+}
+
+void CkIndex_Generators::_call_Generators_marshall2(void* impl_msg, void* impl_obj_void)
+{
+  Generators* impl_obj = static_cast<Generators*>(impl_obj_void);
+  CkMarshallMsg *impl_msg_typed=(CkMarshallMsg *)impl_msg;
+  char *impl_buf=impl_msg_typed->msgBuf;
+  envelope *env = UsrToEnv(impl_msg_typed);
+  /*Unmarshall pup'd fields: const CProxy_Readers &impl_noname_3*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<CProxy_Readers> impl_noname_3;
+  implP|impl_noname_3;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  new (impl_obj_void) Generators(std::move(impl_noname_3.t));
+}
+int CkIndex_Generators::_callmarshall_Generators_marshall2(char* impl_buf, void* impl_obj_void) {
+  Generators* impl_obj = static_cast<Generators*>(impl_obj_void);
+  envelope *env = UsrToEnv(impl_buf);
+  /*Unmarshall pup'd fields: const CProxy_Readers &impl_noname_3*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<CProxy_Readers> impl_noname_3;
+  implP|impl_noname_3;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  new (impl_obj_void) Generators(std::move(impl_noname_3.t));
+  return implP.size();
+}
+void CkIndex_Generators::_marshallmessagepup_Generators_marshall2(PUP::er &implDestP,void *impl_msg) {
+  CkMarshallMsg *impl_msg_typed=(CkMarshallMsg *)impl_msg;
+  char *impl_buf=impl_msg_typed->msgBuf;
+  envelope *env = UsrToEnv(impl_msg_typed);
+  /*Unmarshall pup'd fields: const CProxy_Readers &impl_noname_3*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<CProxy_Readers> impl_noname_3;
+  implP|impl_noname_3;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  if (implDestP.hasComments()) implDestP.comment("impl_noname_3");
+  implDestP|impl_noname_3;
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: void generateJsonData(int num_record);
+ */
+void CProxy_Generators::generateJsonData(int num_record, const CkEntryOptions *impl_e_opts) 
+{
+  ckCheck();
+  //Marshall: int num_record
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    implP|num_record;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    implP|num_record;
+  }
+  UsrToEnv(impl_msg)->setMsgtype(ForArrayEltMsg);
+  CkArrayMessage *impl_amsg=(CkArrayMessage *)impl_msg;
+  impl_amsg->array_setIfNotThere(CkArray_IfNotThere_buffer);
+  ckBroadcast(impl_amsg, CkIndex_Generators::idx_generateJsonData_marshall3(),0);
+}
+
+// Entry point registration function
+int CkIndex_Generators::reg_generateJsonData_marshall3() {
+  int epidx = CkRegisterEp("generateJsonData(int num_record)",
+      reinterpret_cast<CkCallFnPtr>(_call_generateJsonData_marshall3), CkMarshallMsg::__idx, __idx, 0+CK_EP_NOKEEP);
+  CkRegisterMarshallUnpackFn(epidx, _callmarshall_generateJsonData_marshall3);
+  CkRegisterMessagePupFn(epidx, _marshallmessagepup_generateJsonData_marshall3);
+
+  return epidx;
+}
+
+void CkIndex_Generators::_call_generateJsonData_marshall3(void* impl_msg, void* impl_obj_void)
+{
+  Generators* impl_obj = static_cast<Generators*>(impl_obj_void);
+  CkMarshallMsg *impl_msg_typed=(CkMarshallMsg *)impl_msg;
+  char *impl_buf=impl_msg_typed->msgBuf;
+  envelope *env = UsrToEnv(impl_msg_typed);
+  /*Unmarshall pup'd fields: int num_record*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<int> num_record;
+  implP|num_record;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  impl_obj->generateJsonData(std::move(num_record.t));
+}
+int CkIndex_Generators::_callmarshall_generateJsonData_marshall3(char* impl_buf, void* impl_obj_void) {
+  Generators* impl_obj = static_cast<Generators*>(impl_obj_void);
+  envelope *env = UsrToEnv(impl_buf);
+  /*Unmarshall pup'd fields: int num_record*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<int> num_record;
+  implP|num_record;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  impl_obj->generateJsonData(std::move(num_record.t));
+  return implP.size();
+}
+void CkIndex_Generators::_marshallmessagepup_generateJsonData_marshall3(PUP::er &implDestP,void *impl_msg) {
+  CkMarshallMsg *impl_msg_typed=(CkMarshallMsg *)impl_msg;
+  char *impl_buf=impl_msg_typed->msgBuf;
+  envelope *env = UsrToEnv(impl_msg_typed);
+  /*Unmarshall pup'd fields: int num_record*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<int> num_record;
+  implP|num_record;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  if (implDestP.hasComments()) implDestP.comment("num_record");
+  implDestP|num_record;
+}
+PUPable_def(SINGLE_ARG(Closure_Generators::generateJsonData_3_closure))
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: void readJsonData(const std::string &folder);
+ */
+void CProxy_Generators::readJsonData(const std::string &folder, const CkEntryOptions *impl_e_opts) 
+{
+  ckCheck();
+  //Marshall: const std::string &folder
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)folder;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)folder;
+  }
+  UsrToEnv(impl_msg)->setMsgtype(ForArrayEltMsg);
+  CkArrayMessage *impl_amsg=(CkArrayMessage *)impl_msg;
+  impl_amsg->array_setIfNotThere(CkArray_IfNotThere_buffer);
+  ckBroadcast(impl_amsg, CkIndex_Generators::idx_readJsonData_marshall4(),0);
+}
+
+// Entry point registration function
+int CkIndex_Generators::reg_readJsonData_marshall4() {
+  int epidx = CkRegisterEp("readJsonData(const std::string &folder)",
+      reinterpret_cast<CkCallFnPtr>(_call_readJsonData_marshall4), CkMarshallMsg::__idx, __idx, 0+CK_EP_NOKEEP);
+  CkRegisterMarshallUnpackFn(epidx, _callmarshall_readJsonData_marshall4);
+  CkRegisterMessagePupFn(epidx, _marshallmessagepup_readJsonData_marshall4);
+
+  return epidx;
+}
+
+void CkIndex_Generators::_call_readJsonData_marshall4(void* impl_msg, void* impl_obj_void)
+{
+  Generators* impl_obj = static_cast<Generators*>(impl_obj_void);
+  CkMarshallMsg *impl_msg_typed=(CkMarshallMsg *)impl_msg;
+  char *impl_buf=impl_msg_typed->msgBuf;
+  envelope *env = UsrToEnv(impl_msg_typed);
+  /*Unmarshall pup'd fields: const std::string &folder*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<std::string> folder;
+  implP|folder;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  impl_obj->readJsonData(std::move(folder.t));
+}
+int CkIndex_Generators::_callmarshall_readJsonData_marshall4(char* impl_buf, void* impl_obj_void) {
+  Generators* impl_obj = static_cast<Generators*>(impl_obj_void);
+  envelope *env = UsrToEnv(impl_buf);
+  /*Unmarshall pup'd fields: const std::string &folder*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<std::string> folder;
+  implP|folder;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  impl_obj->readJsonData(std::move(folder.t));
+  return implP.size();
+}
+void CkIndex_Generators::_marshallmessagepup_readJsonData_marshall4(PUP::er &implDestP,void *impl_msg) {
+  CkMarshallMsg *impl_msg_typed=(CkMarshallMsg *)impl_msg;
+  char *impl_buf=impl_msg_typed->msgBuf;
+  envelope *env = UsrToEnv(impl_msg_typed);
+  /*Unmarshall pup'd fields: const std::string &folder*/
+  PUP::fromMem implP(impl_buf);
+  PUP::detail::TemporaryObjectHolder<std::string> folder;
+  implP|folder;
+  impl_buf+=CK_ALIGN(implP.size(),16);
+  /*Unmarshall arrays:*/
+  if (implDestP.hasComments()) implDestP.comment("folder");
+  implDestP|folder;
+}
+PUPable_def(SINGLE_ARG(Closure_Generators::readJsonData_4_closure))
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: Generators(CkMigrateMessage* impl_msg);
+ */
+
+// Entry point registration function
+int CkIndex_Generators::reg_Generators_CkMigrateMessage() {
+  int epidx = CkRegisterEp("Generators(CkMigrateMessage* impl_msg)",
+      reinterpret_cast<CkCallFnPtr>(_call_Generators_CkMigrateMessage), 0, __idx, 0);
+  return epidx;
+}
+
+void CkIndex_Generators::_call_Generators_CkMigrateMessage(void* impl_msg, void* impl_obj_void)
+{
+  call_migration_constructor<Generators> c = impl_obj_void;
+  c((CkMigrateMessage*)impl_msg);
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: Generators();
+ */
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: Generators(const CProxy_Readers &impl_noname_3);
+ */
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: void generateJsonData(int num_record);
+ */
+void CProxySection_Generators::generateJsonData(int num_record, const CkEntryOptions *impl_e_opts) 
+{
+  ckCheck();
+  //Marshall: int num_record
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    implP|num_record;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    implP|num_record;
+  }
+  UsrToEnv(impl_msg)->setMsgtype(ForArrayEltMsg);
+  CkArrayMessage *impl_amsg=(CkArrayMessage *)impl_msg;
+  impl_amsg->array_setIfNotThere(CkArray_IfNotThere_buffer);
+  ckSend(impl_amsg, CkIndex_Generators::idx_generateJsonData_marshall3(),0);
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: void readJsonData(const std::string &folder);
+ */
+void CProxySection_Generators::readJsonData(const std::string &folder, const CkEntryOptions *impl_e_opts) 
+{
+  ckCheck();
+  //Marshall: const std::string &folder
+  int impl_off=0;
+  { //Find the size of the PUP'd data
+    PUP::sizer implP;
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)folder;
+    impl_off+=implP.size();
+  }
+  CkMarshallMsg *impl_msg=CkAllocateMarshallMsg(impl_off,impl_e_opts);
+  { //Copy over the PUP'd data
+    PUP::toMem implP((void *)impl_msg->msgBuf);
+    //Have to cast away const-ness to get pup routine
+    implP|(typename std::remove_cv<typename std::remove_reference<std::string>::type>::type &)folder;
+  }
+  UsrToEnv(impl_msg)->setMsgtype(ForArrayEltMsg);
+  CkArrayMessage *impl_amsg=(CkArrayMessage *)impl_msg;
+  impl_amsg->array_setIfNotThere(CkArray_IfNotThere_buffer);
+  ckSend(impl_amsg, CkIndex_Generators::idx_readJsonData_marshall4(),0);
+}
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+/* DEFS: Generators(CkMigrateMessage* impl_msg);
+ */
+#endif /* CK_TEMPLATES_ONLY */
+
+#ifndef CK_TEMPLATES_ONLY
+#endif /* CK_TEMPLATES_ONLY */
+#ifndef CK_TEMPLATES_ONLY
+void CkIndex_Generators::__register(const char *s, size_t size) {
+  __idx = CkRegisterChare(s, size, TypeArray);
+  CkRegisterArrayDimensions(__idx, 1);
+  CkRegisterBase(__idx, CkIndex_ArrayElement::__idx);
+  // REG: Generators();
+  idx_Generators_void();
+  CkRegisterDefaultCtor(__idx, idx_Generators_void());
+
+  // REG: Generators(const CProxy_Readers &impl_noname_3);
+  idx_Generators_marshall2();
+
+  // REG: void generateJsonData(int num_record);
+  idx_generateJsonData_marshall3();
+
+  // REG: void readJsonData(const std::string &folder);
+  idx_readJsonData_marshall4();
+
+  // REG: Generators(CkMigrateMessage* impl_msg);
+  idx_Generators_CkMigrateMessage();
+  CkRegisterMigCtor(__idx, idx_Generators_CkMigrateMessage());
+
+}
+#endif /* CK_TEMPLATES_ONLY */
+
 #ifndef CK_TEMPLATES_ONLY
 void _registerstreamtest(void)
 {
@@ -4012,14 +5409,19 @@ void readersValidatorsStreamMade(Ck::Stream::StreamIdMessage* impl_msg);
 void validatorsFiltersStreamMade(Ck::Stream::StreamIdMessage* impl_msg);
 void filtersTransformersStreamMade(Ck::Stream::StreamIdMessage* impl_msg);
 void transformersWritersStreamMade(Ck::Stream::StreamIdMessage* impl_msg);
+void getEndTime();
+void getEndTimeAndExit();
+void doneCreatingData(int total_records);
+void doneReceivingInput();
 };
 */
   CkIndex_Main::__register("Main", sizeof(Main));
 
 /* REG: array Readers: ArrayElement{
 Readers();
-Readers(int num_records, const std::string &records_str);
+Readers(int num_records, const CProxy_Main &impl_noname_0);
 void setOutputStreamId(const StreamToken &output_id);
+void setInput(const std::string &impl_noname_1);
 void beginWork();
 Readers(CkMigrateMessage* impl_msg);
 };
@@ -4063,7 +5465,7 @@ Transformers(CkMigrateMessage* impl_msg);
   CkIndex_Transformers::__register("Transformers", sizeof(Transformers));
 
 /* REG: array Writers: ArrayElement{
-Writers();
+Writers(const CProxy_Main &impl_noname_2);
 void setInputStreamId(const StreamToken &input_id);
 void beginWork();
 threaded void recvData(Ck::Stream::StreamDeliveryMsg* impl_msg);
@@ -4072,6 +5474,16 @@ Writers(CkMigrateMessage* impl_msg);
 };
 */
   CkIndex_Writers::__register("Writers", sizeof(Writers));
+
+/* REG: array Generators: ArrayElement{
+Generators();
+Generators(const CProxy_Readers &impl_noname_3);
+void generateJsonData(int num_record);
+void readJsonData(const std::string &folder);
+Generators(CkMigrateMessage* impl_msg);
+};
+*/
+  CkIndex_Generators::__register("Generators", sizeof(Generators));
 
 }
 extern "C" void CkRegisterMainModule(void) {
@@ -4112,5 +5524,11 @@ void CBase_Transformers::virtual_pup(PUP::er &p) {
 template <>
 void CBase_Writers::virtual_pup(PUP::er &p) {
     recursive_pup<Writers>(dynamic_cast<Writers*>(this), p);
+}
+#endif /* CK_TEMPLATES_ONLY */
+#ifndef CK_TEMPLATES_ONLY
+template <>
+void CBase_Generators::virtual_pup(PUP::er &p) {
+    recursive_pup<Generators>(dynamic_cast<Generators*>(this), p);
 }
 #endif /* CK_TEMPLATES_ONLY */
