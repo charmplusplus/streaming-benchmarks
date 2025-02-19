@@ -243,8 +243,10 @@ public:
 			Ck::Stream::flushLocalStream(output_id);
 		}
 		if (msg->status == Ck::Stream::StreamStatus::STREAM_OK) {
+			delete msg;
 			Ck::Stream::getRecord(input_id, CkCallback(CkIndex_Validators::recvData(0), thisProxy[thisIndex]));
 		} else {
+			delete msg;
 			CkCallback cb = CkCallback(CkReductionTarget(Validators, finishedTask), thisProxy[0]);
 			contribute(cb);
 		}
@@ -300,8 +302,10 @@ public:
 		} 
 
 		if (msg->status == Ck::Stream::StreamStatus::STREAM_OK) {
+			delete msg;
 			Ck::Stream::getRecord(input_id, CkCallback(CkIndex_Filters::recvData(0), thisProxy[thisIndex]));
 		} else {
+			delete msg;
 			CkCallback cb = CkCallback(CkReductionTarget(Filters, finishedTask), thisProxy[0]);
 			contribute(cb);
 		}
@@ -345,8 +349,10 @@ public:
 			Ck::Stream::flushLocalStream(output_id);
 		}
 		if (msg->status == Ck::Stream::StreamStatus::STREAM_OK) {
+			delete msg;
 			Ck::Stream::getRecord(input_id, CkCallback(CkIndex_Transformers::recvData(0), thisProxy[thisIndex]));
 		} else {
+			delete msg;
 			CkCallback cb = CkCallback(CkReductionTarget(Transformers, finishedTask), thisProxy[0]);
 			contribute(cb);
 		}
@@ -408,8 +414,10 @@ public:
 		if (!msg->num_bytes) {
 		}
 		if (msg->status == Ck::Stream::StreamStatus::STREAM_OK) {
+			delete msg;
 			Ck::Stream::getRecord(input_id, CkCallback(CkIndex_Writers::recvData(0), thisProxy[thisIndex]));
 		} else {
+			delete msg;
 			fd.close();
 			CkCallback cb = CkCallback(CkReductionTarget(Writers, finishedTask), thisProxy[0]);
 			contribute(cb);
