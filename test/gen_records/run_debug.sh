@@ -1,0 +1,1 @@
+../../../ccs_tools/bin/charmdebug ./streamtest ++local +p2

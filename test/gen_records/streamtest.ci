@@ -1,0 +1,19 @@
+mainmodule streamtest
+{
+	include "stream.h";
+	mainchare Main {
+		entry Main(CkArgMsg* m);
+		entry [reductiontarget] void doneCreatingInput() {
+			serial {
+				CkPrintf("Done creating input; input generation took %f\n", CkWallTimer() - start_time);
+				CkExit(0);
+			}
+		}
+	};
+
+	array[1D] Generators {
+		entry Generators();
+		entry Generators(CProxy_Main);
+		entry void generateJsonData(int num_record);
+	}
+}
