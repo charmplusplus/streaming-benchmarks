@@ -1,0 +1,39 @@
+{
+    "age": 45,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 71.17277137645212,
+        "height_m": 1.8077874167566788,
+        "steps": 10681,
+        "weight_kg": 53.7407853241564,
+        "weight_lb": 118.47801014134167
+    },
+    "name": "Giustina Mullen",
+    "pi": 3.1415927262756114
+}
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 77.98698808092186,
+        "height_m": 1.9808684275864643,
+        "steps": 3191,
+        "weight_kg": 82.08416004660324,
+        "weight_lb": 180.96438092194242
+    },
+    "name": "Briney Wyatt",
+    "pi": 3.1415926024277714
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 65.21569599631091,
+        "height_m": 1.656477783808294,
+        "steps": 11226,
+        "weight_kg": 68.14301056436528,
+        "weight_lb": 150.22944395041097
+    },
+    "name": "Molli Boswell",
+    "pi": 3.1415927410317384
+}

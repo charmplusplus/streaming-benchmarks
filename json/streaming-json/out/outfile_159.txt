@@ -1,0 +1,91 @@
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 70.5133447119034,
+        "height_m": 1.7910379885218324,
+        "steps": 8440,
+        "weight_kg": 65.34881597998333,
+        "weight_lb": 144.06930668579082
+    },
+    "name": "Flossie McKenzie",
+    "pi": 3.1415927250601645
+}
+{
+    "age": 29,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 60.91836844657878,
+        "height_m": 1.5473257229872106,
+        "steps": 1123,
+        "weight_kg": 52.20984444176211,
+        "weight_lb": 115.10286725319757
+    },
+    "name": "Katha Foster",
+    "pi": 3.1415927498671365
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 69.24867677141924,
+        "height_m": 1.758915440179711,
+        "steps": 2963,
+        "weight_kg": 79.78957004308408,
+        "weight_lb": 175.90568190838403
+    },
+    "name": "Talyah Bernstein",
+    "pi": 3.141592599499788
+}
+{
+    "age": 62,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 73.9669907390031,
+        "height_m": 1.8787605502399816,
+        "steps": 3365,
+        "weight_kg": 51.31011608200674,
+        "weight_lb": 113.1193081167137
+    },
+    "name": "Lorinda Michael",
+    "pi": 3.141592725447105
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 63.960344020006076,
+        "height_m": 1.6245918608285494,
+        "steps": 6666,
+        "weight_kg": 78.30677948290538,
+        "weight_lb": 172.63669218360286
+    },
+    "name": "Carla Bass",
+    "pi": 3.141592715021103
+}
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 62.717843164354214,
+        "height_m": 1.5930323561371247,
+        "steps": 4290,
+        "weight_kg": 99.74692652283571,
+        "weight_lb": 219.90406915077403
+    },
+    "name": "Sile Hutchinson",
+    "pi": 3.1415927130460015
+}
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 72.16245424385143,
+        "height_m": 1.8329253480141383,
+        "steps": 11529,
+        "weight_kg": 55.13293222834009,
+        "weight_lb": 121.54716504924312
+    },
+    "name": "Cami Coleman",
+    "pi": 3.141592734002014
+}

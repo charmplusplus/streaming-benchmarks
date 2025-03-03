@@ -1,0 +1,26 @@
+{
+    "age": 68,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 61.81297594409455,
+        "height_m": 1.5700487411536814,
+        "steps": 4493,
+        "weight_kg": 82.24025425746706,
+        "weight_lb": 181.30850934109702
+    },
+    "name": "Karil Moody",
+    "pi": 3.1415927193402253
+}
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 61.0012363622301,
+        "height_m": 1.5494305669081385,
+        "steps": 5075,
+        "weight_kg": 71.35160683608032,
+        "weight_lb": 157.30317946295938
+    },
+    "name": "Lynne Elmore",
+    "pi": 3.1415925989667213
+}

@@ -1,0 +1,26 @@
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 79,
+        "height_in": 73.6511686369334,
+        "height_m": 1.8707386731792248,
+        "steps": 3998,
+        "weight_kg": 73.12569982176558,
+        "weight_lb": 161.2143803410608
+    },
+    "name": "Ebony Murray",
+    "pi": 3.1415927091410585
+}
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 74.85853033709412,
+        "height_m": 1.901405643803143,
+        "steps": 2572,
+        "weight_kg": 84.43108175271757,
+        "weight_lb": 186.1384514536762
+    },
+    "name": "Ricki Capps",
+    "pi": 3.1415925880763953
+}

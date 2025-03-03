@@ -1,0 +1,65 @@
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 89,
+        "height_in": 75.24901549952367,
+        "height_m": 1.9113239615729618,
+        "steps": 14042,
+        "weight_kg": 51.37219542537364,
+        "weight_lb": 113.25616947868723
+    },
+    "name": "Marylee Harrington",
+    "pi": 3.1415927151394967
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 72.55092936191532,
+        "height_m": 1.8427926106846395,
+        "steps": 12230,
+        "weight_kg": 80.33081469682602,
+        "weight_lb": 177.09892069691657
+    },
+    "name": "Gwendolyn Sellers",
+    "pi": 3.141592581801426
+}
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 76.9313948720655,
+        "height_m": 1.9540563745600215,
+        "steps": 11238,
+        "weight_kg": 83.02194523622964,
+        "weight_lb": 183.03184090669657
+    },
+    "name": "Paulita Potter",
+    "pi": 3.141592600849878
+}
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 60,
+        "height_in": 78.07682689369463,
+        "height_m": 1.9831503321986643,
+        "steps": 11431,
+        "weight_kg": 59.97801013679812,
+        "weight_lb": 132.22872070778786
+    },
+    "name": "Jeanie Pace",
+    "pi": 3.141592553694778
+}
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 61.05591410160606,
+        "height_m": 1.5508193807383281,
+        "steps": 11739,
+        "weight_kg": 58.92178666977684,
+        "weight_lb": 129.9001493279234
+    },
+    "name": "Lilllie Andrews",
+    "pi": 3.1415927397767196
+}

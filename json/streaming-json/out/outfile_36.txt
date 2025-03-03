@@ -1,0 +1,26 @@
+{
+    "age": 67,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 60.978434293398756,
+        "height_m": 1.5488513946725753,
+        "steps": 3256,
+        "weight_kg": 70.57491955974464,
+        "weight_lb": 155.59087915980422
+    },
+    "name": "Briney Woods",
+    "pi": 3.141592572919813
+}
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 65.8304098911023,
+        "height_m": 1.6720915083045842,
+        "steps": 7034,
+        "weight_kg": 50.17163252609279,
+        "weight_lb": 110.60938449967469
+    },
+    "name": "Allissa Lucas",
+    "pi": 3.1415927433797792
+}

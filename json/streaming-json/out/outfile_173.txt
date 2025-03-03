@@ -1,0 +1,39 @@
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 78.622443804068,
+        "height_m": 1.9970089942384701,
+        "steps": 5111,
+        "weight_kg": 65.19428005816636,
+        "weight_lb": 143.7286137018347
+    },
+    "name": "Giralda Chambers",
+    "pi": 3.14159271556018
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 68.08964094217812,
+        "height_m": 1.7294759460143134,
+        "steps": 4417,
+        "weight_kg": 68.76226048691487,
+        "weight_lb": 151.59465471466225
+    },
+    "name": "Patrica Gray",
+    "pi": 3.1415927118583493
+}
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 77.36078148606816,
+        "height_m": 1.9649627886662253,
+        "steps": 12144,
+        "weight_kg": 97.38137682714813,
+        "weight_lb": 214.6889309806673
+    },
+    "name": "Thekla Hu",
+    "pi": 3.141592749022487
+}

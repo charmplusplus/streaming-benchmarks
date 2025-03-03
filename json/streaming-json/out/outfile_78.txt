@@ -1,0 +1,65 @@
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 68.75181572035861,
+        "height_m": 1.7462951762977135,
+        "steps": 3028,
+        "weight_kg": 63.91246371289121,
+        "weight_lb": 140.9026957507142
+    },
+    "name": "Wylma Bradley",
+    "pi": 3.1415927456836603
+}
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 62.90191018318487,
+        "height_m": 1.5977076558907615,
+        "steps": 6428,
+        "weight_kg": 80.55727265503066,
+        "weight_lb": 177.5981744407337
+    },
+    "name": "Elga Stephens",
+    "pi": 3.1415926033130073
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 59.64225235228197,
+        "height_m": 1.5149123916952705,
+        "steps": 13770,
+        "weight_kg": 77.4087889894052,
+        "weight_lb": 170.65696438182246
+    },
+    "name": "Maisey Burke",
+    "pi": 3.1415927503996395
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 73.7390252802994,
+        "height_m": 1.8729702307156801,
+        "steps": 13124,
+        "weight_kg": 80.82264927763941,
+        "weight_lb": 178.18322905046938
+    },
+    "name": "Roseline Tan",
+    "pi": 3.1415925567278484
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 83,
+        "height_in": 70.0955307526943,
+        "height_m": 1.7804255196886547,
+        "steps": 6701,
+        "weight_kg": 87.43408995608434,
+        "weight_lb": 192.75894339898264
+    },
+    "name": "Beverlee Bean",
+    "pi": 3.141592719142762
+}

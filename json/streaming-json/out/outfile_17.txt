@@ -1,0 +1,13 @@
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 69.26216419412616,
+        "height_m": 1.7592580205314732,
+        "steps": 11162,
+        "weight_kg": 63.24728698683418,
+        "weight_lb": 139.43623383691437
+    },
+    "name": "Annabella Phelps",
+    "pi": 3.1415927225841287
+}

@@ -1,0 +1,26 @@
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 76.79545163686255,
+        "height_m": 1.9506034182504628,
+        "steps": 13280,
+        "weight_kg": 55.850411313109014,
+        "weight_lb": 123.12893378910638
+    },
+    "name": "Modestine Watson",
+    "pi": 3.1415925869741717
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 64.38012097107196,
+        "height_m": 1.6352541896279655,
+        "steps": 10918,
+        "weight_kg": 61.7497660366602,
+        "weight_lb": 136.13476919974178
+    },
+    "name": "Gwenni Hoover",
+    "pi": 3.141592723110206
+}

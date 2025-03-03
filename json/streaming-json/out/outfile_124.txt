@@ -1,0 +1,117 @@
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 62.56864237542906,
+        "height_m": 1.5892426581448627,
+        "steps": 6576,
+        "weight_kg": 75.96297194654429,
+        "weight_lb": 167.46948721279045
+    },
+    "name": "Eudora French",
+    "pi": 3.1415927096324445
+}
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 70.71220281855787,
+        "height_m": 1.7960889817033197,
+        "steps": 1655,
+        "weight_kg": 98.46397962406033,
+        "weight_lb": 217.07565875879587
+    },
+    "name": "Karry Hawkins",
+    "pi": 3.141592573046408
+}
+{
+    "age": 70,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 60.50834731480788,
+        "height_m": 1.5369111918640765,
+        "steps": 6354,
+        "weight_kg": 51.3395001870235,
+        "weight_lb": 113.18408890231575
+    },
+    "name": "Brittaney Zhao",
+    "pi": 3.141592598064836
+}
+{
+    "age": 67,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 64.85960138381651,
+        "height_m": 1.6474329855351273,
+        "steps": 13282,
+        "weight_kg": 80.0428934098394,
+        "weight_lb": 176.4641636692001
+    },
+    "name": "Leigh Davis",
+    "pi": 3.1415927241611312
+}
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 73.64114579479032,
+        "height_m": 1.8704840931262636,
+        "steps": 11202,
+        "weight_kg": 82.56761992110367,
+        "weight_lb": 182.03022623046357
+    },
+    "name": "Chelsea Hamilton",
+    "pi": 3.141592600658069
+}
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 60,
+        "height_in": 74.56357819592361,
+        "height_m": 1.8939138634629735,
+        "steps": 9005,
+        "weight_kg": 97.65526024576673,
+        "weight_lb": 215.29273984302222
+    },
+    "name": "Jessie Wells",
+    "pi": 3.141592728351487
+}
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 71.89579156488874,
+        "height_m": 1.8261521196260295,
+        "steps": 2270,
+        "weight_kg": 64.37908308651734,
+        "weight_lb": 141.93141415419785
+    },
+    "name": "Leonanie Lang",
+    "pi": 3.1415927113609152
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 70.0056224883235,
+        "height_m": 1.7781418510068172,
+        "steps": 14357,
+        "weight_kg": 51.83970699352297,
+        "weight_lb": 114.2868548320606
+    },
+    "name": "Ilka Newman",
+    "pi": 3.1415925998382255
+}
+{
+    "age": 53,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 70.11217932720618,
+        "height_m": 1.7808483932529044,
+        "steps": 7393,
+        "weight_kg": 98.68142255022894,
+        "weight_lb": 217.55503778268573
+    },
+    "name": "Josefina Perry",
+    "pi": 3.141592591223603
+}

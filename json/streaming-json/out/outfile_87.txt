@@ -1,0 +1,39 @@
+{
+    "age": 45,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 66.18946584871229,
+        "height_m": 1.6812115247030688,
+        "steps": 10529,
+        "weight_kg": 75.64824383876518,
+        "weight_lb": 166.7756313318185
+    },
+    "name": "Amity Henderson",
+    "pi": 3.1415925699987057
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 63.86554555559496,
+        "height_m": 1.6221839811327623,
+        "steps": 11424,
+        "weight_kg": 73.23219841459962,
+        "weight_lb": 161.4491692687946
+    },
+    "name": "Bari House",
+    "pi": 3.141592594020231
+}
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 64.90118323471191,
+        "height_m": 1.6484891639775339,
+        "steps": 6146,
+        "weight_kg": 94.5599303859625,
+        "weight_lb": 208.46871372750064
+    },
+    "name": "Nelly McBride",
+    "pi": 3.1415927039990454
+}

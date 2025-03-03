@@ -1,0 +1,26 @@
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 83,
+        "height_in": 78.54651736738049,
+        "height_m": 1.995080463788014,
+        "steps": 3429,
+        "weight_kg": 64.40655750496948,
+        "weight_lb": 141.9919848066058
+    },
+    "name": "Jayme Vaughan",
+    "pi": 3.1415925978797223
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 64.64534741717826,
+        "height_m": 1.6419909377212214,
+        "steps": 13435,
+        "weight_kg": 79.1394431464657,
+        "weight_lb": 174.47239914956117
+    },
+    "name": "Debee Dennis",
+    "pi": 3.141592555840981
+}

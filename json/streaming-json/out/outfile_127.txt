@@ -1,0 +1,52 @@
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 68.56082912827895,
+        "height_m": 1.741444119478461,
+        "steps": 10376,
+        "weight_kg": 71.24609563984096,
+        "weight_lb": 157.07056736950616
+    },
+    "name": "Bernadina Jones",
+    "pi": 3.141592715353922
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 66.31533029166364,
+        "height_m": 1.6844084798276775,
+        "steps": 2062,
+        "weight_kg": 73.9864043772711,
+        "weight_lb": 163.1119068182194
+    },
+    "name": "Tilly Gray",
+    "pi": 3.1415927165547886
+}
+{
+    "age": 38,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 72.99194671769139,
+        "height_m": 1.853994445472361,
+        "steps": 2990,
+        "weight_kg": 52.27706153113847,
+        "weight_lb": 115.25105539277848
+    },
+    "name": "Trixi Ferguson",
+    "pi": 3.1415925840354344
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 71.01834267780205,
+        "height_m": 1.8038649299291099,
+        "steps": 13122,
+        "weight_kg": 89.7881074845458,
+        "weight_lb": 197.94865752257937
+    },
+    "name": "Jerrine Phelps",
+    "pi": 3.1415927126124723
+}

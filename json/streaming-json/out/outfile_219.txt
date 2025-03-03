@@ -1,0 +1,39 @@
+{
+    "age": 62,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 66.11153119319503,
+        "height_m": 1.6792319855218816,
+        "steps": 2488,
+        "weight_kg": 86.76327610316909,
+        "weight_lb": 191.28005376256863
+    },
+    "name": "Casandra Heath",
+    "pi": 3.1415925577057515
+}
+{
+    "age": 28,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 66.03721739829429,
+        "height_m": 1.6773444161506903,
+        "steps": 9648,
+        "weight_kg": 97.79942797906712,
+        "weight_lb": 215.61057491121093
+    },
+    "name": "Ray Swanson",
+    "pi": 3.1415927481901513
+}
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 79,
+        "height_in": 59.12985487789704,
+        "height_m": 1.5018975028739332,
+        "steps": 13451,
+        "weight_kg": 85.66356136745205,
+        "weight_lb": 188.85560066191212
+    },
+    "name": "Yalonda Wyatt",
+    "pi": 3.1415927467465803
+}

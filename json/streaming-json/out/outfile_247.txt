@@ -1,0 +1,52 @@
+{
+    "age": 70,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 73.12441606207783,
+        "height_m": 1.8573591650028276,
+        "steps": 7060,
+        "weight_kg": 60.44078341182478,
+        "weight_lb": 133.24895992537714
+    },
+    "name": "Chris Bloom",
+    "pi": 3.141592717292001
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 77.10712340969303,
+        "height_m": 1.9585198770054695,
+        "steps": 7345,
+        "weight_kg": 67.5234983366932,
+        "weight_lb": 148.86365490304053
+    },
+    "name": "Dael Wall",
+    "pi": 3.1415927149804306
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 68.72872338985282,
+        "height_m": 1.7457086314196006,
+        "steps": 11554,
+        "weight_kg": 57.614819003060845,
+        "weight_lb": 127.01878227052799
+    },
+    "name": "Rosemarie Lowry",
+    "pi": 3.141592599561618
+}
+{
+    "age": 38,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 78.48144491497533,
+        "height_m": 1.9934276243894562,
+        "steps": 6060,
+        "weight_kg": 82.11090843866384,
+        "weight_lb": 181.02335096204706
+    },
+    "name": "Jada Raynor",
+    "pi": 3.141592712541969
+}

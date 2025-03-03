@@ -1,0 +1,65 @@
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 59.18094515480073,
+        "height_m": 1.5031951952065332,
+        "steps": 4991,
+        "weight_kg": 84.07599903553528,
+        "weight_lb": 185.35562899372175
+    },
+    "name": "Regan Jenkins",
+    "pi": 3.1415925809143426
+}
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 65.84998211075441,
+        "height_m": 1.6725886424152951,
+        "steps": 3772,
+        "weight_kg": 51.72494983490535,
+        "weight_lb": 114.03385890502902
+    },
+    "name": "Katusha Blake",
+    "pi": 3.1415927094098905
+}
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 72.9776299226414,
+        "height_m": 1.8536307990744598,
+        "steps": 3591,
+        "weight_kg": 55.93703069201123,
+        "weight_lb": 123.31989660422178
+    },
+    "name": "Viv Brock",
+    "pi": 3.1415927185653043
+}
+{
+    "age": 40,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 69.84327199779985,
+        "height_m": 1.7740181507743147,
+        "steps": 5069,
+        "weight_kg": 93.27595479310544,
+        "weight_lb": 205.6380354559761
+    },
+    "name": "Julietta Hu",
+    "pi": 3.1415925830868585
+}
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 69.17206433377217,
+        "height_m": 1.756969485314291,
+        "steps": 2359,
+        "weight_kg": 85.84720293340345,
+        "weight_lb": 189.2604605310399
+    },
+    "name": "Ainslee Kang",
+    "pi": 3.1415927402127792
+}

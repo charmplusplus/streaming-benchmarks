@@ -1,0 +1,78 @@
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 78.19019249635235,
+        "height_m": 1.9860298169512487,
+        "steps": 14821,
+        "weight_kg": 78.63441004530841,
+        "weight_lb": 173.3589930740878
+    },
+    "name": "Odelinda Durham",
+    "pi": 3.1415925566197416
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 79,
+        "height_in": 74.14027614325548,
+        "height_m": 1.8831619971312108,
+        "steps": 3953,
+        "weight_kg": 69.52696589863591,
+        "weight_lb": 153.2805395594507
+    },
+    "name": "Pammy Oliver",
+    "pi": 3.141592578261693
+}
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 64.5534862129516,
+        "height_m": 1.6396576643938319,
+        "steps": 13389,
+        "weight_kg": 54.07238394968946,
+        "weight_lb": 119.20905910316436
+    },
+    "name": "Valli Bowman",
+    "pi": 3.14159255530423
+}
+{
+    "age": 28,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 69.71636016172799,
+        "height_m": 1.7707945918788113,
+        "steps": 7201,
+        "weight_kg": 61.41632619029332,
+        "weight_lb": 135.39966104564445
+    },
+    "name": "Muire Martin",
+    "pi": 3.14159258839698
+}
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 70.43934867378373,
+        "height_m": 1.789158490168522,
+        "steps": 6151,
+        "weight_kg": 71.64654615041006,
+        "weight_lb": 157.95340857411702
+    },
+    "name": "Sheila Merritt",
+    "pi": 3.141592586531272
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 59.275689563539885,
+        "height_m": 1.505601701888994,
+        "steps": 1191,
+        "weight_kg": 71.37394558173166,
+        "weight_lb": 157.35242790839723
+    },
+    "name": "Carena Cameron",
+    "pi": 3.141592596314454
+}

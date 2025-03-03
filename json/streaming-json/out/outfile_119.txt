@@ -1,0 +1,13 @@
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 52,
+        "height_in": 65.96510970233123,
+        "height_m": 1.675512881662257,
+        "steps": 6502,
+        "weight_kg": 93.27435531838498,
+        "weight_lb": 205.63450922201787
+    },
+    "name": "Clarinda Owen",
+    "pi": 3.1415925548290278
+}

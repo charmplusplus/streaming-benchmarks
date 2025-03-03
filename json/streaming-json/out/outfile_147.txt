@@ -1,0 +1,26 @@
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 62.01272460237223,
+        "height_m": 1.5751223543341832,
+        "steps": 6572,
+        "weight_kg": 87.31458346076681,
+        "weight_lb": 192.49547698927572
+    },
+    "name": "Celeste Harvey",
+    "pi": 3.141592567805965
+}
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 80,
+        "height_in": 69.58624662573654,
+        "height_m": 1.7674897098492648,
+        "steps": 12578,
+        "weight_kg": 92.12094378217196,
+        "weight_lb": 203.09167508105193
+    },
+    "name": "Kassandra Elmore",
+    "pi": 3.1415925746809745
+}

@@ -1,0 +1,13 @@
+{
+    "age": 35,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 68.20398710537728,
+        "height_m": 1.7323803369912008,
+        "steps": 3186,
+        "weight_kg": 52.971223576164114,
+        "weight_lb": 116.78141892048292
+    },
+    "name": "Gretna Dawson",
+    "pi": 3.141592575788071
+}

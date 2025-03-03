@@ -1,0 +1,26 @@
+{
+    "age": 56,
+    "biometrics": {
+        "heart_rate": 89,
+        "height_in": 61.49999464357385,
+        "height_m": 1.5620990204133047,
+        "steps": 5048,
+        "weight_kg": 96.15876476646707,
+        "weight_lb": 211.9935359794486
+    },
+    "name": "Darlene Franklin",
+    "pi": 3.141592602827746
+}
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 80,
+        "height_in": 74.61137177216361,
+        "height_m": 1.895127819643933,
+        "steps": 8332,
+        "weight_kg": 86.11765448567931,
+        "weight_lb": 189.8567034322183
+    },
+    "name": "Honoria James",
+    "pi": 3.1415927446841274
+}

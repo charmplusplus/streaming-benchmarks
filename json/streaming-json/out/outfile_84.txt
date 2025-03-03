@@ -1,0 +1,39 @@
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 71.15859134314924,
+        "height_m": 1.8074272441052788,
+        "steps": 5627,
+        "weight_kg": 57.21700040675411,
+        "weight_lb": 126.14174343673824
+    },
+    "name": "Lida Hardy",
+    "pi": 3.141592555717556
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 60.86173367407803,
+        "height_m": 1.5458872005424937,
+        "steps": 11786,
+        "weight_kg": 85.52024386353717,
+        "weight_lb": 188.5396400264313
+    },
+    "name": "Theresa Wang",
+    "pi": 3.141592747960817
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 64.95681628288146,
+        "height_m": 1.6499022426379781,
+        "steps": 3899,
+        "weight_kg": 86.17278540707537,
+        "weight_lb": 189.97824616414647
+    },
+    "name": "Rafa Hudson",
+    "pi": 3.1415927093457725
+}

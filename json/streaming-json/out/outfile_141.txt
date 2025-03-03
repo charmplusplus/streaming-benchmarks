@@ -1,0 +1,39 @@
+{
+    "age": 29,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 68.9185801388942,
+        "height_m": 1.7505309902411779,
+        "steps": 12440,
+        "weight_kg": 54.14022738160415,
+        "weight_lb": 119.35862809003213
+    },
+    "name": "Aubine Page",
+    "pi": 3.141592733953232
+}
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 68.46492529423699,
+        "height_m": 1.7390081634092114,
+        "steps": 9044,
+        "weight_kg": 60.28981784420107,
+        "weight_lb": 132.91613821568254
+    },
+    "name": "Romona Prince",
+    "pi": 3.1415925806551295
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 67.97881171774961,
+        "height_m": 1.726660885233962,
+        "steps": 13965,
+        "weight_kg": 74.69065702727193,
+        "weight_lb": 164.6645162954642
+    },
+    "name": "Tish Duncan",
+    "pi": 3.1415925789236803
+}

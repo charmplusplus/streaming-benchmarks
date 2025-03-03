@@ -1,0 +1,39 @@
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 63.00445130609352,
+        "height_m": 1.600312199006188,
+        "steps": 6247,
+        "weight_kg": 56.368037460619135,
+        "weight_lb": 124.27010274643014
+    },
+    "name": "Christel Shore",
+    "pi": 3.1415926004364585
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 76.52570636760208,
+        "height_m": 1.943751892111071,
+        "steps": 12788,
+        "weight_kg": 77.15978845486748,
+        "weight_lb": 170.10801282336993
+    },
+    "name": "Inga Perry",
+    "pi": 3.1415927055416737
+}
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 73.29216618500897,
+        "height_m": 1.8616200158244192,
+        "steps": 9459,
+        "weight_kg": 90.09936457446287,
+        "weight_lb": 198.63486112815232
+    },
+    "name": "Joline Liu",
+    "pi": 3.141592586380042
+}

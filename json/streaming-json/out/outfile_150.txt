@@ -1,0 +1,78 @@
+{
+    "age": 29,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 59.537923240874385,
+        "height_m": 1.5122624336964952,
+        "steps": 3715,
+        "weight_kg": 93.71222581912136,
+        "weight_lb": 206.5998472853513
+    },
+    "name": "Belicia Carey",
+    "pi": 3.1415927150322296
+}
+{
+    "age": 68,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 61.0956702707597,
+        "height_m": 1.5518291868895353,
+        "steps": 14284,
+        "weight_kg": 59.353333733996166,
+        "weight_lb": 130.85154661664262
+    },
+    "name": "Mandi Simpson",
+    "pi": 3.141592591311625
+}
+{
+    "age": 59,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 65.21016865463294,
+        "height_m": 1.6563373894054865,
+        "steps": 9606,
+        "weight_kg": 72.13093950499848,
+        "weight_lb": 159.02131185150972
+    },
+    "name": "Linea Berman",
+    "pi": 3.141592584537839
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 65.08387973830841,
+        "height_m": 1.653129652663021,
+        "steps": 2538,
+        "weight_kg": 92.26246551693775,
+        "weight_lb": 203.40367672795128
+    },
+    "name": "Louisette Copeland",
+    "pi": 3.1415927043243568
+}
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 66.43707977151972,
+        "height_m": 1.6875009149461067,
+        "steps": 9457,
+        "weight_kg": 65.46352294432303,
+        "weight_lb": 144.32219195351342
+    },
+    "name": "Rois Riddle",
+    "pi": 3.141592596992668
+}
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 59.14717327813781,
+        "height_m": 1.5023373900025097,
+        "steps": 11542,
+        "weight_kg": 84.93237258919653,
+        "weight_lb": 187.24360725759445
+    },
+    "name": "Shandeigh Hess",
+    "pi": 3.141592718142977
+}

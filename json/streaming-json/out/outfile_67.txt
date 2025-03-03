@@ -1,0 +1,26 @@
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 62.80887864093733,
+        "height_m": 1.595344655993694,
+        "steps": 11524,
+        "weight_kg": 96.6656068078237,
+        "weight_lb": 213.11093008066428
+    },
+    "name": "Trix Bishop",
+    "pi": 3.141592592934333
+}
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 59.96292309238025,
+        "height_m": 1.5230574240954493,
+        "steps": 4171,
+        "weight_kg": 98.9035982645369,
+        "weight_lb": 218.0448508059633
+    },
+    "name": "Rea Henderson",
+    "pi": 3.1415927414150326
+}

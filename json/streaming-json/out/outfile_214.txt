@@ -1,0 +1,52 @@
+{
+    "age": 38,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 70.20417753805988,
+        "height_m": 1.7831851465467417,
+        "steps": 11087,
+        "weight_kg": 73.00978146860228,
+        "weight_lb": 160.95882442130994
+    },
+    "name": "Delora McPherson",
+    "pi": 3.1415927147738296
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 80,
+        "height_in": 70.97635462518288,
+        "height_m": 1.8027984339684908,
+        "steps": 3798,
+        "weight_kg": 73.51614018276004,
+        "weight_lb": 162.0751529697164
+    },
+    "name": "Nerty Howell",
+    "pi": 3.141592570660273
+}
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 62.629687152938935,
+        "height_m": 1.5907931946563239,
+        "steps": 12865,
+        "weight_kg": 92.93301987466312,
+        "weight_lb": 204.88199427607978
+    },
+    "name": "Zorah Bauer",
+    "pi": 3.141592601125628
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 67.06053131070186,
+        "height_m": 1.7033365754900767,
+        "steps": 12778,
+        "weight_kg": 69.78419618981863,
+        "weight_lb": 153.84763460399793
+    },
+    "name": "Elvera Adler",
+    "pi": 3.141592597136471
+}

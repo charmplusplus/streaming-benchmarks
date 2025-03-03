@@ -1,0 +1,13 @@
+{
+    "age": 56,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 70.09785013155883,
+        "height_m": 1.7804844318800008,
+        "steps": 1387,
+        "weight_kg": 73.04022403834158,
+        "weight_lb": 161.0259387194086
+    },
+    "name": "Zita Goodwin",
+    "pi": 3.141592742014693
+}

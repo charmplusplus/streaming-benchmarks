@@ -1,0 +1,65 @@
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 71.20481613086923,
+        "height_m": 1.8086013530793477,
+        "steps": 1955,
+        "weight_kg": 81.1714414665834,
+        "weight_lb": 178.9521832860591
+    },
+    "name": "Arabela Herring",
+    "pi": 3.1415927134830084
+}
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 60.89187548412164,
+        "height_m": 1.5466528021041765,
+        "steps": 4649,
+        "weight_kg": 61.66441295138996,
+        "weight_lb": 135.94659808089332
+    },
+    "name": "Paulie Hahn",
+    "pi": 3.1415927478982515
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 70.68230727393629,
+        "height_m": 1.7953296352799786,
+        "steps": 11225,
+        "weight_kg": 67.46116175536584,
+        "weight_lb": 148.7262264291146
+    },
+    "name": "Felipa Desai",
+    "pi": 3.1415927232287535
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 70.82261285579224,
+        "height_m": 1.7988933951346897,
+        "steps": 3248,
+        "weight_kg": 72.58322072376255,
+        "weight_lb": 160.01842007202137
+    },
+    "name": "Dina Poole",
+    "pi": 3.141592564569564
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 67.13176590827825,
+        "height_m": 1.7051459332914638,
+        "steps": 2960,
+        "weight_kg": 88.12112861861218,
+        "weight_lb": 194.27360257516474
+    },
+    "name": "Saidee McCoy",
+    "pi": 3.141592566806111
+}

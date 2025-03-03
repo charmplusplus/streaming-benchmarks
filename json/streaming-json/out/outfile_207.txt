@@ -1,0 +1,91 @@
+{
+    "age": 56,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 74.80180964823089,
+        "height_m": 1.8999649390839972,
+        "steps": 7852,
+        "weight_kg": 93.76323287511636,
+        "weight_lb": 206.712298461139
+    },
+    "name": "Jere Burgess",
+    "pi": 3.1415927071225456
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 65.94931359361483,
+        "height_m": 1.6751116607175198,
+        "steps": 2460,
+        "weight_kg": 83.83116336645341,
+        "weight_lb": 184.8158593809505
+    },
+    "name": "Clemence Stark",
+    "pi": 3.1415927255072544
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 59.96722376119318,
+        "height_m": 1.5231666610243098,
+        "steps": 9183,
+        "weight_kg": 55.44981043301391,
+        "weight_lb": 122.24576107683112
+    },
+    "name": "Opalina Wu",
+    "pi": 3.1415927065643268
+}
+{
+    "age": 67,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 64.51388876987879,
+        "height_m": 1.6386518898829006,
+        "steps": 5314,
+        "weight_kg": 86.63977804423212,
+        "weight_lb": 191.007787471875
+    },
+    "name": "Karen Ellington",
+    "pi": 3.141592588579888
+}
+{
+    "age": 28,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 68.76607434454087,
+        "height_m": 1.7466573451563716,
+        "steps": 8156,
+        "weight_kg": 82.80705010424697,
+        "weight_lb": 182.55807880082494
+    },
+    "name": "Kristien Shelton",
+    "pi": 3.1415927063633275
+}
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 60.40998389500542,
+        "height_m": 1.534412762350246,
+        "steps": 3961,
+        "weight_kg": 95.10609776249638,
+        "weight_lb": 209.67280524915475
+    },
+    "name": "Ddene Gilbert",
+    "pi": 3.1415925874904764
+}
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 71.88783451391184,
+        "height_m": 1.825950010640355,
+        "steps": 11761,
+        "weight_kg": 83.20009435829783,
+        "weight_lb": 183.42459202419056
+    },
+    "name": "Phil Craven",
+    "pi": 3.1415927378320148
+}

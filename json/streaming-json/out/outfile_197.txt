@@ -1,0 +1,39 @@
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 64.26121060704462,
+        "height_m": 1.6322338680126447,
+        "steps": 11769,
+        "weight_kg": 89.75287512758612,
+        "weight_lb": 197.8709835637789
+    },
+    "name": "Nertie Stephenson",
+    "pi": 3.14159274024301
+}
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 60.483357053519946,
+        "height_m": 1.5362764395701292,
+        "steps": 12119,
+        "weight_kg": 87.87673035713189,
+        "weight_lb": 193.7347972799401
+    },
+    "name": "Karel Giles",
+    "pi": 3.1415927093149962
+}
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 73.9200472444091,
+        "height_m": 1.8775681861211706,
+        "steps": 9213,
+        "weight_kg": 52.7543200233935,
+        "weight_lb": 116.30322900997376
+    },
+    "name": "Jolene Hoffman",
+    "pi": 3.1415926035678696
+}

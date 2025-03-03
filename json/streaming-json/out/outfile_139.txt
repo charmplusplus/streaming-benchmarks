@@ -1,0 +1,26 @@
+{
+    "age": 59,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 66.10353729670844,
+        "height_m": 1.6790289406607664,
+        "steps": 9748,
+        "weight_kg": 70.78507406558359,
+        "weight_lb": 156.05418998646687
+    },
+    "name": "Jacinta Love",
+    "pi": 3.1415925708441406
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 74.71405414882119,
+        "height_m": 1.8977359506026448,
+        "steps": 2217,
+        "weight_kg": 90.22624668007006,
+        "weight_lb": 198.91458795581605
+    },
+    "name": "Malvina Malone",
+    "pi": 3.1415925733449623
+}

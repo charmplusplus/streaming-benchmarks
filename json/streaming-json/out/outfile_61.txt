@@ -1,0 +1,13 @@
+{
+    "age": 40,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 64.3086283790265,
+        "height_m": 1.6334382787706025,
+        "steps": 9560,
+        "weight_kg": 57.04011926588715,
+        "weight_lb": 125.75178773596012
+    },
+    "name": "Charlene Knox",
+    "pi": 3.141592731164094
+}

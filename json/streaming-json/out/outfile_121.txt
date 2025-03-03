@@ -1,0 +1,247 @@
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 59.20261076678262,
+        "height_m": 1.5037455014537078,
+        "steps": 13519,
+        "weight_kg": 97.65268618131032,
+        "weight_lb": 215.28706500904033
+    },
+    "name": "Amargo Andrews",
+    "pi": 3.141592595609666
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 66.76154748671621,
+        "height_m": 1.6957423904617008,
+        "steps": 8112,
+        "weight_kg": 90.0875872803486,
+        "weight_lb": 198.6088966700021
+    },
+    "name": "Tally Goldstein",
+    "pi": 3.1415925916615497
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 52,
+        "height_in": 61.87522410938838,
+        "height_m": 1.5716298436983491,
+        "steps": 5198,
+        "weight_kg": 87.27147950592234,
+        "weight_lb": 192.4004491483465
+    },
+    "name": "Genna Justice",
+    "pi": 3.1415925779140257
+}
+{
+    "age": 56,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 75.38267143395214,
+        "height_m": 1.9147188204742212,
+        "steps": 6016,
+        "weight_kg": 78.95511952248745,
+        "weight_lb": 174.06603560166627
+    },
+    "name": "Georgiana Saunders",
+    "pi": 3.141592556735084
+}
+{
+    "age": 28,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 66.46312182297903,
+        "height_m": 1.6881623826959808,
+        "steps": 13136,
+        "weight_kg": 63.64760394216173,
+        "weight_lb": 140.3187806029686
+    },
+    "name": "Meta Creech",
+    "pi": 3.1415927156273646
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 69.6247105770894,
+        "height_m": 1.7684666936860562,
+        "steps": 5174,
+        "weight_kg": 93.20824125964822,
+        "weight_lb": 205.48875284584562
+    },
+    "name": "Jennette Duncan",
+    "pi": 3.1415925962942466
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 71.02904604216567,
+        "height_m": 1.8041367952371385,
+        "steps": 13589,
+        "weight_kg": 55.927475247410435,
+        "weight_lb": 123.29883047994598
+    },
+    "name": "Robinette Cooke",
+    "pi": 3.141592707916811
+}
+{
+    "age": 56,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 60.40532369570419,
+        "height_m": 1.534294393351914,
+        "steps": 4260,
+        "weight_kg": 90.67726182774877,
+        "weight_lb": 199.90890497069145
+    },
+    "name": "Norri Pugh",
+    "pi": 3.141592712472076
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 60.21907498522761,
+        "height_m": 1.5295636786603948,
+        "steps": 11874,
+        "weight_kg": 75.90644576655033,
+        "weight_lb": 167.3448684658522
+    },
+    "name": "Margi Mitchell",
+    "pi": 3.141592716247203
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 79,
+        "height_in": 74.90664806307882,
+        "height_m": 1.902627833383172,
+        "steps": 9408,
+        "weight_kg": 93.20669641472281,
+        "weight_lb": 205.4853470498262
+    },
+    "name": "Emelita Glass",
+    "pi": 3.141592710472953
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 73.68258226763868,
+        "height_m": 1.8715365789682696,
+        "steps": 13160,
+        "weight_kg": 96.006647763666,
+        "weight_lb": 211.65817579273332
+    },
+    "name": "Oliy Moran",
+    "pi": 3.141592597970943
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 72.90647076603364,
+        "height_m": 1.8518233574726413,
+        "steps": 3027,
+        "weight_kg": 62.10080208103483,
+        "weight_lb": 136.90867028389098
+    },
+    "name": "Jennette Strickland",
+    "pi": 3.1415927096841427
+}
+{
+    "age": 53,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 63.55562271294593,
+        "height_m": 1.6143119451803762,
+        "steps": 4672,
+        "weight_kg": 75.42265218751771,
+        "weight_lb": 166.2782874656453
+    },
+    "name": "Valene Schneider",
+    "pi": 3.1415927136713915
+}
+{
+    "age": 38,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 69.74794579875366,
+        "height_m": 1.771596866626035,
+        "steps": 11986,
+        "weight_kg": 50.90679896768518,
+        "weight_lb": 112.23014714013809
+    },
+    "name": "Jemie Abbott",
+    "pi": 3.141592571883146
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 78.65971657316699,
+        "height_m": 1.9979557220623516,
+        "steps": 4267,
+        "weight_kg": 58.54328633125514,
+        "weight_lb": 129.0656999116117
+    },
+    "name": "Tatum Sawyer",
+    "pi": 3.1415925551585135
+}
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 73.588216874883,
+        "height_m": 1.8691396992865905,
+        "steps": 13001,
+        "weight_kg": 89.62136217716885,
+        "weight_lb": 197.58104748302998
+    },
+    "name": "Rubetta Day",
+    "pi": 3.1415927241232446
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 74.50837321442683,
+        "height_m": 1.8925116576901462,
+        "steps": 11923,
+        "weight_kg": 51.73202111221914,
+        "weight_lb": 114.04944838442054
+    },
+    "name": "Marney Wolfe",
+    "pi": 3.1415927220211155
+}
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 73.2914022975686,
+        "height_m": 1.8616006130939111,
+        "steps": 2056,
+        "weight_kg": 74.97895914856083,
+        "weight_lb": 165.30011291810015
+    },
+    "name": "Brier Berg",
+    "pi": 3.1415927292382633
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 77.82811248263835,
+        "height_m": 1.9768329895691996,
+        "steps": 1062,
+        "weight_kg": 55.93822135641092,
+        "weight_lb": 123.32252156677063
+    },
+    "name": "Gretel Werner",
+    "pi": 3.141592705781653
+}

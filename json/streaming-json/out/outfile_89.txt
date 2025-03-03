@@ -1,0 +1,91 @@
+{
+    "age": 29,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 66.01479916365248,
+        "height_m": 1.6767749932982765,
+        "steps": 12221,
+        "weight_kg": 61.89846224048654,
+        "weight_lb": 136.4625878246214
+    },
+    "name": "Ivonne Haas",
+    "pi": 3.14159259964641
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 60.66120989117368,
+        "height_m": 1.5407938992071057,
+        "steps": 11232,
+        "weight_kg": 73.98121994051104,
+        "weight_lb": 163.10047710524944
+    },
+    "name": "Marjorie Petty",
+    "pi": 3.141592559405154
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 76.79277000165922,
+        "height_m": 1.9505353047530798,
+        "steps": 4985,
+        "weight_kg": 91.13825567024273,
+        "weight_lb": 200.92522121573052
+    },
+    "name": "Lilla Franklin",
+    "pi": 3.1415927079432855
+}
+{
+    "age": 35,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 75.78546187338299,
+        "height_m": 1.924949692111094,
+        "steps": 14810,
+        "weight_kg": 66.83486247945561,
+        "weight_lb": 147.3454745194574
+    },
+    "name": "Rahal Roy",
+    "pi": 3.141592587456823
+}
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 62.285089754201266,
+        "height_m": 1.5820404254548823,
+        "steps": 5059,
+        "weight_kg": 59.3243479767124,
+        "weight_lb": 130.7876440364197
+    },
+    "name": "Agnesse Baxter",
+    "pi": 3.141592703601822
+}
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 59.60562102744564,
+        "height_m": 1.5139819565468629,
+        "steps": 5415,
+        "weight_kg": 82.85736032591517,
+        "weight_lb": 182.6689937217191
+    },
+    "name": "Phaidra Robertson",
+    "pi": 3.1415927123228737
+}
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 68.20413721391368,
+        "height_m": 1.7323841497459667,
+        "steps": 2933,
+        "weight_kg": 74.88845462553883,
+        "weight_lb": 165.10058483655538
+    },
+    "name": "Haleigh Cox",
+    "pi": 3.1415925794794206
+}

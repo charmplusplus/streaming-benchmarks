@@ -1,0 +1,26 @@
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 60.41252995548568,
+        "height_m": 1.5344774322515229,
+        "steps": 6687,
+        "weight_kg": 84.90461023318517,
+        "weight_lb": 187.18240181228467
+    },
+    "name": "Gabriela Epstein",
+    "pi": 3.1415925674350604
+}
+{
+    "age": 26,
+    "biometrics": {
+        "heart_rate": 60,
+        "height_in": 70.55710171310878,
+        "height_m": 1.7921494157522786,
+        "steps": 12093,
+        "weight_kg": 68.427006495647,
+        "weight_lb": 150.85554706043328
+    },
+    "name": "Adel McLamb",
+    "pi": 3.1415927084768294
+}

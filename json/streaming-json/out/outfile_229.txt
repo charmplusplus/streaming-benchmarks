@@ -1,0 +1,91 @@
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 77.17488533777505,
+        "height_m": 1.9602410290493306,
+        "steps": 9537,
+        "weight_kg": 57.62935934782179,
+        "weight_lb": 127.05083820539487
+    },
+    "name": "Averyl Bauer",
+    "pi": 3.1415925560432107
+}
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 62.94895694637244,
+        "height_m": 1.5989026430304327,
+        "steps": 5497,
+        "weight_kg": 66.03669511261171,
+        "weight_lb": 145.585818779166
+    },
+    "name": "Catlee Parrish",
+    "pi": 3.1415927184618764
+}
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 62.74095997083446,
+        "height_m": 1.593619522704653,
+        "steps": 2417,
+        "weight_kg": 84.54801608657608,
+        "weight_lb": 186.39624722478734
+    },
+    "name": "Daphna Long",
+    "pi": 3.1415927121273772
+}
+{
+    "age": 28,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 78.596177613934,
+        "height_m": 1.9963418333693337,
+        "steps": 1678,
+        "weight_kg": 83.14217276134448,
+        "weight_lb": 183.29689691311526
+    },
+    "name": "Veronike Watkins",
+    "pi": 3.141592602209393
+}
+{
+    "age": 68,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 60.20613253699408,
+        "height_m": 1.5292349406527816,
+        "steps": 11529,
+        "weight_kg": 64.40940781102107,
+        "weight_lb": 141.99826864833327
+    },
+    "name": "Damaris Grady",
+    "pi": 3.1415925945568124
+}
+{
+    "age": 35,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 72.33816723159346,
+        "height_m": 1.837388455492708,
+        "steps": 5031,
+        "weight_kg": 77.2168068592199,
+        "weight_lb": 170.23371673797337
+    },
+    "name": "Cyndi Bradshaw",
+    "pi": 3.1415927086281004
+}
+{
+    "age": 26,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 75.00121070797951,
+        "height_m": 1.9050297232666291,
+        "steps": 13520,
+        "weight_kg": 85.52360822478514,
+        "weight_lb": 188.5470571645258
+    },
+    "name": "Reta McAllister",
+    "pi": 3.141592601522042
+}

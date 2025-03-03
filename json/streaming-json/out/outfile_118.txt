@@ -1,0 +1,13 @@
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 60,
+        "height_in": 66.2856871973007,
+        "height_m": 1.6836555456374431,
+        "steps": 1350,
+        "weight_kg": 95.13956330712028,
+        "weight_lb": 209.7465840581435
+    },
+    "name": "Rebekah Finch",
+    "pi": 3.141592568059087
+}

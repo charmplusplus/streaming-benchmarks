@@ -1,0 +1,39 @@
+{
+    "age": 28,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 67.43391578102822,
+        "height_m": 1.7128205359150275,
+        "steps": 7699,
+        "weight_kg": 68.82797725924921,
+        "weight_lb": 151.73953522528598
+    },
+    "name": "Silvie Pearson",
+    "pi": 3.1415925908198044
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 63.948942562044515,
+        "height_m": 1.624302263952708,
+        "steps": 14785,
+        "weight_kg": 97.6677067369973,
+        "weight_lb": 215.32017962651898
+    },
+    "name": "Carry Collins",
+    "pi": 3.1415927494351643
+}
+{
+    "age": 28,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 64.49535848155948,
+        "height_m": 1.6381812208137516,
+        "steps": 13554,
+        "weight_kg": 81.12089535825973,
+        "weight_lb": 178.84074832472655
+    },
+    "name": "Wenda Prince",
+    "pi": 3.141592718684818
+}

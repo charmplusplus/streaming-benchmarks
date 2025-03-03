@@ -1,0 +1,65 @@
+{
+    "age": 59,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 60.50196064726486,
+        "height_m": 1.5367489705960833,
+        "steps": 3153,
+        "weight_kg": 80.96817515549782,
+        "weight_lb": 178.50405831131357
+    },
+    "name": "Neala Womble",
+    "pi": 3.1415925819463277
+}
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 61.73825622008324,
+        "height_m": 1.5681508611886492,
+        "steps": 9183,
+        "weight_kg": 52.271164104431094,
+        "weight_lb": 115.23805380791087
+    },
+    "name": "Heidie Palmer",
+    "pi": 3.1415925546402046
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 66.6767267158109,
+        "height_m": 1.693587944044107,
+        "steps": 14968,
+        "weight_kg": 68.13502687483819,
+        "weight_lb": 150.21184294880575
+    },
+    "name": "Alysa Mullins",
+    "pi": 3.1415925842387966
+}
+{
+    "age": 68,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 65.576950037395,
+        "height_m": 1.6656536314968717,
+        "steps": 7757,
+        "weight_kg": 80.09930275049318,
+        "weight_lb": 176.58852482979225
+    },
+    "name": "Magdalen Ivey",
+    "pi": 3.1415927437423985
+}
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 59.495070080285345,
+        "height_m": 1.5111739640053072,
+        "steps": 3053,
+        "weight_kg": 94.36278682892302,
+        "weight_lb": 208.03408709878025
+    },
+    "name": "Harlie Lowe",
+    "pi": 3.1415927418967478
+}

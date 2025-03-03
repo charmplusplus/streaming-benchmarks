@@ -1,0 +1,117 @@
+{
+    "age": 38,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 71.67915379515388,
+        "height_m": 1.820649523246166,
+        "steps": 3825,
+        "weight_kg": 78.37672092757052,
+        "weight_lb": 172.7908864913405
+    },
+    "name": "Ambur Carlson",
+    "pi": 3.1415927336306204
+}
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 74.69781672305294,
+        "height_m": 1.8973235202108436,
+        "steps": 9331,
+        "weight_kg": 80.27033894831924,
+        "weight_lb": 176.96559465224354
+    },
+    "name": "Karlyn Powell",
+    "pi": 3.1415927272843516
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 64.02222741576436,
+        "height_m": 1.6261636982320176,
+        "steps": 9691,
+        "weight_kg": 98.16853808000374,
+        "weight_lb": 216.42432242193783
+    },
+    "name": "Jacynth Shah",
+    "pi": 3.1415927113644924
+}
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 78.38816766111947,
+        "height_m": 1.9910583834209075,
+        "steps": 1887,
+        "weight_kg": 88.9686530204594,
+        "weight_lb": 196.14207182196517
+    },
+    "name": "Ivie Porter",
+    "pi": 3.141592744153943
+}
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 61.92785165165468,
+        "height_m": 1.5729665825500743,
+        "steps": 10125,
+        "weight_kg": 50.570645196334084,
+        "weight_lb": 111.48905581274204
+    },
+    "name": "Celle Hoyle",
+    "pi": 3.1415927137544224
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 67.20833084560053,
+        "height_m": 1.7070906816492855,
+        "steps": 11860,
+        "weight_kg": 97.80603544045205,
+        "weight_lb": 215.62514185272937
+    },
+    "name": "Josie Davenport",
+    "pi": 3.141592736534633
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 78.2138077992319,
+        "height_m": 1.9866296453204817,
+        "steps": 2921,
+        "weight_kg": 53.22353363411666,
+        "weight_lb": 117.33766672044626
+    },
+    "name": "Jewel Whitaker",
+    "pi": 3.141592721296719
+}
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 60,
+        "height_in": 68.63737835646465,
+        "height_m": 1.7433884688244288,
+        "steps": 13328,
+        "weight_kg": 92.99405712027172,
+        "weight_lb": 205.01655820849342
+    },
+    "name": "Abbi Miller",
+    "pi": 3.1415925911590636
+}
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 62.90268857773487,
+        "height_m": 1.597727427101655,
+        "steps": 6036,
+        "weight_kg": 54.29995737099155,
+        "weight_lb": 119.71077201923538
+    },
+    "name": "Margalit Small",
+    "pi": 3.141592711341504
+}

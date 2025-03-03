@@ -1,0 +1,13 @@
+{
+    "age": 62,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 77.75563586491792,
+        "height_m": 1.9749920844731896,
+        "steps": 5111,
+        "weight_kg": 52.780425681102855,
+        "weight_lb": 116.36078206507297
+    },
+    "name": "Kordula Glover",
+    "pi": 3.141592586559638
+}

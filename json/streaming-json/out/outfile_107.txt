@@ -1,0 +1,26 @@
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 68.02145876666066,
+        "height_m": 1.727744119691356,
+        "steps": 3264,
+        "weight_kg": 95.82660274689692,
+        "weight_lb": 211.26124494786387
+    },
+    "name": "Jacquette Finley",
+    "pi": 3.1415927412072318
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 71.35983519397779,
+        "height_m": 1.8125388351560647,
+        "steps": 5960,
+        "weight_kg": 79.47928475496616,
+        "weight_lb": 175.22162075649348
+    },
+    "name": "Tuesday Fink",
+    "pi": 3.141592709032665
+}

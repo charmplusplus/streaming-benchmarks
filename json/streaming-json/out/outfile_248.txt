@@ -1,0 +1,39 @@
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 77.3353079551818,
+        "height_m": 1.9643157613311066,
+        "steps": 2437,
+        "weight_kg": 72.73453052417896,
+        "weight_lb": 160.35200068421543
+    },
+    "name": "Alene Rosenthal",
+    "pi": 3.1415927233794654
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 76.40090820627599,
+        "height_m": 1.9405820205251187,
+        "steps": 6712,
+        "weight_kg": 74.23152809717531,
+        "weight_lb": 163.65231147359464
+    },
+    "name": "Sarina Holland",
+    "pi": 3.1415927257836453
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 64.72276561997283,
+        "height_m": 1.643957359010336,
+        "steps": 10955,
+        "weight_kg": 80.85977427747015,
+        "weight_lb": 178.26507556759623
+    },
+    "name": "Blancha Holden",
+    "pi": 3.1415927161084576
+}

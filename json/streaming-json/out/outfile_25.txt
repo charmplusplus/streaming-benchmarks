@@ -1,0 +1,39 @@
+{
+    "age": 57,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 70.68947386790218,
+        "height_m": 1.7955116666684154,
+        "steps": 7047,
+        "weight_kg": 62.53785362427119,
+        "weight_lb": 137.87220285714073
+    },
+    "name": "Angelle Riddle",
+    "pi": 3.1415925627220713
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 78.26996730104723,
+        "height_m": 1.9880560958963078,
+        "steps": 3776,
+        "weight_kg": 89.02464027268918,
+        "weight_lb": 196.265502437976
+    },
+    "name": "Emmy Maxwell",
+    "pi": 3.1415927510016575
+}
+{
+    "age": 35,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 74.61137270557671,
+        "height_m": 1.895127843352613,
+        "steps": 8272,
+        "weight_kg": 61.03231599236917,
+        "weight_lb": 134.5530644830969
+    },
+    "name": "Van Stone",
+    "pi": 3.14159273721403
+}

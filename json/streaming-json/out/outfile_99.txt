@@ -1,0 +1,78 @@
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 66.17028580733285,
+        "height_m": 1.6807243519151043,
+        "steps": 2195,
+        "weight_kg": 83.11051412869796,
+        "weight_lb": 183.22710165841008
+    },
+    "name": "Marie Carlson",
+    "pi": 3.1415927429111035
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 60,
+        "height_in": 72.59159272063654,
+        "height_m": 1.84382545943842,
+        "steps": 9506,
+        "weight_kg": 78.67497210052748,
+        "weight_lb": 173.4484169922649
+    },
+    "name": "Dulci Hancock",
+    "pi": 3.1415927320369077
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 64.24734273350504,
+        "height_m": 1.631881624214951,
+        "steps": 12897,
+        "weight_kg": 84.92810837639811,
+        "weight_lb": 187.2342062887748
+    },
+    "name": "Nataline Adcock",
+    "pi": 3.1415927395506014
+}
+{
+    "age": 59,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 65.22420605097898,
+        "height_m": 1.656693939080139,
+        "steps": 13179,
+        "weight_kg": 84.68929201916913,
+        "weight_lb": 186.70770697130064
+    },
+    "name": "Heath Gallagher",
+    "pi": 3.1415927163083555
+}
+{
+    "age": 57,
+    "biometrics": {
+        "heart_rate": 82,
+        "height_in": 60.071438847819934,
+        "height_m": 1.525813722795216,
+        "steps": 3510,
+        "weight_kg": 79.9076732954032,
+        "weight_lb": 176.16605470051178
+    },
+    "name": "Tarrah Levy",
+    "pi": 3.1415926005146995
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 61.487137664064,
+        "height_m": 1.5617724533101007,
+        "steps": 12038,
+        "weight_kg": 77.73069647163697,
+        "weight_lb": 171.3666480553003
+    },
+    "name": "Leilah Terry",
+    "pi": 3.1415925741511583
+}

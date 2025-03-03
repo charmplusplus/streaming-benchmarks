@@ -1,0 +1,78 @@
+{
+    "age": 62,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 59.5971718732579,
+        "height_m": 1.5137673481463827,
+        "steps": 12532,
+        "weight_kg": 76.5127857574835,
+        "weight_lb": 168.68161773666327
+    },
+    "name": "Tommie Beasley",
+    "pi": 3.1415926017985867
+}
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 70.17426721217615,
+        "height_m": 1.7824254246795448,
+        "steps": 3561,
+        "weight_kg": 83.19152689315402,
+        "weight_lb": 183.4057040191852
+    },
+    "name": "Ede Werner",
+    "pi": 3.141592594191028
+}
+{
+    "age": 53,
+    "biometrics": {
+        "heart_rate": 52,
+        "height_in": 74.12063099656807,
+        "height_m": 1.8826630106748032,
+        "steps": 1061,
+        "weight_kg": 88.58900531265853,
+        "weight_lb": 195.30509289239322
+    },
+    "name": "Dasi Crawford",
+    "pi": 3.1415927466700935
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 60,
+        "height_in": 77.64571643093714,
+        "height_m": 1.9722001323577318,
+        "steps": 8877,
+        "weight_kg": 95.47980325514266,
+        "weight_lb": 210.4966838523526
+    },
+    "name": "Harlie Hall",
+    "pi": 3.141592724387458
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 64.75069626886597,
+        "height_m": 1.6446667971091251,
+        "steps": 13509,
+        "weight_kg": 87.81582810505756,
+        "weight_lb": 193.600530956972
+    },
+    "name": "Marthe Stark",
+    "pi": 3.141592599639732
+}
+{
+    "age": 28,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 65.9175611973031,
+        "height_m": 1.6743051502867177,
+        "steps": 5439,
+        "weight_kg": 51.23740807029633,
+        "weight_lb": 112.95901457993669
+    },
+    "name": "Torie Peck",
+    "pi": 3.1415927140840183
+}

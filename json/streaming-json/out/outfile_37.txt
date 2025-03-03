@@ -1,0 +1,26 @@
+{
+    "age": 59,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 60.48873179776369,
+        "height_m": 1.5364129580002004,
+        "steps": 11119,
+        "weight_kg": 88.17405042069413,
+        "weight_lb": 194.39027503847066
+    },
+    "name": "Petronia Tucker",
+    "pi": 3.141592569980114
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 77.61114481144561,
+        "height_m": 1.9713220136968312,
+        "steps": 2481,
+        "weight_kg": 95.62670001730064,
+        "weight_lb": 210.8205353921413
+    },
+    "name": "Noellyn Hobbs",
+    "pi": 3.1415927137174773
+}

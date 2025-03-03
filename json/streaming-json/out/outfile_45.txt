@@ -1,0 +1,52 @@
+{
+    "age": 53,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 63.91875860610462,
+        "height_m": 1.6235355918858376,
+        "steps": 9963,
+        "weight_kg": 96.4691420690742,
+        "weight_lb": 212.67779998832233
+    },
+    "name": "Nicolea Brantley",
+    "pi": 3.1415925989558686
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 67.12008021046816,
+        "height_m": 1.7048491167273683,
+        "steps": 13091,
+        "weight_kg": 78.28837094679741,
+        "weight_lb": 172.5961083567285
+    },
+    "name": "Vivien Patrick",
+    "pi": 3.1415925744408213
+}
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 61.25134140782306,
+        "height_m": 1.5557832316357607,
+        "steps": 2234,
+        "weight_kg": 79.13884473433775,
+        "weight_lb": 174.47107987821568
+    },
+    "name": "Ronda Herndon",
+    "pi": 3.141592705655292
+}
+{
+    "age": 59,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 64.69205268526045,
+        "height_m": 1.6431772508899,
+        "steps": 2098,
+        "weight_kg": 97.96593272135678,
+        "weight_lb": 215.97765459615755
+    },
+    "name": "Ali Fisher",
+    "pi": 3.1415925613220304
+}

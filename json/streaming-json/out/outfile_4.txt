@@ -1,0 +1,26 @@
+{
+    "age": 67,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 63.23277257796644,
+        "height_m": 1.6061115561801074,
+        "steps": 1033,
+        "weight_kg": 87.06784910011385,
+        "weight_lb": 191.95152148309296
+    },
+    "name": "Berta Peele",
+    "pi": 3.141592567621286
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 72.0625996317265,
+        "height_m": 1.8303890422357703,
+        "steps": 10141,
+        "weight_kg": 72.39479335601605,
+        "weight_lb": 159.60300932854008
+    },
+    "name": "Violette Benson",
+    "pi": 3.141592704193537
+}

@@ -1,0 +1,26 @@
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 52,
+        "height_in": 77.4751571646702,
+        "height_m": 1.967867929333941,
+        "steps": 2170,
+        "weight_kg": 80.39882552148633,
+        "weight_lb": 177.24885872117918
+    },
+    "name": "Julieta Mullins",
+    "pi": 3.141592597182772
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 61.48823264691642,
+        "height_m": 1.5618002658595336,
+        "steps": 14049,
+        "weight_kg": 53.60633702907525,
+        "weight_lb": 118.18160274103987
+    },
+    "name": "Sibyl Chung",
+    "pi": 3.1415927268700057
+}

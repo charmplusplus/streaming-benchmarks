@@ -1,0 +1,26 @@
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 68.0099168172362,
+        "height_m": 1.7274509543342842,
+        "steps": 13344,
+        "weight_kg": 98.23943336494759,
+        "weight_lb": 216.58061958503072
+    },
+    "name": "Maddie Harper",
+    "pi": 3.1415926002213963
+}
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 75.77400327644729,
+        "height_m": 1.9246586439060935,
+        "steps": 6797,
+        "weight_kg": 65.02302117566876,
+        "weight_lb": 143.35105294430284
+    },
+    "name": "Junia Hancock",
+    "pi": 3.141592597959244
+}

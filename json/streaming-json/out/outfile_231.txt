@@ -1,0 +1,13 @@
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 67.40671173801577,
+        "height_m": 1.7121295535956416,
+        "steps": 5704,
+        "weight_kg": 94.69171644360796,
+        "weight_lb": 208.75925190590695
+    },
+    "name": "Suzanna Benton",
+    "pi": 3.1415925932962936
+}

@@ -1,0 +1,26 @@
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 65.74748851631456,
+        "height_m": 1.6699853065223242,
+        "steps": 11440,
+        "weight_kg": 76.15644616805814,
+        "weight_lb": 167.89602435102432
+    },
+    "name": "Felecia Bowles",
+    "pi": 3.141592602832441
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 72.11461044776954,
+        "height_m": 1.8317101162498834,
+        "steps": 8459,
+        "weight_kg": 97.42387849954568,
+        "weight_lb": 214.78263101766836
+    },
+    "name": "Simonette Kaufman",
+    "pi": 3.141592591777857
+}

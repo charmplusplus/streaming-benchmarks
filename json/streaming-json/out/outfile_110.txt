@@ -1,0 +1,65 @@
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 71.82102197256246,
+        "height_m": 1.824252973006481,
+        "steps": 2124,
+        "weight_kg": 59.65224443479238,
+        "weight_lb": 131.51053112583196
+    },
+    "name": "Ginger Humphrey",
+    "pi": 3.1415927056339883
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 63.81429555291355,
+        "height_m": 1.620882231767599,
+        "steps": 8100,
+        "weight_kg": 68.43551523588712,
+        "weight_lb": 150.87430559934145
+    },
+    "name": "Abby Weiner",
+    "pi": 3.141592708877134
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 71.61241319044572,
+        "height_m": 1.8189543128019925,
+        "steps": 9625,
+        "weight_kg": 83.71604231147779,
+        "weight_lb": 184.56206120073014
+    },
+    "name": "Gwendolin Hopkins",
+    "pi": 3.141592572284533
+}
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 74.26879105009495,
+        "height_m": 1.8864262740022237,
+        "steps": 4183,
+        "weight_kg": 66.8762403812394,
+        "weight_lb": 147.436697069288
+    },
+    "name": "Jobyna Frost",
+    "pi": 3.1415926012173867
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 64.15252341123319,
+        "height_m": 1.629473214729787,
+        "steps": 5881,
+        "weight_kg": 65.40007160895759,
+        "weight_lb": 144.18230587054006
+    },
+    "name": "Matelda Moser",
+    "pi": 3.141592566066157
+}

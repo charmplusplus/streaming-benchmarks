@@ -1,0 +1,52 @@
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 66.77386649914187,
+        "height_m": 1.6960552932083452,
+        "steps": 3345,
+        "weight_kg": 95.31953278368405,
+        "weight_lb": 210.14334836556552
+    },
+    "name": "Dareen Sullivan",
+    "pi": 3.1415927319874837
+}
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 82,
+        "height_in": 66.34532644569269,
+        "height_m": 1.6851703817285884,
+        "steps": 3890,
+        "weight_kg": 72.08333971453038,
+        "weight_lb": 158.91637240144794
+    },
+    "name": "Meris Honeycutt",
+    "pi": 3.1415927260141587
+}
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 73.19264758530271,
+        "height_m": 1.8590922447568765,
+        "steps": 9073,
+        "weight_kg": 91.65146807411885,
+        "weight_lb": 202.0566595455639
+    },
+    "name": "Stefania Saunders",
+    "pi": 3.1415926022772482
+}
+{
+    "age": 62,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 62.54519260105378,
+        "height_m": 1.5886470341973675,
+        "steps": 5062,
+        "weight_kg": 91.41939891988969,
+        "weight_lb": 201.54503524676718
+    },
+    "name": "Korie Hodges",
+    "pi": 3.1415925825157767
+}

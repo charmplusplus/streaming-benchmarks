@@ -1,0 +1,39 @@
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 52,
+        "height_in": 62.65110558931868,
+        "height_m": 1.5913372226465943,
+        "steps": 2803,
+        "weight_kg": 86.99228925443762,
+        "weight_lb": 191.78494073611824
+    },
+    "name": "Minny Epstein",
+    "pi": 3.141592559189368
+}
+{
+    "age": 35,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 65.98451725457555,
+        "height_m": 1.676005833223069,
+        "steps": 3537,
+        "weight_kg": 53.67366982290268,
+        "weight_lb": 118.3300459649677
+    },
+    "name": "Bernetta Rodriguez",
+    "pi": 3.141592745870499
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 67.431997462811,
+        "height_m": 1.7127718106586216,
+        "steps": 7056,
+        "weight_kg": 55.27325911587843,
+        "weight_lb": 121.85653251204789
+    },
+    "name": "Darya Cohen",
+    "pi": 3.1415927138143793
+}

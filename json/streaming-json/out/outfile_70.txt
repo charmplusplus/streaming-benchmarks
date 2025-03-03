@@ -1,0 +1,156 @@
+{
+    "age": 57,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 60.859169889222386,
+        "height_m": 1.545822080442325,
+        "steps": 10764,
+        "weight_kg": 74.31098340047842,
+        "weight_lb": 163.82748022436272
+    },
+    "name": "Josie Welch",
+    "pi": 3.1415925550735997
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 62.56871206996713,
+        "height_m": 1.5892444283851737,
+        "steps": 11005,
+        "weight_kg": 88.00516538079133,
+        "weight_lb": 194.01794770180015
+    },
+    "name": "Rosana Garcia",
+    "pi": 3.1415927300073156
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 61.350420430305995,
+        "height_m": 1.55829983744786,
+        "steps": 8960,
+        "weight_kg": 55.36647643035053,
+        "weight_lb": 122.06204126787938
+    },
+    "name": "Kayley Horton",
+    "pi": 3.1415927491725757
+}
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 71.27426757883246,
+        "height_m": 1.8103654189050182,
+        "steps": 11583,
+        "weight_kg": 59.81885754659813,
+        "weight_lb": 131.87784972438115
+    },
+    "name": "Ashli Berg",
+    "pi": 3.1415927227269203
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 65.23857514736356,
+        "height_m": 1.657058913931221,
+        "steps": 11117,
+        "weight_kg": 69.63141629810086,
+        "weight_lb": 153.5108129991191
+    },
+    "name": "Regan Patton",
+    "pi": 3.141592716356202
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 62.837371604869915,
+        "height_m": 1.5960683768867723,
+        "steps": 5927,
+        "weight_kg": 58.22536155906342,
+        "weight_lb": 128.3647966003424
+    },
+    "name": "Othella Manning",
+    "pi": 3.141592708480036
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 77.0295252352986,
+        "height_m": 1.9565488844401868,
+        "steps": 7525,
+        "weight_kg": 64.72297409024017,
+        "weight_lb": 142.68956313882526
+    },
+    "name": "Em Cameron",
+    "pi": 3.141592704973673
+}
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 73.26338044196652,
+        "height_m": 1.860888858345966,
+        "steps": 4614,
+        "weight_kg": 64.5494185054788,
+        "weight_lb": 142.30693902554864
+    },
+    "name": "Cherida Horner",
+    "pi": 3.1415925924731374
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 80,
+        "height_in": 66.49279027254563,
+        "height_m": 1.6889159609080402,
+        "steps": 5074,
+        "weight_kg": 55.036644935831625,
+        "weight_lb": 121.3348881584331
+    },
+    "name": "Fidela Jiang",
+    "pi": 3.1415927198705527
+}
+{
+    "age": 70,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 69.71910334949357,
+        "height_m": 1.7708642688104312,
+        "steps": 1842,
+        "weight_kg": 56.8793845866326,
+        "weight_lb": 125.39742884738195
+    },
+    "name": "Genia Hurst",
+    "pi": 3.1415927318589514
+}
+{
+    "age": 70,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 77.84880500505348,
+        "height_m": 1.9773585793547255,
+        "steps": 11771,
+        "weight_kg": 93.9881181693726,
+        "weight_lb": 207.2080850785622
+    },
+    "name": "Kate Hauser",
+    "pi": 3.1415925583934396
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 89,
+        "height_in": 68.99444700156428,
+        "height_m": 1.7524580075124085,
+        "steps": 8296,
+        "weight_kg": 59.27939837865395,
+        "weight_lb": 130.68854725354805
+    },
+    "name": "Wanda Stallings",
+    "pi": 3.141592710534617
+}

@@ -1,0 +1,52 @@
+{
+    "age": 56,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 61.87317993153371,
+        "height_m": 1.5715779216088785,
+        "steps": 8363,
+        "weight_kg": 59.445830323324785,
+        "weight_lb": 131.05546644740826
+    },
+    "name": "Harriet Carpenter",
+    "pi": 3.1415927040137595
+}
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 61.82895891432956,
+        "height_m": 1.5704547083784284,
+        "steps": 6061,
+        "weight_kg": 71.24829687270095,
+        "weight_lb": 157.07542025149394
+    },
+    "name": "Hadria Beard",
+    "pi": 3.1415927389400276
+}
+{
+    "age": 67,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 64.33352536957393,
+        "height_m": 1.6340706619890204,
+        "steps": 7544,
+        "weight_kg": 73.95276626388446,
+        "weight_lb": 163.03774756068495
+    },
+    "name": "Donica Levine",
+    "pi": 3.1415927431186317
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 68.05527615312114,
+        "height_m": 1.7286030808436135,
+        "steps": 9572,
+        "weight_kg": 89.02872369898658,
+        "weight_lb": 196.27450484125978
+    },
+    "name": "Elga Weber",
+    "pi": 3.141592728048772
+}

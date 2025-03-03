@@ -1,0 +1,104 @@
+{
+    "age": 57,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 77.54410964443606,
+        "height_m": 1.9696193213742423,
+        "steps": 9381,
+        "weight_kg": 85.09979256804164,
+        "weight_lb": 187.61270469135593
+    },
+    "name": "Sophronia Francis",
+    "pi": 3.141592591461445
+}
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 66.28493001814482,
+        "height_m": 1.6836363132972691,
+        "steps": 3577,
+        "weight_kg": 86.26264338097413,
+        "weight_lb": 190.17634885056316
+    },
+    "name": "Carlota Horne",
+    "pi": 3.1415927115642552
+}
+{
+    "age": 53,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 69.19113433552272,
+        "height_m": 1.757453863097191,
+        "steps": 11376,
+        "weight_kg": 57.41017784805066,
+        "weight_lb": 126.56762628736944
+    },
+    "name": "Hana Jennings",
+    "pi": 3.141592587303519
+}
+{
+    "age": 35,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 71.19883784290444,
+        "height_m": 1.8084495046470401,
+        "steps": 5040,
+        "weight_kg": 87.42769116652207,
+        "weight_lb": 192.74483649953785
+    },
+    "name": "Angela Middleton",
+    "pi": 3.141592589981871
+}
+{
+    "age": 29,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 66.83243492754902,
+        "height_m": 1.6975429304865626,
+        "steps": 8755,
+        "weight_kg": 63.14496544598987,
+        "weight_lb": 139.21065372153816
+    },
+    "name": "Fayina Gates",
+    "pi": 3.1415925808859617
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 71.85875934165661,
+        "height_m": 1.825211501663867,
+        "steps": 3140,
+        "weight_kg": 86.46887072168295,
+        "weight_lb": 190.63100177043665
+    },
+    "name": "Florentia Lindsay",
+    "pi": 3.1415927151364875
+}
+{
+    "age": 26,
+    "biometrics": {
+        "heart_rate": 79,
+        "height_in": 71.58750077101601,
+        "height_m": 1.8183215376901765,
+        "steps": 9814,
+        "weight_kg": 74.53624264533217,
+        "weight_lb": 164.3240912607522
+    },
+    "name": "Frannie Garrison",
+    "pi": 3.1415927234620935
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 70.38095556459034,
+        "height_m": 1.7876753059959294,
+        "steps": 9335,
+        "weight_kg": 97.89840805578046,
+        "weight_lb": 215.82878836793472
+    },
+    "name": "Modesta McAllister",
+    "pi": 3.1415925908842186
+}

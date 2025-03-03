@@ -1,0 +1,52 @@
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 73.27666178350496,
+        "height_m": 1.8612262042388759,
+        "steps": 13512,
+        "weight_kg": 67.81289611147591,
+        "weight_lb": 149.501667025282
+    },
+    "name": "Idette Wilkerson",
+    "pi": 3.1415927322342863
+}
+{
+    "age": 45,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 71.85068549333674,
+        "height_m": 1.8250064260272831,
+        "steps": 1203,
+        "weight_kg": 61.33688771269872,
+        "weight_lb": 135.22452938916985
+    },
+    "name": "Isidora Covington",
+    "pi": 3.141592705516284
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 83,
+        "height_in": 64.14683367291906,
+        "height_m": 1.6293286954546484,
+        "steps": 14209,
+        "weight_kg": 80.96576874815366,
+        "weight_lb": 178.49875309755453
+    },
+    "name": "Gwyneth Cameron",
+    "pi": 3.141592586686008
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 73.04819648454047,
+        "height_m": 1.855423188778806,
+        "steps": 10748,
+        "weight_kg": 75.02775617134917,
+        "weight_lb": 165.40769181047978
+    },
+    "name": "Peggi Crane",
+    "pi": 3.141592749732856
+}

@@ -1,0 +1,13 @@
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 74.38692066176327,
+        "height_m": 1.889426764518334,
+        "steps": 13117,
+        "weight_kg": 84.27581632308724,
+        "weight_lb": 185.79615018220457
+    },
+    "name": "Nell Morton",
+    "pi": 3.1415925780872436
+}

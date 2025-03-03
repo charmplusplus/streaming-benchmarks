@@ -1,0 +1,26 @@
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 72.58171418991363,
+        "height_m": 1.8435745448935519,
+        "steps": 12942,
+        "weight_kg": 84.95066727264305,
+        "weight_lb": 187.2839400826143
+    },
+    "name": "Jacklin Wolf",
+    "pi": 3.1415927407428677
+}
+{
+    "age": 68,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 74.83443267164957,
+        "height_m": 1.9007935634313748,
+        "steps": 14289,
+        "weight_kg": 79.96514756597892,
+        "weight_lb": 176.29276362690845
+    },
+    "name": "Viv Lowry",
+    "pi": 3.1415927237617245
+}

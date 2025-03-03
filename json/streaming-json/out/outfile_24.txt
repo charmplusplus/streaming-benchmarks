@@ -1,0 +1,26 @@
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 67.17995128126577,
+        "height_m": 1.7063698411044363,
+        "steps": 8005,
+        "weight_kg": 88.96051075005437,
+        "weight_lb": 196.12412120978485
+    },
+    "name": "Anabelle Lin",
+    "pi": 3.1415927076194974
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 72.29951032361275,
+        "height_m": 1.8364065705602157,
+        "steps": 5858,
+        "weight_kg": 76.6918900892939,
+        "weight_lb": 169.07647472865912
+    },
+    "name": "Merridie Horton",
+    "pi": 3.1415925676754246
+}

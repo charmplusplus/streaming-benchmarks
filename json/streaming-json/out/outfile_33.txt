@@ -1,0 +1,13 @@
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 62.578776556376205,
+        "height_m": 1.5895000662019199,
+        "steps": 2359,
+        "weight_kg": 65.7784305769981,
+        "weight_lb": 145.01644361866155
+    },
+    "name": "Ferdinanda Leach",
+    "pi": 3.1415925923779073
+}

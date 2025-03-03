@@ -1,0 +1,208 @@
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 64.24268893933677,
+        "height_m": 1.6317634179069085,
+        "steps": 7527,
+        "weight_kg": 89.60872210393333,
+        "weight_lb": 197.55318092477347
+    },
+    "name": "Roxy Francis",
+    "pi": 3.141592706374354
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 82,
+        "height_in": 76.89204343035753,
+        "height_m": 1.953056848480383,
+        "steps": 8031,
+        "weight_kg": 88.22308381950197,
+        "weight_lb": 194.4983750501504
+    },
+    "name": "Andreana Weber",
+    "pi": 3.141592722802593
+}
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 69.13678665042086,
+        "height_m": 1.756073432641036,
+        "steps": 5515,
+        "weight_kg": 58.14483025022247,
+        "weight_lb": 128.18725566624545
+    },
+    "name": "Abbie O'Donnell",
+    "pi": 3.141592746351632
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 67.23380902207576,
+        "height_m": 1.7077378269822976,
+        "steps": 4681,
+        "weight_kg": 93.48707276133374,
+        "weight_lb": 206.10347035109157
+    },
+    "name": "Sheba Meadows",
+    "pi": 3.141592715900956
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 68.53278309887426,
+        "height_m": 1.7407317507162607,
+        "steps": 5151,
+        "weight_kg": 79.87288549987954,
+        "weight_lb": 176.08936083074443
+    },
+    "name": "Sarena Sullivan",
+    "pi": 3.141592599900551
+}
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 80,
+        "height_in": 75.41813645259687,
+        "height_m": 1.9156196314613596,
+        "steps": 7544,
+        "weight_kg": 61.034615615488434,
+        "weight_lb": 134.5581342782181
+    },
+    "name": "Giselle Pugh",
+    "pi": 3.141592581216892
+}
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 74.69247130963313,
+        "height_m": 1.8971877467832985,
+        "steps": 2892,
+        "weight_kg": 97.5823798037422,
+        "weight_lb": 215.13206616292612
+    },
+    "name": "Doloritas Bowden",
+    "pi": 3.141592593421531
+}
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 65.70787066067453,
+        "height_m": 1.6689790135324656,
+        "steps": 14935,
+        "weight_kg": 70.21415770817455,
+        "weight_lb": 154.79553636659577
+    },
+    "name": "Trixy Hood",
+    "pi": 3.1415927102982497
+}
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 78.26913102487143,
+        "height_m": 1.9880348544929127,
+        "steps": 2985,
+        "weight_kg": 64.53208523902458,
+        "weight_lb": 142.26872575965837
+    },
+    "name": "Kimbra Kim",
+    "pi": 3.1415925682048864
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 77.52599114127328,
+        "height_m": 1.969159111642421,
+        "steps": 11080,
+        "weight_kg": 66.55615665962542,
+        "weight_lb": 146.73103409494337
+    },
+    "name": "Lilla Wooten",
+    "pi": 3.141592732124283
+}
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 73.53498355527829,
+        "height_m": 1.8677875736987788,
+        "steps": 8723,
+        "weight_kg": 95.83075520523428,
+        "weight_lb": 211.27039954056357
+    },
+    "name": "Fifine Hwang",
+    "pi": 3.1415927448657737
+}
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 67.2552740262841,
+        "height_m": 1.7082830377947755,
+        "steps": 1165,
+        "weight_kg": 59.36669641459533,
+        "weight_lb": 130.88100624954515
+    },
+    "name": "Kerianne Bass",
+    "pi": 3.141592714606917
+}
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 80,
+        "height_in": 78.67353700750817,
+        "height_m": 1.9983067609050567,
+        "steps": 11633,
+        "weight_kg": 53.89390650426999,
+        "weight_lb": 118.8155841574437
+    },
+    "name": "Rebecca Casey",
+    "pi": 3.14159272689921
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 62.80976085530218,
+        "height_m": 1.5953670642264606,
+        "steps": 6206,
+        "weight_kg": 58.320942788922245,
+        "weight_lb": 128.57551689131375
+    },
+    "name": "Bunni Odom",
+    "pi": 3.141592594317634
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 63.274831840418884,
+        "height_m": 1.6071798608695147,
+        "steps": 11321,
+        "weight_kg": 65.24056603874182,
+        "weight_lb": 143.83065670033096
+    },
+    "name": "Nat Warren",
+    "pi": 3.1415925936067852
+}
+{
+    "age": 57,
+    "biometrics": {
+        "heart_rate": 79,
+        "height_in": 63.99841245915725,
+        "height_m": 1.6255587986608429,
+        "steps": 3053,
+        "weight_kg": 84.95444848413499,
+        "weight_lb": 187.29227621709364
+    },
+    "name": "Nevsa Brady",
+    "pi": 3.1415925901751134
+}

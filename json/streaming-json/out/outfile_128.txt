@@ -1,0 +1,52 @@
+{
+    "age": 38,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 64.73352153072838,
+        "height_m": 1.644230558995999,
+        "steps": 2592,
+        "weight_kg": 95.09313415138479,
+        "weight_lb": 209.6442254128259
+    },
+    "name": "Juditha Brock",
+    "pi": 3.1415927036304603
+}
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 59.2161446795653,
+        "height_m": 1.5040892626527569,
+        "steps": 3717,
+        "weight_kg": 60.2642757979063,
+        "weight_lb": 132.85982770958017
+    },
+    "name": "Ursuline McDonald",
+    "pi": 3.141592581402846
+}
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 74.8079229201724,
+        "height_m": 1.9001202161074624,
+        "steps": 10063,
+        "weight_kg": 79.92218258349774,
+        "weight_lb": 176.19804216723077
+    },
+    "name": "Neysa Morrison",
+    "pi": 3.1415927516480138
+}
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 67.34020705421379,
+        "height_m": 1.7104403355392492,
+        "steps": 2751,
+        "weight_kg": 93.96847495307291,
+        "weight_lb": 207.1647792510436
+    },
+    "name": "Floris Wiggins",
+    "pi": 3.141592716287715
+}

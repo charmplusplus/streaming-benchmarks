@@ -1,0 +1,169 @@
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 72.22938455266915,
+        "height_m": 1.8346253769400929,
+        "steps": 3238,
+        "weight_kg": 58.9867783990908,
+        "weight_lb": 130.04343139420357
+    },
+    "name": "Harrietta Albright",
+    "pi": 3.1415927186670833
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 73.62490153095673,
+        "height_m": 1.8700714890476968,
+        "steps": 10481,
+        "weight_kg": 88.6059935596173,
+        "weight_lb": 195.34254552140348
+    },
+    "name": "Polly Peterson",
+    "pi": 3.1415927088865576
+}
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 77.35603382816178,
+        "height_m": 1.9648421982205222,
+        "steps": 8064,
+        "weight_kg": 86.06959974224375,
+        "weight_lb": 189.7507609837454
+    },
+    "name": "Felisha Griffith",
+    "pi": 3.141592718893106
+}
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 64.36408701415995,
+        "height_m": 1.634846927342322,
+        "steps": 1279,
+        "weight_kg": 67.42015348211099,
+        "weight_lb": 148.63581876973151
+    },
+    "name": "Modestia Kay",
+    "pi": 3.141592579445807
+}
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 68.00486252120838,
+        "height_m": 1.7273225752845023,
+        "steps": 2824,
+        "weight_kg": 86.58394670235296,
+        "weight_lb": 190.88470057894136
+    },
+    "name": "Ramona Shapiro",
+    "pi": 3.141592585757765
+}
+{
+    "age": 35,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 78.66393944690218,
+        "height_m": 1.9980629829973044,
+        "steps": 14509,
+        "weight_kg": 80.11228148047144,
+        "weight_lb": 176.61713799747693
+    },
+    "name": "Sheena Blackwell",
+    "pi": 3.1415927067113367
+}
+{
+    "age": 40,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 67.13547375875588,
+        "height_m": 1.7052401126427383,
+        "steps": 4729,
+        "weight_kg": 82.72850995828713,
+        "weight_lb": 182.38492762423897
+    },
+    "name": "Kirsti Ross",
+    "pi": 3.141592587171256
+}
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 75.74157577743796,
+        "height_m": 1.9238349858760317,
+        "steps": 9735,
+        "weight_kg": 65.03116385670917,
+        "weight_lb": 143.36900446177816
+    },
+    "name": "Jessa McDaniel",
+    "pi": 3.14159259013066
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 75.60892980384997,
+        "height_m": 1.920465779966268,
+        "steps": 11000,
+        "weight_kg": 62.12996614054627,
+        "weight_lb": 136.97296595277112
+    },
+    "name": "Denice Marsh",
+    "pi": 3.1415927218451625
+}
+{
+    "age": 28,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 61.778099167508515,
+        "height_m": 1.5691628715067656,
+        "steps": 14036,
+        "weight_kg": 77.25699305903888,
+        "weight_lb": 170.32231203781828
+    },
+    "name": "Johna Dickerson",
+    "pi": 3.141592726323755
+}
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 66.86556377093186,
+        "height_m": 1.6983844026540915,
+        "steps": 11127,
+        "weight_kg": 60.12097748487473,
+        "weight_lb": 132.5439093827045
+    },
+    "name": "Jaquelyn Barton",
+    "pi": 3.1415927051151256
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 79,
+        "height_in": 66.64994709290406,
+        "height_m": 1.6929077419895824,
+        "steps": 10089,
+        "weight_kg": 64.62896744585092,
+        "weight_lb": 142.48231421047183
+    },
+    "name": "Inez Nance",
+    "pi": 3.141592746946137
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 75.58064868538774,
+        "height_m": 1.919747439945231,
+        "steps": 14550,
+        "weight_kg": 58.67058674586353,
+        "weight_lb": 129.34634895166565
+    },
+    "name": "Aurelia Koch",
+    "pi": 3.1415925800413764
+}

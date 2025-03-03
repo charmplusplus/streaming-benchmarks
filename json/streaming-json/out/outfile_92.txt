@@ -1,0 +1,65 @@
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 64.6177537673143,
+        "height_m": 1.641290059393151,
+        "steps": 3057,
+        "weight_kg": 75.83027308884155,
+        "weight_lb": 167.17693665712184
+    },
+    "name": "Fiona Lucas",
+    "pi": 3.141592709706147
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 74.50262699680813,
+        "height_m": 1.8923657038414465,
+        "steps": 10651,
+        "weight_kg": 65.19393630714937,
+        "weight_lb": 143.72785586146765
+    },
+    "name": "Ardenia Carey",
+    "pi": 3.141592589314052
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 64.5891472096272,
+        "height_m": 1.640563453220266,
+        "steps": 4588,
+        "weight_kg": 60.77569756828011,
+        "weight_lb": 133.9873183729817
+    },
+    "name": "Abagael Sanford",
+    "pi": 3.141592705601984
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 60.17661605701648,
+        "height_m": 1.5284852224661984,
+        "steps": 9965,
+        "weight_kg": 53.12757779393039,
+        "weight_lb": 117.12612055605481
+    },
+    "name": "Salome Whitaker",
+    "pi": 3.141592717571271
+}
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 64.81070895723349,
+        "height_m": 1.6461911185705265,
+        "steps": 4094,
+        "weight_kg": 86.60740218728898,
+        "weight_lb": 190.93641101014103
+    },
+    "name": "Felicdad Parrish",
+    "pi": 3.1415925578533805
+}

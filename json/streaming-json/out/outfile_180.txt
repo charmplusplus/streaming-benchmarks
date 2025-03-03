@@ -1,0 +1,78 @@
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 73.96092495839798,
+        "height_m": 1.8786064794958097,
+        "steps": 12267,
+        "weight_kg": 52.13003836689619,
+        "weight_lb": 114.92692518442666
+    },
+    "name": "Maggi Barnett",
+    "pi": 3.141592731674648
+}
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 65.59848723481493,
+        "height_m": 1.666200676015934,
+        "steps": 4062,
+        "weight_kg": 50.91906240208267,
+        "weight_lb": 112.2571833528795
+    },
+    "name": "Chrissy Page",
+    "pi": 3.1415927160983745
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 82,
+        "height_in": 76.46304327158066,
+        "height_m": 1.9421602503316135,
+        "steps": 1202,
+        "weight_kg": 70.11491996931814,
+        "weight_lb": 154.57675486275815
+    },
+    "name": "Cortney Vaughn",
+    "pi": 3.1415927288355996
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 61.843286468699894,
+        "height_m": 1.5708186280629182,
+        "steps": 3813,
+        "weight_kg": 70.71246452234654,
+        "weight_lb": 155.8941135352556
+    },
+    "name": "Persis Cheng",
+    "pi": 3.1415927157566372
+}
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 71.76332345271358,
+        "height_m": 1.822787431393712,
+        "steps": 11754,
+        "weight_kg": 63.03054235805033,
+        "weight_lb": 138.95839429340492
+    },
+    "name": "Elvina Gupta",
+    "pi": 3.14159260269433
+}
+{
+    "age": 26,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 73.52309981800171,
+        "height_m": 1.8674857269349507,
+        "steps": 13959,
+        "weight_kg": 76.71181850185616,
+        "weight_lb": 169.1204093055621
+    },
+    "name": "Halie Hughes",
+    "pi": 3.141592745516885
+}

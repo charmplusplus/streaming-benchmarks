@@ -1,0 +1,52 @@
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 77.82010958379472,
+        "height_m": 1.976629716048339,
+        "steps": 4028,
+        "weight_kg": 84.80260183056131,
+        "weight_lb": 186.95751204769206
+    },
+    "name": "Marielle Fowler",
+    "pi": 3.141592597414238
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 70.86524595948966,
+        "height_m": 1.7999762753838484,
+        "steps": 7152,
+        "weight_kg": 58.33254813579883,
+        "weight_lb": 128.6011022711448
+    },
+    "name": "Jennette Farmer",
+    "pi": 3.141592555515115
+}
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 65.92790281078089,
+        "height_m": 1.674567827127208,
+        "steps": 5440,
+        "weight_kg": 80.54226819193966,
+        "weight_lb": 177.565095301314
+    },
+    "name": "Zia Klein",
+    "pi": 3.14159271783027
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 69.86668131316131,
+        "height_m": 1.7746127470634139,
+        "steps": 14265,
+        "weight_kg": 60.33960048777077,
+        "weight_lb": 133.02589002734916
+    },
+    "name": "Othilia Fitzpatrick",
+    "pi": 3.1415927507905077
+}
