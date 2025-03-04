@@ -1,30 +1,16 @@
 -include ../../common.mk
 CHARMC=../../../bin/charmc $(OPTS)
 
-FILENAME = "readtest.txt"
-FILESIZE = 121
-N_BUFFER_CHARES = 3
-N_READERS = 11
+TOTAL_NUM_RECORDS ?= 9000000
+GENERATE_RECORDS ?= 0
+RUN_ID ?= 0
 
 all: streamtest 
 
-streamtest: streamtest.ci streamtest.C
+streamtest: streamtest.ci streamtest.cpp
 	$(CHARMC) streamtest.ci
-	$(CHARMC) streamtest.C -o $@ -module CkStream
+	$(CHARMC) -DTOTAL_NUM_RECORDS=$(TOTAL_NUM_RECORDS) -DGENERATE_RECORDS=${GENERATE_RECORDS} -DRUN_ID=${RUN_ID} streamtest.cpp -o $@ -module CkStream
 
-# test: iotest
-# 	#dd if=/dev/urandom of=large_test.txt bs=64M count=16 iflag=fullblock
-# 	$(call run, ./iotest +p2 $(N_BUFFER_CHARES) $(FILESIZE) $(N_READERS) $(FILENAME))
-# 	$(call run, ./iotest +p4 $(N_BUFFER_CHARES) $(FILESIZE) $(N_READERS) $(FILENAME))
-# 
-# testp: iotest
-# 	$(call run, ./iotest +p$(P) $(N_BUFFER_CHARES) $(FILESIZE) $(N_READERS) $(FILENAME))
-# 	$(call run, ./iotest +p$(P) $$((2 * $(N_BUFFER_CHARES))) $(FILESIZE) $$((4 * $(N_READERS))) $(FILENAME))
-# 
-# smptest: iotest
-# 	$(call run, ./iotest +p2 ++ppn 2 $(N_BUFFER_CHARES) $(FILESIZE) $(N_READERS) $(FILENAME))
-# 	$(call run, ./iotest +p4 ++ppn 2 $(N_BUFFER_CHARES) $(FILESIZE) $(N_READERS) $(FILENAME))
-# 
 clean:
 	rm -f *.o *.decl.h *.def.h streamtest test*
 
