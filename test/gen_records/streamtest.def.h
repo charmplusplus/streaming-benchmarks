@@ -199,9 +199,9 @@ void Main::_serial_0() {
   { // begin serial block
 #line 7 "streamtest.ci"
 
-				CkPrintf("Done creating input; input generation took %f\n", CkWallTimer() - start_time);
-				CkExit(0);
-			
+    CkPrintf("Done creating input; input generation took %f\n", CkWallTimer() - start_time);
+    CkExit(0);
+   
 #line 206 "streamtest.def.h"
   } // end serial block
   _TRACE_END_EXECUTE(); 

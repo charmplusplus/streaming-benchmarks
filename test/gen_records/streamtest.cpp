@@ -59,7 +59,7 @@ public:
 
 	void generateJsonData(int num_record) {
 		std::string full_path = INPUT_FILE_BASE + outfile;
-		json records = generate_and_save_json(num_record, full_path, true);
+		generate_and_save_json(num_record, full_path, true);
 		CkCallback cb = CkCallback(CkReductionTarget(Main, doneCreatingInput), mainProxy);
 		contribute(cb);
 	}
