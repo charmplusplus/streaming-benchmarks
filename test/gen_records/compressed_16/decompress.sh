@@ -1,0 +1,1 @@
+cat json_part_* > mission.json.zst && zstd -d mission.json.zst
