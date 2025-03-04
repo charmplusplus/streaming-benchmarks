@@ -19,13 +19,11 @@ public:
 	Producers(StreamToken stream){
 				_stream = stream;
 
-				for(int i = 0; i < 10; ++i){
-					std::string record = generateRandomString();
-                    CkPrintf("Created: %s\n", record.c_str());
-					Ck::Stream::putRecord(_stream, (void*)record.c_str(), sizeof(char) * record.size() + 1);
-				}
+				std::string record = generateRandomString();
+				CkPrintf("Created: %s\n", record.c_str());
+				Ck::Stream::putRecord(_stream, (void*)record.c_str(), sizeof(char) * record.size() + 1);
 				Ck::Stream::flushLocalStream(_stream);
-				CkPrintf("Producer %d has written %d size_t to the stream...\n", thisIndex, 10);
+				CkPrintf("Producer %d has written %d size_t to the stream...\n", thisIndex, 1);
 				contribute(CkCallback(CkReductionTarget(Producers, doneWriting), thisProxy[0]));
 	}
 
@@ -34,11 +32,11 @@ public:
 	}
 
     std::string generateRandomString() {
-        const std::string characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        constexpr char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
         std::random_device rd;
         std::mt19937 generator(rd());  
         std::uniform_int_distribution<> lengthDistribution(5, 20);
-        std::uniform_int_distribution<> distribution(0, characters.size() - 1);
+        std::uniform_int_distribution<> distribution(0, sizeof(characters) - 1);
         size_t length = lengthDistribution(generator);
         std::string randomString = "";
         for (size_t i = 0; i < length; ++i) {
