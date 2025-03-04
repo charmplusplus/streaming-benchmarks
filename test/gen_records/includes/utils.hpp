@@ -110,21 +110,20 @@ json generate_and_save_json(int n, const string& filename, bool write) {
             cerr << "Error opening file for writing!" << endl;
             return json::array();
         }
-        file << "[";  // Start JSON array
+        // file << "[";  // Start JSON array
         for (int i = 0; i < n; i++) {
             json record = generate_biometric_record(first_names, last_names, fsize, lsize);
-            records.push_back(record);  
-            if (i % 1000000 == 0) CkPrintf("On record %d\n", i);
+            // if (i % 1000000 == 0) CkPrintf("On record %d\n", i);
             file << record.dump();
-            if (i < n - 1) file << ",";  // Avoid trailing comma
+            // if (i < n - 1) file << ",";  // Avoid trailing comma
+            file << ",";  // Avoid trailing comma
         }
     
-        file << "]";  // End JSON array
+        // file << "]";  // End JSON array
         file.close();
     } else {
         for (int i = 0; i < n; i++) {
             json record = generate_biometric_record(first_names, last_names, fsize, lsize);
-            records.push_back(record);  
         }
     }
 
