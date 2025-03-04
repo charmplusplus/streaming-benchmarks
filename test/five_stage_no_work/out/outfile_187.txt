@@ -1,0 +1,52 @@
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 70.73277680266953,
+        "height_m": 1.7966115606175634,
+        "steps": 1038,
+        "weight_kg": 99.65341968543044,
+        "weight_lb": 219.69792210689363
+    },
+    "name": "Katharyn Stevens",
+    "pi": 3.1415927305960203
+}
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 66.8220180864624,
+        "height_m": 1.69727834286584,
+        "steps": 6835,
+        "weight_kg": 94.6887862729581,
+        "weight_lb": 208.75279199308886
+    },
+    "name": "Biddie Cassidy",
+    "pi": 3.1415926026485166
+}
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 70.15296291323502,
+        "height_m": 1.7818842957786496,
+        "steps": 3915,
+        "weight_kg": 65.49728239188725,
+        "weight_lb": 144.39661870680246
+    },
+    "name": "Christye Hanson",
+    "pi": 3.1415927258418503
+}
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 63.23160160473015,
+        "height_m": 1.6060818134759665,
+        "steps": 10560,
+        "weight_kg": 87.04369465212021,
+        "weight_lb": 191.89827010395723
+    },
+    "name": "Gayel Chan",
+    "pi": 3.141592745662409
+}

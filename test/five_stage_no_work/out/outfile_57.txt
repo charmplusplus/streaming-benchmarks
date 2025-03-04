@@ -1,0 +1,78 @@
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 64.37576565297253,
+        "height_m": 1.6351435646079773,
+        "steps": 13507,
+        "weight_kg": 99.88331386884978,
+        "weight_lb": 220.2047514215436
+    },
+    "name": "Maure Pierce",
+    "pi": 3.1415927380574797
+}
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 70.51346762771706,
+        "height_m": 1.7910411105818138,
+        "steps": 1265,
+        "weight_kg": 99.16805079695598,
+        "weight_lb": 218.62786814798508
+    },
+    "name": "Carolann Stone",
+    "pi": 3.141592590638514
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 66.98103402435352,
+        "height_m": 1.7013173455072128,
+        "steps": 9505,
+        "weight_kg": 87.9665789868426,
+        "weight_lb": 193.93287936597292
+    },
+    "name": "Dorise Clements",
+    "pi": 3.1415927109110093
+}
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 60,
+        "height_in": 64.34436703431068,
+        "height_m": 1.6343460401246295,
+        "steps": 2736,
+        "weight_kg": 74.84934048421405,
+        "weight_lb": 165.01435301830796
+    },
+    "name": "Mahala May",
+    "pi": 3.1415927245146684
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 67.83918146184101,
+        "height_m": 1.723114278649051,
+        "steps": 4577,
+        "weight_kg": 79.39948611797067,
+        "weight_lb": 175.04569508540047
+    },
+    "name": "Corissa O'Neal",
+    "pi": 3.1415925727696212
+}
+{
+    "age": 40,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 60.89889299404751,
+        "height_m": 1.5468310467600415,
+        "steps": 7477,
+        "weight_kg": 81.02698625082391,
+        "weight_lb": 178.6337144282914
+    },
+    "name": "Rachel Currie",
+    "pi": 3.1415925590135574
+}

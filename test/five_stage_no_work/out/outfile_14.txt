@@ -1,0 +1,52 @@
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 65.27048664780835,
+        "height_m": 1.6578694656048207,
+        "steps": 13607,
+        "weight_kg": 87.97739630347648,
+        "weight_lb": 193.9567274385703
+    },
+    "name": "Koressa Blanton",
+    "pi": 3.141592727999056
+}
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 61.772904570272004,
+        "height_m": 1.5690309288082074,
+        "steps": 6721,
+        "weight_kg": 87.10714926113157,
+        "weight_lb": 192.03816340407585
+    },
+    "name": "Katina Nash",
+    "pi": 3.1415925953113035
+}
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 61.16128629832008,
+        "height_m": 1.55349583308958,
+        "steps": 13990,
+        "weight_kg": 93.3658654508459,
+        "weight_lb": 205.8362542902439
+    },
+    "name": "Rory Duffy",
+    "pi": 3.1415927173634657
+}
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 76.31795851125018,
+        "height_m": 1.9384750994092008,
+        "steps": 9379,
+        "weight_kg": 94.71506476208444,
+        "weight_lb": 208.81072607578656
+    },
+    "name": "Dorri Hull",
+    "pi": 3.141592711949967
+}

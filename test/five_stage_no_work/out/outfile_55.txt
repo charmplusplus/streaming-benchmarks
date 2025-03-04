@@ -1,0 +1,26 @@
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 75.44465187247144,
+        "height_m": 1.9162931227624882,
+        "steps": 4322,
+        "weight_kg": 78.58821562539539,
+        "weight_lb": 173.25715193205917
+    },
+    "name": "Starla Brock",
+    "pi": 3.1415925854772517
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 62.772556394722436,
+        "height_m": 1.5944220714380313,
+        "steps": 5905,
+        "weight_kg": 98.10946456579642,
+        "weight_lb": 216.29408777104607
+    },
+    "name": "Coralyn Wallace",
+    "pi": 3.141592705487756
+}

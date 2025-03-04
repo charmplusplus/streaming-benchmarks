@@ -1,0 +1,26 @@
+{
+    "age": 40,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 69.99658295644231,
+        "height_m": 1.7779122470210211,
+        "steps": 12306,
+        "weight_kg": 85.51435301270708,
+        "weight_lb": 188.52665293887426
+    },
+    "name": "Lisha Moody",
+    "pi": 3.141592716526762
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 64.77778754705716,
+        "height_m": 1.6453549152035976,
+        "steps": 2607,
+        "weight_kg": 68.29082327923297,
+        "weight_lb": 150.55531481786258
+    },
+    "name": "Bird Cassidy",
+    "pi": 3.141592732110323
+}

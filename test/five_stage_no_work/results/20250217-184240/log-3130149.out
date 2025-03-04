@@ -1,0 +1,917 @@
+Running job on 1 nodes with 128 PEs
+
+Running as 128 OS processes: ./streamtest-3130149
+charmrun> srun --mpi=pmi2 -n 128 ./streamtest-3130149
+[1739839390.843123] [cn110:230374:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922791] [cn110:230382:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036683] [cn110:230436:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036810] [cn110:230336:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036947] [cn110:230405:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.909953] [cn110:230398:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.861105] [cn110:230396:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.035735] [cn110:230371:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.024188] [cn110:230409:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.910037] [cn110:230385:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.035775] [cn110:230388:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.035615] [cn110:230384:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.921880] [cn110:230376:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.024166] [cn110:230406:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922085] [cn110:230407:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.861158] [cn110:230414:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.035723] [cn110:230361:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.024174] [cn110:230402:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.909952] [cn110:230394:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036657] [cn110:230386:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.910033] [cn110:230354:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036421] [cn110:230399:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036906] [cn110:230283:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.035582] [cn110:230373:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.035782] [cn110:230391:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.024485] [cn110:230395:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922045] [cn110:230366:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036623] [cn110:230357:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.910171] [cn110:230437:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.023890] [cn110:230378:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036839] [cn110:230355:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922473] [cn110:230439:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036406] [cn110:230408:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.024186] [cn110:230411:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.909725] [cn110:230356:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.024166] [cn110:230369:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036383] [cn110:230375:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.909773] [cn110:230401:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036799] [cn110:230325:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.910034] [cn110:230372:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.035962] [cn110:230397:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.793317] [cn110:230284:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922279] [cn110:230315:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036768] [cn110:230314:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922189] [cn110:230335:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036974] [cn110:230360:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036429] [cn110:230418:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.843337] [cn110:230346:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.024100] [cn110:230389:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.909930] [cn110:230387:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036914] [cn110:230338:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.037041] [cn110:230342:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.909994] [cn110:230344:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036651] [cn110:230377:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.035931] [cn110:230380:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036275] [cn110:230332:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036760] [cn110:230304:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.035877] [cn110:230301:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.049224] [cn110:230299:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922133] [cn110:230305:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922365] [cn110:230317:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.923345] [cn110:230337:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036292] [cn110:230334:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036084] [cn110:230364:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.910026] [cn110:230370:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.909709] [cn110:230331:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922045] [cn110:230362:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.035901] [cn110:230359:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.909697] [cn110:230321:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922498] [cn110:230323:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.909618] [cn110:230358:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.883452] [cn110:230286:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922246] [cn110:230296:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.048402] [cn110:230293:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.861194] [cn110:230303:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.024356] [cn110:230434:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.910019] [cn110:230350:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.843195] [cn110:230319:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036838] [cn110:230353:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036786] [cn110:230316:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036608] [cn110:230345:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036608] [cn110:230348:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.843149] [cn110:230419:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.910086] [cn110:230307:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036766] [cn110:230309:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.921702] [cn110:230340:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922085] [cn110:230417:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036907] [cn110:230285:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036174] [cn110:230416:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036272] [cn110:230330:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.861170] [cn110:230435:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922116] [cn110:230298:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922317] [cn110:230433:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.024190] [cn110:230420:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.923075] [cn110:230426:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.023935] [cn110:230278:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036441] [cn110:230424:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.048441] [cn110:230295:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922162] [cn110:230333:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.843352] [cn110:230272:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.035452] [cn110:230322:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.883511] [cn110:230327:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036900] [cn110:230271:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+Charm++> Running in non-SMP mode: 128 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-351-g2f85b0706
+Charm++ built with internal error checking enabled.
+Do not use for performance benchmarking (build without --enable-error-checking to do so).
+[1739839391.035872] [cn110:230318:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.909784] [cn110:230320:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922475] [cn110:230442:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.921954] [cn110:230290:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.843174] [cn110:230280:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922285] [cn110:230311:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.048441] [cn110:230306:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.828394] [cn110:230282:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.024362] [cn110:230432:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.035668] [cn110:230438:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.048845] [cn110:230281:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.909838] [cn110:230300:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.921801] [cn110:230423:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922333] [cn110:230431:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.048365] [cn110:230273:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036752] [cn110:230297:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.910114] [cn110:230428:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.909825] [cn110:230275:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.861024] [cn110:230294:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.922296] [cn110:230421:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.048303] [cn110:230288:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.035525] [cn110:230445:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.024301] [cn110:230422:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839390.806292] [cn110:230446:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+[1739839391.036871] [cn110:230440:0]     ucp_context.c:1849 UCX  WARN  UCP API version is incompatible: required >= 1.19, actual 1.13.1 (loaded from /lib64/libucp.so.0)
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 hosts (2 sockets x 64 cores x 1 PUs = 128-way SMP)
+Charm++> cpu topology info is gathered in 0.118 seconds.
+CharmLB> Load balancing instrumentation for communication is off.
+Run ID: 3130149, Num PEs: 128, each stage will have 256 chares. Total num records: 900000, per prod: 3515
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generated 3516 biometric records
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generated 3516 biometric records
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generated 3516 biometric records
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3515 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generating 3516 records to file
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3515 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+Generated 3516 biometric records
+All readers have received their inputs, beginning work, input generation took 0.437144
+Reader 7 beginning work, num_records 3516
+Reader 73 beginning work, num_records 3516
+Reader 229 beginning work, num_records 3515
+Reader 255 beginning work, num_records 3515
+Reader 127 beginning work, num_records 3516
+Reader 193 beginning work, num_records 3515
+Reader 207 beginning work, num_records 3515
+Reader 3 beginning work, num_records 3516
+Reader 149 beginning work, num_records 3516
+Reader 217 beginning work, num_records 3515
+Reader 13 beginning work, num_records 3516
+Reader 17 beginning work, num_records 3516
+Reader 239 beginning work, num_records 3515
+Reader 1 beginning work, num_records 3516
+Reader 5 beginning work, num_records 3516
+Reader 25 beginning work, num_records 3516
+Reader 29 beginning work, num_records 3516
+Reader 61 beginning work, num_records 3516
+Reader 89 beginning work, num_records 3516
+Reader 121 beginning work, num_records 3516
+Reader 125 beginning work, num_records 3516
+Reader 145 beginning work, num_records 3516
+Reader 177 beginning work, num_records 3515
+Reader 185 beginning work, num_records 3515
+Reader 197 beginning work, num_records 3515
+Reader 9 beginning work, num_records 3516
+Reader 21 beginning work, num_records 3516
+Reader 23 beginning work, num_records 3516
+Reader 31 beginning work, num_records 3516
+Reader 33 beginning work, num_records 3516
+Reader 37 beginning work, num_records 3516
+Reader 43 beginning work, num_records 3516
+Reader 45 beginning work, num_records 3516
+Reader 49 beginning work, num_records 3516
+Reader 55 beginning work, num_records 3516
+Reader 65 beginning work, num_records 3516
+Reader 69 beginning work, num_records 3516
+Reader 97 beginning work, num_records 3516
+Reader 99 beginning work, num_records 3516
+Reader 101 beginning work, num_records 3516
+Reader 105 beginning work, num_records 3516
+Reader 107 beginning work, num_records 3516
+Reader 109 beginning work, num_records 3516
+Reader 113 beginning work, num_records 3516
+Reader 117 beginning work, num_records 3516
+Reader 123 beginning work, num_records 3516
+Reader 133 beginning work, num_records 3516
+Reader 141 beginning work, num_records 3516
+Reader 167 beginning work, num_records 3515
+Reader 171 beginning work, num_records 3515
+Reader 201 beginning work, num_records 3515
+Reader 205 beginning work, num_records 3515
+Reader 221 beginning work, num_records 3515
+Reader 27 beginning work, num_records 3516
+Reader 41 beginning work, num_records 3516
+Reader 47 beginning work, num_records 3516
+Reader 57 beginning work, num_records 3516
+Reader 83 beginning work, num_records 3516
+Reader 87 beginning work, num_records 3516
+Reader 93 beginning work, num_records 3516
+Reader 129 beginning work, num_records 3516
+Reader 137 beginning work, num_records 3516
+Reader 163 beginning work, num_records 3515
+Reader 165 beginning work, num_records 3515
+Reader 173 beginning work, num_records 3515
+Reader 179 beginning work, num_records 3515
+Reader 181 beginning work, num_records 3515
+Reader 183 beginning work, num_records 3515
+Reader 187 beginning work, num_records 3515
+Reader 191 beginning work, num_records 3515
+Reader 233 beginning work, num_records 3515
+Reader 237 beginning work, num_records 3515
+Reader 243 beginning work, num_records 3515
+Reader 253 beginning work, num_records 3515
+Reader 11 beginning work, num_records 3516
+Reader 35 beginning work, num_records 3516
+Reader 51 beginning work, num_records 3516
+Reader 71 beginning work, num_records 3516
+Reader 75 beginning work, num_records 3516
+Reader 77 beginning work, num_records 3516
+Reader 79 beginning work, num_records 3516
+Reader 85 beginning work, num_records 3516
+Reader 91 beginning work, num_records 3516
+Reader 95 beginning work, num_records 3516
+Reader 111 beginning work, num_records 3516
+Reader 119 beginning work, num_records 3516
+Reader 161 beginning work, num_records 3515
+Reader 189 beginning work, num_records 3515
+Reader 215 beginning work, num_records 3515
+Reader 219 beginning work, num_records 3515
+Reader 223 beginning work, num_records 3515
+Reader 227 beginning work, num_records 3515
+Reader 231 beginning work, num_records 3515
+Reader 235 beginning work, num_records 3515
+Reader 247 beginning work, num_records 3515
+Reader 251 beginning work, num_records 3515
+Reader 19 beginning work, num_records 3516
+Reader 39 beginning work, num_records 3516
+Reader 59 beginning work, num_records 3516
+Reader 63 beginning work, num_records 3516
+Reader 67 beginning work, num_records 3516
+Reader 103 beginning work, num_records 3516
+Reader 115 beginning work, num_records 3516
+Reader 153 beginning work, num_records 3516
+Reader 157 beginning work, num_records 3516
+Reader 199 beginning work, num_records 3515
+Reader 211 beginning work, num_records 3515
+Reader 245 beginning work, num_records 3515
+Reader 15 beginning work, num_records 3516
+Reader 213 beginning work, num_records 3515
+Reader 225 beginning work, num_records 3515
+Reader 81 beginning work, num_records 3516
+Reader 209 beginning work, num_records 3515
+Reader 241 beginning work, num_records 3515
+Reader 249 beginning work, num_records 3515
+Reader 169 beginning work, num_records 3515
+Reader 195 beginning work, num_records 3515
+Reader 203 beginning work, num_records 3515
+Reader 53 beginning work, num_records 3516
+Reader 175 beginning work, num_records 3515
+Reader 135 beginning work, num_records 3516
+Reader 139 beginning work, num_records 3516
+Reader 143 beginning work, num_records 3516
+Reader 155 beginning work, num_records 3516
+Reader 159 beginning work, num_records 3516
+Reader 131 beginning work, num_records 3516
+Reader 151 beginning work, num_records 3516
+Reader 147 beginning work, num_records 3516
+Reader 0 beginning work, num_records 3516
+Reader 2 beginning work, num_records 3516
+Reader 4 beginning work, num_records 3516
+Reader 6 beginning work, num_records 3516
+Reader 8 beginning work, num_records 3516
+Reader 12 beginning work, num_records 3516
+Reader 16 beginning work, num_records 3516
+Reader 20 beginning work, num_records 3516
+Reader 22 beginning work, num_records 3516
+Reader 24 beginning work, num_records 3516
+Reader 26 beginning work, num_records 3516
+Reader 28 beginning work, num_records 3516
+Reader 30 beginning work, num_records 3516
+Reader 32 beginning work, num_records 3516
+Reader 36 beginning work, num_records 3516
+Reader 10 beginning work, num_records 3516
+Reader 14 beginning work, num_records 3516
+Reader 40 beginning work, num_records 3516
+Reader 42 beginning work, num_records 3516
+Reader 44 beginning work, num_records 3516
+Reader 18 beginning work, num_records 3516
+Reader 46 beginning work, num_records 3516
+Reader 48 beginning work, num_records 3516
+Reader 54 beginning work, num_records 3516
+Reader 56 beginning work, num_records 3516
+Reader 60 beginning work, num_records 3516
+Reader 34 beginning work, num_records 3516
+Reader 64 beginning work, num_records 3516
+Reader 68 beginning work, num_records 3516
+Reader 38 beginning work, num_records 3516
+Reader 72 beginning work, num_records 3516
+Reader 82 beginning work, num_records 3516
+Reader 50 beginning work, num_records 3516
+Reader 86 beginning work, num_records 3516
+Reader 52 beginning work, num_records 3516
+Reader 88 beginning work, num_records 3516
+Reader 92 beginning work, num_records 3516
+Reader 58 beginning work, num_records 3516
+Reader 96 beginning work, num_records 3516
+Reader 98 beginning work, num_records 3516
+Reader 62 beginning work, num_records 3516
+Reader 100 beginning work, num_records 3516
+Reader 66 beginning work, num_records 3516
+Reader 104 beginning work, num_records 3516
+Reader 106 beginning work, num_records 3516
+Reader 108 beginning work, num_records 3516
+Reader 70 beginning work, num_records 3516
+Reader 74 beginning work, num_records 3516
+Reader 112 beginning work, num_records 3516
+Reader 76 beginning work, num_records 3516
+Reader 116 beginning work, num_records 3516
+Reader 78 beginning work, num_records 3516
+Reader 120 beginning work, num_records 3516
+Reader 80 beginning work, num_records 3516
+Reader 122 beginning work, num_records 3516
+Reader 124 beginning work, num_records 3516
+Reader 84 beginning work, num_records 3516
+Reader 126 beginning work, num_records 3516
+Reader 128 beginning work, num_records 3516
+Reader 132 beginning work, num_records 3516
+Reader 90 beginning work, num_records 3516
+Reader 136 beginning work, num_records 3516
+Reader 94 beginning work, num_records 3516
+Reader 140 beginning work, num_records 3516
+Reader 144 beginning work, num_records 3516
+Reader 148 beginning work, num_records 3516
+Reader 102 beginning work, num_records 3516
+Reader 110 beginning work, num_records 3516
+Reader 162 beginning work, num_records 3515
+Reader 114 beginning work, num_records 3516
+Reader 164 beginning work, num_records 3515
+Reader 166 beginning work, num_records 3515
+Reader 118 beginning work, num_records 3516
+Reader 170 beginning work, num_records 3515
+Reader 172 beginning work, num_records 3515
+Reader 176 beginning work, num_records 3515
+Reader 178 beginning work, num_records 3515
+Reader 180 beginning work, num_records 3515
+Reader 182 beginning work, num_records 3515
+Reader 184 beginning work, num_records 3515
+Reader 186 beginning work, num_records 3515
+Reader 190 beginning work, num_records 3515
+Reader 192 beginning work, num_records 3515
+Reader 196 beginning work, num_records 3515
+Reader 200 beginning work, num_records 3515
+Reader 204 beginning work, num_records 3515
+Reader 130 beginning work, num_records 3516
+Reader 206 beginning work, num_records 3515
+Reader 152 beginning work, num_records 3516
+Reader 142 beginning work, num_records 3516
+Reader 216 beginning work, num_records 3515
+Reader 156 beginning work, num_records 3516
+Reader 158 beginning work, num_records 3516
+Reader 220 beginning work, num_records 3515
+Reader 160 beginning work, num_records 3515
+Reader 134 beginning work, num_records 3516
+Reader 228 beginning work, num_records 3515
+Reader 138 beginning work, num_records 3516
+Reader 168 beginning work, num_records 3515
+Reader 232 beginning work, num_records 3515
+Reader 146 beginning work, num_records 3516
+Reader 236 beginning work, num_records 3515
+Reader 238 beginning work, num_records 3515
+Reader 154 beginning work, num_records 3516
+Reader 174 beginning work, num_records 3515
+Reader 242 beginning work, num_records 3515
+Reader 150 beginning work, num_records 3516
+Reader 252 beginning work, num_records 3515
+Reader 188 beginning work, num_records 3515
+Reader 254 beginning work, num_records 3515
+Reader 194 beginning work, num_records 3515
+Reader 198 beginning work, num_records 3515
+Reader 202 beginning work, num_records 3515
+Reader 208 beginning work, num_records 3515
+Reader 210 beginning work, num_records 3515
+Reader 212 beginning work, num_records 3515
+Reader 214 beginning work, num_records 3515
+Reader 218 beginning work, num_records 3515
+Reader 222 beginning work, num_records 3515
+Reader 224 beginning work, num_records 3515
+Reader 226 beginning work, num_records 3515
+Reader 248 beginning work, num_records 3515
+Reader 230 beginning work, num_records 3515
+Reader 234 beginning work, num_records 3515
+Reader 240 beginning work, num_records 3515
+Reader 244 beginning work, num_records 3515
+Reader 246 beginning work, num_records 3515
+Reader 250 beginning work, num_records 3515
+Validators all done!
+Filters all done!
+Transformers all done!
+Writers all done!
+Total time spend from creation of readers: 24.971897
+[Partition 0][Node 0] End of program

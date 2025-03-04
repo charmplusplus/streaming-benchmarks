@@ -1,0 +1,13 @@
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 70.38278529937051,
+        "height_m": 1.787721781234249,
+        "steps": 4968,
+        "weight_kg": 99.09087836246287,
+        "weight_lb": 218.45773225545287
+    },
+    "name": "Katinka Dodson",
+    "pi": 3.141592601506254
+}

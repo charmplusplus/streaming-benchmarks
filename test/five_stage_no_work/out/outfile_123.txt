@@ -1,0 +1,26 @@
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 66.40394826737418,
+        "height_m": 1.6866593751952415,
+        "steps": 12054,
+        "weight_kg": 88.9360974413261,
+        "weight_lb": 196.0702991410963
+    },
+    "name": "Wilone Pate",
+    "pi": 3.1415926018285094
+}
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 75.20571005530618,
+        "height_m": 1.910224003883815,
+        "steps": 6996,
+        "weight_kg": 68.97893736724535,
+        "weight_lb": 152.07234489857643
+    },
+    "name": "Lyda Jiang",
+    "pi": 3.1415927263666874
+}

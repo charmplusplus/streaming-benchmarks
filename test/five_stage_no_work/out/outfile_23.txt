@@ -1,0 +1,26 @@
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 68.70285318473181,
+        "height_m": 1.7450515285643626,
+        "steps": 8727,
+        "weight_kg": 62.86257384712955,
+        "weight_lb": 138.58808755485873
+    },
+    "name": "Reggie Bryant",
+    "pi": 3.141592553838986
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 78.60664694909593,
+        "height_m": 1.9966077543388492,
+        "steps": 7698,
+        "weight_kg": 97.11110421788713,
+        "weight_lb": 214.0930825808383
+    },
+    "name": "Myrtice Brown",
+    "pi": 3.1415927183467054
+}

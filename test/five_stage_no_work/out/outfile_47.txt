@@ -1,0 +1,130 @@
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 62.682198534125085,
+        "height_m": 1.5921269830182063,
+        "steps": 6384,
+        "weight_kg": 88.35765292458653,
+        "weight_lb": 194.79504879060195
+    },
+    "name": "Brook Reid",
+    "pi": 3.1415925932807194
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 66.29798244884186,
+        "height_m": 1.6839678448579471,
+        "steps": 1050,
+        "weight_kg": 61.12219176502275,
+        "weight_lb": 134.75120640900445
+    },
+    "name": "Carlene Willis",
+    "pi": 3.141592589405731
+}
+{
+    "age": 56,
+    "biometrics": {
+        "heart_rate": 82,
+        "height_in": 78.5015746760607,
+        "height_m": 1.993938920044925,
+        "steps": 7324,
+        "weight_kg": 82.84699998034873,
+        "weight_lb": 182.6461530966764
+    },
+    "name": "Emmeline Fields",
+    "pi": 3.1415927212970582
+}
+{
+    "age": 70,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 67.94708531794572,
+        "height_m": 1.7258550351141024,
+        "steps": 14120,
+        "weight_kg": 96.37582331931307,
+        "weight_lb": 212.47206760622396
+    },
+    "name": "Nadeen Kidd",
+    "pi": 3.1415925791296804
+}
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 68.54270300085588,
+        "height_m": 1.7409837160905326,
+        "steps": 11458,
+        "weight_kg": 52.260170742175816,
+        "weight_lb": 115.21381762161563
+    },
+    "name": "Orsola Cheng",
+    "pi": 3.1415925838714145
+}
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 74.7371991576656,
+        "height_m": 1.898323833509836,
+        "steps": 5429,
+        "weight_kg": 97.77809804181473,
+        "weight_lb": 215.56355050494557
+    },
+    "name": "Edee Fletcher",
+    "pi": 3.141592711815896
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 63.94723922413849,
+        "height_m": 1.6242589991932581,
+        "steps": 14609,
+        "weight_kg": 83.80140532553085,
+        "weight_lb": 184.75025420877182
+    },
+    "name": "Patrizia Doyle",
+    "pi": 3.141592710522285
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 80,
+        "height_in": 59.08084405896627,
+        "height_m": 1.5006526287453237,
+        "steps": 6233,
+        "weight_kg": 55.35002728746595,
+        "weight_lb": 122.02577715849317
+    },
+    "name": "Doll Petty",
+    "pi": 3.141592706318532
+}
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 63.62438023376134,
+        "height_m": 1.61605838526601,
+        "steps": 2485,
+        "weight_kg": 81.70065179313794,
+        "weight_lb": 180.11889095618776
+    },
+    "name": "Meggie Ivey",
+    "pi": 3.1415925908250686
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 60,
+        "height_in": 68.0298210153863,
+        "height_m": 1.7279565206942908,
+        "steps": 7374,
+        "weight_kg": 56.52543500540783,
+        "weight_lb": 124.6171045216222
+    },
+    "name": "Karen Hendrix",
+    "pi": 3.14159260228908
+}

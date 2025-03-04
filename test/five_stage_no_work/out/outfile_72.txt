@@ -1,0 +1,26 @@
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 69.95111664633696,
+        "height_m": 1.7767574033679607,
+        "steps": 14471,
+        "weight_kg": 87.08512882094367,
+        "weight_lb": 191.9896167012288
+    },
+    "name": "Mariam Blake",
+    "pi": 3.14159272839483
+}
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 77.82628891486944,
+        "height_m": 1.9767866709728814,
+        "steps": 13643,
+        "weight_kg": 97.24736613248928,
+        "weight_lb": 214.39348832300848
+    },
+    "name": "Eliza Cooper",
+    "pi": 3.1415927062883515
+}

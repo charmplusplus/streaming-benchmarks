@@ -1,0 +1,143 @@
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 69.27414203161024,
+        "height_m": 1.759562257439281,
+        "steps": 8123,
+        "weight_kg": 60.70480920448339,
+        "weight_lb": 133.83103646838816
+    },
+    "name": "Sisely Davis",
+    "pi": 3.141592569002901
+}
+{
+    "age": 35,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 61.539137928291275,
+        "height_m": 1.5630932593082383,
+        "steps": 7788,
+        "weight_kg": 89.11100486884666,
+        "weight_lb": 196.45590355395672
+    },
+    "name": "Klarrisa Fitzpatrick",
+    "pi": 3.1415925590122877
+}
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 83,
+        "height_in": 76.67383203457202,
+        "height_m": 1.947514282020417,
+        "steps": 9820,
+        "weight_kg": 55.96913467972048,
+        "weight_lb": 123.39067369760537
+    },
+    "name": "Lucila Dougherty",
+    "pi": 3.1415927111447153
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 73.22500716490376,
+        "height_m": 1.8599141776348995,
+        "steps": 11908,
+        "weight_kg": 50.5361289168324,
+        "weight_lb": 111.41296053262704
+    },
+    "name": "Rosy Durham",
+    "pi": 3.141592725641559
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 71.41510090310042,
+        "height_m": 1.8139425834097556,
+        "steps": 6727,
+        "weight_kg": 54.3885946298508,
+        "weight_lb": 119.90618349286166
+    },
+    "name": "Clarie Barker",
+    "pi": 3.141592728573173
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 65.39037118384456,
+        "height_m": 1.6609145311758051,
+        "steps": 9669,
+        "weight_kg": 91.86732598056085,
+        "weight_lb": 202.53254420326405
+    },
+    "name": "Dorine Dillon",
+    "pi": 3.141592593011303
+}
+{
+    "age": 57,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 70.18832178521778,
+        "height_m": 1.7827824106420298,
+        "steps": 12846,
+        "weight_kg": 83.75804979433153,
+        "weight_lb": 184.65467173757915
+    },
+    "name": "Theda Fink",
+    "pi": 3.1415927055121586
+}
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 68.05713918208133,
+        "height_m": 1.7286504017536488,
+        "steps": 1453,
+        "weight_kg": 50.19294756122292,
+        "weight_lb": 110.65637605242327
+    },
+    "name": "Anica Freedman",
+    "pi": 3.1415925774378035
+}
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 60.328407581147985,
+        "height_m": 1.5323407250971672,
+        "steps": 7318,
+        "weight_kg": 82.77033326727285,
+        "weight_lb": 182.47713212769506
+    },
+    "name": "Laraine Decker",
+    "pi": 3.1415927423297596
+}
+{
+    "age": 56,
+    "biometrics": {
+        "heart_rate": 80,
+        "height_in": 60.55368955149237,
+        "height_m": 1.5380628840539488,
+        "steps": 5760,
+        "weight_kg": 88.11468353442456,
+        "weight_lb": 194.25939361366304
+    },
+    "name": "Idell McNeill",
+    "pi": 3.141592603116081
+}
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 72.14424892653767,
+        "height_m": 1.8324629332040727,
+        "steps": 1726,
+        "weight_kg": 93.91357903418097,
+        "weight_lb": 207.04375461033604
+    },
+    "name": "Valerie Douglas",
+    "pi": 3.141592586328947
+}

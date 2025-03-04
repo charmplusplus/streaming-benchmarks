@@ -1,0 +1,13 @@
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 73.0582958925448,
+        "height_m": 1.8556797136035925,
+        "steps": 11109,
+        "weight_kg": 85.95697295877693,
+        "weight_lb": 189.50246172437878
+    },
+    "name": "Kaitlynn McGuire",
+    "pi": 3.14159256798301
+}

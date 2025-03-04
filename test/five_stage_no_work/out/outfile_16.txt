@@ -1,0 +1,13 @@
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 72.15875603926371,
+        "height_m": 1.8328314136683346,
+        "steps": 7977,
+        "weight_kg": 58.6093258576786,
+        "weight_lb": 129.21129197235538
+    },
+    "name": "Norri Byrne",
+    "pi": 3.1415927086768103
+}

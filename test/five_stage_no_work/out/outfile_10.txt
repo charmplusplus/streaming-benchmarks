@@ -1,0 +1,52 @@
+{
+    "age": 56,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 76.63285384057882,
+        "height_m": 1.9464734364550462,
+        "steps": 6167,
+        "weight_kg": 84.31294783808164,
+        "weight_lb": 185.87801106279153
+    },
+    "name": "Petronille Parrott",
+    "pi": 3.1415925991790066
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 62.990739233595626,
+        "height_m": 1.599963912552816,
+        "steps": 3048,
+        "weight_kg": 53.11237732491485,
+        "weight_lb": 117.09260929805377
+    },
+    "name": "Jaquenette Holmes",
+    "pi": 3.141592736324204
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 60.138149333386544,
+        "height_m": 1.5275081682136074,
+        "steps": 12314,
+        "weight_kg": 53.891617648981935,
+        "weight_lb": 118.81053810129855
+    },
+    "name": "Marilin Dixon",
+    "pi": 3.1415927068983653
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 61.320660558320014,
+        "height_m": 1.5575439371076023,
+        "steps": 13816,
+        "weight_kg": 88.72347673829479,
+        "weight_lb": 195.60155128677945
+    },
+    "name": "Fredia McAllister",
+    "pi": 3.141592558986947
+}

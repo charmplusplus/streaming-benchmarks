@@ -1,0 +1,26 @@
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 74.12790937930045,
+        "height_m": 1.8828478814963752,
+        "steps": 9981,
+        "weight_kg": 66.11274130115459,
+        "weight_lb": 145.7534717273514
+    },
+    "name": "Timi Ford",
+    "pi": 3.141592586099622
+}
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 60.09746260737081,
+        "height_m": 1.5264747259308664,
+        "steps": 9811,
+        "weight_kg": 68.2733025925317,
+        "weight_lb": 150.51668836154724
+    },
+    "name": "Carlotta Blanton",
+    "pi": 3.1415927065137494
+}

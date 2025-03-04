@@ -1,0 +1,39 @@
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 73.90047476861828,
+        "height_m": 1.8770710455045398,
+        "steps": 13595,
+        "weight_kg": 89.60972653147519,
+        "weight_lb": 197.5553953058208
+    },
+    "name": "Lotty McNeill",
+    "pi": 3.1415925836586664
+}
+{
+    "age": 38,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 64.84590734693828,
+        "height_m": 1.6470851571862473,
+        "steps": 12264,
+        "weight_kg": 88.73406783001292,
+        "weight_lb": 195.62490061940306
+    },
+    "name": "Xenia Daniel",
+    "pi": 3.1415927299124036
+}
+{
+    "age": 26,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 69.95803356959931,
+        "height_m": 1.7769330931239522,
+        "steps": 4498,
+        "weight_kg": 53.363025365479075,
+        "weight_lb": 117.64519298124247
+    },
+    "name": "Doti Chappell",
+    "pi": 3.1415925892542895
+}

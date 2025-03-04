@@ -1,0 +1,52 @@
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 62.38465012294929,
+        "height_m": 1.5845692574555128,
+        "steps": 4222,
+        "weight_kg": 63.28768406698024,
+        "weight_lb": 139.52529404774597
+    },
+    "name": "Sandie Huffman",
+    "pi": 3.1415925672228866
+}
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 59.95205800713083,
+        "height_m": 1.5227814510791395,
+        "steps": 3729,
+        "weight_kg": 82.67567067962561,
+        "weight_lb": 182.2684370937162
+    },
+    "name": "Lena Tucker",
+    "pi": 3.141592705433645
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 67.07891596357413,
+        "height_m": 1.7038035454208684,
+        "steps": 2932,
+        "weight_kg": 68.6004044615953,
+        "weight_lb": 151.23782368412222
+    },
+    "name": "Ally Dickens",
+    "pi": 3.141592739048699
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 75.82108169231596,
+        "height_m": 1.9258544350234303,
+        "steps": 4401,
+        "weight_kg": 79.03371545705545,
+        "weight_lb": 174.23930977093357
+    },
+    "name": "Darla McMillan",
+    "pi": 3.1415927196146587
+}

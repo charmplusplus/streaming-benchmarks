@@ -1,0 +1,52 @@
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 52,
+        "height_in": 63.95593710643686,
+        "height_m": 1.6244799252843367,
+        "steps": 6868,
+        "weight_kg": 81.46319101849112,
+        "weight_lb": 179.59538018318588
+    },
+    "name": "Angelica Gorman",
+    "pi": 3.141592588346974
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 74.03992177487363,
+        "height_m": 1.8806129975507715,
+        "steps": 9150,
+        "weight_kg": 84.0583429220597,
+        "weight_lb": 185.31670397283122
+    },
+    "name": "Kanya Lassiter",
+    "pi": 3.1415927250779254
+}
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 72.65402899529414,
+        "height_m": 1.8454113399583476,
+        "steps": 7747,
+        "weight_kg": 86.38442905597383,
+        "weight_lb": 190.444839985381
+    },
+    "name": "Corella Davidson",
+    "pi": 3.141592579950255
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 72.80887581906029,
+        "height_m": 1.84934444715813,
+        "steps": 2247,
+        "weight_kg": 69.93069292902562,
+        "weight_lb": 154.17060424518846
+    },
+    "name": "Maurene O'Neal",
+    "pi": 3.141592728826028
+}

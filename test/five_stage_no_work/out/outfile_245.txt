@@ -1,0 +1,78 @@
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 72.86270722157253,
+        "height_m": 1.8507117640435897,
+        "steps": 5442,
+        "weight_kg": 65.9207851614308,
+        "weight_lb": 145.33028138259357
+    },
+    "name": "Yvette Christensen",
+    "pi": 3.1415927391857728
+}
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 63.937657741200795,
+        "height_m": 1.6240156296580601,
+        "steps": 14488,
+        "weight_kg": 95.54782966133092,
+        "weight_lb": 210.64665622796335
+    },
+    "name": "Benedikta Barton",
+    "pi": 3.141592571645898
+}
+{
+    "age": 68,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 66.48750673352427,
+        "height_m": 1.6887817590893666,
+        "steps": 11598,
+        "weight_kg": 77.57668915024647,
+        "weight_lb": 171.02712043441636
+    },
+    "name": "Sallie Lyons",
+    "pi": 3.14159259820243
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 74.74748199130454,
+        "height_m": 1.898585017343226,
+        "steps": 7937,
+        "weight_kg": 73.75158869623895,
+        "weight_lb": 162.5942274715023
+    },
+    "name": "Shae Hoffman",
+    "pi": 3.141592718933554
+}
+{
+    "age": 53,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 71.77437658426965,
+        "height_m": 1.8230681807836315,
+        "steps": 12681,
+        "weight_kg": 71.02678232844849,
+        "weight_lb": 156.5870648569441
+    },
+    "name": "Riannon Reddy",
+    "pi": 3.1415927071369234
+}
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 80,
+        "height_in": 78.43983447719432,
+        "height_m": 1.9923707198405471,
+        "steps": 9768,
+        "weight_kg": 84.21752797393827,
+        "weight_lb": 185.66764652190378
+    },
+    "name": "Kristina Proctor",
+    "pi": 3.14159259153406
+}

@@ -1,0 +1,130 @@
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 64.1023868537706,
+        "height_m": 1.6281997468579097,
+        "steps": 2154,
+        "weight_kg": 64.66905782133884,
+        "weight_lb": 142.57069825408
+    },
+    "name": "Deeyn Bender",
+    "pi": 3.1415925561772933
+}
+{
+    "age": 59,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 77.68208875488857,
+        "height_m": 1.9731239888872154,
+        "steps": 5193,
+        "weight_kg": 51.55059973371177,
+        "weight_lb": 113.64948318493563
+    },
+    "name": "Lacy Nichols",
+    "pi": 3.1415927096895984
+}
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 77.4439704559249,
+        "height_m": 1.9670757873595672,
+        "steps": 9148,
+        "weight_kg": 92.44505988338597,
+        "weight_lb": 203.80622792011036
+    },
+    "name": "Brier Fuller",
+    "pi": 3.141592584184999
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 64.37765129986127,
+        "height_m": 1.635191460013088,
+        "steps": 5476,
+        "weight_kg": 73.7462073516778,
+        "weight_lb": 162.5823636516559
+    },
+    "name": "Charisse Diaz",
+    "pi": 3.141592709975525
+}
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 67.83117992310602,
+        "height_m": 1.7229110396749316,
+        "steps": 12525,
+        "weight_kg": 85.56616827087228,
+        "weight_lb": 188.64088589333042
+    },
+    "name": "Marcelle Joseph",
+    "pi": 3.1415925919333643
+}
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 74.2122373582394,
+        "height_m": 1.884989811004783,
+        "steps": 5883,
+        "weight_kg": 88.08589490255554,
+        "weight_lb": 194.19592562007196
+    },
+    "name": "Fancy Kang",
+    "pi": 3.1415927192533917
+}
+{
+    "age": 57,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 62.41612994843534,
+        "height_m": 1.5853688445910816,
+        "steps": 1831,
+        "weight_kg": 91.675435929016,
+        "weight_lb": 202.10949955782723
+    },
+    "name": "Faustina Hinton",
+    "pi": 3.1415925883105764
+}
+{
+    "age": 53,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 77.03911212451902,
+        "height_m": 1.9567923912948917,
+        "steps": 7441,
+        "weight_kg": 96.36562504185062,
+        "weight_lb": 212.4495842797647
+    },
+    "name": "Phillida Carlton",
+    "pi": 3.141592585476009
+}
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 83,
+        "height_in": 64.50090425171194,
+        "height_m": 1.6383220832995582,
+        "steps": 11212,
+        "weight_kg": 75.59154788022971,
+        "weight_lb": 166.650638287712
+    },
+    "name": "Rhoda Hull",
+    "pi": 3.1415927321188684
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 80,
+        "height_in": 60.32015053887432,
+        "height_m": 1.5321309963366698,
+        "steps": 4801,
+        "weight_kg": 58.902578852220174,
+        "weight_lb": 129.85780338918164
+    },
+    "name": "Cherlyn King",
+    "pi": 3.1415925825826134
+}

@@ -1,0 +1,39 @@
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 80,
+        "height_in": 74.80649125180722,
+        "height_m": 1.9000838517506233,
+        "steps": 13020,
+        "weight_kg": 88.65969330406426,
+        "weight_lb": 195.46093305200614
+    },
+    "name": "Bidget Roach",
+    "pi": 3.1415925950780634
+}
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 62.352292154681194,
+        "height_m": 1.583747365505325,
+        "steps": 10396,
+        "weight_kg": 94.94963279817304,
+        "weight_lb": 209.32785945950823
+    },
+    "name": "Karissa Sutherland",
+    "pi": 3.141592730367121
+}
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 64.83456577308439,
+        "height_m": 1.6467970813659196,
+        "steps": 14741,
+        "weight_kg": 97.33117536036438,
+        "weight_lb": 214.5782558229665
+    },
+    "name": "Caryl Barnett",
+    "pi": 3.1415925926417545
+}

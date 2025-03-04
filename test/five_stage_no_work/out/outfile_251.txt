@@ -1,0 +1,78 @@
+{
+    "age": 59,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 69.4695351440525,
+        "height_m": 1.764525239815304,
+        "steps": 12401,
+        "weight_kg": 50.666763728884554,
+        "weight_lb": 111.70096065197346
+    },
+    "name": "Sherri Singer",
+    "pi": 3.1415925679584222
+}
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 74.99674092324265,
+        "height_m": 1.9049161907956202,
+        "steps": 14438,
+        "weight_kg": 60.9554901670441,
+        "weight_lb": 134.38369273206874
+    },
+    "name": "Mary Arnold",
+    "pi": 3.1415925658684056
+}
+{
+    "age": 59,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 62.71006609557517,
+        "height_m": 1.5928348186968073,
+        "steps": 13350,
+        "weight_kg": 61.45346256321824,
+        "weight_lb": 135.48153263612218
+    },
+    "name": "Amalie Hewitt",
+    "pi": 3.141592708202842
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 66.62822531701657,
+        "height_m": 1.6923560091799759,
+        "steps": 11450,
+        "weight_kg": 83.66062436475278,
+        "weight_lb": 184.43988568702125
+    },
+    "name": "Viola Henry",
+    "pi": 3.141592733740566
+}
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 66.68408613278292,
+        "height_m": 1.6937748731342546,
+        "steps": 11069,
+        "weight_kg": 51.70620676562004,
+        "weight_lb": 113.99253755962124
+    },
+    "name": "Sibelle Harper",
+    "pi": 3.141592588725792
+}
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 78.29470275335498,
+        "height_m": 1.9886843760456534,
+        "steps": 13422,
+        "weight_kg": 75.3292426364504,
+        "weight_lb": 166.07235490117128
+    },
+    "name": "Bili Strauss",
+    "pi": 3.141592598145357
+}

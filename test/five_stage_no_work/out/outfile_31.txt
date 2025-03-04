@@ -1,0 +1,13 @@
+{
+    "age": 70,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 75.61062263295742,
+        "height_m": 1.9205087778023782,
+        "steps": 3002,
+        "weight_kg": 82.62531929138608,
+        "weight_lb": 182.15743141617557
+    },
+    "name": "Isabelita Cochran",
+    "pi": 3.141592580302997
+}

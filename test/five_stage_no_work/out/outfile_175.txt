@@ -1,0 +1,13 @@
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 69.41241605853953,
+        "height_m": 1.7630744158267195,
+        "steps": 2609,
+        "weight_kg": 60.878199202779,
+        "weight_lb": 134.21329552643064
+    },
+    "name": "Elle Doyle",
+    "pi": 3.141592560952654
+}

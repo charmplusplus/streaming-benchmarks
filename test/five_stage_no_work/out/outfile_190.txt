@@ -1,0 +1,26 @@
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 60,
+        "height_in": 63.04577788642762,
+        "height_m": 1.601361893579839,
+        "steps": 12622,
+        "weight_kg": 68.54972124824558,
+        "weight_lb": 151.12608645830716
+    },
+    "name": "Kala Moore",
+    "pi": 3.141592600282002
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 62.950985027210024,
+        "height_m": 1.5989541562558902,
+        "steps": 1354,
+        "weight_kg": 71.61573785146173,
+        "weight_lb": 157.88548798208956
+    },
+    "name": "Kristy Sanchez",
+    "pi": 3.141592732100236
+}

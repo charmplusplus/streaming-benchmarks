@@ -1,0 +1,39 @@
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 59.49456714832227,
+        "height_m": 1.5111611895403432,
+        "steps": 8224,
+        "weight_kg": 65.50874877283054,
+        "weight_lb": 144.42189771955765
+    },
+    "name": "Danella Pearson",
+    "pi": 3.141592599859569
+}
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 65.54076429240487,
+        "height_m": 1.6647345140704461,
+        "steps": 3904,
+        "weight_kg": 83.53897950035025,
+        "weight_lb": 184.17170498606217
+    },
+    "name": "Iona Pope",
+    "pi": 3.1415925742453936
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 59.11869815131848,
+        "height_m": 1.5016141221718635,
+        "steps": 14197,
+        "weight_kg": 71.67969839633737,
+        "weight_lb": 158.02649667853328
+    },
+    "name": "Lane Campbell",
+    "pi": 3.1415925890114065
+}

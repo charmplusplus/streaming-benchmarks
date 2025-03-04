@@ -1,0 +1,52 @@
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 63.36867771182598,
+        "height_m": 1.6095635447160657,
+        "steps": 6973,
+        "weight_kg": 91.16855635477214,
+        "weight_lb": 200.99202271085773
+    },
+    "name": "Constance Everett",
+    "pi": 3.141592603454429
+}
+{
+    "age": 68,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 69.79512580794434,
+        "height_m": 1.7727952382123577,
+        "steps": 2164,
+        "weight_kg": 54.04118843664069,
+        "weight_lb": 119.14028485118678
+    },
+    "name": "Rahel Abbott",
+    "pi": 3.141592592547623
+}
+{
+    "age": 56,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 65.71786199941572,
+        "height_m": 1.6692327933994509,
+        "steps": 14263,
+        "weight_kg": 76.18033446823675,
+        "weight_lb": 167.9486889753641
+    },
+    "name": "Audie McKay",
+    "pi": 3.141592579351884
+}
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 75.75084337345245,
+        "height_m": 1.9240703826876857,
+        "steps": 7641,
+        "weight_kg": 91.90474934394713,
+        "weight_lb": 202.6150484986527
+    },
+    "name": "Philippine Warner",
+    "pi": 3.141592600415242
+}

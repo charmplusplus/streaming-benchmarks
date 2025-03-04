@@ -1,0 +1,26 @@
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 62.23257852483796,
+        "height_m": 1.580706640949298,
+        "steps": 14095,
+        "weight_kg": 63.68748605367365,
+        "weight_lb": 140.40670550365
+    },
+    "name": "Georgeta Whitley",
+    "pi": 3.141592739687317
+}
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 66.49729820069051,
+        "height_m": 1.6890304622210892,
+        "steps": 12439,
+        "weight_kg": 86.97527988331876,
+        "weight_lb": 191.7474415363622
+    },
+    "name": "Kari Lim",
+    "pi": 3.141592730134959
+}

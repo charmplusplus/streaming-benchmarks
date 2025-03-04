@@ -1,0 +1,13 @@
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 89,
+        "height_in": 76.91631141268893,
+        "height_m": 1.9536732548987412,
+        "steps": 4065,
+        "weight_kg": 56.17067033954247,
+        "weight_lb": 123.8349832439621
+    },
+    "name": "Laure Holden",
+    "pi": 3.1415927488494244
+}

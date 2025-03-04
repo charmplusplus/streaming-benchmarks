@@ -1,0 +1,26 @@
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 82,
+        "height_in": 68.0324642748624,
+        "height_m": 1.728023659448729,
+        "steps": 14936,
+        "weight_kg": 86.2064625380369,
+        "weight_lb": 190.0524914406069
+    },
+    "name": "Brenna Carter",
+    "pi": 3.1415926027938488
+}
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 71.58820969452502,
+        "height_m": 1.8183395443375816,
+        "steps": 8545,
+        "weight_kg": 78.35766417072534,
+        "weight_lb": 172.74887358406448
+    },
+    "name": "Farica Lang",
+    "pi": 3.1415927231633503
+}

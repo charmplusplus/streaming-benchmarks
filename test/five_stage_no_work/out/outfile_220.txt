@@ -1,0 +1,65 @@
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 65.57588188840009,
+        "height_m": 1.665626500527052,
+        "steps": 12207,
+        "weight_kg": 88.93976027448866,
+        "weight_lb": 196.07837429634318
+    },
+    "name": "Karena Parker",
+    "pi": 3.141592566180641
+}
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 71.27418011299918,
+        "height_m": 1.8103631972740524,
+        "steps": 2850,
+        "weight_kg": 96.71094018127738,
+        "weight_lb": 213.2108729424477
+    },
+    "name": "Adorne Goodman",
+    "pi": 3.1415925829943903
+}
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 63.03320564678751,
+        "height_m": 1.601042558865421,
+        "steps": 9538,
+        "weight_kg": 83.9775799623298,
+        "weight_lb": 185.1386523365515
+    },
+    "name": "Valera Xu",
+    "pi": 3.141592710742313
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 77.95320150494196,
+        "height_m": 1.9800102490199913,
+        "steps": 9055,
+        "weight_kg": 94.14528029607581,
+        "weight_lb": 207.55456784633463
+    },
+    "name": "Gerhardine Holland",
+    "pi": 3.141592601819107
+}
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 59.94597764640669,
+        "height_m": 1.5226270100001444,
+        "steps": 14554,
+        "weight_kg": 73.67313436481578,
+        "weight_lb": 162.42126548336014
+    },
+    "name": "Nydia Ross",
+    "pi": 3.1415925980284807
+}

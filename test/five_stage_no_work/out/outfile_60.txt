@@ -1,0 +1,13 @@
+{
+    "age": 57,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 59.541772983410695,
+        "height_m": 1.5123602171041144,
+        "steps": 5977,
+        "weight_kg": 69.30263456872783,
+        "weight_lb": 152.78597422290872
+    },
+    "name": "Lynda Stephenson",
+    "pi": 3.1415927126522294
+}

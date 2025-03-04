@@ -1,0 +1,78 @@
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 68.8113986286606,
+        "height_m": 1.747808581351345,
+        "steps": 7914,
+        "weight_kg": 90.51190105667419,
+        "weight_lb": 199.54434730756503
+    },
+    "name": "Coriss Marsh",
+    "pi": 3.1415927241651054
+}
+{
+    "age": 70,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 70.94835583849449,
+        "height_m": 1.802087265170637,
+        "steps": 7508,
+        "weight_kg": 70.0520436692623,
+        "weight_lb": 154.43813651412904
+    },
+    "name": "Eveline Ford",
+    "pi": 3.141592583403308
+}
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 73.239028033506,
+        "height_m": 1.8602703075050864,
+        "steps": 3287,
+        "weight_kg": 71.93865756365598,
+        "weight_lb": 158.59740323798724
+    },
+    "name": "Jobey Rowland",
+    "pi": 3.1415927138502164
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 70.67864639872859,
+        "height_m": 1.7952366490999156,
+        "steps": 12939,
+        "weight_kg": 58.9927664161201,
+        "weight_lb": 130.05663269630668
+    },
+    "name": "Arline Henderson",
+    "pi": 3.141592591478521
+}
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 66.6259282144572,
+        "height_m": 1.692297662806475,
+        "steps": 13748,
+        "weight_kg": 55.64097850675893,
+        "weight_lb": 122.66721403557085
+    },
+    "name": "Tiffie Callahan",
+    "pi": 3.1415927195862845
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 76.15969328984184,
+        "height_m": 1.9344551649561936,
+        "steps": 8032,
+        "weight_kg": 52.88290198940851,
+        "weight_lb": 116.58670338388978
+    },
+    "name": "Karyl Burton",
+    "pi": 3.14159257508732
+}

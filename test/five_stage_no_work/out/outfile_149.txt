@@ -1,0 +1,39 @@
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 62.26577595990169,
+        "height_m": 1.581549855344581,
+        "steps": 5840,
+        "weight_kg": 55.1828972242164,
+        "weight_lb": 121.65731887845195
+    },
+    "name": "Noami Lowry",
+    "pi": 3.1415927197745996
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 59.876773601424695,
+        "height_m": 1.520869228206804,
+        "steps": 9653,
+        "weight_kg": 97.90017995254061,
+        "weight_lb": 215.83269472697006
+    },
+    "name": "Kalila McIntyre",
+    "pi": 3.141592705191001
+}
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 64.58542576293598,
+        "height_m": 1.6404689285253524,
+        "steps": 1164,
+        "weight_kg": 51.31319994162223,
+        "weight_lb": 113.12610685529918
+    },
+    "name": "Emmey Mullen",
+    "pi": 3.1415925692079507
+}

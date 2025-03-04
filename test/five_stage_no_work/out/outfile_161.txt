@@ -1,0 +1,65 @@
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 60.27002501233092,
+        "height_m": 1.5308578086499887,
+        "steps": 11795,
+        "weight_kg": 93.94608276128551,
+        "weight_lb": 207.11541297718523
+    },
+    "name": "Shirlee Simmons",
+    "pi": 3.1415927053844324
+}
+{
+    "age": 53,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 74.49611302241952,
+        "height_m": 1.8922002489813212,
+        "steps": 4029,
+        "weight_kg": 82.34757182749746,
+        "weight_lb": 181.54510380233742
+    },
+    "name": "Nedi Nichols",
+    "pi": 3.1415927265948698
+}
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 62.567352225343605,
+        "height_m": 1.5892098883503878,
+        "steps": 11739,
+        "weight_kg": 99.37171117021202,
+        "weight_lb": 219.0768618800728
+    },
+    "name": "Sashenka Goldman",
+    "pi": 3.141592564949326
+}
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 65.57364806101592,
+        "height_m": 1.665569761342133,
+        "steps": 1159,
+        "weight_kg": 72.20452522332938,
+        "weight_lb": 159.1835403978564
+    },
+    "name": "Trudi White",
+    "pi": 3.14159270500273
+}
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 89,
+        "height_in": 71.59775223241718,
+        "height_m": 1.818581924669157,
+        "steps": 1641,
+        "weight_kg": 60.195627661213294,
+        "weight_lb": 132.70848465446403
+    },
+    "name": "Eba Swanson",
+    "pi": 3.1415927452674923
+}

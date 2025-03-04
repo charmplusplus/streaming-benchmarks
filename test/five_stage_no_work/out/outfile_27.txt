@@ -1,0 +1,39 @@
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 74.27954378472913,
+        "height_m": 1.8866993933144474,
+        "steps": 9179,
+        "weight_kg": 53.6862642144054,
+        "weight_lb": 118.35781181236241
+    },
+    "name": "Arly Hanna",
+    "pi": 3.14159258726872
+}
+{
+    "age": 40,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 64.87413140826501,
+        "height_m": 1.6478020479568256,
+        "steps": 9443,
+        "weight_kg": 92.59921870321897,
+        "weight_lb": 204.14608953749058
+    },
+    "name": "Jocelyne Stark",
+    "pi": 3.141592744579755
+}
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 61.313689665263006,
+        "height_m": 1.557366876519567,
+        "steps": 2132,
+        "weight_kg": 64.773385847452,
+        "weight_lb": 142.80070190700962
+    },
+    "name": "Adel Clark",
+    "pi": 3.141592738057922
+}

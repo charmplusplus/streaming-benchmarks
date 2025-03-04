@@ -1,0 +1,78 @@
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 64.48008620818334,
+        "height_m": 1.637793305279472,
+        "steps": 3875,
+        "weight_kg": 84.85681691768549,
+        "weight_lb": 187.07703571306777
+    },
+    "name": "Kay Hamilton",
+    "pi": 3.141592735496992
+}
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 71.20949860617617,
+        "height_m": 1.8087202878879192,
+        "steps": 5071,
+        "weight_kg": 66.90566004100475,
+        "weight_lb": 147.5015562395999
+    },
+    "name": "Chrysler Nance",
+    "pi": 3.141592729455428
+}
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 70.82636471672814,
+        "height_m": 1.7989886923510008,
+        "steps": 13843,
+        "weight_kg": 60.271428004917155,
+        "weight_lb": 132.87559560820046
+    },
+    "name": "Reggi McNamara",
+    "pi": 3.1415927290694476
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 68.26415426019423,
+        "height_m": 1.733908581898299,
+        "steps": 13747,
+        "weight_kg": 68.12455502149697,
+        "weight_lb": 150.18875649149265
+    },
+    "name": "Betsy Lester",
+    "pi": 3.141592710561283
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 69.53972110929352,
+        "height_m": 1.7663079623697557,
+        "steps": 13444,
+        "weight_kg": 84.16749161833923,
+        "weight_lb": 185.557335371623
+    },
+    "name": "Avis Newman",
+    "pi": 3.141592600435831
+}
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 79,
+        "height_in": 61.58604898000299,
+        "height_m": 1.5642847993782842,
+        "steps": 10610,
+        "weight_kg": 99.61184192953891,
+        "weight_lb": 219.60625895470005
+    },
+    "name": "Pearle Bridges",
+    "pi": 3.1415927074020358
+}

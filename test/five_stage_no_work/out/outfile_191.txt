@@ -1,0 +1,39 @@
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 73.27207519096821,
+        "height_m": 1.8611097048513519,
+        "steps": 10879,
+        "weight_kg": 72.05203631394596,
+        "weight_lb": 158.84736029845152
+    },
+    "name": "Karoly Proctor",
+    "pi": 3.1415927308299674
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 67.38408473042148,
+        "height_m": 1.7115548279130983,
+        "steps": 10519,
+        "weight_kg": 58.34130710763706,
+        "weight_lb": 128.6204124756388
+    },
+    "name": "Saloma Malone",
+    "pi": 3.1415927132803465
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 59.43103316180714,
+        "height_m": 1.5095474271542908,
+        "steps": 5827,
+        "weight_kg": 56.705654431243005,
+        "weight_lb": 125.01441987220694
+    },
+    "name": "Henriette Leach",
+    "pi": 3.1415927330531304
+}

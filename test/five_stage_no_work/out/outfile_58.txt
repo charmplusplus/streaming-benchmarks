@@ -1,0 +1,13 @@
+{
+    "age": 26,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 63.90519791011495,
+        "height_m": 1.6231911503936984,
+        "steps": 8060,
+        "weight_kg": 89.27916660860392,
+        "weight_lb": 196.82663628866035
+    },
+    "name": "Crystal Blanchard",
+    "pi": 3.1415927342895564
+}

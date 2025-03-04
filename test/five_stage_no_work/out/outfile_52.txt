@@ -1,0 +1,65 @@
+{
+    "age": 62,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 70.90638945852723,
+        "height_m": 1.801021319695079,
+        "steps": 1815,
+        "weight_kg": 95.50604495642807,
+        "weight_lb": 210.55453683184044
+    },
+    "name": "Albina Knox",
+    "pi": 3.1415925946948886
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 71.74327886092739,
+        "height_m": 1.8222782990372741,
+        "steps": 14359,
+        "weight_kg": 88.23936916654985,
+        "weight_lb": 194.53427805195912
+    },
+    "name": "Letitia Upchurch",
+    "pi": 3.141592588773634
+}
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 89,
+        "height_in": 63.267143128977885,
+        "height_m": 1.6069845677043717,
+        "steps": 11891,
+        "weight_kg": 72.01539364784425,
+        "weight_lb": 158.76657714391038
+    },
+    "name": "Rhianna Garrison",
+    "pi": 3.1415927415115212
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 77.10372738626813,
+        "height_m": 1.958433618057057,
+        "steps": 2115,
+        "weight_kg": 68.13330418162934,
+        "weight_lb": 150.20804506490367
+    },
+    "name": "Robinett Lamm",
+    "pi": 3.141592579358938
+}
+{
+    "age": 56,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 66.4764886657658,
+        "height_m": 1.688501900319425,
+        "steps": 4360,
+        "weight_kg": 75.09206791656487,
+        "weight_lb": 165.54947477021724
+    },
+    "name": "Tresa Brewer",
+    "pi": 3.1415927206194914
+}

@@ -1,0 +1,65 @@
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 72.08652137350313,
+        "height_m": 1.830996654148786,
+        "steps": 11138,
+        "weight_kg": 93.1461527065328,
+        "weight_lb": 205.35187117987633
+    },
+    "name": "Delores Stewart",
+    "pi": 3.141592704107992
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 62.996437212197726,
+        "height_m": 1.600108641131156,
+        "steps": 3247,
+        "weight_kg": 76.34729171751718,
+        "weight_lb": 168.3167662662727
+    },
+    "name": "Lyndsey Murphy",
+    "pi": 3.141592719266356
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 79,
+        "height_in": 63.44369640696308,
+        "height_m": 1.611469018543592,
+        "steps": 14829,
+        "weight_kg": 96.85244647475743,
+        "weight_lb": 213.5228405471797
+    },
+    "name": "Zsazsa Cox",
+    "pi": 3.141592589149643
+}
+{
+    "age": 67,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 72.69101663863786,
+        "height_m": 1.8463508255919558,
+        "steps": 8517,
+        "weight_kg": 59.516689496293324,
+        "weight_lb": 131.21168399731818
+    },
+    "name": "Elyssa Hendrix",
+    "pi": 3.1415925789021526
+}
+{
+    "age": 53,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 65.21247798988303,
+        "height_m": 1.6563960464891636,
+        "steps": 2039,
+        "weight_kg": 92.42590526252658,
+        "weight_lb": 203.76399925987133
+    },
+    "name": "Nerti Herndon",
+    "pi": 3.141592753417056
+}

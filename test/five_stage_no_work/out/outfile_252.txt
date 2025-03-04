@@ -1,0 +1,26 @@
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 61.95708013500614,
+        "height_m": 1.5737089856263036,
+        "steps": 3495,
+        "weight_kg": 82.1185141874695,
+        "weight_lb": 181.040118747979
+    },
+    "name": "Nanice Hall",
+    "pi": 3.1415926027136423
+}
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 79,
+        "height_in": 71.34540974756415,
+        "height_m": 1.8121724290150176,
+        "steps": 5428,
+        "weight_kg": 55.192603077226885,
+        "weight_lb": 121.67871659611592
+    },
+    "name": "Wenona Teague",
+    "pi": 3.141592721671314
+}

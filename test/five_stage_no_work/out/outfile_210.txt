@@ -1,0 +1,52 @@
+{
+    "age": 62,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 78.49640358855383,
+        "height_m": 1.9938075744931771,
+        "steps": 1917,
+        "weight_kg": 84.18305010617821,
+        "weight_lb": 185.59163592508258
+    },
+    "name": "Denna Ferguson",
+    "pi": 3.141592750621051
+}
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 72.51058083310967,
+        "height_m": 1.8417677586063959,
+        "steps": 10386,
+        "weight_kg": 87.88318369638785,
+        "weight_lb": 193.74902444073055
+    },
+    "name": "Ivonne McKinney",
+    "pi": 3.141592601281693
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 59.629561349598646,
+        "height_m": 1.5145900404011838,
+        "steps": 9522,
+        "weight_kg": 99.18486362864257,
+        "weight_lb": 218.66493405297797
+    },
+    "name": "Vonny Gallagher",
+    "pi": 3.141592598158662
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 69.80299979826846,
+        "height_m": 1.7729952374585904,
+        "steps": 7375,
+        "weight_kg": 78.54120126190051,
+        "weight_lb": 173.1535031260111
+    },
+    "name": "Arliene Wright",
+    "pi": 3.141592570677077
+}

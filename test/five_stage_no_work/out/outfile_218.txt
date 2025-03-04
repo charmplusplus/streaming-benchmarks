@@ -1,0 +1,39 @@
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 70.02923219778744,
+        "height_m": 1.7787415373033706,
+        "steps": 4796,
+        "weight_kg": 70.61346573204713,
+        "weight_lb": 155.67585882218575
+    },
+    "name": "Sandra Cowan",
+    "pi": 3.141592705530409
+}
+{
+    "age": 53,
+    "biometrics": {
+        "heart_rate": 83,
+        "height_in": 75.05841793411598,
+        "height_m": 1.9064827860258413,
+        "steps": 12832,
+        "weight_kg": 73.82750087022337,
+        "weight_lb": 162.76158496851184
+    },
+    "name": "Alecia Sherman",
+    "pi": 3.141592562851245
+}
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 66.01190447005546,
+        "height_m": 1.6767014681206156,
+        "steps": 4996,
+        "weight_kg": 92.49368789739356,
+        "weight_lb": 203.91343421235177
+    },
+    "name": "Beatriz Kirk",
+    "pi": 3.141592714121004
+}

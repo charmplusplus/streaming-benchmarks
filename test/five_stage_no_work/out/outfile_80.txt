@@ -1,0 +1,26 @@
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 76.45803350959252,
+        "height_m": 1.9420330024458288,
+        "steps": 13977,
+        "weight_kg": 54.08669774347992,
+        "weight_lb": 119.24061557923068
+    },
+    "name": "Martelle Stout",
+    "pi": 3.1415925929973376
+}
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 68.28960075124995,
+        "height_m": 1.7345549224220906,
+        "steps": 1663,
+        "weight_kg": 63.04305036052739,
+        "weight_lb": 138.98596968582586
+    },
+    "name": "Ursa Newman",
+    "pi": 3.14159255476422
+}

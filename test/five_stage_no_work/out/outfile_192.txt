@@ -1,0 +1,52 @@
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 76.44781021679628,
+        "height_m": 1.9417733309490268,
+        "steps": 11914,
+        "weight_kg": 75.92096261852853,
+        "weight_lb": 167.37687260806035
+    },
+    "name": "Chrissy Beatty",
+    "pi": 3.141592598273059
+}
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 71.26396630397919,
+        "height_m": 1.8101037666650375,
+        "steps": 4923,
+        "weight_kg": 56.0396218812705,
+        "weight_lb": 123.54607119188655
+    },
+    "name": "Ulla Watkins",
+    "pi": 3.1415927179272143
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 66.73169389862636,
+        "height_m": 1.6949841097336904,
+        "steps": 7393,
+        "weight_kg": 97.86509655452625,
+        "weight_lb": 215.75534916603962
+    },
+    "name": "Rebeka McDowell",
+    "pi": 3.1415925939937472
+}
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 65.390794922657,
+        "height_m": 1.6609252941358288,
+        "steps": 11591,
+        "weight_kg": 95.02075523529653,
+        "weight_lb": 209.48465740683943
+    },
+    "name": "Tommie Morse",
+    "pi": 3.1415927252499563
+}

@@ -1,0 +1,65 @@
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 72.10057660794776,
+        "height_m": 1.8313536569108981,
+        "steps": 1569,
+        "weight_kg": 88.8052111060976,
+        "weight_lb": 195.78174450872487
+    },
+    "name": "Olva Bolton",
+    "pi": 3.1415927130578156
+}
+{
+    "age": 67,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 65.38269475109755,
+        "height_m": 1.6607195498893208,
+        "steps": 9215,
+        "weight_kg": 62.83034838928905,
+        "weight_lb": 138.5170426659944
+    },
+    "name": "Chelsae Everett",
+    "pi": 3.1415926014855504
+}
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 82,
+        "height_in": 69.79495414635457,
+        "height_m": 1.7727908780103319,
+        "steps": 11598,
+        "weight_kg": 90.4640053619756,
+        "weight_lb": 199.4387555011186
+    },
+    "name": "Marjie Gay",
+    "pi": 3.141592582319536
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 75.96520162304496,
+        "height_m": 1.9295150792871993,
+        "steps": 8903,
+        "weight_kg": 85.24808157075094,
+        "weight_lb": 187.93962559250892
+    },
+    "name": "Jocelyne Griffin",
+    "pi": 3.141592730650242
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 61.73539349098727,
+        "height_m": 1.5680781479088768,
+        "steps": 6849,
+        "weight_kg": 82.41288451484911,
+        "weight_lb": 181.68909345912664
+    },
+    "name": "Ainsley Moon",
+    "pi": 3.1415927220018363
+}

@@ -1,0 +1,52 @@
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 60.60442236005081,
+        "height_m": 1.5393514966954824,
+        "steps": 12824,
+        "weight_kg": 57.04792216533686,
+        "weight_lb": 125.76899016414492
+    },
+    "name": "Marcela Frye",
+    "pi": 3.1415925957559856
+}
+{
+    "age": 70,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 71.42829228892056,
+        "height_m": 1.8142776444286541,
+        "steps": 8976,
+        "weight_kg": 58.143649386273886,
+        "weight_lb": 128.18465230996713
+    },
+    "name": "Anneliese Francis",
+    "pi": 3.1415925793669994
+}
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 71.0391961165264,
+        "height_m": 1.8043946069866827,
+        "steps": 8485,
+        "weight_kg": 62.96662491200192,
+        "weight_lb": 138.81748061349765
+    },
+    "name": "Daniela Higgins",
+    "pi": 3.1415925928148676
+}
+{
+    "age": 40,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 64.62051546620206,
+        "height_m": 1.641360206507021,
+        "steps": 11316,
+        "weight_kg": 85.01711412181609,
+        "weight_lb": 187.43043013523817
+    },
+    "name": "Robinett Allison",
+    "pi": 3.141592724325054
+}

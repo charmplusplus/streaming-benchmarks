@@ -1,0 +1,143 @@
+{
+    "age": 59,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 59.686245549737095,
+        "height_m": 1.5160298183072203,
+        "steps": 9557,
+        "weight_kg": 71.83971488309047,
+        "weight_lb": 158.37927222555888
+    },
+    "name": "Reeta Zhu",
+    "pi": 3.141592750496407
+}
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 60.904102885407305,
+        "height_m": 1.5469633779291214,
+        "steps": 10061,
+        "weight_kg": 73.55491929831219,
+        "weight_lb": 162.160646183445
+    },
+    "name": "Kore McDaniel",
+    "pi": 3.1415927284686695
+}
+{
+    "age": 62,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 63.296612111823784,
+        "height_m": 1.607733079464461,
+        "steps": 10312,
+        "weight_kg": 50.79594437463401,
+        "weight_lb": 111.98575488720563
+    },
+    "name": "Lynnell Glenn",
+    "pi": 3.1415925945661702
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 60.93596727196313,
+        "height_m": 1.5477727329105877,
+        "steps": 13184,
+        "weight_kg": 60.52456607323013,
+        "weight_lb": 133.4336688563646
+    },
+    "name": "Ketty Young",
+    "pi": 3.141592717383264
+}
+{
+    "age": 40,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 65.79210306273626,
+        "height_m": 1.6711185153895027,
+        "steps": 8515,
+        "weight_kg": 75.70237249224954,
+        "weight_lb": 166.89496444386316
+    },
+    "name": "Felice Kane",
+    "pi": 3.141592726551673
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 70.63883185238598,
+        "height_m": 1.7942253601689093,
+        "steps": 6682,
+        "weight_kg": 65.38892060890862,
+        "weight_lb": 144.1577221528121
+    },
+    "name": "Darrelle McLeod",
+    "pi": 3.141592740639579
+}
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 71.97275879462754,
+        "height_m": 1.828107086205713,
+        "steps": 12727,
+        "weight_kg": 90.97156045468836,
+        "weight_lb": 200.55772160961504
+    },
+    "name": "Eadie Snyder",
+    "pi": 3.1415925861384717
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 73.26566629136244,
+        "height_m": 1.8609469188892696,
+        "steps": 3234,
+        "weight_kg": 97.00418030839415,
+        "weight_lb": 213.85735599149191
+    },
+    "name": "Randee Solomon",
+    "pi": 3.141592588447154
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 67.1165522977933,
+        "height_m": 1.7047595077938156,
+        "steps": 1101,
+        "weight_kg": 96.41603777871309,
+        "weight_lb": 212.56072520770644
+    },
+    "name": "Robin Newell",
+    "pi": 3.1415927411600446
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 77.45153886135485,
+        "height_m": 1.9672680247536798,
+        "steps": 10716,
+        "weight_kg": 74.7069349458263,
+        "weight_lb": 164.70040292026758
+    },
+    "name": "Juliet Rankin",
+    "pi": 3.1415925682711943
+}
+{
+    "age": 68,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 71.30404875307028,
+        "height_m": 1.8111218603221804,
+        "steps": 13495,
+        "weight_kg": 53.67269325516943,
+        "weight_lb": 118.32789300421162
+    },
+    "name": "Honey Alford",
+    "pi": 3.1415925783340595
+}

@@ -1,0 +1,91 @@
+{
+    "age": 57,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 74.57671984013258,
+        "height_m": 1.8942476610456307,
+        "steps": 11777,
+        "weight_kg": 87.96495490400432,
+        "weight_lb": 193.92929888046598
+    },
+    "name": "Elianora Godfrey",
+    "pi": 3.1415925679124195
+}
+{
+    "age": 56,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 65.77389349568891,
+        "height_m": 1.6706559926362623,
+        "steps": 7520,
+        "weight_kg": 91.01915068608375,
+        "weight_lb": 200.66263998555394
+    },
+    "name": "Eirena Lindsay",
+    "pi": 3.14159260180048
+}
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 66.72264688609685,
+        "height_m": 1.6947543157395295,
+        "steps": 1605,
+        "weight_kg": 67.6882372422323,
+        "weight_lb": 149.22684158897016
+    },
+    "name": "Tandie Hu",
+    "pi": 3.141592730733676
+}
+{
+    "age": 70,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 69.82956719759018,
+        "height_m": 1.773670049036964,
+        "steps": 11006,
+        "weight_kg": 96.39334214671192,
+        "weight_lb": 212.510689963484
+    },
+    "name": "Lindsy Howell",
+    "pi": 3.141592572053714
+}
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 60.2819355739552,
+        "height_m": 1.5311603367518802,
+        "steps": 7202,
+        "weight_kg": 94.10271735153566,
+        "weight_lb": 207.46073272754253
+    },
+    "name": "Drusie Moran",
+    "pi": 3.141592711174221
+}
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 62.81569192946482,
+        "height_m": 1.5955177134288412,
+        "steps": 10403,
+        "weight_kg": 71.57719033267017,
+        "weight_lb": 157.80050535121129
+    },
+    "name": "Dalenna Logan",
+    "pi": 3.1415926015741267
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 80,
+        "height_in": 66.38360353917156,
+        "height_m": 1.6861426193779432,
+        "steps": 5052,
+        "weight_kg": 91.4600697762789,
+        "weight_lb": 201.63469903017997
+    },
+    "name": "Ettie Hahn",
+    "pi": 3.14159259995348
+}

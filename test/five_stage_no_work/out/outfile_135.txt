@@ -1,0 +1,117 @@
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 61.097916359680035,
+        "height_m": 1.5518862375173046,
+        "steps": 5025,
+        "weight_kg": 87.25535407828812,
+        "weight_lb": 192.36489870807554
+    },
+    "name": "Theo Fleming",
+    "pi": 3.141592581569133
+}
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 83,
+        "height_in": 73.01213451354786,
+        "height_m": 1.8545072152102193,
+        "steps": 5039,
+        "weight_kg": 88.18518841244693,
+        "weight_lb": 194.41483007784873
+    },
+    "name": "Rebeca Little",
+    "pi": 3.1415925990633577
+}
+{
+    "age": 70,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 73.64181379653171,
+        "height_m": 1.8705010603613328,
+        "steps": 3101,
+        "weight_kg": 61.79815001431016,
+        "weight_lb": 136.24143748454844
+    },
+    "name": "Kristina Jones",
+    "pi": 3.141592704219423
+}
+{
+    "age": 62,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 67.91166830739986,
+        "height_m": 1.7249554435320171,
+        "steps": 3884,
+        "weight_kg": 99.17966731715829,
+        "weight_lb": 218.65347816075348
+    },
+    "name": "Inna Simon",
+    "pi": 3.1415925895585044
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 61.71460528869189,
+        "height_m": 1.567550127855705,
+        "steps": 3393,
+        "weight_kg": 54.51653837353785,
+        "weight_lb": 120.188250829069
+    },
+    "name": "Myrna Baker",
+    "pi": 3.1415927206034486
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 82,
+        "height_in": 60.59844140866044,
+        "height_m": 1.5391995806122016,
+        "steps": 4942,
+        "weight_kg": 65.30503301285616,
+        "weight_lb": 143.97278188080293
+    },
+    "name": "Angy Fields",
+    "pi": 3.1415927290148984
+}
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 68.81096387187633,
+        "height_m": 1.747797538534988,
+        "steps": 5635,
+        "weight_kg": 92.01247943436724,
+        "weight_lb": 202.85255241059468
+    },
+    "name": "Brit Hatcher",
+    "pi": 3.1415926030083834
+}
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 52,
+        "height_in": 60.81288438882814,
+        "height_m": 1.544646429367163,
+        "steps": 13013,
+        "weight_kg": 94.31798258716367,
+        "weight_lb": 207.93531077131274
+    },
+    "name": "Petunia Hauser",
+    "pi": 3.141592561657133
+}
+{
+    "age": 68,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 62.1203778589785,
+        "height_m": 1.5778567455754113,
+        "steps": 7197,
+        "weight_kg": 60.5552928245586,
+        "weight_lb": 133.50140966687837
+    },
+    "name": "Arlinda Douglas",
+    "pi": 3.141592737887738
+}

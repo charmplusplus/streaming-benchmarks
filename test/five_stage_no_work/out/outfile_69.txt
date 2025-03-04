@@ -1,0 +1,26 @@
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 63.35904827751962,
+        "height_m": 1.6093189572167614,
+        "steps": 1299,
+        "weight_kg": 74.32809509395578,
+        "weight_lb": 163.86520500603677
+    },
+    "name": "Ilka Cheek",
+    "pi": 3.1415925836346306
+}
+{
+    "age": 28,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 78.30099459993288,
+        "height_m": 1.988844188862433,
+        "steps": 6505,
+        "weight_kg": 63.006455450335736,
+        "weight_lb": 138.90529181491917
+    },
+    "name": "Kandy Dickens",
+    "pi": 3.141592570554377
+}

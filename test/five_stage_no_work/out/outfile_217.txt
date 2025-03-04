@@ -1,0 +1,39 @@
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 65.68526771813765,
+        "height_m": 1.6684048991020508,
+        "steps": 5858,
+        "weight_kg": 54.236644756926566,
+        "weight_lb": 119.57119176401544
+    },
+    "name": "Gloriane Newell",
+    "pi": 3.1415927484476422
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 68.02076014518485,
+        "height_m": 1.727726374715453,
+        "steps": 11559,
+        "weight_kg": 59.50005907815037,
+        "weight_lb": 131.17502024487186
+    },
+    "name": "Roobbie Cheek",
+    "pi": 3.141592600278608
+}
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 69.23158528632149,
+        "height_m": 1.758481316692655,
+        "steps": 6847,
+        "weight_kg": 59.45244345564365,
+        "weight_lb": 131.0700458911811
+    },
+    "name": "Elissa Lindsey",
+    "pi": 3.14159271231767
+}

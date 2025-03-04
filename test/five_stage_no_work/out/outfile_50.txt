@@ -1,0 +1,52 @@
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 59.06497207725661,
+        "height_m": 1.5002494806275983,
+        "steps": 13812,
+        "weight_kg": 61.5399036358278,
+        "weight_lb": 135.67210235361867
+    },
+    "name": "Rani Collins",
+    "pi": 3.141592557606217
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 63.88946370354939,
+        "height_m": 1.6227915017627434,
+        "steps": 2156,
+        "weight_kg": 62.453641099326106,
+        "weight_lb": 137.6865462403963
+    },
+    "name": "Pen Thompson",
+    "pi": 3.1415925796893154
+}
+{
+    "age": 45,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 75.83977558739689,
+        "height_m": 1.9263292597020805,
+        "steps": 6080,
+        "weight_kg": 90.1096520923212,
+        "weight_lb": 198.65754119577315
+    },
+    "name": "Deborah Quinn",
+    "pi": 3.1415927110943773
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 60.889413334846324,
+        "height_m": 1.5465902635463542,
+        "steps": 5459,
+        "weight_kg": 74.11764100275812,
+        "weight_lb": 163.40123370750058
+    },
+    "name": "Belicia Cummings",
+    "pi": 3.1415927055372226
+}

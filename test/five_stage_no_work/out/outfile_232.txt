@@ -1,0 +1,26 @@
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 68.52970042954851,
+        "height_m": 1.7406534509576685,
+        "steps": 8506,
+        "weight_kg": 82.95302096546871,
+        "weight_lb": 182.87988908089162
+    },
+    "name": "Myrle Barr",
+    "pi": 3.1415927089022957
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 76.46661742794144,
+        "height_m": 1.9422510338541543,
+        "steps": 13395,
+        "weight_kg": 82.21459993728791,
+        "weight_lb": 181.25195131374366
+    },
+    "name": "Rozalin Simpson",
+    "pi": 3.141592595943813
+}

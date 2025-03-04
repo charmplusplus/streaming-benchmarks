@@ -1,0 +1,26 @@
+{
+    "age": 28,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 72.60197962015327,
+        "height_m": 1.8440892865436784,
+        "steps": 13127,
+        "weight_kg": 94.95982679713592,
+        "weight_lb": 209.35033335350178
+    },
+    "name": "Holli Lang",
+    "pi": 3.1415925648573526
+}
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 73.9158255438792,
+        "height_m": 1.8774609549856158,
+        "steps": 3750,
+        "weight_kg": 50.54957169297603,
+        "weight_lb": 111.44259674576881
+    },
+    "name": "Kellyann Hardison",
+    "pi": 3.1415926022163356
+}

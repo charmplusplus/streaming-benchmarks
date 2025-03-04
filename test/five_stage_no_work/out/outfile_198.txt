@@ -1,0 +1,39 @@
+{
+    "age": 62,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 74.88872211682433,
+        "height_m": 1.90217251459418,
+        "steps": 9747,
+        "weight_kg": 98.41161453927904,
+        "weight_lb": 216.96021364558536
+    },
+    "name": "Chad Woodard",
+    "pi": 3.1415925586456166
+}
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 64.97625679471429,
+        "height_m": 1.650396031371886,
+        "steps": 3793,
+        "weight_kg": 67.55217720633573,
+        "weight_lb": 148.92688091263184
+    },
+    "name": "Ardyce McConnell",
+    "pi": 3.141592708773406
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 74.81708325073045,
+        "height_m": 1.9003528883779937,
+        "steps": 13681,
+        "weight_kg": 98.29111249621435,
+        "weight_lb": 216.69455243140408
+    },
+    "name": "Aeriel Thornton",
+    "pi": 3.1415925574522254
+}

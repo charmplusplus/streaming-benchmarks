@@ -1,0 +1,13 @@
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 64.3777786985492,
+        "height_m": 1.635194695938014,
+        "steps": 2706,
+        "weight_kg": 78.34345394761179,
+        "weight_lb": 172.7175454419839
+    },
+    "name": "Sal Shields",
+    "pi": 3.141592743234086
+}

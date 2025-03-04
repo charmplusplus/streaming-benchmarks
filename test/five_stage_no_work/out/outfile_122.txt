@@ -1,0 +1,26 @@
+{
+    "age": 57,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 76.89343148086219,
+        "height_m": 1.953092104944163,
+        "steps": 8902,
+        "weight_kg": 82.01532969791204,
+        "weight_lb": 180.81263615861081
+    },
+    "name": "Agneta Ball",
+    "pi": 3.141592708897101
+}
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 66.93924703364125,
+        "height_m": 1.7002559565162711,
+        "steps": 5111,
+        "weight_kg": 60.23472925275348,
+        "weight_lb": 132.79468880520537
+    },
+    "name": "Emelyne Spence",
+    "pi": 3.141592721460788
+}

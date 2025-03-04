@@ -1,0 +1,39 @@
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 59.66913211158045,
+        "height_m": 1.5155951372127694,
+        "steps": 9385,
+        "weight_kg": 70.86753783077623,
+        "weight_lb": 156.2359912524859
+    },
+    "name": "Carissa Pugh",
+    "pi": 3.1415927119418554
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 77.86365804162948,
+        "height_m": 1.9777358462800319,
+        "steps": 5180,
+        "weight_kg": 80.34572006311171,
+        "weight_lb": 177.13178136553734
+    },
+    "name": "Channa Ray",
+    "pi": 3.141592558628379
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 68.89660383697358,
+        "height_m": 1.7499727924738209,
+        "steps": 1583,
+        "weight_kg": 66.25495894068882,
+        "weight_lb": 146.0670075798214
+    },
+    "name": "Verile Odom",
+    "pi": 3.1415926034252655
+}

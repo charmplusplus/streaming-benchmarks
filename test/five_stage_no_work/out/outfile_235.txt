@@ -1,0 +1,182 @@
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 75.45845458963218,
+        "height_m": 1.9166437115890531,
+        "steps": 1883,
+        "weight_kg": 99.93746841664884,
+        "weight_lb": 220.32414162071234
+    },
+    "name": "Cymbre Sloan",
+    "pi": 3.1415925980162753
+}
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 63.474929363688005,
+        "height_m": 1.6122623352160144,
+        "steps": 4594,
+        "weight_kg": 89.81061119222124,
+        "weight_lb": 197.9982696465948
+    },
+    "name": "Fiann Burke",
+    "pi": 3.1415925935326157
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 63.92477073901312,
+        "height_m": 1.6236882999792512,
+        "steps": 14609,
+        "weight_kg": 99.30751043979524,
+        "weight_lb": 218.93532366578137
+    },
+    "name": "Rebbecca Browning",
+    "pi": 3.1415925866892116
+}
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 89,
+        "height_in": 77.044909644517,
+        "height_m": 1.956939648223322,
+        "steps": 3188,
+        "weight_kg": 58.39561602938791,
+        "weight_lb": 128.74014301070915
+    },
+    "name": "Brianna Ward",
+    "pi": 3.1415925934026605
+}
+{
+    "age": 68,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 66.959156839306,
+        "height_m": 1.7007616653070732,
+        "steps": 7376,
+        "weight_kg": 57.04190775026396,
+        "weight_lb": 125.75573066438692
+    },
+    "name": "Karissa Knox",
+    "pi": 3.1415925640141973
+}
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 69.40464356799059,
+        "height_m": 1.762876994673384,
+        "steps": 11976,
+        "weight_kg": 91.43162486684875,
+        "weight_lb": 201.57198881395206
+    },
+    "name": "Meg Waters",
+    "pi": 3.1415927264592995
+}
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 71.52747844717356,
+        "height_m": 1.816796971487844,
+        "steps": 11741,
+        "weight_kg": 90.29272739249615,
+        "weight_lb": 199.06115266404484
+    },
+    "name": "Beilul Weiner",
+    "pi": 3.1415927176977902
+}
+{
+    "age": 67,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 65.48972389171375,
+        "height_m": 1.6634380885929614,
+        "steps": 11896,
+        "weight_kg": 99.37042470154469,
+        "weight_lb": 219.07402570551943
+    },
+    "name": "Toby Connolly",
+    "pi": 3.141592721524647
+}
+{
+    "age": 53,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 66.96795400473601,
+        "height_m": 1.7009851131883336,
+        "steps": 14148,
+        "weight_kg": 73.88523577773336,
+        "weight_lb": 162.8888685003065
+    },
+    "name": "Matty McKinney",
+    "pi": 3.1415927234273058
+}
+{
+    "age": 59,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 61.75423723441071,
+        "height_m": 1.5685567787333714,
+        "steps": 7404,
+        "weight_kg": 72.25113844356348,
+        "weight_lb": 159.2863048354489
+    },
+    "name": "Joyann Hinton",
+    "pi": 3.1415927196703284
+}
+{
+    "age": 56,
+    "biometrics": {
+        "heart_rate": 83,
+        "height_in": 73.82134837669642,
+        "height_m": 1.8750612362350214,
+        "steps": 6290,
+        "weight_kg": 77.8223355901342,
+        "weight_lb": 171.56867748872165
+    },
+    "name": "Edita Martinez",
+    "pi": 3.1415927326697477
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 52,
+        "height_in": 73.63200895081098,
+        "height_m": 1.8702520174145094,
+        "steps": 12290,
+        "weight_kg": 52.15933781400992,
+        "weight_lb": 114.99151933152255
+    },
+    "name": "Guillema Sumner",
+    "pi": 3.141592728369064
+}
+{
+    "age": 67,
+    "biometrics": {
+        "heart_rate": 79,
+        "height_in": 72.6893900426764,
+        "height_m": 1.8463095100768447,
+        "steps": 1644,
+        "weight_kg": 78.0497234709378,
+        "weight_lb": 172.0699813584989
+    },
+    "name": "Kelsy James",
+    "pi": 3.1415925859121603
+}
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 73.16976400436845,
+        "height_m": 1.8585110021150175,
+        "steps": 4614,
+        "weight_kg": 85.19143994971813,
+        "weight_lb": 187.81475234194758
+    },
+    "name": "Petronella Horner",
+    "pi": 3.1415925830864317
+}

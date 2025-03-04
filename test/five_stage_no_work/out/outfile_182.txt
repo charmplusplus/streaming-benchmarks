@@ -1,0 +1,13 @@
+{
+    "age": 59,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 74.53156810169469,
+        "height_m": 1.8931008075086089,
+        "steps": 12250,
+        "weight_kg": 52.57172169026961,
+        "weight_lb": 115.90066907280219
+    },
+    "name": "Paulina O'Neill",
+    "pi": 3.141592706073628
+}

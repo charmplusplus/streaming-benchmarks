@@ -1,0 +1,39 @@
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 73.20502498645253,
+        "height_m": 1.8594066305763137,
+        "steps": 11171,
+        "weight_kg": 68.64757290638198,
+        "weight_lb": 151.34181218086783
+    },
+    "name": "Tatiana Kane",
+    "pi": 3.1415925912363742
+}
+{
+    "age": 40,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 73.60299133678461,
+        "height_m": 1.869514970416245,
+        "steps": 10036,
+        "weight_kg": 98.94004688845908,
+        "weight_lb": 218.12520617123462
+    },
+    "name": "Janey Osborne",
+    "pi": 3.141592576998295
+}
+{
+    "age": 45,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 61.344490478214915,
+        "height_m": 1.5581492167460818,
+        "steps": 2708,
+        "weight_kg": 56.974279144864035,
+        "weight_lb": 125.60663528835013
+    },
+    "name": "Nicol Buck",
+    "pi": 3.1415927210231582
+}

@@ -1,0 +1,39 @@
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 77.84649567271626,
+        "height_m": 1.977299922345035,
+        "steps": 11974,
+        "weight_kg": 98.83308989610902,
+        "weight_lb": 217.88940664675985
+    },
+    "name": "Rae Butler",
+    "pi": 3.1415927308467557
+}
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 59.08677877280499,
+        "height_m": 1.5008033703954267,
+        "steps": 13940,
+        "weight_kg": 80.7952261362004,
+        "weight_lb": 178.1227714443901
+    },
+    "name": "Briney Chu",
+    "pi": 3.1415927247162587
+}
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 59.114968010675874,
+        "height_m": 1.5015193766507038,
+        "steps": 6537,
+        "weight_kg": 90.15691644726121,
+        "weight_lb": 198.761741137961
+    },
+    "name": "Andree Copeland",
+    "pi": 3.1415925592035303
+}

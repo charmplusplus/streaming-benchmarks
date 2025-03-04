@@ -1,0 +1,78 @@
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 63.45364652377121,
+        "height_m": 1.611721751374043,
+        "steps": 1122,
+        "weight_kg": 95.43992789420906,
+        "weight_lb": 210.40877383413115
+    },
+    "name": "Cory Goldberg",
+    "pi": 3.141592728817345
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 61.852103838897065,
+        "height_m": 1.5710425891449873,
+        "steps": 11741,
+        "weight_kg": 92.4031783166131,
+        "weight_lb": 203.71389498037155
+    },
+    "name": "Mary Herman",
+    "pi": 3.141592735923507
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 78.52875519742935,
+        "height_m": 1.9946293049148807,
+        "steps": 3178,
+        "weight_kg": 82.28669682968241,
+        "weight_lb": 181.41089756465442
+    },
+    "name": "Maddie McDaniel",
+    "pi": 3.141592588252141
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 62.78144238434912,
+        "height_m": 1.594647775452669,
+        "steps": 8024,
+        "weight_kg": 60.25150893961826,
+        "weight_lb": 132.8316816384612
+    },
+    "name": "Claudette Ritchie",
+    "pi": 3.1415925707623447
+}
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 68.10450959135349,
+        "height_m": 1.7298536094994295,
+        "steps": 14384,
+        "weight_kg": 85.85084031337732,
+        "weight_lb": 189.2684795716779
+    },
+    "name": "Margarethe Brantley",
+    "pi": 3.141592586971837
+}
+{
+    "age": 38,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 66.5028832008078,
+        "height_m": 1.6891723211474647,
+        "steps": 3337,
+        "weight_kg": 96.84563500821379,
+        "weight_lb": 213.50782385180827
+    },
+    "name": "Norean Williams",
+    "pi": 3.141592745229691
+}

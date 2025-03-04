@@ -1,0 +1,65 @@
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 77.62731884847136,
+        "height_m": 1.9717328340154423,
+        "steps": 3897,
+        "weight_kg": 94.29518290193394,
+        "weight_lb": 207.88504612926158
+    },
+    "name": "Joellen Vincent",
+    "pi": 3.141592599328485
+}
+{
+    "age": 67,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 76.78478733982593,
+        "height_m": 1.9503325452520042,
+        "steps": 12462,
+        "weight_kg": 75.05785765573309,
+        "weight_lb": 165.47405414498226
+    },
+    "name": "Neilla Ray",
+    "pi": 3.141592728495371
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 71.76423545463186,
+        "height_m": 1.8228105962299272,
+        "steps": 9395,
+        "weight_kg": 87.26036949080918,
+        "weight_lb": 192.37595578682772
+    },
+    "name": "Christin Humphrey",
+    "pi": 3.141592585960588
+}
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 59.24680416520627,
+        "height_m": 1.504868013167512,
+        "steps": 4050,
+        "weight_kg": 86.14473231643964,
+        "weight_lb": 189.91639975946916
+    },
+    "name": "Barbette Nixon",
+    "pi": 3.1415927294409407
+}
+{
+    "age": 28,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 68.2882233097471,
+        "height_m": 1.734519935426811,
+        "steps": 12704,
+        "weight_kg": 72.67662895786214,
+        "weight_lb": 160.224349733082
+    },
+    "name": "Jodie George",
+    "pi": 3.1415927141853857
+}

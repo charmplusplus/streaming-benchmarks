@@ -1,0 +1,26 @@
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 66.0482250004078,
+        "height_m": 1.677624009093393,
+        "steps": 13545,
+        "weight_kg": 90.73208375730219,
+        "weight_lb": 200.02976649302354
+    },
+    "name": "Melody Page",
+    "pi": 3.1415925688311637
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 64.9342741789974,
+        "height_m": 1.6493296735085103,
+        "steps": 8807,
+        "weight_kg": 78.69226165294866,
+        "weight_lb": 173.48653388532367
+    },
+    "name": "Joyce Woodard",
+    "pi": 3.1415925674092655
+}

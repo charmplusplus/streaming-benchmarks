@@ -1,0 +1,26 @@
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 60.070830103245044,
+        "height_m": 1.5257982606913634,
+        "steps": 10106,
+        "weight_kg": 53.92843408729736,
+        "weight_lb": 118.89170435753749
+    },
+    "name": "Jenn Giles",
+    "pi": 3.141592708742345
+}
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 70.62889902087713,
+        "height_m": 1.793973066384823,
+        "steps": 13927,
+        "weight_kg": 89.35597784048207,
+        "weight_lb": 196.99597586668355
+    },
+    "name": "Sher Larson",
+    "pi": 3.1415927262213774
+}
