@@ -1,0 +1,39 @@
+{
+    "age": 38,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 71.46851801576788,
+        "height_m": 1.8152993773388406,
+        "steps": 6705,
+        "weight_kg": 71.22902784214045,
+        "weight_lb": 157.0329393613397
+    },
+    "name": "Bambi Kay",
+    "pi": 3.1415925870271386
+}
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 79,
+        "height_in": 70.02391941035995,
+        "height_m": 1.7786065925755827,
+        "steps": 14841,
+        "weight_kg": 99.54332203632532,
+        "weight_lb": 219.45519862772352
+    },
+    "name": "Cori Vincent",
+    "pi": 3.1415927198690854
+}
+{
+    "age": 28,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 66.29134070714376,
+        "height_m": 1.6837991447099132,
+        "steps": 1604,
+        "weight_kg": 87.01499190208037,
+        "weight_lb": 191.8349914471644
+    },
+    "name": "Carlye Reese",
+    "pi": 3.1415925575385644
+}

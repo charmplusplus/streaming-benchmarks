@@ -1,0 +1,26 @@
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 64.88731135473368,
+        "height_m": 1.6481368184163536,
+        "steps": 1554,
+        "weight_kg": 87.80088066048211,
+        "weight_lb": 193.56757752171205
+    },
+    "name": "Lillian Stout",
+    "pi": 3.1415927172942815
+}
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 78.40209097409372,
+        "height_m": 1.9914120353794813,
+        "steps": 10812,
+        "weight_kg": 51.219857644853235,
+        "weight_lb": 112.92032256099633
+    },
+    "name": "Josy McLean",
+    "pi": 3.1415927409052395
+}

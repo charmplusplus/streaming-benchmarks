@@ -1,0 +1,39 @@
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 75.20798295928522,
+        "height_m": 1.9102817356137072,
+        "steps": 14022,
+        "weight_kg": 52.784862299984184,
+        "weight_lb": 116.37056312379111
+    },
+    "name": "Malissia Kuhn",
+    "pi": 3.1415927040756904
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 71.80943767924973,
+        "height_m": 1.8239587321152277,
+        "steps": 12418,
+        "weight_kg": 71.37761451345557,
+        "weight_lb": 157.3605165086544
+    },
+    "name": "Silvana Hopkins",
+    "pi": 3.141592741071333
+}
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 71.99747334824272,
+        "height_m": 1.8287348355285538,
+        "steps": 3616,
+        "weight_kg": 58.30400457853162,
+        "weight_lb": 128.53817457392236
+    },
+    "name": "Novelia Rollins",
+    "pi": 3.141592597411309
+}

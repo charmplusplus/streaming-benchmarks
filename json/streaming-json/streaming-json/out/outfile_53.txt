@@ -1,0 +1,78 @@
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 70.62651587524796,
+        "height_m": 1.7939125345185294,
+        "steps": 7007,
+        "weight_kg": 88.66409232644054,
+        "weight_lb": 195.47063122471732
+    },
+    "name": "Doralin Eaton",
+    "pi": 3.141592706946435
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 59.21889067474596,
+        "height_m": 1.5041590108926814,
+        "steps": 10549,
+        "weight_kg": 51.187849415484756,
+        "weight_lb": 112.849756578366
+    },
+    "name": "Ingaborg Leonard",
+    "pi": 3.141592708261729
+}
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 66.46829985293485,
+        "height_m": 1.6882939045858367,
+        "steps": 8791,
+        "weight_kg": 84.45650410389399,
+        "weight_lb": 186.19449807752676
+    },
+    "name": "Cherianne Shah",
+    "pi": 3.141592720865335
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 59.46000980302494,
+        "height_m": 1.5102834334437794,
+        "steps": 3753,
+        "weight_kg": 65.88917493286166,
+        "weight_lb": 145.26059284048546
+    },
+    "name": "Rafaela McKenzie",
+    "pi": 3.1415925795400508
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 76.73305828726349,
+        "height_m": 1.9490186280264334,
+        "steps": 7135,
+        "weight_kg": 97.66600491592844,
+        "weight_lb": 215.31642775775413
+    },
+    "name": "Robin Jackson",
+    "pi": 3.141592586900044
+}
+{
+    "age": 62,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 72.91344437782428,
+        "height_m": 1.8520004871164737,
+        "steps": 13523,
+        "weight_kg": 94.74611837892583,
+        "weight_lb": 208.87918750054743
+    },
+    "name": "Cynthia Kirby",
+    "pi": 3.141592580376635
+}

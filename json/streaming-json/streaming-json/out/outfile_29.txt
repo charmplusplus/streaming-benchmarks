@@ -1,0 +1,26 @@
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 72.5792912156664,
+        "height_m": 1.8435130013809058,
+        "steps": 5360,
+        "weight_kg": 57.425363353934245,
+        "weight_lb": 126.6011045573505
+    },
+    "name": "Corrina Rich",
+    "pi": 3.141592602345458
+}
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 69.4798403341726,
+        "height_m": 1.7647869915030083,
+        "steps": 8840,
+        "weight_kg": 65.74409735840865,
+        "weight_lb": 144.94075191829486
+    },
+    "name": "Shara Black",
+    "pi": 3.141592706050543
+}

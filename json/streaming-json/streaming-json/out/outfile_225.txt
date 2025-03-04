@@ -1,0 +1,26 @@
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 69.38475944931223,
+        "height_m": 1.7623719383316838,
+        "steps": 11854,
+        "weight_kg": 82.19815415435066,
+        "weight_lb": 181.21569461176455
+    },
+    "name": "Emmeline Elmore",
+    "pi": 3.14159272365818
+}
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 60.91068712402361,
+        "height_m": 1.5471306174996662,
+        "steps": 11889,
+        "weight_kg": 92.65371160820453,
+        "weight_lb": 204.26622568567984
+    },
+    "name": "Mandy McIntosh",
+    "pi": 3.1415925879742828
+}

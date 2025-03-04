@@ -1,0 +1,52 @@
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 82,
+        "height_in": 73.97976347738779,
+        "height_m": 1.8790849776197618,
+        "steps": 6305,
+        "weight_kg": 79.5749042013376,
+        "weight_lb": 175.4324253003529
+    },
+    "name": "Bridie Ingram",
+    "pi": 3.141592600340061
+}
+{
+    "age": 70,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 66.33063474802945,
+        "height_m": 1.6847972128094533,
+        "steps": 12269,
+        "weight_kg": 89.09940838928463,
+        "weight_lb": 196.43033772318466
+    },
+    "name": "Erna Lane",
+    "pi": 3.14159259844906
+}
+{
+    "age": 40,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 67.97816098693309,
+        "height_m": 1.726644356680148,
+        "steps": 3993,
+        "weight_kg": 74.71655897238594,
+        "weight_lb": 164.7216202417015
+    },
+    "name": "Georgiana Sharpe",
+    "pi": 3.1415927268067616
+}
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 62.03385376852542,
+        "height_m": 1.5756590348646669,
+        "steps": 2344,
+        "weight_kg": 82.39470192509398,
+        "weight_lb": 181.64900775810068
+    },
+    "name": "Barbabra Singh",
+    "pi": 3.1415927096388154
+}

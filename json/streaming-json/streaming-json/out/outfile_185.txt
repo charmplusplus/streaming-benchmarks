@@ -1,0 +1,52 @@
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 69.24538305329389,
+        "height_m": 1.758831779784504,
+        "steps": 7179,
+        "weight_kg": 83.71564463425871,
+        "weight_lb": 184.56118447357943
+    },
+    "name": "Ianthe Craig",
+    "pi": 3.141592738961407
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 69.83307082836217,
+        "height_m": 1.7737590412105166,
+        "steps": 9943,
+        "weight_kg": 54.7460857413305,
+        "weight_lb": 120.69431554705204
+    },
+    "name": "Kass Winstead",
+    "pi": 3.141592597134234
+}
+{
+    "age": 40,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 70.18693257926842,
+        "height_m": 1.7827471248299704,
+        "steps": 10951,
+        "weight_kg": 87.84253759877694,
+        "weight_lb": 193.6594152410156
+    },
+    "name": "Zahara Bryan",
+    "pi": 3.141592596031273
+}
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 65.07512583142135,
+        "height_m": 1.652907303548158,
+        "steps": 2264,
+        "weight_kg": 83.79191607528796,
+        "weight_lb": 184.72933401790132
+    },
+    "name": "Neilla Faulkner",
+    "pi": 3.1415927523725466
+}

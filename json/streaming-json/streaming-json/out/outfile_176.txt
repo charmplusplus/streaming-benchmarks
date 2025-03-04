@@ -1,0 +1,91 @@
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 68.68396834316273,
+        "height_m": 1.7445718538475323,
+        "steps": 1140,
+        "weight_kg": 79.76675588953086,
+        "weight_lb": 175.8553853691775
+    },
+    "name": "Margaret Herbert",
+    "pi": 3.1415925820975077
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 61.04651640432622,
+        "height_m": 1.550580679356319,
+        "steps": 8571,
+        "weight_kg": 76.1262384659195,
+        "weight_lb": 167.82942784673543
+    },
+    "name": "Vi McCall",
+    "pi": 3.1415927254079783
+}
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 67.45888199695366,
+        "height_m": 1.7134546774570971,
+        "steps": 6176,
+        "weight_kg": 95.12478479750064,
+        "weight_lb": 209.71400306026584
+    },
+    "name": "Corrina Rhodes",
+    "pi": 3.1415927485230695
+}
+{
+    "age": 45,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 75.07917469399436,
+        "height_m": 1.9070100074420528,
+        "steps": 12474,
+        "weight_kg": 83.0396169878,
+        "weight_lb": 183.07080040364363
+    },
+    "name": "Aurelea Hewitt",
+    "pi": 3.1415925593075436
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 75.80076739024577,
+        "height_m": 1.9253384520294785,
+        "steps": 7390,
+        "weight_kg": 96.28095315515282,
+        "weight_lb": 212.26291494491298
+    },
+    "name": "Chad Field",
+    "pi": 3.1415926005978214
+}
+{
+    "age": 26,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 68.68446012057737,
+        "height_m": 1.7445843449871188,
+        "steps": 12296,
+        "weight_kg": 80.36679969033884,
+        "weight_lb": 177.17825393331478
+    },
+    "name": "Gabbey Simon",
+    "pi": 3.1415925586457787
+}
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 73.56147934948767,
+        "height_m": 1.8684605665082807,
+        "steps": 4709,
+        "weight_kg": 86.87520427475827,
+        "weight_lb": 191.52681284821756
+    },
+    "name": "Glori Christensen",
+    "pi": 3.1415927349590844
+}

@@ -1,0 +1,65 @@
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 59.670463483134355,
+        "height_m": 1.5156289540319774,
+        "steps": 1226,
+        "weight_kg": 93.89923896747433,
+        "weight_lb": 207.01214021247324
+    },
+    "name": "Cindee Erickson",
+    "pi": 3.141592559450317
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 63.78906994039132,
+        "height_m": 1.6202415015555287,
+        "steps": 3826,
+        "weight_kg": 83.53265843718935,
+        "weight_lb": 184.15776944379638
+    },
+    "name": "Kimmi Flowers",
+    "pi": 3.1415925999568755
+}
+{
+    "age": 26,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 72.80056981533042,
+        "height_m": 1.8491334747773163,
+        "steps": 9754,
+        "weight_kg": 80.89834209289322,
+        "weight_lb": 178.35010294483422
+    },
+    "name": "Jocelyne Barr",
+    "pi": 3.1415925879542725
+}
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 72.20654138521495,
+        "height_m": 1.834045160800073,
+        "steps": 4128,
+        "weight_kg": 97.1947013012793,
+        "weight_lb": 214.27738238282635
+    },
+    "name": "Benedikta Larson",
+    "pi": 3.141592723641475
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 74.14748724032422,
+        "height_m": 1.8833451588978496,
+        "steps": 8233,
+        "weight_kg": 84.64645158159777,
+        "weight_lb": 186.61326008582208
+    },
+    "name": "Katharine Goldstein",
+    "pi": 3.141592571925806
+}

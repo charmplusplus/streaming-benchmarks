@@ -1,0 +1,39 @@
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 76.8870768197309,
+        "height_m": 1.9529306966385886,
+        "steps": 7237,
+        "weight_kg": 79.27035025251513,
+        "weight_lb": 174.76099957369988
+    },
+    "name": "Celeste Johnston",
+    "pi": 3.141592588095921
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 60.64805236353924,
+        "height_m": 1.5404596981856598,
+        "steps": 6133,
+        "weight_kg": 68.20641068124647,
+        "weight_lb": 150.36921711608957
+    },
+    "name": "Euphemia Eason",
+    "pi": 3.1415925584468933
+}
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 69.90798056917747,
+        "height_m": 1.7756617475997638,
+        "steps": 4340,
+        "weight_kg": 94.91540546565051,
+        "weight_lb": 209.25240119768242
+    },
+    "name": "Peg Chu",
+    "pi": 3.1415927103126133
+}

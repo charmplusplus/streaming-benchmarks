@@ -1,0 +1,26 @@
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 69.91482903415019,
+        "height_m": 1.7758356985161374,
+        "steps": 7066,
+        "weight_kg": 57.42547226896754,
+        "weight_lb": 126.60134467361121
+    },
+    "name": "Maire Dawson",
+    "pi": 3.1415927405674458
+}
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 60.69916940911175,
+        "height_m": 1.5417580704420804,
+        "steps": 13256,
+        "weight_kg": 68.43576867265539,
+        "weight_lb": 150.8748643311095
+    },
+    "name": "Cristin Bauer",
+    "pi": 3.1415925568657026
+}

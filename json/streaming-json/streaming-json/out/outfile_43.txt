@@ -1,0 +1,39 @@
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 69.15520365390577,
+        "height_m": 1.7565412242769454,
+        "steps": 12147,
+        "weight_kg": 92.65877983837427,
+        "weight_lb": 204.27739920727666
+    },
+    "name": "Moselle Deal",
+    "pi": 3.1415925870985655
+}
+{
+    "age": 67,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 67.27736198610265,
+        "height_m": 1.7088440716712086,
+        "steps": 14118,
+        "weight_kg": 87.17409963569116,
+        "weight_lb": 192.18576353883745
+    },
+    "name": "Imogen Chan",
+    "pi": 3.141592569405309
+}
+{
+    "age": 68,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 59.170718235696164,
+        "height_m": 1.5029354316015495,
+        "steps": 3835,
+        "weight_kg": 51.31445425380825,
+        "weight_lb": 113.12887213703074
+    },
+    "name": "Ermengarde Coates",
+    "pi": 3.1415927438242957
+}

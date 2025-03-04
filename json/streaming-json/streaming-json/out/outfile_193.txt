@@ -1,0 +1,52 @@
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 73.97700346747263,
+        "height_m": 1.8790148734057732,
+        "steps": 14379,
+        "weight_kg": 65.604608014141,
+        "weight_lb": 144.6332309201355
+    },
+    "name": "Evangeline Kaufman",
+    "pi": 3.1415925689817286
+}
+{
+    "age": 29,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 67.82170080707938,
+        "height_m": 1.7226702702578702,
+        "steps": 5718,
+        "weight_kg": 64.01014127395227,
+        "weight_lb": 141.11803765538065
+    },
+    "name": "Kylie Boyette",
+    "pi": 3.1415927243934663
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 71.0419671260149,
+        "height_m": 1.8044649905896832,
+        "steps": 8818,
+        "weight_kg": 59.65030086881823,
+        "weight_lb": 131.50624630141402
+    },
+    "name": "Sharline McLeod",
+    "pi": 3.1415925997678804
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 59.23801689837118,
+        "height_m": 1.504644816710427,
+        "steps": 5536,
+        "weight_kg": 67.69276130080257,
+        "weight_lb": 149.23681541897537
+    },
+    "name": "Ellette Robinson",
+    "pi": 3.1415927477162224
+}

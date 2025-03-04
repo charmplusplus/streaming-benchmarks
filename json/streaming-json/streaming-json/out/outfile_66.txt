@@ -1,0 +1,26 @@
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 73.60409890085013,
+        "height_m": 1.869543102528318,
+        "steps": 2211,
+        "weight_kg": 72.18149517070239,
+        "weight_lb": 159.1327678832339
+    },
+    "name": "Jo-Anne Strauss",
+    "pi": 3.1415925727017853
+}
+{
+    "age": 38,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 68.77901504663483,
+        "height_m": 1.7469860388120635,
+        "steps": 8301,
+        "weight_kg": 90.45799881929938,
+        "weight_lb": 199.42551335700378
+    },
+    "name": "Lucina Stokes",
+    "pi": 3.141592598665839
+}

@@ -1,0 +1,39 @@
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 73.45403112064062,
+        "height_m": 1.865731382969325,
+        "steps": 2822,
+        "weight_kg": 88.05279413670092,
+        "weight_lb": 194.12295100965358
+    },
+    "name": "Elvera Mercer",
+    "pi": 3.141592573587473
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 76.73125080915891,
+        "height_m": 1.9489727181073686,
+        "steps": 7347,
+        "weight_kg": 78.7311569901316,
+        "weight_lb": 173.5722833235839
+    },
+    "name": "Devan Parks",
+    "pi": 3.141592726494881
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 67.41396136796644,
+        "height_m": 1.7123136940969528,
+        "steps": 8074,
+        "weight_kg": 82.62842297514143,
+        "weight_lb": 182.1642738594563
+    },
+    "name": "Krissy McDowell",
+    "pi": 3.141592564564572
+}

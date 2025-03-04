@@ -1,0 +1,52 @@
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 79,
+        "height_in": 75.40632686569045,
+        "height_m": 1.9153196681159164,
+        "steps": 8567,
+        "weight_kg": 75.45876426391565,
+        "weight_lb": 166.35790087151372
+    },
+    "name": "Euphemia Lynn",
+    "pi": 3.14159256685464
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 60.77003775913319,
+        "height_m": 1.5435581255605952,
+        "steps": 5630,
+        "weight_kg": 98.4427502284893,
+        "weight_lb": 217.02885600873208
+    },
+    "name": "Rochelle Grossman",
+    "pi": 3.1415925687719546
+}
+{
+    "age": 45,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 59.80510936506174,
+        "height_m": 1.519048957586131,
+        "steps": 5418,
+        "weight_kg": 75.32506017097249,
+        "weight_lb": 166.06313415412936
+    },
+    "name": "Priscilla Rosen",
+    "pi": 3.1415927390218266
+}
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 52,
+        "height_in": 74.82563320921254,
+        "height_m": 1.9005700572061675,
+        "steps": 13056,
+        "weight_kg": 87.75425900614286,
+        "weight_lb": 193.46479449012264
+    },
+    "name": "Annetta Diaz",
+    "pi": 3.1415925895960624
+}

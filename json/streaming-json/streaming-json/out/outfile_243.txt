@@ -1,0 +1,39 @@
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 59.10008693572299,
+        "height_m": 1.5011413975510093,
+        "steps": 1680,
+        "weight_kg": 61.72950230072694,
+        "weight_lb": 136.09009536222862
+    },
+    "name": "Roslyn McKay",
+    "pi": 3.1415925665701105
+}
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 77.57751483127733,
+        "height_m": 1.9704678126618251,
+        "steps": 5828,
+        "weight_kg": 61.20339607683689,
+        "weight_lb": 134.93023105891612
+    },
+    "name": "Alaine Goldberg",
+    "pi": 3.141592733087924
+}
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 77.91025878486862,
+        "height_m": 1.9789195045191303,
+        "steps": 7508,
+        "weight_kg": 93.14633713838492,
+        "weight_lb": 205.35227778202614
+    },
+    "name": "Loraine Nelson",
+    "pi": 3.1415927422324055
+}

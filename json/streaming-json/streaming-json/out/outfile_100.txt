@@ -1,0 +1,39 @@
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 62.21641165391042,
+        "height_m": 1.5802960026494832,
+        "steps": 5252,
+        "weight_kg": 78.8614373410137,
+        "weight_lb": 173.8595019907456
+    },
+    "name": "Leena Baird",
+    "pi": 3.1415927094227465
+}
+{
+    "age": 40,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 77.22033843506327,
+        "height_m": 1.9613955370970169,
+        "steps": 9809,
+        "weight_kg": 99.11499442374881,
+        "weight_lb": 218.5108990064851
+    },
+    "name": "Luisa Xu",
+    "pi": 3.141592731528332
+}
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 63.15570211436449,
+        "height_m": 1.6041539674617156,
+        "steps": 3119,
+        "weight_kg": 88.14540740723353,
+        "weight_lb": 194.3271280781352
+    },
+    "name": "Tedi White",
+    "pi": 3.141592706593495
+}

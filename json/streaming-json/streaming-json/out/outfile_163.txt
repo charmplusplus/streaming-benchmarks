@@ -1,0 +1,39 @@
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 69.52155090966707,
+        "height_m": 1.7658464395484663,
+        "steps": 9232,
+        "weight_kg": 83.79938667375163,
+        "weight_lb": 184.7458038486863
+    },
+    "name": "Violette Savage",
+    "pi": 3.14159272130631
+}
+{
+    "age": 70,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 76.25062481719459,
+        "height_m": 1.9367648245037372,
+        "steps": 10000,
+        "weight_kg": 66.04953147163738,
+        "weight_lb": 145.61411807300118
+    },
+    "name": "Jennilee Hanna",
+    "pi": 3.1415925786540555
+}
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 64.4074679913857,
+        "height_m": 1.6359488035688428,
+        "steps": 7848,
+        "weight_kg": 52.225436982438026,
+        "weight_lb": 115.13724288022252
+    },
+    "name": "Nathalia Riddle",
+    "pi": 3.14159272483042
+}

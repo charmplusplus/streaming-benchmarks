@@ -1,0 +1,78 @@
+{
+    "age": 56,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 66.63645786548491,
+        "height_m": 1.6925651157981543,
+        "steps": 13221,
+        "weight_kg": 90.72210409751837,
+        "weight_lb": 200.00776513547092
+    },
+    "name": "Karel Jernigan",
+    "pi": 3.1415926024343745
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 61.50103218750795,
+        "height_m": 1.562125374015,
+        "steps": 6674,
+        "weight_kg": 79.70273232271956,
+        "weight_lb": 175.71423773331398
+    },
+    "name": "Jsandye Thomson",
+    "pi": 3.1415925957821993
+}
+{
+    "age": 57,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 75.65331950029329,
+        "height_m": 1.9215932776470797,
+        "steps": 10415,
+        "weight_kg": 65.70836032058996,
+        "weight_lb": 144.86196532997903
+    },
+    "name": "Pooh Gold",
+    "pi": 3.141592732159904
+}
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 65.16604904977868,
+        "height_m": 1.6552167520473322,
+        "steps": 1748,
+        "weight_kg": 61.65466583919478,
+        "weight_lb": 135.92510940240558
+    },
+    "name": "Lenna Oh",
+    "pi": 3.1415927430005377
+}
+{
+    "age": 51,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 74.24845831848108,
+        "height_m": 1.8859098228981153,
+        "steps": 1584,
+        "weight_kg": 60.8030681246851,
+        "weight_lb": 134.04766004904326
+    },
+    "name": "Leandra Crowder",
+    "pi": 3.1415925937424163
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 73.75546384140833,
+        "height_m": 1.8733877699423758,
+        "steps": 7643,
+        "weight_kg": 76.2202535681163,
+        "weight_lb": 168.03669542134057
+    },
+    "name": "Inge Brock",
+    "pi": 3.1415927312972034
+}

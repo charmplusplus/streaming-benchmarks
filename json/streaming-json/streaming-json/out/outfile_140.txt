@@ -1,0 +1,26 @@
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 68.22213142270472,
+        "height_m": 1.7328412024024507,
+        "steps": 13507,
+        "weight_kg": 55.9771882494134,
+        "weight_lb": 123.40842875842176
+    },
+    "name": "Trixy Manning",
+    "pi": 3.1415925961161246
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 65.75733669556044,
+        "height_m": 1.670235450140092,
+        "steps": 7867,
+        "weight_kg": 75.21963874618523,
+        "weight_lb": 165.83071997261484
+    },
+    "name": "Cordey Turner",
+    "pi": 3.141592741395971
+}

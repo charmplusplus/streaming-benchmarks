@@ -1,0 +1,13 @@
+{
+    "age": 53,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 68.08128122949053,
+        "height_m": 1.7292636094267102,
+        "steps": 1748,
+        "weight_kg": 61.0092086609814,
+        "weight_lb": 134.5021215981728
+    },
+    "name": "Amye Wallace",
+    "pi": 3.1415926008210007
+}

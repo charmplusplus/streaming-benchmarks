@@ -1,0 +1,52 @@
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 77.62181506898423,
+        "height_m": 1.9715930380919588,
+        "steps": 4532,
+        "weight_kg": 64.81117033487088,
+        "weight_lb": 142.884002343663
+    },
+    "name": "Walliw Keith",
+    "pi": 3.141592596192023
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 74.4533036445429,
+        "height_m": 1.8911128913704283,
+        "steps": 8920,
+        "weight_kg": 57.274214052214994,
+        "weight_lb": 126.2678777837942
+    },
+    "name": "Tildy Henry",
+    "pi": 3.1415925804389584
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 62.76971962447791,
+        "height_m": 1.5943500175127294,
+        "steps": 13354,
+        "weight_kg": 95.7372310440577,
+        "weight_lb": 211.06421430435046
+    },
+    "name": "Phillida Horne",
+    "pi": 3.14159256055668
+}
+{
+    "age": 68,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 59.40744416218784,
+        "height_m": 1.5089482668875072,
+        "steps": 12859,
+        "weight_kg": 68.503296284298,
+        "weight_lb": 151.02373705428906
+    },
+    "name": "Nicolina Hogan",
+    "pi": 3.14159274759013
+}

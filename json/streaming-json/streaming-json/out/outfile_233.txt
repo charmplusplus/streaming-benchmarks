@@ -1,0 +1,39 @@
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 67,
+        "height_in": 76.93573516867612,
+        "height_m": 1.9541666180343997,
+        "steps": 9810,
+        "weight_kg": 59.895196643539244,
+        "weight_lb": 132.04614842427947
+    },
+    "name": "Rana Potter",
+    "pi": 3.141592562854488
+}
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 61.7861604966628,
+        "height_m": 1.5693676291567153,
+        "steps": 10758,
+        "weight_kg": 90.49660259765105,
+        "weight_lb": 199.51062001883344
+    },
+    "name": "Goldie Craft",
+    "pi": 3.141592730299026
+}
+{
+    "age": 62,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 78.45390662654138,
+        "height_m": 1.9927281522409488,
+        "steps": 9006,
+        "weight_kg": 78.00790701029595,
+        "weight_lb": 171.97779195303863
+    },
+    "name": "Edin Cooke",
+    "pi": 3.141592737823926
+}

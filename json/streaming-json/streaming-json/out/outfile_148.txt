@@ -1,0 +1,26 @@
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 66.53819702803081,
+        "height_m": 1.6900692918745648,
+        "steps": 8628,
+        "weight_kg": 90.9839738967832,
+        "weight_lb": 200.58508853232615
+    },
+    "name": "Emmeline Harrell",
+    "pi": 3.1415926016097715
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 64.47785217390731,
+        "height_m": 1.637736560839503,
+        "steps": 6396,
+        "weight_kg": 54.3309358434488,
+        "weight_lb": 119.77906777918407
+    },
+    "name": "Mozelle Berger",
+    "pi": 3.141592703624363
+}

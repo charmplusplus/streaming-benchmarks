@@ -1,0 +1,52 @@
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 65.97684152956502,
+        "height_m": 1.6758108699130818,
+        "steps": 11194,
+        "weight_kg": 99.65697755243158,
+        "weight_lb": 219.7057658516417
+    },
+    "name": "Cherye Snyder",
+    "pi": 3.1415927048983048
+}
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 80,
+        "height_in": 73.59500391965311,
+        "height_m": 1.8693120901306601,
+        "steps": 1024,
+        "weight_kg": 62.549227812234946,
+        "weight_lb": 137.8972786194094
+    },
+    "name": "Jacquelynn Boyer",
+    "pi": 3.141592588189421
+}
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 52,
+        "height_in": 69.77353919032,
+        "height_m": 1.772246938420781,
+        "steps": 10823,
+        "weight_kg": 67.97765450118891,
+        "weight_lb": 149.86489666641108
+    },
+    "name": "Juliane Roberson",
+    "pi": 3.1415925691652267
+}
+{
+    "age": 56,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 66.7797790770529,
+        "height_m": 1.6962054726061881,
+        "steps": 12936,
+        "weight_kg": 84.31634612330026,
+        "weight_lb": 185.8855029903502
+    },
+    "name": "Juieta Fields",
+    "pi": 3.141592707466062
+}

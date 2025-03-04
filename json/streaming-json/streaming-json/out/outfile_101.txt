@@ -1,0 +1,52 @@
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 68.49145648036804,
+        "height_m": 1.7396820551730385,
+        "steps": 11784,
+        "weight_kg": 73.64460365097167,
+        "weight_lb": 162.35836610100515
+    },
+    "name": "Annadiane Jennings",
+    "pi": 3.1415927383357674
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 59.613572325080426,
+        "height_m": 1.5141839193977262,
+        "steps": 10930,
+        "weight_kg": 79.95139108818009,
+        "weight_lb": 176.26243582082358
+    },
+    "name": "Simonne Shepherd",
+    "pi": 3.141592708814777
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 60,
+        "height_in": 71.6047114637489,
+        "height_m": 1.8187586890495298,
+        "steps": 7411,
+        "weight_kg": 58.202376857304245,
+        "weight_lb": 128.31412406715006
+    },
+    "name": "Myriam Greenberg",
+    "pi": 3.141592559466971
+}
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 79,
+        "height_in": 69.31221014801112,
+        "height_m": 1.7605291870737214,
+        "steps": 6239,
+        "weight_kg": 96.21793337383595,
+        "weight_lb": 212.12398027462618
+    },
+    "name": "Fayre Ennis",
+    "pi": 3.141592584877835
+}

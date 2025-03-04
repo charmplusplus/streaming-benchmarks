@@ -1,0 +1,52 @@
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 59.160304534715266,
+        "height_m": 1.5026709237394689,
+        "steps": 5480,
+        "weight_kg": 56.79133310195027,
+        "weight_lb": 125.2033087832216
+    },
+    "name": "Allissa Michael",
+    "pi": 3.1415927125403216
+}
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 74.06014164524245,
+        "height_m": 1.881126581980804,
+        "steps": 12171,
+        "weight_kg": 52.576742151123014,
+        "weight_lb": 115.91173728120881
+    },
+    "name": "Nana Williamson",
+    "pi": 3.1415927039747786
+}
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 82,
+        "height_in": 68.52943961001507,
+        "height_m": 1.7406468261450967,
+        "steps": 13260,
+        "weight_kg": 99.59337614891257,
+        "weight_lb": 219.5655489254156
+    },
+    "name": "Bellina Spears",
+    "pi": 3.141592601886098
+}
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 62.11667677101609,
+        "height_m": 1.5777627379919301,
+        "steps": 12556,
+        "weight_kg": 94.31424720433378,
+        "weight_lb": 207.92707567161833
+    },
+    "name": "Lula Braun",
+    "pi": 3.1415926017384765
+}

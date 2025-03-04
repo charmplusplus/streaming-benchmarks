@@ -1,0 +1,13 @@
+{
+    "age": 29,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 72.73358765567644,
+        "height_m": 1.847432128840832,
+        "steps": 13965,
+        "weight_kg": 62.9992723026471,
+        "weight_lb": 138.88945570386184
+    },
+    "name": "Agretha Buck",
+    "pi": 3.1415926008354345
+}

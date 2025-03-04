@@ -1,0 +1,52 @@
+{
+    "age": 59,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 69.67454379233548,
+        "height_m": 1.7697324566697947,
+        "steps": 7486,
+        "weight_kg": 54.877276651893595,
+        "weight_lb": 120.98354165229765
+    },
+    "name": "Cecily Sherrill",
+    "pi": 3.1415925872345314
+}
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 60,
+        "height_in": 59.85014796986562,
+        "height_m": 1.5201929375304004,
+        "steps": 9153,
+        "weight_kg": 51.22061012170986,
+        "weight_lb": 112.92198148652399
+    },
+    "name": "Star Benson",
+    "pi": 3.14159259257691
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 63.79667604874091,
+        "height_m": 1.620434696603283,
+        "steps": 6076,
+        "weight_kg": 55.33700520065236,
+        "weight_lb": 121.99706840546219
+    },
+    "name": "Klara Sawyer",
+    "pi": 3.1415926031147907
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 60.85724402513901,
+        "height_m": 1.5457731635210226,
+        "steps": 9205,
+        "weight_kg": 70.56105956590764,
+        "weight_lb": 155.5603231401913
+    },
+    "name": "Madelene Kang",
+    "pi": 3.141592706779357
+}

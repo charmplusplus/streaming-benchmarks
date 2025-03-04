@@ -1,0 +1,91 @@
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 68.29829843607492,
+        "height_m": 1.7347758434973473,
+        "steps": 7705,
+        "weight_kg": 56.83484166322587,
+        "weight_lb": 125.29922862758102
+    },
+    "name": "Lacy Terry",
+    "pi": 3.1415927127473275
+}
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 68.52811928369589,
+        "height_m": 1.740613289874699,
+        "steps": 4656,
+        "weight_kg": 99.32935901009957,
+        "weight_lb": 218.9834914608457
+    },
+    "name": "Angela Little",
+    "pi": 3.1415927353972593
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 62.54225416380991,
+        "height_m": 1.5885723979316768,
+        "steps": 12469,
+        "weight_kg": 61.31531256387849,
+        "weight_lb": 135.1769643845778
+    },
+    "name": "Sandye Fitzpatrick",
+    "pi": 3.1415927235653487
+}
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 60.47975276946509,
+        "height_m": 1.536184890804572,
+        "steps": 6614,
+        "weight_kg": 51.88762207123794,
+        "weight_lb": 114.39248937069259
+    },
+    "name": "Greta Bruce",
+    "pi": 3.1415926027056833
+}
+{
+    "age": 70,
+    "biometrics": {
+        "heart_rate": 60,
+        "height_in": 68.12385154922185,
+        "height_m": 1.7303448949639917,
+        "steps": 9387,
+        "weight_kg": 67.29622914683073,
+        "weight_lb": 148.36261270168595
+    },
+    "name": "Flor Boyd",
+    "pi": 3.1415925775326747
+}
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 66.81222608186411,
+        "height_m": 1.6970296260833502,
+        "steps": 9970,
+        "weight_kg": 58.1173793363654,
+        "weight_lb": 128.1267368325379
+    },
+    "name": "Margaretta Kerr",
+    "pi": 3.1415927323890385
+}
+{
+    "age": 26,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 61.7447367656032,
+        "height_m": 1.5683154669559691,
+        "steps": 1919,
+        "weight_kg": 82.08982597097359,
+        "weight_lb": 180.9768721321278
+    },
+    "name": "Corabella Eason",
+    "pi": 3.1415927068434923
+}

@@ -1,0 +1,39 @@
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 76.19042448495833,
+        "height_m": 1.9352357368906437,
+        "steps": 7200,
+        "weight_kg": 76.52807366865035,
+        "weight_lb": 168.71532177137993
+    },
+    "name": "Luce Swanson",
+    "pi": 3.141592710062092
+}
+{
+    "age": 35,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 73.71417477118682,
+        "height_m": 1.8723390281250698,
+        "steps": 6137,
+        "weight_kg": 82.26703096290089,
+        "weight_lb": 181.36754180143055
+    },
+    "name": "Ardene House",
+    "pi": 3.141592595830061
+}
+{
+    "age": 45,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 66.07497671236592,
+        "height_m": 1.678303502210203,
+        "steps": 6534,
+        "weight_kg": 59.530002282716836,
+        "weight_lb": 131.24103363252317
+    },
+    "name": "Delila Bray",
+    "pi": 3.1415926004644814
+}

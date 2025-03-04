@@ -1,0 +1,39 @@
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 75,
+        "height_in": 72.28986069461452,
+        "height_m": 1.836161470116015,
+        "steps": 6515,
+        "weight_kg": 76.3059221254895,
+        "weight_lb": 168.22556203629665
+    },
+    "name": "Emilie Lee",
+    "pi": 3.1415927093124676
+}
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 62.66484780136131,
+        "height_m": 1.591686274643989,
+        "steps": 7500,
+        "weight_kg": 73.48769956687966,
+        "weight_lb": 162.01245221913422
+    },
+    "name": "Ilysa O'Donnell",
+    "pi": 3.141592713540253
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 74.52557691639734,
+        "height_m": 1.8929486314842314,
+        "steps": 3969,
+        "weight_kg": 75.93875174046016,
+        "weight_lb": 167.41609086205327
+    },
+    "name": "Robinet Alston",
+    "pi": 3.141592586402477
+}

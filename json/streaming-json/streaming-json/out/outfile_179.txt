@@ -1,0 +1,26 @@
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 62.63354683421813,
+        "height_m": 1.590891230507876,
+        "steps": 12381,
+        "weight_kg": 76.12530286786011,
+        "weight_lb": 167.82736520854175
+    },
+    "name": "Fawn Kane",
+    "pi": 3.1415927467587625
+}
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 75.05819541385473,
+        "height_m": 1.906477134014258,
+        "steps": 14813,
+        "weight_kg": 70.8103782780681,
+        "weight_lb": 156.10997615939448
+    },
+    "name": "Cyndi Ferrell",
+    "pi": 3.1415927063778035
+}

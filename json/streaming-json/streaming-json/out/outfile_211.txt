@@ -1,0 +1,52 @@
+{
+    "age": 28,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 69.26413635466876,
+        "height_m": 1.7593081133822055,
+        "steps": 8151,
+        "weight_kg": 70.64362653272835,
+        "weight_lb": 155.74235192658355
+    },
+    "name": "Robin Lindsey",
+    "pi": 3.1415927321780717
+}
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 67.8684504964103,
+        "height_m": 1.7238577117256573,
+        "steps": 14503,
+        "weight_kg": 87.55060601235127,
+        "weight_lb": 193.01581702694983
+    },
+    "name": "Myranda Heller",
+    "pi": 3.1415927059724127
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 72.72353776578575,
+        "height_m": 1.8471768617754527,
+        "steps": 10560,
+        "weight_kg": 92.06341304430981,
+        "weight_lb": 202.9648416657463
+    },
+    "name": "Nanny Atkins",
+    "pi": 3.14159256273781
+}
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 57,
+        "height_in": 60.94741125008647,
+        "height_m": 1.5480634097979549,
+        "steps": 4534,
+        "weight_kg": 51.187010389061754,
+        "weight_lb": 112.84790684393332
+    },
+    "name": "Marthena Pruitt",
+    "pi": 3.141592711878089
+}

@@ -1,0 +1,26 @@
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 73.04229149292469,
+        "height_m": 1.855273202072758,
+        "steps": 8671,
+        "weight_kg": 57.80546846844642,
+        "weight_lb": 127.43909189490634
+    },
+    "name": "Elnora Washington",
+    "pi": 3.1415927123086695
+}
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 78.53012699652596,
+        "height_m": 1.9946641485931194,
+        "steps": 10459,
+        "weight_kg": 81.74713048167692,
+        "weight_lb": 180.22135880251454
+    },
+    "name": "Rosabelle Clapp",
+    "pi": 3.141592723741014
+}

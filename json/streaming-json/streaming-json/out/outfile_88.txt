@@ -1,0 +1,78 @@
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 61.04084973188635,
+        "height_m": 1.5504367459540704,
+        "steps": 7603,
+        "weight_kg": 63.78049036450215,
+        "weight_lb": 140.6117446673887
+    },
+    "name": "Wandis Dixon",
+    "pi": 3.141592586624507
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 52,
+        "height_in": 71.64816117867271,
+        "height_m": 1.8198623112126386,
+        "steps": 9374,
+        "weight_kg": 61.67259839588281,
+        "weight_lb": 135.96464387553115
+    },
+    "name": "Lynsey Bell",
+    "pi": 3.1415927348107284
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 77.16778971200443,
+        "height_m": 1.9600608002520805,
+        "steps": 5702,
+        "weight_kg": 93.50280027825616,
+        "weight_lb": 206.13814354944907
+    },
+    "name": "Tova Lutz",
+    "pi": 3.141592597844887
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 73.66495145240329,
+        "height_m": 1.871088756503115,
+        "steps": 4578,
+        "weight_kg": 93.69861627305096,
+        "weight_lb": 206.5698434078936
+    },
+    "name": "Cathryn Grant",
+    "pi": 3.1415927287276717
+}
+{
+    "age": 34,
+    "biometrics": {
+        "heart_rate": 89,
+        "height_in": 61.7886963144379,
+        "height_m": 1.5694320388934215,
+        "steps": 2041,
+        "weight_kg": 96.89232798872034,
+        "weight_lb": 213.6107641304926
+    },
+    "name": "Sadella Greene",
+    "pi": 3.141592597650812
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 78.72514759876226,
+        "height_m": 1.99961766921502,
+        "steps": 14509,
+        "weight_kg": 97.06738313362737,
+        "weight_lb": 213.99669420405755
+    },
+    "name": "Bethany Lynch",
+    "pi": 3.141592712549551
+}

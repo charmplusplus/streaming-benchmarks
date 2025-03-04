@@ -1,0 +1,65 @@
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 67.08950589019433,
+        "height_m": 1.70407252941177,
+        "steps": 10745,
+        "weight_kg": 75.48875930011431,
+        "weight_lb": 166.424028528218
+    },
+    "name": "Claudie Vincent",
+    "pi": 3.1415925738661676
+}
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 74.2549654124513,
+        "height_m": 1.8860751029957072,
+        "steps": 4711,
+        "weight_kg": 75.42179967786078,
+        "weight_lb": 166.27640800580542
+    },
+    "name": "Timmi Thomas",
+    "pi": 3.141592600228246
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 66.3405383686465,
+        "height_m": 1.6850487646372883,
+        "steps": 5036,
+        "weight_kg": 53.456482882618346,
+        "weight_lb": 117.85123129267805
+    },
+    "name": "Jody Talley",
+    "pi": 3.141592717203604
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 59.92864073522897,
+        "height_m": 1.5221866526940233,
+        "steps": 1847,
+        "weight_kg": 76.64666288002155,
+        "weight_lb": 168.9767659185531
+    },
+    "name": "Konstanze Beach",
+    "pi": 3.1415927250819524
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 78.35460953310209,
+        "height_m": 1.9902060074295491,
+        "steps": 14748,
+        "weight_kg": 71.30083628631795,
+        "weight_lb": 157.19124969354226
+    },
+    "name": "Ermentrude Cohen",
+    "pi": 3.1415925932095714
+}

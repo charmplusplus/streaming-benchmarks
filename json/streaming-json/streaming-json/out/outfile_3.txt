@@ -1,0 +1,104 @@
+{
+    "age": 57,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 74.21511160869578,
+        "height_m": 1.8850628169269514,
+        "steps": 8274,
+        "weight_kg": 77.83674881328571,
+        "weight_lb": 171.60045316874593
+    },
+    "name": "Missy Odom",
+    "pi": 3.141592744310627
+}
+{
+    "age": 53,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 69.00825798203019,
+        "height_m": 1.7528088062268115,
+        "steps": 3977,
+        "weight_kg": 56.39429158687536,
+        "weight_lb": 124.32798311825715
+    },
+    "name": "Lotte Vaughn",
+    "pi": 3.1415925998714194
+}
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 68.19309594024908,
+        "height_m": 1.7321037015463276,
+        "steps": 14697,
+        "weight_kg": 54.474755762554324,
+        "weight_lb": 120.0961360492425
+    },
+    "name": "Louisa Gates",
+    "pi": 3.1415927123347847
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 65.54407122280743,
+        "height_m": 1.6648185100573132,
+        "steps": 12979,
+        "weight_kg": 90.87526210908835,
+        "weight_lb": 200.34542035093835
+    },
+    "name": "Elfrieda Dickinson",
+    "pi": 3.1415927192531514
+}
+{
+    "age": 26,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 72.22026455143897,
+        "height_m": 1.834393729033936,
+        "steps": 2356,
+        "weight_kg": 69.17021514194921,
+        "weight_lb": 152.49403970624405
+    },
+    "name": "Gwendolin Nicholson",
+    "pi": 3.1415927078969674
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 77.51122969940701,
+        "height_m": 1.9687841712214857,
+        "steps": 10852,
+        "weight_kg": 87.8087672203059,
+        "weight_lb": 193.58496438923078
+    },
+    "name": "Bobby MacDonald",
+    "pi": 3.1415927200824925
+}
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 76.49952890937055,
+        "height_m": 1.94308698503104,
+        "steps": 8039,
+        "weight_kg": 52.93241247638561,
+        "weight_lb": 116.69585519368923
+    },
+    "name": "Twyla Logan",
+    "pi": 3.1415927149118503
+}
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 76.04966125090749,
+        "height_m": 1.9316603526764597,
+        "steps": 12785,
+        "weight_kg": 58.501290776140024,
+        "weight_lb": 128.9731156708938
+    },
+    "name": "Nanci Montgomery",
+    "pi": 3.1415927453961396
+}

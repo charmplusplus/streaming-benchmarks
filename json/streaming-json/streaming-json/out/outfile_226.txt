@@ -1,0 +1,26 @@
+{
+    "age": 35,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 62.29801944746685,
+        "height_m": 1.5823688394864845,
+        "steps": 10638,
+        "weight_kg": 89.35904782361666,
+        "weight_lb": 197.00274401290176
+    },
+    "name": "Cam Owen",
+    "pi": 3.1415926017538283
+}
+{
+    "age": 68,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 60.02329142908172,
+        "height_m": 1.5245907790196551,
+        "steps": 11921,
+        "weight_kg": 50.12546330079667,
+        "weight_lb": 110.50759890220233
+    },
+    "name": "Agneta Lynch",
+    "pi": 3.141592555542871
+}

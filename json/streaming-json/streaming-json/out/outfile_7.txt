@@ -1,0 +1,26 @@
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 69.76125189969882,
+        "height_m": 1.7719348414075355,
+        "steps": 3403,
+        "weight_kg": 81.36511755453515,
+        "weight_lb": 179.37916546307926
+    },
+    "name": "Remy O'Connor",
+    "pi": 3.141592721469343
+}
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 73.91766605696155,
+        "height_m": 1.8775077039926633,
+        "steps": 5249,
+        "weight_kg": 61.61078276625647,
+        "weight_lb": 135.82836390214433
+    },
+    "name": "Madelon Miller",
+    "pi": 3.1415925832144653
+}

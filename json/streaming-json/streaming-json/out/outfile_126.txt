@@ -1,0 +1,39 @@
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 56,
+        "height_in": 66.84341182580381,
+        "height_m": 1.6978217435516754,
+        "steps": 7638,
+        "weight_kg": 90.4858147358961,
+        "weight_lb": 199.48683688305124
+    },
+    "name": "Joelly Hodge",
+    "pi": 3.1415927261556993
+}
+{
+    "age": 57,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 70.16982761276208,
+        "height_m": 1.7823126589153209,
+        "steps": 5901,
+        "weight_kg": 52.593147530028546,
+        "weight_lb": 115.94790490765152
+    },
+    "name": "Valentina Poe",
+    "pi": 3.1415927114441193
+}
+{
+    "age": 26,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 73.1563171801069,
+        "height_m": 1.8581694529632105,
+        "steps": 9309,
+        "weight_kg": 92.82741562170872,
+        "weight_lb": 204.64917702793147
+    },
+    "name": "Renell Baldwin",
+    "pi": 3.141592714290887
+}

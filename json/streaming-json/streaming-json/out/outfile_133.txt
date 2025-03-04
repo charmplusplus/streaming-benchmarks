@@ -1,0 +1,52 @@
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 78,
+        "height_in": 68.52964358754119,
+        "height_m": 1.7406520071714622,
+        "steps": 7805,
+        "weight_kg": 82.45707865234688,
+        "weight_lb": 181.78652473853697
+    },
+    "name": "Leonie Blair",
+    "pi": 3.141592704175396
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 65.95585590036207,
+        "height_m": 1.6752778352191653,
+        "steps": 12658,
+        "weight_kg": 74.280814509224,
+        "weight_lb": 163.7609692833254
+    },
+    "name": "Norma Christensen",
+    "pi": 3.1415925679524235
+}
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 89,
+        "height_in": 72.43204987611507,
+        "height_m": 1.8397730733758633,
+        "steps": 14188,
+        "weight_kg": 65.5861414858123,
+        "weight_lb": 144.59251924245152
+    },
+    "name": "Adel Moody",
+    "pi": 3.141592566325691
+}
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 76.69761369611936,
+        "height_m": 1.9481183358975305,
+        "steps": 8091,
+        "weight_kg": 88.65462184150961,
+        "weight_lb": 195.4497524042289
+    },
+    "name": "Juieta Blackwell",
+    "pi": 3.1415927370947045
+}

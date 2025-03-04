@@ -1,0 +1,65 @@
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 65.83089263708297,
+        "height_m": 1.6721037700458714,
+        "steps": 1021,
+        "weight_kg": 80.5397336732795,
+        "weight_lb": 177.55950765078543
+    },
+    "name": "Amy Newman",
+    "pi": 3.1415925567215255
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 64.39223027378794,
+        "height_m": 1.63556176575086,
+        "steps": 12359,
+        "weight_kg": 74.53707782652712,
+        "weight_lb": 164.3259325179182
+    },
+    "name": "Cilka Morgan",
+    "pi": 3.1415926008788175
+}
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 74.32022870022952,
+        "height_m": 1.8877327896101233,
+        "steps": 10070,
+        "weight_kg": 71.77253684589085,
+        "weight_lb": 158.23117018118788
+    },
+    "name": "Diena Vogel",
+    "pi": 3.1415927234640852
+}
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 77.0755197475001,
+        "height_m": 1.9577171444192443,
+        "steps": 7441,
+        "weight_kg": 67.99504797676772,
+        "weight_lb": 149.90324267054163
+    },
+    "name": "Joline Lyons",
+    "pi": 3.1415925938327476
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 75.20967545049277,
+        "height_m": 1.9103247248671646,
+        "steps": 8275,
+        "weight_kg": 63.302970790572985,
+        "weight_lb": 139.558995464313
+    },
+    "name": "Evy Palmer",
+    "pi": 3.141592747210415
+}

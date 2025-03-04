@@ -1,0 +1,39 @@
+{
+    "age": 70,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 60.38247167534484,
+        "height_m": 1.5337139523482246,
+        "steps": 10628,
+        "weight_kg": 96.54894531646546,
+        "weight_lb": 212.85373582358608
+    },
+    "name": "Corrine Walker",
+    "pi": 3.1415925907977496
+}
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 76.58268756908521,
+        "height_m": 1.945199213847189,
+        "steps": 4602,
+        "weight_kg": 96.6346790903914,
+        "weight_lb": 213.04274621625868
+    },
+    "name": "Deonne Bennett",
+    "pi": 3.141592722900913
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 76.54195378679442,
+        "height_m": 1.944164576335707,
+        "steps": 13584,
+        "weight_kg": 63.90725455102297,
+        "weight_lb": 140.89121152827624
+    },
+    "name": "Kathlin York",
+    "pi": 3.1415925911427354
+}

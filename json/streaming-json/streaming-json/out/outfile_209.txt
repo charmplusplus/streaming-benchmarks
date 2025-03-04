@@ -1,0 +1,65 @@
+{
+    "age": 59,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 75.76920929058856,
+        "height_m": 1.924536876731036,
+        "steps": 2603,
+        "weight_kg": 58.91196170068464,
+        "weight_lb": 129.87848900456336
+    },
+    "name": "Phillis Patrick",
+    "pi": 3.1415925656259676
+}
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 62.72318962909169,
+        "height_m": 1.5931681562681246,
+        "steps": 8727,
+        "weight_kg": 98.99560065966102,
+        "weight_lb": 218.24768112630187
+    },
+    "name": "Stace Singh",
+    "pi": 3.1415925890828067
+}
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 74.73905507830526,
+        "height_m": 1.8983709738686276,
+        "steps": 7395,
+        "weight_kg": 74.0453873145335,
+        "weight_lb": 163.24194178136682
+    },
+    "name": "Estrellita Grant",
+    "pi": 3.1415925569103913
+}
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 78.1333317301008,
+        "height_m": 1.984585554268361,
+        "steps": 11745,
+        "weight_kg": 51.41551190136125,
+        "weight_lb": 113.35166584797902
+    },
+    "name": "Margaux Berg",
+    "pi": 3.141592578443242
+}
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 82,
+        "height_in": 73.10511973100608,
+        "height_m": 1.8568690384582738,
+        "steps": 8930,
+        "weight_kg": 78.87159950887784,
+        "weight_lb": 173.88190570926224
+    },
+    "name": "Maurizia Douglas",
+    "pi": 3.1415927465857463
+}

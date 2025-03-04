@@ -1,0 +1,26 @@
+{
+    "age": 68,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 77.64697642200265,
+        "height_m": 1.9722321361135138,
+        "steps": 6372,
+        "weight_kg": 61.829798156875,
+        "weight_lb": 136.31120961260976
+    },
+    "name": "Loutitia Bruce",
+    "pi": 3.1415925696452454
+}
+{
+    "age": 57,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 65.91787995766445,
+        "height_m": 1.674313246795524,
+        "steps": 7110,
+        "weight_kg": 95.08470378643693,
+        "weight_lb": 209.62563966165456
+    },
+    "name": "Storm Grady",
+    "pi": 3.141592569267015
+}

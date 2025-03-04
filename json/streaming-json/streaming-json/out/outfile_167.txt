@@ -1,0 +1,26 @@
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 62.07660626011738,
+        "height_m": 1.5767449475647097,
+        "steps": 6809,
+        "weight_kg": 57.4492452964135,
+        "weight_lb": 126.65375516537912
+    },
+    "name": "Dayle Leonard",
+    "pi": 3.1415925782815113
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 83,
+        "height_in": 63.20598319819007,
+        "height_m": 1.6054311063012303,
+        "steps": 5030,
+        "weight_kg": 79.48143107495413,
+        "weight_lb": 175.22635257646536
+    },
+    "name": "Marieann Lyons",
+    "pi": 3.1415927365516985
+}

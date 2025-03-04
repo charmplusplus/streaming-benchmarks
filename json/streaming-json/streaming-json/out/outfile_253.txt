@@ -1,0 +1,26 @@
+{
+    "age": 38,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 68.6083367973682,
+        "height_m": 1.7426508136217127,
+        "steps": 5297,
+        "weight_kg": 97.39117753043767,
+        "weight_lb": 214.71053780715349
+    },
+    "name": "Vally Siegel",
+    "pi": 3.1415925759544754
+}
+{
+    "age": 62,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 65.36523801565984,
+        "height_m": 1.6602761490486393,
+        "steps": 8141,
+        "weight_kg": 60.82197007439898,
+        "weight_lb": 134.08933166542147
+    },
+    "name": "Carlin Gordon",
+    "pi": 3.1415927104936174
+}

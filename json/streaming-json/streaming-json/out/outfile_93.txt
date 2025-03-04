@@ -1,0 +1,78 @@
+{
+    "age": 69,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 72.04936014993875,
+        "height_m": 1.830052759579954,
+        "steps": 4088,
+        "weight_kg": 58.774914596974426,
+        "weight_lb": 129.57635221878175
+    },
+    "name": "Brigitte Watson",
+    "pi": 3.141592601074285
+}
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 73.61037377594867,
+        "height_m": 1.869702484269755,
+        "steps": 14858,
+        "weight_kg": 68.35271167194779,
+        "weight_lb": 150.6917552062095
+    },
+    "name": "Ilse Stout",
+    "pi": 3.141592716773797
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 60.31504901634772,
+        "height_m": 1.5320014177344665,
+        "steps": 8356,
+        "weight_kg": 77.27234428039074,
+        "weight_lb": 170.35615564743503
+    },
+    "name": "Augusta Ward",
+    "pi": 3.141592739613731
+}
+{
+    "age": 67,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 63.79016464760517,
+        "height_m": 1.6202693071037453,
+        "steps": 10138,
+        "weight_kg": 88.99846817474993,
+        "weight_lb": 196.20780290741718
+    },
+    "name": "Dennie Werner",
+    "pi": 3.1415926009300272
+}
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 68.33920265495378,
+        "height_m": 1.7358148100958284,
+        "steps": 9345,
+        "weight_kg": 70.23891934726838,
+        "weight_lb": 154.8501263713748
+    },
+    "name": "Kissie O'Donnell",
+    "pi": 3.141592737448917
+}
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 62.75162010456519,
+        "height_m": 1.5938902899551992,
+        "steps": 1891,
+        "weight_kg": 70.51257275197665,
+        "weight_lb": 155.45342814046273
+    },
+    "name": "Reggi Kerr",
+    "pi": 3.1415927268413606
+}

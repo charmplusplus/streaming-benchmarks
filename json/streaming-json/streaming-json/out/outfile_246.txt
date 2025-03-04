@@ -1,0 +1,52 @@
+{
+    "age": 35,
+    "biometrics": {
+        "heart_rate": 82,
+        "height_in": 65.16141541155758,
+        "height_m": 1.6550990577000715,
+        "steps": 10758,
+        "weight_kg": 84.0095258332691,
+        "weight_lb": 185.20908084254168
+    },
+    "name": "Corrinne Pate",
+    "pi": 3.14159260023033
+}
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 59,
+        "height_in": 63.22973247260139,
+        "height_m": 1.606034337545533,
+        "steps": 3868,
+        "weight_kg": 72.08953401677536,
+        "weight_lb": 158.93002848406329
+    },
+    "name": "Nerita Dickinson",
+    "pi": 3.141592706364364
+}
+{
+    "age": 29,
+    "biometrics": {
+        "heart_rate": 60,
+        "height_in": 68.12301492159347,
+        "height_m": 1.7303236446337058,
+        "steps": 2532,
+        "weight_kg": 72.99678252088994,
+        "weight_lb": 160.93016668120435
+    },
+    "name": "Sidonnie Russell",
+    "pi": 3.141592713349979
+}
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 80,
+        "height_in": 69.0688664640136,
+        "height_m": 1.7543482608378844,
+        "steps": 1175,
+        "weight_kg": 50.72031966504512,
+        "weight_lb": 111.81903113995176
+    },
+    "name": "Noellyn Pennington",
+    "pi": 3.141592602389921
+}

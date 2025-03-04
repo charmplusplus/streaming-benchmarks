@@ -1,0 +1,26 @@
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 76.686637830935,
+        "height_m": 1.9478395490723925,
+        "steps": 7868,
+        "weight_kg": 78.62432438312993,
+        "weight_lb": 173.3367580215359
+    },
+    "name": "Kacey Stanton",
+    "pi": 3.141592722141078
+}
+{
+    "age": 53,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 74.21056353238869,
+        "height_m": 1.8849472958511329,
+        "steps": 8508,
+        "weight_kg": 64.01581152071799,
+        "weight_lb": 141.13053839480528
+    },
+    "name": "Esme Ball",
+    "pi": 3.1415927095416185
+}

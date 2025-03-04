@@ -1,0 +1,78 @@
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 82,
+        "height_in": 76.3635102900579,
+        "height_m": 1.9396321139661292,
+        "steps": 11830,
+        "weight_kg": 58.99358688866945,
+        "weight_lb": 130.05844152649843
+    },
+    "name": "Darb Armstrong",
+    "pi": 3.141592707632564
+}
+{
+    "age": 26,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 69.87625449906956,
+        "height_m": 1.7748559058541777,
+        "steps": 4403,
+        "weight_kg": 77.3645749004016,
+        "weight_lb": 170.55948911692337
+    },
+    "name": "Sabine Parsons",
+    "pi": 3.1415926024303893
+}
+{
+    "age": 67,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 63.73943840170015,
+        "height_m": 1.6189808611535188,
+        "steps": 10258,
+        "weight_kg": 95.46848608630603,
+        "weight_lb": 210.47173379559197
+    },
+    "name": "Zandra Joseph",
+    "pi": 3.1415927394843273
+}
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 73.84404816240398,
+        "height_m": 1.8756378104806433,
+        "steps": 2967,
+        "weight_kg": 69.31879384175708,
+        "weight_lb": 152.8215992794145
+    },
+    "name": "Tilda Cherry",
+    "pi": 3.1415927193493225
+}
+{
+    "age": 40,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 60.72441265249918,
+        "height_m": 1.542399248477885,
+        "steps": 2254,
+        "weight_kg": 51.88634513965771,
+        "weight_lb": 114.38967422179218
+    },
+    "name": "Reine Langley",
+    "pi": 3.141592581102585
+}
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 87,
+        "height_in": 77.82357272982307,
+        "height_m": 1.9767176799099586,
+        "steps": 14112,
+        "weight_kg": 74.13886240634154,
+        "weight_lb": 163.4480188382687
+    },
+    "name": "Otha O'Brien",
+    "pi": 3.141592711099082
+}

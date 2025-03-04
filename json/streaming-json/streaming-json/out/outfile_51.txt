@@ -1,0 +1,52 @@
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 72.98192786822682,
+        "height_m": 1.853739966833379,
+        "steps": 14427,
+        "weight_kg": 78.01922419665371,
+        "weight_lb": 172.00274204842668
+    },
+    "name": "Prudy Noble",
+    "pi": 3.141592582239207
+}
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 63.58114697918537,
+        "height_m": 1.6149602611927674,
+        "steps": 14926,
+        "weight_kg": 79.20386529970524,
+        "weight_lb": 174.61442551703615
+    },
+    "name": "Stephenie Alston",
+    "pi": 3.141592595019278
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 74.21892802707517,
+        "height_m": 1.885159753901442,
+        "steps": 6022,
+        "weight_kg": 88.60265087512389,
+        "weight_lb": 195.3351761723156
+    },
+    "name": "Sephira Sloan",
+    "pi": 3.1415927292763186
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 85,
+        "height_in": 69.91825122965402,
+        "height_m": 1.7759226222349962,
+        "steps": 6405,
+        "weight_kg": 62.02554334097489,
+        "weight_lb": 136.74275336038005
+    },
+    "name": "Nada Lehman",
+    "pi": 3.141592738939867
+}

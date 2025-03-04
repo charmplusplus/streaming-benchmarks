@@ -1,0 +1,78 @@
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 65.63159400861196,
+        "height_m": 1.6670415876162863,
+        "steps": 14922,
+        "weight_kg": 90.21767590285732,
+        "weight_lb": 198.8956926489573
+    },
+    "name": "Lisetta Houston",
+    "pi": 3.141592718316516
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 83,
+        "height_in": 71.06130000919543,
+        "height_m": 1.8049560455572995,
+        "steps": 5640,
+        "weight_kg": 84.44569996355077,
+        "weight_lb": 186.17067905364328
+    },
+    "name": "Pippa Albright",
+    "pi": 3.1415927279216005
+}
+{
+    "age": 40,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 59.30796214070378,
+        "height_m": 1.5064214249063066,
+        "steps": 7137,
+        "weight_kg": 94.16119152933436,
+        "weight_lb": 207.58964606940108
+    },
+    "name": "Barbabra Martin",
+    "pi": 3.1415927157651504
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 82,
+        "height_in": 70.32486153873948,
+        "height_m": 1.786250518508703,
+        "steps": 13674,
+        "weight_kg": 77.33449974783163,
+        "weight_lb": 170.49318483406455
+    },
+    "name": "Rona Hawley",
+    "pi": 3.1415927340411836
+}
+{
+    "age": 65,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 60.63101350248135,
+        "height_m": 1.5400269113484941,
+        "steps": 9873,
+        "weight_kg": 87.49889693501362,
+        "weight_lb": 192.9018181608697
+    },
+    "name": "Sherill Blalock",
+    "pi": 3.141592726030222
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 62,
+        "height_in": 60.844657826881054,
+        "height_m": 1.5454534742579027,
+        "steps": 3829,
+        "weight_kg": 56.10564097890285,
+        "weight_lb": 123.69161821490879
+    },
+    "name": "Euphemia Pollock",
+    "pi": 3.141592734146549
+}

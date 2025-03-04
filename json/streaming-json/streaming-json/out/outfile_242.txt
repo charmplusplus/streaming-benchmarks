@@ -1,0 +1,39 @@
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 69.43711954623146,
+        "height_m": 1.7637018840752616,
+        "steps": 11568,
+        "weight_kg": 62.57018197658849,
+        "weight_lb": 137.94347458922653
+    },
+    "name": "Rosemarie Woods",
+    "pi": 3.1415927169085367
+}
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 77,
+        "height_in": 72.35525467326596,
+        "height_m": 1.8378224762768183,
+        "steps": 11398,
+        "weight_kg": 53.654208207973994,
+        "weight_lb": 118.28714049946362
+    },
+    "name": "Lona Malone",
+    "pi": 3.141592569731944
+}
+{
+    "age": 49,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 73.59229184147776,
+        "height_m": 1.869243203382205,
+        "steps": 1621,
+        "weight_kg": 83.26881839593548,
+        "weight_lb": 183.57610241204728
+    },
+    "name": "Peria Stout",
+    "pi": 3.141592721372937
+}

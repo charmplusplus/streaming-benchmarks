@@ -1,0 +1,39 @@
+{
+    "age": 36,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 77.3976357462055,
+        "height_m": 1.965898886368221,
+        "steps": 5620,
+        "weight_kg": 51.41154493158276,
+        "weight_lb": 113.34292018706597
+    },
+    "name": "Meg Cho",
+    "pi": 3.141592572863575
+}
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 62.58516228326067,
+        "height_m": 1.5896622635771986,
+        "steps": 9205,
+        "weight_kg": 87.10842817935301,
+        "weight_lb": 192.04098293276522
+    },
+    "name": "Georgianna Wood",
+    "pi": 3.1415925713789927
+}
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 72.33850660112867,
+        "height_m": 1.8373970754742475,
+        "steps": 14154,
+        "weight_kg": 67.5349409857283,
+        "weight_lb": 148.88888159595632
+    },
+    "name": "Brooks Hicks",
+    "pi": 3.1415927087642905
+}

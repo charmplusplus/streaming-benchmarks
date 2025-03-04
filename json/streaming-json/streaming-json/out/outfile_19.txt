@@ -1,0 +1,52 @@
+{
+    "age": 31,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 64.52898279179837,
+        "height_m": 1.6390352778326285,
+        "steps": 7294,
+        "weight_kg": 56.43217173860694,
+        "weight_lb": 124.41149445836761
+    },
+    "name": "Zita Lloyd",
+    "pi": 3.141592593114539
+}
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 67.76041174044438,
+        "height_m": 1.7211135288059818,
+        "steps": 10054,
+        "weight_kg": 54.04413641121305,
+        "weight_lb": 119.14678401488851
+    },
+    "name": "Serena Clarke",
+    "pi": 3.141592603522423
+}
+{
+    "age": 28,
+    "biometrics": {
+        "heart_rate": 52,
+        "height_in": 60.05516433962593,
+        "height_m": 1.5254003505103093,
+        "steps": 9357,
+        "weight_kg": 84.20473044058562,
+        "weight_lb": 185.63943282392387
+    },
+    "name": "Georgeta Weiner",
+    "pi": 3.1415927247061135
+}
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 74.11578998435267,
+        "height_m": 1.8825400490309314,
+        "steps": 5551,
+        "weight_kg": 77.41750415679374,
+        "weight_lb": 170.6761780141506
+    },
+    "name": "Violetta Wooten",
+    "pi": 3.1415925862017233
+}

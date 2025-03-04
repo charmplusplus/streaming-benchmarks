@@ -1,0 +1,13 @@
+{
+    "age": 53,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 65.70528293468884,
+        "height_m": 1.6689132853279225,
+        "steps": 13946,
+        "weight_kg": 51.91399965177818,
+        "weight_lb": 114.4506419123032
+    },
+    "name": "Rosette Morrow",
+    "pi": 3.141592561050174
+}

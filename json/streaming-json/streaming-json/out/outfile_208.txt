@@ -1,0 +1,52 @@
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 63,
+        "height_in": 76.53172469404248,
+        "height_m": 1.94390475752011,
+        "steps": 3568,
+        "weight_kg": 96.59790456772144,
+        "weight_lb": 212.96167236809003
+    },
+    "name": "Danita Kuhn",
+    "pi": 3.1415925924990598
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 66,
+        "height_in": 63.96406115755832,
+        "height_m": 1.6246862760713923,
+        "steps": 13200,
+        "weight_kg": 99.12767872161983,
+        "weight_lb": 218.53886306325748
+    },
+    "name": "Eden Jennings",
+    "pi": 3.1415925622733676
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 89,
+        "height_in": 64.48264190392925,
+        "height_m": 1.637858219916364,
+        "steps": 2971,
+        "weight_kg": 80.42885658864199,
+        "weight_lb": 177.3150658124519
+    },
+    "name": "Carita Currie",
+    "pi": 3.141592736876151
+}
+{
+    "age": 58,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 77.37967400611095,
+        "height_m": 1.9654426584161824,
+        "steps": 1658,
+        "weight_kg": 58.48886337676649,
+        "weight_lb": 128.9457179776869
+    },
+    "name": "Ulrica Williams",
+    "pi": 3.1415927040470724
+}

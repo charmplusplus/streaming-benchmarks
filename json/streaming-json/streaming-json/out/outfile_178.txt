@@ -1,0 +1,26 @@
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 64,
+        "height_in": 70.2235276614159,
+        "height_m": 1.7836766394145784,
+        "steps": 1678,
+        "weight_kg": 96.41313181783732,
+        "weight_lb": 212.5543186682405
+    },
+    "name": "Cristen Lyons",
+    "pi": 3.141592728757196
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 81,
+        "height_in": 76.4725409149078,
+        "height_m": 1.9424014903418532,
+        "steps": 5251,
+        "weight_kg": 69.0139190113285,
+        "weight_lb": 152.14946613075503
+    },
+    "name": "Dianna Weaver",
+    "pi": 3.1415925779843996
+}

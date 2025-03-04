@@ -1,0 +1,169 @@
+{
+    "age": 30,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 66.60846774695781,
+        "height_m": 1.6918541671714782,
+        "steps": 4665,
+        "weight_kg": 53.35716128215389,
+        "weight_lb": 117.6322649058621
+    },
+    "name": "Gustie Gallagher",
+    "pi": 3.141592601583134
+}
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 71,
+        "height_in": 61.83753049797178,
+        "height_m": 1.5706724264853729,
+        "steps": 2808,
+        "weight_kg": 68.98142990775202,
+        "weight_lb": 152.07784000322823
+    },
+    "name": "Hynda Hayes",
+    "pi": 3.141592572346328
+}
+{
+    "age": 27,
+    "biometrics": {
+        "heart_rate": 52,
+        "height_in": 70.88614281167709,
+        "height_m": 1.8005070551427884,
+        "steps": 7586,
+        "weight_kg": 64.21607945597745,
+        "weight_lb": 141.572053090237
+    },
+    "name": "Silva Butler",
+    "pi": 3.141592573583223
+}
+{
+    "age": 52,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 78.59711858555447,
+        "height_m": 1.996365734035587,
+        "steps": 2188,
+        "weight_kg": 53.843497789860336,
+        "weight_lb": 118.70445209748189
+    },
+    "name": "Trina Kane",
+    "pi": 3.1415927436672044
+}
+{
+    "age": 60,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 77.59345661642493,
+        "height_m": 1.970872733785917,
+        "steps": 9043,
+        "weight_kg": 52.32813840752585,
+        "weight_lb": 115.36366049599962
+    },
+    "name": "Ronnica Roy",
+    "pi": 3.1415927074322507
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 70.81388854853958,
+        "height_m": 1.7986717978501345,
+        "steps": 3627,
+        "weight_kg": 74.95485073142098,
+        "weight_lb": 165.2469630195053
+    },
+    "name": "Casie Drake",
+    "pi": 3.1415927120154596
+}
+{
+    "age": 42,
+    "biometrics": {
+        "heart_rate": 72,
+        "height_in": 59.59141285092909,
+        "height_m": 1.5136210690582215,
+        "steps": 7555,
+        "weight_kg": 96.65190814058461,
+        "weight_lb": 213.08072972489563
+    },
+    "name": "Aurel Jenkins",
+    "pi": 3.1415927134872144
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 90,
+        "height_in": 68.90744025696303,
+        "height_m": 1.7502480373929208,
+        "steps": 4346,
+        "weight_kg": 57.09166586803421,
+        "weight_lb": 125.86542840598557
+    },
+    "name": "Beth Wilder",
+    "pi": 3.141592591263338
+}
+{
+    "age": 26,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 69.01209829928054,
+        "height_m": 1.7529063502322966,
+        "steps": 2935,
+        "weight_kg": 98.911838199555,
+        "weight_lb": 218.06301673150293
+    },
+    "name": "Coriss Simon",
+    "pi": 3.141592707828067
+}
+{
+    "age": 63,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 61.06673938205307,
+        "height_m": 1.551094342713203,
+        "steps": 9782,
+        "weight_kg": 90.07845168270049,
+        "weight_lb": 198.58875614871513
+    },
+    "name": "Justinn Beard",
+    "pi": 3.141592600639826
+}
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 55,
+        "height_in": 69.17249662078062,
+        "height_m": 1.7569804653983763,
+        "steps": 7343,
+        "weight_kg": 63.820175651301554,
+        "weight_lb": 140.6992356443724
+    },
+    "name": "Quintana Dale",
+    "pi": 3.141592591757629
+}
+{
+    "age": 55,
+    "biometrics": {
+        "heart_rate": 52,
+        "height_in": 67.78659704335493,
+        "height_m": 1.7217786351407522,
+        "steps": 4072,
+        "weight_kg": 79.45891284650997,
+        "weight_lb": 175.1767084396728
+    },
+    "name": "Fayth Bowman",
+    "pi": 3.1415927152823557
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 79,
+        "height_in": 72.0705525449465,
+        "height_m": 1.8305910461224761,
+        "steps": 4957,
+        "weight_kg": 62.00163702728537,
+        "weight_lb": 136.69004902309385
+    },
+    "name": "Audrye Jenkins",
+    "pi": 3.1415927075606587
+}

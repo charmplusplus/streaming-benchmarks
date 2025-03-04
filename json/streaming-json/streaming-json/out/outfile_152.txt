@@ -1,0 +1,13 @@
+{
+    "age": 47,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 69.04707822036829,
+        "height_m": 1.753794839748141,
+        "steps": 10260,
+        "weight_kg": 87.57547861209603,
+        "weight_lb": 193.07065165779915
+    },
+    "name": "Roselia Blackburn",
+    "pi": 3.141592599565418
+}

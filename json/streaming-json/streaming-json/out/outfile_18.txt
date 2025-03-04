@@ -1,0 +1,39 @@
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 65.99818234404331,
+        "height_m": 1.67635292630812,
+        "steps": 2260,
+        "weight_kg": 66.88854286017157,
+        "weight_lb": 147.46381936039143
+    },
+    "name": "Francyne Hanna",
+    "pi": 3.1415927223004494
+}
+{
+    "age": 38,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 75.12105314802224,
+        "height_m": 1.9080737195999564,
+        "steps": 2421,
+        "weight_kg": 89.7489247054036,
+        "weight_lb": 197.86227438402685
+    },
+    "name": "Benedikta Dunn",
+    "pi": 3.141592574937631
+}
+{
+    "age": 57,
+    "biometrics": {
+        "heart_rate": 69,
+        "height_in": 66.765979931196,
+        "height_m": 1.6958549744906921,
+        "steps": 3909,
+        "weight_kg": 98.92109670800048,
+        "weight_lb": 218.08342822439198
+    },
+    "name": "Kathe Gilliam",
+    "pi": 3.141592717535295
+}

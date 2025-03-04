@@ -1,0 +1,39 @@
+{
+    "age": 64,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 59.49010579612254,
+        "height_m": 1.511047871255662,
+        "steps": 12899,
+        "weight_kg": 74.93334448044696,
+        "weight_lb": 165.19954990848296
+    },
+    "name": "Sandy Moon",
+    "pi": 3.141592727930199
+}
+{
+    "age": 38,
+    "biometrics": {
+        "heart_rate": 68,
+        "height_in": 75.19388631821958,
+        "height_m": 1.9099236811239897,
+        "steps": 3895,
+        "weight_kg": 88.54052062325763,
+        "weight_lb": 195.19820257644622
+    },
+    "name": "Barby Cooke",
+    "pi": 3.141592595979232
+}
+{
+    "age": 61,
+    "biometrics": {
+        "heart_rate": 50,
+        "height_in": 76.77447916560305,
+        "height_m": 1.95007071776813,
+        "steps": 13860,
+        "weight_kg": 97.55017825935751,
+        "weight_lb": 215.06107399414472
+    },
+    "name": "Casey Hester",
+    "pi": 3.1415925931642024
+}

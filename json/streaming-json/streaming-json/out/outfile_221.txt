@@ -1,0 +1,65 @@
+{
+    "age": 40,
+    "biometrics": {
+        "heart_rate": 70,
+        "height_in": 60.25188679099257,
+        "height_m": 1.5303970980767783,
+        "steps": 14682,
+        "weight_kg": 81.70175074708652,
+        "weight_lb": 180.12131373204187
+    },
+    "name": "Rosabelle Gentry",
+    "pi": 3.1415927184248758
+}
+{
+    "age": 32,
+    "biometrics": {
+        "heart_rate": 58,
+        "height_in": 65.08711884475895,
+        "height_m": 1.6532119259224372,
+        "steps": 14818,
+        "weight_kg": 65.2705500473911,
+        "weight_lb": 143.89676004547934
+    },
+    "name": "Reta Larson",
+    "pi": 3.141592600159745
+}
+{
+    "age": 37,
+    "biometrics": {
+        "heart_rate": 65,
+        "height_in": 64.33938657065796,
+        "height_m": 1.6342195364161625,
+        "steps": 10249,
+        "weight_kg": 83.86406225465834,
+        "weight_lb": 184.88838892786484
+    },
+    "name": "Maritsa McCarthy",
+    "pi": 3.141592708190443
+}
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 75.56605973875816,
+        "height_m": 1.9193768809009413,
+        "steps": 9524,
+        "weight_kg": 81.17667300337956,
+        "weight_lb": 178.96371683671063
+    },
+    "name": "Flossi Barefoot",
+    "pi": 3.141592744755004
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 52,
+        "height_in": 71.57049780832466,
+        "height_m": 1.8178896626710284,
+        "steps": 5091,
+        "weight_kg": 88.53380948817528,
+        "weight_lb": 195.18340707382097
+    },
+    "name": "Madelle Atkins",
+    "pi": 3.141592703873873
+}

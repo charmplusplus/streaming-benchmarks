@@ -1,0 +1,26 @@
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 84,
+        "height_in": 69.55041759255491,
+        "height_m": 1.766579652897882,
+        "steps": 14446,
+        "weight_kg": 72.12011246361533,
+        "weight_lb": 158.9974423395356
+    },
+    "name": "Sarette McLaughlin",
+    "pi": 3.141592713267953
+}
+{
+    "age": 39,
+    "biometrics": {
+        "heart_rate": 54,
+        "height_in": 68.32901607748666,
+        "height_m": 1.7355560711678826,
+        "steps": 4238,
+        "weight_kg": 54.37169666274021,
+        "weight_lb": 119.86892989661031
+    },
+    "name": "Roselin May",
+    "pi": 3.1415926014556463
+}

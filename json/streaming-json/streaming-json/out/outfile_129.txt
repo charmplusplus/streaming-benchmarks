@@ -1,0 +1,65 @@
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 89,
+        "height_in": 78.52444537913813,
+        "height_m": 1.9945198355893972,
+        "steps": 1886,
+        "weight_kg": 55.693115437502215,
+        "weight_lb": 122.78215615582612
+    },
+    "name": "Maryjo Bunn",
+    "pi": 3.141592593512967
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 73,
+        "height_in": 77.6541191035553,
+        "height_m": 1.9724135601269823,
+        "steps": 6414,
+        "weight_kg": 60.74622673223139,
+        "weight_lb": 133.92234637841196
+    },
+    "name": "Nikaniki Klein",
+    "pi": 3.1415927068786895
+}
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 80,
+        "height_in": 61.6182594711578,
+        "height_m": 1.5651029454118175,
+        "steps": 9972,
+        "weight_kg": 72.66027495197785,
+        "weight_lb": 160.1882953646294
+    },
+    "name": "Lorri Rhodes",
+    "pi": 3.141592745629875
+}
+{
+    "age": 54,
+    "biometrics": {
+        "heart_rate": 51,
+        "height_in": 68.2367629928166,
+        "height_m": 1.7332128440826058,
+        "steps": 3992,
+        "weight_kg": 96.36664910172927,
+        "weight_lb": 212.45184194265437
+    },
+    "name": "Jessika Kay",
+    "pi": 3.1415925745705926
+}
+{
+    "age": 41,
+    "biometrics": {
+        "heart_rate": 76,
+        "height_in": 78.0861030517419,
+        "height_m": 1.983385946485833,
+        "steps": 14783,
+        "weight_kg": 57.097081099327895,
+        "weight_lb": 125.87736693320025
+    },
+    "name": "Nerte Scarborough",
+    "pi": 3.1415925766639416
+}

@@ -1,0 +1,104 @@
+{
+    "age": 25,
+    "biometrics": {
+        "heart_rate": 89,
+        "height_in": 59.454179357041475,
+        "height_m": 1.5101353401957698,
+        "steps": 13979,
+        "weight_kg": 70.85796406101575,
+        "weight_lb": 156.21488472819652
+    },
+    "name": "Eirena Kang",
+    "pi": 3.141592592908615
+}
+{
+    "age": 46,
+    "biometrics": {
+        "heart_rate": 82,
+        "height_in": 59.94709309874141,
+        "height_m": 1.522655342474147,
+        "steps": 5270,
+        "weight_kg": 97.48170379533369,
+        "weight_lb": 214.91011382126854
+    },
+    "name": "Rachel Erickson",
+    "pi": 3.1415927465308924
+}
+{
+    "age": 33,
+    "biometrics": {
+        "heart_rate": 86,
+        "height_in": 72.87633884972625,
+        "height_m": 1.8510580072117229,
+        "steps": 1266,
+        "weight_kg": 83.26853189599422,
+        "weight_lb": 183.57547078854674
+    },
+    "name": "Fawnia Pittman",
+    "pi": 3.141592731369037
+}
+{
+    "age": 48,
+    "biometrics": {
+        "heart_rate": 61,
+        "height_in": 78.50049527738791,
+        "height_m": 1.9939115033334411,
+        "steps": 1318,
+        "weight_kg": 99.25263256127553,
+        "weight_lb": 218.81433879723926
+    },
+    "name": "Shellie Chase",
+    "pi": 3.141592715806484
+}
+{
+    "age": 43,
+    "biometrics": {
+        "heart_rate": 88,
+        "height_in": 62.8945056853489,
+        "height_m": 1.597519581747288,
+        "steps": 2120,
+        "weight_kg": 53.4986792075955,
+        "weight_lb": 117.94425815464918
+    },
+    "name": "Melania Mayer",
+    "pi": 3.1415925966222793
+}
+{
+    "age": 44,
+    "biometrics": {
+        "heart_rate": 74,
+        "height_in": 64.6066651677462,
+        "height_m": 1.6410084091162127,
+        "steps": 10779,
+        "weight_kg": 66.04185627708644,
+        "weight_lb": 145.5971971855903
+    },
+    "name": "Gilda Blackburn",
+    "pi": 3.141592571193213
+}
+{
+    "age": 50,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 62.18308159632911,
+        "height_m": 1.5794494196440727,
+        "steps": 3271,
+        "weight_kg": 66.51497359759537,
+        "weight_lb": 146.6402410927307
+    },
+    "name": "Marrissa Curtis",
+    "pi": 3.141592573826125
+}
+{
+    "age": 66,
+    "biometrics": {
+        "heart_rate": 53,
+        "height_in": 62.19264962113388,
+        "height_m": 1.579692447342879,
+        "steps": 5391,
+        "weight_kg": 93.96865633502686,
+        "weight_lb": 207.1651791293269
+    },
+    "name": "Phoebe West",
+    "pi": 3.141592719100098
+}
