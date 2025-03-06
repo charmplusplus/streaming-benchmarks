@@ -1059,8 +1059,8 @@ void Main::_serial_0(Closure_Main::doneCreatingData_8_closure* gen0) {
     { // begin serial block
 #line 13 "streamtest.ci"
 
-    CkPrintf("Total of %d records have been writing, broadcast to readers to start reading", total_records);
-   
+				CkPrintf("Total of %d records have been writing, broadcast to readers to start reading", total_records);
+			
 #line 1065 "streamtest.def.h"
     } // end serial block
   }
@@ -1106,10 +1106,10 @@ void Main::_serial_1() {
   { // begin serial block
 #line 18 "streamtest.ci"
 
-    CkPrintf("All readers have received their inputs, beginning work, input generation took %f\n", CkWallTimer() - start_time);
-    start_time = CkWallTimer();
-    Ck::Stream::createNewStream(CkCallback(CkIndex_Main::readersValidatorsStreamMade(0), thisProxy));
-   
+				CkPrintf("All readers have received their inputs, beginning work, input generation took %f\n", CkWallTimer() - start_time);
+				start_time = CkWallTimer();
+				Ck::Stream::createNewStream(CkCallback(CkIndex_Main::readersValidatorsStreamMade(0), thisProxy));
+			
 #line 1114 "streamtest.def.h"
   } // end serial block
   _TRACE_END_EXECUTE(); 
@@ -2548,11 +2548,11 @@ void Validators::_serial_0() {
   CmiObjId projID = this->ckGetArrayIndex().getProjectionID();
   _TRACE_BEGIN_EXECUTE_DETAILED(-1, -1, (_sdag_idx_Validators_serial_0()), CkMyPe(), 0, &projID, this); 
   { // begin serial block
-#line 39 "streamtest.ci"
+#line 45 "streamtest.ci"
 
-    CkPrintf("Validators all done!\n");
-    Ck::Stream::closeWriteStream(output_id);
-   
+				CkPrintf("Validators all done!\n");
+				Ck::Stream::closeWriteStream(output_id);
+			
 #line 2557 "streamtest.def.h"
   } // end serial block
   _TRACE_END_EXECUTE(); 
@@ -3291,11 +3291,11 @@ void Filters::_serial_0() {
   CmiObjId projID = this->ckGetArrayIndex().getProjectionID();
   _TRACE_BEGIN_EXECUTE_DETAILED(-1, -1, (_sdag_idx_Filters_serial_0()), CkMyPe(), 0, &projID, this); 
   { // begin serial block
-#line 52 "streamtest.ci"
+#line 59 "streamtest.ci"
 
-    CkPrintf("Filters all done!\n");
-    Ck::Stream::closeWriteStream(output_id);
-   
+				CkPrintf("Filters all done!\n");
+				Ck::Stream::closeWriteStream(output_id);
+			
 #line 3300 "streamtest.def.h"
   } // end serial block
   _TRACE_END_EXECUTE(); 
@@ -4034,11 +4034,11 @@ void Transformers::_serial_0() {
   CmiObjId projID = this->ckGetArrayIndex().getProjectionID();
   _TRACE_BEGIN_EXECUTE_DETAILED(-1, -1, (_sdag_idx_Transformers_serial_0()), CkMyPe(), 0, &projID, this); 
   { // begin serial block
-#line 65 "streamtest.ci"
+#line 73 "streamtest.ci"
 
-    CkPrintf("Transformers all done!\n");
-    Ck::Stream::closeWriteStream(output_id);
-   
+				CkPrintf("Transformers all done!\n");
+				Ck::Stream::closeWriteStream(output_id);
+			
 #line 4043 "streamtest.def.h"
   } // end serial block
   _TRACE_END_EXECUTE(); 
@@ -4740,11 +4740,11 @@ void Writers::_serial_0() {
   CmiObjId projID = this->ckGetArrayIndex().getProjectionID();
   _TRACE_BEGIN_EXECUTE_DETAILED(-1, -1, (_sdag_idx_Writers_serial_0()), CkMyPe(), 0, &projID, this); 
   { // begin serial block
-#line 77 "streamtest.ci"
+#line 87 "streamtest.ci"
 
-    CkPrintf("Writers all done!\n");
-    mainProxy.getEndTimeAndExit();
-   
+				CkPrintf("Writers all done!\n");
+				mainProxy.getEndTimeAndExit();
+			
 #line 4749 "streamtest.def.h"
   } // end serial block
   _TRACE_END_EXECUTE(); 

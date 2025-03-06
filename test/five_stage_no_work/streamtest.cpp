@@ -324,7 +324,7 @@ public:
 		if (input_id == INVALID_STREAM_NO || output_id == INVALID_STREAM_NO) return;
 		char* data = (char*)(msg->data);
 		if (msg->num_bytes) {
-			Ck::Stream::putRecord(output_id, (void*)transformed_data.c_str(), sizeof(char) * strlen(transformed_data.c_str()) + 1);
+			Ck::Stream::putRecord(output_id, data, msg->num_bytes);
 			Ck::Stream::flushLocalStream(output_id);
 		}
 		if (msg->status == Ck::Stream::StreamStatus::STREAM_OK) {
