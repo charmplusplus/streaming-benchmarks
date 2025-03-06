@@ -348,11 +348,11 @@ public:
 	Writers_SDAG_CODE
 	Writers(CProxy_Main main) {
 		mainProxy = main;
-		outfile_name = std::string(INPUT_FILE_BASE) + "/run-" + std::to_string(int(RUN_ID)) + std::string("/out/out-") + std::to_string(thisIndex) + std::string(".json");
-		fd.open(outfile_name);
-		if (!fd.is_open()) {
-			CkPrintf("Error opening file\n");
-		}
+		// outfile_name = std::string(INPUT_FILE_BASE) + "/run-" + std::to_string(int(RUN_ID)) + std::string("/out/out-") + std::to_string(thisIndex) + std::string(".json");
+		// fd.open(outfile_name);
+		// if (!fd.is_open()) {
+		// 	CkPrintf("Error opening file\n");
+		// }
 	}
 	Writers(CkMigrateMessage* msg) {}
 	void pup(PUP::er &p) {}
@@ -373,7 +373,7 @@ public:
 			Ck::Stream::getRecord(input_id, CkCallback(CkIndex_Writers::recvData(0), thisProxy[thisIndex]));
 		} else {
 			delete msg;
-			fd.close();
+			// fd.close();
 			CkCallback cb = CkCallback(CkReductionTarget(Writers, finishedTask), thisProxy[0]);
 			contribute(cb);
 		}
