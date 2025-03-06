@@ -368,10 +368,6 @@ public:
 
 	void recvData(Ck::Stream::StreamDeliveryMsg* msg) {
 		if (input_id == INVALID_STREAM_NO) return;
-		if (msg->num_bytes)
-			fd << json::parse(msg->data).dump(4) << "\n";
-		if (!msg->num_bytes) {
-		}
 		if (msg->status == Ck::Stream::StreamStatus::STREAM_OK) {
 			delete msg;
 			Ck::Stream::getRecord(input_id, CkCallback(CkIndex_Writers::recvData(0), thisProxy[thisIndex]));
