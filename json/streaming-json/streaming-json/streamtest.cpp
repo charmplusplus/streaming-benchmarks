@@ -142,7 +142,6 @@ public:
 		CkPrintf("Reader %d sending record #%d\n", thisIndex, count);
 		std::string json_string = record.dump();
 		Ck::Stream::putRecord(output_id, (void*)json_string.c_str(), sizeof(char) * json_string.size() + 1);
-		Ck::Stream::flushLocalStream(output_id);
 		++count;
 		if (count == num_records_to_send) {
 			CkCallback cb = CkCallback(CkReductionTarget(Readers, finishedTask), thisProxy[0]);
