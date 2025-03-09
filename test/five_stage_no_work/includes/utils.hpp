@@ -14,6 +14,8 @@ using namespace chrono;  // For timing
 random_device rd;
 mt19937 gen(rd());
 
+
+
 vector<string> load_names_from_file(const string& filename) {
     vector<string> names;
     ifstream file(filename);
@@ -32,6 +34,9 @@ vector<string> load_names_from_file(const string& filename) {
     file.close();
     return names;
 }
+
+vector<string> first_names = load_names_from_file("data/first_names.txt");
+vector<string> last_names = load_names_from_file("data/last_names.txt");
 
 inline void ltrim(std::string &s) {
     s.erase(s.begin(), std::find_if(s.begin(), s.end(), [](unsigned char ch) {
@@ -137,4 +142,40 @@ json generate_and_save_json(int n, const string& filename, bool write) {
     // cout << "Generated " << n << " biometric records in " << duration.count() << " seconds and saved to " << filename << endl;
     // cout << "Generated " << n << " biometric records" << endl;
     return records;
+}
+
+
+// Generates sample JSON data, writes to file in chunks, and returns an array with timing
+json generate_record(const string& filename, bool write) {
+    // cout << "Generating " << n << " records to file" << filename << endl;
+
+    // Start the timer
+    auto start_time = high_resolution_clock::now();
+
+    
+
+    int fsize = first_names.size(), lsize = last_names.size();
+    if (fsize == 0 || lsize == 0) {
+        cerr << "Error: Name lists are empty!" << endl;
+        return "";
+    }
+
+    json record;
+
+
+    if (write) {
+        ofstream file(filename);
+        if (!file.is_open()) {
+            cerr << "Error opening file for writing!" << endl;
+            return json::array();
+        }
+        record = generate_biometric_record(first_names, last_names, fsize, lsize);
+        file << record.dump();
+        file.close();
+    } else {
+        record = generate_biometric_record(first_names, last_names, fsize, lsize);
+    }
+
+    
+    return record;
 }
