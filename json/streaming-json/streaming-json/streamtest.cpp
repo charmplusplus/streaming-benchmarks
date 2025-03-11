@@ -19,7 +19,7 @@
 #endif
 
 #ifndef TOTAL_NUM_RECORDS
-#define TOTAL_NUM_RECORDS 9000000
+#define TOTAL_NUM_RECORDS 1000
 #endif
 
 #ifndef RUN_ID
@@ -33,7 +33,7 @@
 using json = nlohmann::json;
 
 class Main : public CBase_Main {
-	CProxy_Generators generators;
+	// CProxy_Generators generators;
 	CProxy_Readers readers;
 	CProxy_Filters filters;
 	CProxy_Transformers transformers;
@@ -54,36 +54,9 @@ public:
 		int num_total_records = TOTAL_NUM_RECORDS;
 
 		readers = CProxy_Readers::ckNew(num_total_records, thisProxy, num_prods);
-		generators = CProxy_Generators::ckNew(readers, num_prods);
 		
-		#if GENERATE_RECORDS
-		int chunk_size = num_total_records / num_prods;
-		int remainder = num_total_records % num_prods;
-		for (int i = 0; i < num_prods; ++i)
-			generators[i].generateJsonData(chunk_size + (i < remainder ? 1 : 0), WRITE_RECORDS);
-		#else
-		generators.readJsonData("/sample");
-		// std::ifstream file("./generated_inputs.json");
-		// if (!file) {
-		// 	std::cerr << "Error: Could not open the file!" << std::endl;
-		// 	CkExit(0);
-		// }
-		// std::stringstream buffer;
-		// buffer << file.rdbuf();
-		// std::string fileContents = buffer.str();
-		// json records = json::parse(fileContents);
-		// CkPrintf("WARNING: Reading directly from file; record count: %d. THIS IS EXTREMELY SLOW.\n", records.size());
-		
-		// int start = 0;
-		// int chunk_size = num_total_records / num_prods;
-		// int remainder = num_total_records % num_prods;
-		// for (int i = 0; i < num_prods; ++i) {
-		// 	int end = start + chunk_size + (i < remainder ? 1 : 0);
-		// 	json partition(records.begin() + start, records.begin() + end);
-		// 	start = end;
-		// 	readers[i].setInput(partition.dump());
-		// }
-		#endif
+		start_time = CkWallTimer();
+		Ck::Stream::createNewStream(CkCallback(CkIndex_Main::readersValidatorsStreamMade(0), thisProxy));
 	}
 	Main(CkMigrateMessage* msg) {}
 	void pup(PUP::er &p) {}
@@ -130,62 +103,21 @@ public:
 
 };
 
-class Generators : public CBase_Generators {
-	std::string outfile;
-	// CProxy_Main mainProxy;
-	CProxy_Readers readers;
-public:
-	Generators() {}
-	Generators(CProxy_Readers reader_proxy) {
-		readers = reader_proxy;
-		outfile = "/data-" + std::to_string(thisIndex) + ".json";
-	}
-
-	void generateJsonData(int num_record) {
-		#if WRITE_RECORDS
-		std::string full_path = INPUT_FILE_BASE + std::string("/run-") + std::to_string(RUN_ID) + std::string("/input") + outfile;
-		json records = generate_and_save_json(num_record, full_path, true);
-		#else
-		json records = generate_and_save_json(num_record, "", false);
-		#endif
-		readers[thisIndex].setInput(records.dump());
-	}
-
-	// target_folder must have leading slash
-	void readJsonData(std::string target_folder) {
-		// /scratch/mzu/yanniz3/CkStream/{target_folder}/run-{thisIndex}.json
-		std::ifstream file(std::string(INPUT_FILE_BASE) + target_folder + "/data-" + std::to_string(thisIndex) + ".json");
-		if (!file) {
-			std::cerr << "Error: Could not open the file!" << std::endl;
-			CkExit(0);
-		}
-		std::stringstream buffer;
-		buffer << file.rdbuf();
-		std::string fileContents = buffer.str();
-		readers[thisIndex].setInput(fileContents);
-	}
-
-};
 
 class Readers : public CBase_Readers {
 	StreamToken output_id = INVALID_STREAM_NO; 
 	std::string records_str = "";
-	int num_records;
-	bool begin_work_flag = false;
-	bool received_input_flag = false;
+	int total_num_records;
+	int num_records_to_send;
+	int count;
+	// bool begin_work_flag = false;
+	// bool received_input_flag = false;
 	CProxy_Main mainProxy;
 public:
 	Readers_SDAG_CODE
 	Readers() {}
-	Readers(int num_records, CProxy_Main main): num_records(num_records), mainProxy(main) {}
+	Readers(int num_records, CProxy_Main main): total_num_records(num_records), mainProxy(main) {}
 	void pup(PUP::er &p) {}
-
-	void setInput(std::string input) {
-		records_str = input;
-		received_input_flag = 1;
-		CkCallback cb = CkCallback(CkReductionTarget(Main, doneReceivingInput), mainProxy);
-		contribute(cb);
-	}
 
 	void setOutputStreamId(StreamToken id) {
 		output_id = id;
@@ -195,19 +127,29 @@ public:
 
 
 	void beginWork() {
-		if (output_id == INVALID_STREAM_NO || !received_input_flag || begin_work_flag) return;
-		begin_work_flag = true;
-		json records = json::parse(records_str);
-		// CkPrintf("Reader %d beginning work, num_records %d\n", thisIndex, records.size());
-		int num_records_per_prod = TOTAL_NUM_RECORDS / (2 * CkNumPes());
-		int index = num_records_per_prod * thisIndex;
-		for (int i = index; i < index + num_records_per_prod; ++i) {
-			std::string json_string = records[i].dump();
+		if (output_id == INVALID_STREAM_NO) return;
+		int chunk_size = total_num_records / (2 * CkNumPes());
+		int remainder = total_num_records % (2 * CkNumPes());
 
-			Ck::Stream::putRecord(output_id, (void*)json_string.c_str(), sizeof(char) * json_string.size() + 1);
-			Ck::Stream::flushLocalStream(output_id);
+		num_records_to_send = chunk_size + (thisIndex < remainder ? 1 : 0);
+		// begin_work_flag = true;
+		CkCallback cb = CkCallback(CkIndex_Readers::sendData(), thisProxy[thisIndex]);
+		cb.send();
+	}
+
+	void sendData() {
+		json record = generate_record("", false);
+		CkPrintf("Reader %d sending record #%d\n", thisIndex, count);
+		std::string json_string = record.dump();
+		Ck::Stream::putRecord(output_id, (void*)json_string.c_str(), sizeof(char) * json_string.size() + 1);
+		++count;
+		if (count == num_records_to_send) {
+			CkCallback cb = CkCallback(CkReductionTarget(Readers, finishedTask), thisProxy[0]);
+			contribute(cb);
+		} else {
+			CkCallback cb = CkCallback(CkIndex_Readers::sendData(), thisProxy[thisIndex]);
+			cb.send();
 		}
-		Ck::Stream::closeWriteStream(output_id);
 	}
 };
 

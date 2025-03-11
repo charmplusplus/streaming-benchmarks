@@ -1,8 +1,8 @@
 -include ../../common.mk
-CHARMC=../../../bin/charmc $(OPTS)
+CHARMC=../../../../charm/bin/charmc $(OPTS)
 
-TOTAL_NUM_RECORDS ?= 9000000
-GENERATE_RECORDS ?= 0
+TOTAL_NUM_RECORDS ?= 1000
+GENERATE_RECORDS ?= 1
 RUN_ID ?= 0
 
 all: streamtest 

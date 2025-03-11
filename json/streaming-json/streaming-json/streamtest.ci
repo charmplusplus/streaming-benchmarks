@@ -31,8 +31,15 @@ mainmodule streamtest
 		entry Readers();
 		entry Readers(int num_records, CProxy_Main);
 		entry void setOutputStreamId(StreamToken output_id);
-		entry void setInput(std::string);
+		// entry void setInput(std::string);
 		entry void beginWork();
+		entry void sendData();
+		entry [reductiontarget] void finishedTask() {
+			serial {
+				CkPrintf("Readers all done!\n");
+				Ck::Stream::closeWriteStream(output_id);
+			}
+		};
 	}
 
 	array[1D] Validators {
@@ -89,14 +96,5 @@ mainmodule streamtest
 				mainProxy.getEndTimeAndExit();
 			}
 		};
-	}
-	// THIS IS NOT A STAGE IN THE BENCHMARK. 
-	// THIS IS JUST TO GENERATE DATA
-	// number of generators must equal number of producers
-	array[1D] Generators {
-		entry Generators();
-		entry Generators(CProxy_Readers);
-		entry void generateJsonData(int num_record);
-		entry void readJsonData(std::string folder);
 	}
 }
