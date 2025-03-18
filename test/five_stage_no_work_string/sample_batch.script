@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#SBATCH --mem=64gb
+#SBATCH --nodes=1                     # Request 2 nodes
+#SBATCH --ntasks-per-node=128         # 128 tasks per node (256 total)
+#SBATCH --cpus-per-task=1             # 1 CPU per task
+#SBATCH --partition=cpu               # Ensure you are using a CPU partition
+#SBATCH --account=mzu-delta-cpu       # Your account name
+#SBATCH --job-name=myjobtest          # Name of the job
+#SBATCH --time=00:10:00               # Increase time limit if needed
+#SBATCH --constraint="scratch"        # Ensure scratch nodes are available
+#SBATCH --output=log-%j.out          # Output file
+
+# Check if NUM_PEs is set, otherwise use a default value
+if [ -z "$NUM_NODES" ]; then
+    echo "NUM_NODES is not set. Using default value 4."
+    NUM_NODES=4
+fi
+
+
+
+# Use `charmrun` with the given number of PEs
+# ./charmrun +p${NUM_NODES * 128} ./streamtest 
+./charmrun +p128 ./streamtest 
+
