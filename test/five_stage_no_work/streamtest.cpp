@@ -109,7 +109,7 @@ class Readers : public CBase_Readers {
 	std::string records_str = "";
 	int total_num_records;
 	int num_records_to_send;
-	int count;
+	int count = 0;
 	// bool begin_work_flag = false;
 	// bool received_input_flag = false;
 	CProxy_Main mainProxy;
@@ -130,8 +130,8 @@ public:
 		if (output_id == INVALID_STREAM_NO) return;
 		int chunk_size = total_num_records / (2 * CkNumPes());
 		int remainder = total_num_records % (2 * CkNumPes());
-
 		num_records_to_send = chunk_size + (thisIndex < remainder ? 1 : 0);
+		CkPrintf("Reader %d creating #%ld\n", thisIndex, num_records_to_send);
 		// begin_work_flag = true;
 		CkCallback cb = CkCallback(CkIndex_Readers::sendData(), thisProxy[thisIndex]);
 		cb.send();
@@ -139,7 +139,7 @@ public:
 
 	void sendData() {
 		json record = generate_record("", false);
-		CkPrintf("Reader %d sending record #%d\n", thisIndex, count);
+		// CkPrintf("Reader %d sending record #%ld\n", thisIndex, count);
 		std::string json_string = record.dump();
 		Ck::Stream::putRecord(output_id, (void*)json_string.c_str(), sizeof(char) * json_string.size() + 1);
 		++count;

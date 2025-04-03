@@ -19,7 +19,7 @@
 #endif
 
 #ifndef TOTAL_NUM_RECORDS
-#define TOTAL_NUM_RECORDS 1000
+#define TOTAL_NUM_RECORDS 1000000
 #endif
 
 #ifndef RUN_ID
@@ -110,8 +110,6 @@ class Readers : public CBase_Readers {
 	int total_num_records;
 	int num_records_to_send;
 	int count = 0;
-	// bool begin_work_flag = false;
-	// bool received_input_flag = false;
 	CProxy_Main mainProxy;
 public:
 	Readers_SDAG_CODE
@@ -132,14 +130,16 @@ public:
 		int remainder = total_num_records % (2 * CkNumPes());
 
 		num_records_to_send = chunk_size + (thisIndex < remainder ? 1 : 0);
+		CkPrintf("Reader %d to send %d records\n", thisIndex, num_records_to_send);
+
 		CkCallback cb = CkCallback(CkIndex_Readers::sendData(), thisProxy[thisIndex]);
 		cb.send();
 	}
 
 	void sendData() {
-		if (count % 5000 == 0) CkPrintf("Reader %d sending record #%d\n", thisIndex, count);
 		std::string json_string = "{ \"age\": 66, \"biometrics\": { \"heart_rate\": 69, \"height_in\": 69.43711954623146, \"height_m\": 1.7637018840752616, \"steps\": 11568, \"weight_kg\": 62.57018197658849, \"weight_lb\": 137.94347458922653 }, \"name\": \"Rosemarie Woods\", \"pi\": 3.1415927169085367 }";
 		Ck::Stream::putRecord(output_id, (void*)json_string.c_str(), sizeof(char) * json_string.size() + 1);
+		if (count % 10000 == 0) CkPrintf("Reader %d on record %d\n", thisIndex, count);
 		++count;
 		if (count == num_records_to_send) {
 			CkCallback cb = CkCallback(CkReductionTarget(Readers, finishedTask), thisProxy[0]);
@@ -154,6 +154,7 @@ public:
 class Validators : public CBase_Validators {
 	StreamToken input_id = INVALID_STREAM_NO;	// stream to fetch input from
 	StreamToken output_id = INVALID_STREAM_NO; // stream to output to 
+	int count = 0;
 
 public:
 	Validators_SDAG_CODE
@@ -177,9 +178,11 @@ public:
 
 	void recvData(Ck::Stream::StreamDeliveryMsg* msg) {
 		char* data = (char*)(msg -> data);
+		if (count % 10000 == 0) CkPrintf("Validator %d on record %d\n", thisIndex, count);
+		++count;
 		if (msg->num_bytes) {
 			Ck::Stream::putRecord(output_id, data, msg->num_bytes);
-			Ck::Stream::flushLocalStream(output_id);
+			// Ck::Stream::flushLocalStream(output_id);
 		}
 		if (msg->status == Ck::Stream::StreamStatus::STREAM_OK) {
 			delete msg;
@@ -195,6 +198,7 @@ public:
 class Filters : public CBase_Filters {
 	StreamToken input_id = INVALID_STREAM_NO;
 	StreamToken output_id = INVALID_STREAM_NO; 
+	int count = 0;
 
 public:
 	Filters_SDAG_CODE
@@ -218,10 +222,12 @@ public:
 	void recvData(Ck::Stream::StreamDeliveryMsg* msg) {
 		if (input_id == INVALID_STREAM_NO || output_id == INVALID_STREAM_NO) return;
 		char* data = (char*)(msg->data);
+		if (count % 10000 == 0) CkPrintf("Filter %d on record %d\n", thisIndex, count);
+		++count;
 		
 		if (msg->num_bytes) {
 			Ck::Stream::putRecord(output_id, data, msg->num_bytes);
-			Ck::Stream::flushLocalStream(output_id);
+			// Ck::Stream::flushLocalStream(output_id);
 		} 
 
 		if (msg->status == Ck::Stream::StreamStatus::STREAM_OK) {
@@ -238,6 +244,7 @@ public:
 class Transformers : public CBase_Transformers {
 	StreamToken input_id = INVALID_STREAM_NO;
 	StreamToken output_id = INVALID_STREAM_NO; 
+	int count = 0;
 
 public:
 	Transformers_SDAG_CODE
@@ -261,9 +268,11 @@ public:
 	void recvData(Ck::Stream::StreamDeliveryMsg* msg) {
 		if (input_id == INVALID_STREAM_NO || output_id == INVALID_STREAM_NO) return;
 		char* data = (char*)(msg->data);
+		if (count % 10000 == 0) CkPrintf("Transformer %d on record %d\n", thisIndex, count);
+		++count;
 		if (msg->num_bytes) {
 			Ck::Stream::putRecord(output_id, data, msg->num_bytes);
-			Ck::Stream::flushLocalStream(output_id);
+			// Ck::Stream::flushLocalStream(output_id);
 		}
 		if (msg->status == Ck::Stream::StreamStatus::STREAM_OK) {
 			delete msg;
@@ -281,6 +290,7 @@ class Writers : public CBase_Writers {
 	StreamToken input_id = INVALID_STREAM_NO;
 	std::string outfile_name = "";
 	std::ofstream fd;
+	int count = 0;
 	CProxy_Main mainProxy;
 public:
 	Writers_SDAG_CODE
@@ -306,6 +316,8 @@ public:
 
 	void recvData(Ck::Stream::StreamDeliveryMsg* msg) {
 		if (input_id == INVALID_STREAM_NO) return;
+		if (count % 10000 == 0) CkPrintf("Writers %d on record %d\n", thisIndex, count);
+		++count;
 		if (msg->status == Ck::Stream::StreamStatus::STREAM_OK) {
 			delete msg;
 			Ck::Stream::getRecord(input_id, CkCallback(CkIndex_Writers::recvData(0), thisProxy[thisIndex]));

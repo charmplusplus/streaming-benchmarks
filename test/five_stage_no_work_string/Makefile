@@ -1,7 +1,7 @@
 -include ../../common.mk
 CHARMC=../../../bin/charmc $(OPTS)
 
-TOTAL_NUM_RECORDS ?= 100
+TOTAL_NUM_RECORDS ?= 1000000
 GENERATE_RECORDS ?= 0
 RUN_ID ?= 0
 
