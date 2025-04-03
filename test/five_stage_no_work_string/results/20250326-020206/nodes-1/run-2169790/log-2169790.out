@@ -1,0 +1,110 @@
+Running job on 1 nodes with 128 PEs
+
+Running as 128 OS processes: ./streamtest-2169790
+charmrun> /usr/bin/setarch x86_64 -R mpirun -np 128 ./streamtest-2169790
+[cn061.delta.ncsa.illinois.edu:3463326] mca: base: components_register: registering framework ras components
+[cn061.delta.ncsa.illinois.edu:3463326] mca: base: components_register: found loaded component simulator
+[cn061.delta.ncsa.illinois.edu:3463326] mca: base: components_register: component simulator register function successful
+[cn061.delta.ncsa.illinois.edu:3463326] mca: base: components_register: found loaded component slurm
+[cn061.delta.ncsa.illinois.edu:3463326] mca: base: components_register: component slurm register function successful
+[cn061.delta.ncsa.illinois.edu:3463326] mca: base: components_open: opening ras components
+[cn061.delta.ncsa.illinois.edu:3463326] mca: base: components_open: found loaded component simulator
+[cn061.delta.ncsa.illinois.edu:3463326] mca: base: components_open: found loaded component slurm
+[cn061.delta.ncsa.illinois.edu:3463326] mca: base: components_open: component slurm open function successful
+[cn061.delta.ncsa.illinois.edu:3463326] mca:base:select: Auto-selecting ras components
+[cn061.delta.ncsa.illinois.edu:3463326] mca:base:select:(  ras) Querying component [simulator]
+[cn061.delta.ncsa.illinois.edu:3463326] mca:base:select:(  ras) Querying component [slurm]
+[cn061.delta.ncsa.illinois.edu:3463326] mca:base:select:(  ras) Query of component [slurm] set priority to 50
+[cn061.delta.ncsa.illinois.edu:3463326] mca:base:select:(  ras) Selected component [slurm]
+[cn061.delta.ncsa.illinois.edu:3463326] mca: base: close: unloading component simulator
+
+======================   ALLOCATED NODES   ======================
+	cn061: flags=0x11 slots=128 max_slots=0 slots_inuse=0 state=UP
+=================================================================
+Charm++> Running on MPI library: Open MPI v4.1.6, package: Open MPI svcdeltaswmgt@dt-login04.delta.ncsa.illinois.edu Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023 (MPI standard: 3.1)
+Charm++> Level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 128 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-352-g6f56cfbda
+Charm++ built without optimization.
+Do not use for performance benchmarking (build with --with-production to do so).
+Charm++ built with internal error checking enabled.
+Do not use for performance benchmarking (build without --enable-error-checking to do so).
+Charm++: Tracemode Projections enabled.
+Trace: traceroot: ./streamtest-2169790
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 hosts (2 sockets x 64 cores x 1 PUs = 128-way SMP)
+Charm++> cpu topology info is gathered in 0.116 seconds.
+CharmLB> Load balancing instrumentation for communication is off.
+Run ID: 2169790, Num PEs: 128, each stage will have 256 chares. Total num records: 2000000, per prod: 7812
+libfabric:3463362:1742972578::cxi:core:cxip_evtq_progress():429<warn> cn061.delta.ncsa.illinois.edu: H/W Event Queue overflow detected.
+[cn061:3463362] *** Process received signal ***
+[cn061:3463362] Signal: Aborted (6)
+[cn061:3463362] Signal code:  (-6)
+
+libfabric:3463353:1742972578::cxi:core:cxip_evtq_progress():429<warn> cn061.delta.ncsa.illinois.edu: H/W Event Queue overflow detected.
+[cn061:3463353] *** Process received signal ***
+[cn061:3463353] Signal: Aborted (6)
+[cn061:3463353] Signal code:  (-6)
+[cn061:3463353] [ 0] /usr/lib64/libpthread.so.0(+0x12cf0)[0x7ffff68cdcf0]
+[cn061:3463353] [ 1] /usr/lib64/libc.so.6(gsignal+0x10f)[0x7ffff6544acf]
+[cn061:3463353] [ 2] /usr/lib64/libc.so.6(abort+0x127)[0x7ffff6517ea5]
+[cn061:3463353] [ 3] /opt/cray/libfabric/1.15.2.0/lib64/libfabric.so.1(+0x8b82d)[0x7ffff5a0282d]
+[cn061:3463353] [ 4] /opt/cray/libfabric/1.15.2.0/lib64/libfabric.so.1(+0x5a84d)[0x7ffff59d184d]
+[cn061:3463353] [ 5] /opt/cray/libfabric/1.15.2.0/lib64/libfabric.so.1(+0x60171)[0x7ffff59d7171]
+[cn061:3463353] [ 6] /opt/cray/libfabric/1.15.2.0/lib64/libfabric.so.1(+0x3a7a5)[0x7ffff59b17a5]
+[cn061:3463353] [ 7] /sw/spack/deltas11-2023-03/apps/linux-rhel8-zen3/gcc-11.4.0/openmpi-4.1.6-lranp74/lib/libmpi.so.40(ompi_mtl_ofi_progress_no_inline+0xaf)[0x7ffff72b98ff]
+[cn061:3463353] [ 8] /sw/spack/deltas11-2023-03/apps/linux-rhel8-zen3/gcc-11.4.0/openmpi-4.1.6-lranp74/lib/libopen-pal.so.40(opal_progress+0x33)[0x7ffff5cb9483]
+[cn061:3463353] [ 9] /sw/spack/deltas11-2023-03/apps/linux-rhel8-zen3/gcc-11.4.0/openmpi-4.1.6-lranp74/lib/libmpi.so.40(+0x1b9d75)[0x7ffff72c3d75]
+[cn061:3463353] [10] /sw/spack/deltas11-2023-03/apps/linux-rhel8-zen3/gcc-11.4.0/openmpi-4.1.6-lranp74/lib/libmpi.so.40(PMPI_Iprobe+0xbc)[0x7ffff71bd86c]
+[cn061:3463353] [11] ./streamtest-2169790[0x9a52b7]
+[cn061:3463353] [12] ./streamtest-2169790(_Z24LrtsAdvanceCommunicationi+0x15)[0x9a5679]
+[cn061:3463353] [13] ./streamtest-2169790[0x9a450b]
+[cn061:3463353] [14] [cn061:3463362] [ 0] /usr/lib64/libpthread.so.0(+0x12cf0)[0x7ffff68cdcf0]
+[cn061:3463362] [ 1] /usr/lib64/libc.so.6(gsignal+0x10f)[0x7ffff6544acf]
+[cn061:3463362] [ 2] /usr/lib64/libc.so.6(abort+0x127)[0x7ffff6517ea5]
+[cn061:3463362] [ 3] /opt/cray/libfabric/1.15.2.0/lib64/libfabric.so.1(+0x8b82d)[0x7ffff5a0282d]
+[cn061:3463362] [ 4] /opt/cray/libfabric/1.15.2.0/lib64/libfabric.so.1(+0x5a84d)[0x7ffff59d184d]
+[cn061:3463362] [ 5] /opt/cray/libfabric/1.15.2.0/lib64/libfabric.so.1(+0x60171)[0x7ffff59d7171]
+[cn061:3463362] [ 6] /opt/cray/libfabric/1.15.2.0/lib64/libfabric.so.1(+0x3a7a5)[0x7ffff59b17a5]
+[cn061:3463362] [ 7] /sw/spack/deltas11-2023-03/apps/linux-rhel8-zen3/gcc-11.4.0/openmpi-4.1.6-lranp74/lib/libmpi.so.40(ompi_mtl_ofi_progress_no_inline+0xaf)[0x7ffff72b98ff]
+[cn061:3463362] [ 8] /sw/spack/deltas11-2023-03/apps/linux-rhel8-zen3/gcc-11.4.0/openmpi-4.1.6-lranp74/lib/libopen-pal.so.40(opal_progress+0x33)[0x7ffff5cb9483]
+[cn061:3463362] [ 9] /sw/spack/deltas11-2023-03/apps/linux-rhel8-zen3/gcc-11.4.0/openmpi-4.1.6-lranp74/lib/libmpi.so.40(+0x1b9d75)[0x7ffff72c3d75]
+[cn061:3463362] [10] /sw/spack/deltas11-2023-03/apps/linux-rhel8-zen3/gcc-11.4.0/openmpi-4.1.6-lranp74/lib/libmpi.so.40(PMPI_Iprobe+0xbc)[0x7ffff71bd86c]
+[cn061:3463362] [11] ./streamtest-2169790[0x9a52b7]
+[cn061:3463362] [12] ./streamtest-2169790(_Z24LrtsAdvanceCommunicationi+0x15)[0x9a5679]
+[cn061:3463362] [13] ./streamtest-2169790[0x9a450b]
+[cn061:3463362] [14] ./streamtest-2169790(CmiGetNonLocal+0x75)[0x9a4797]
+[cn061:3463362] [15] Reader 95 sending record #5000
+./streamtest-2169790(CmiGetNonLocal+0x75)[0x9a4797]
+[cn061:3463353] [15] ./streamtest-2169790(CsdNextMessage+0x87)[0x95a892]
+[cn061:3463353] [16] ./streamtest-2169790(CsdScheduleForever+0x8e)[0x95a9dd]
+[cn061:3463353] [17] ./streamtest-2169790(CsdScheduler+0x16)[0x95a92d]
+[cn061:3463353] [18] ./streamtest-2169790[0x9a44db]
+[cn061:3463353] [19] ./streamtest-2169790(CsdNextMessage+0x87)[0x95a892]
+[cn061:3463362] [16] ./streamtest-2169790(CsdScheduleForever+0x8e)[0x95a9dd]
+[cn061:3463362] [17] ./streamtest-2169790(CsdScheduler+0x16)[0x95a92d]
+[cn061:3463362] [18] ./streamtest-2169790[0x9a44db]
+[cn061:3463362] [19] Reader 239 sending record #5000
+
+./streamtest-2169790(ConverseInit+0x5fd)[0x9a43f5]
+[cn061:3463362] [20] ./streamtest-2169790(ConverseInit+0x5fd)[0x9a43f5]
+[cn061:3463353] [20] ./streamtest-2169790(charm_main+0x3f)[0x8a156f]
+[cn061:3463353] [21] ./streamtest-2169790(main+0x20)[0x7baa99]
+[cn061:3463353] [22] /usr/lib64/libc.so.6(__libc_start_main+0xe5)[0x7ffff6530d85]
+[cn061:3463353] [23] ./streamtest-2169790(_start+0x2e)[0x76a1be]
+[cn061:3463353] *** End of error message ***
+./streamtest-2169790(charm_main+0x3f)[0x8a156f]
+[cn061:3463362] [21] ./streamtest-2169790(main+0x20)[0x7baa99]
+[cn061:3463362] [22] /usr/lib64/libc.so.6(__libc_start_main+0xe5)[0x7ffff6530d85]
+[cn061:3463362] [23] ./streamtest-2169790(_start+0x2e)[0x76a1be]
+[cn061:3463362] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 31 with PID 3463362 on node cn061 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+[cn061.delta.ncsa.illinois.edu:3463326] mca: base: close: component slurm closed
+[cn061.delta.ncsa.illinois.edu:3463326] mca: base: close: unloading component slurm

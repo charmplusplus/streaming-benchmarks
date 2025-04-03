@@ -84,6 +84,10 @@ for NUM_NODES in NODE_SWEEP:
 #SBATCH --constraint="scratch"
 #SBATCH --output=log-{run_id}.out
 
+export FI_CXI_DEFAULT_CQ_SIZE=131072
+export FI_CXI_OFLOW_BUF_SIZE=8388608
+export FI_CXI_CQ_FILL_PERCENT=20
+
 echo "Running job on {NUM_NODES} nodes with {NUM_PEs} PEs"
 ./charmrun +p{NUM_PEs} ./streamtest-{run_id}
 touch done-{run_id}  # Signal job completion

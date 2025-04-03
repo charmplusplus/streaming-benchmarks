@@ -109,7 +109,7 @@ class Readers : public CBase_Readers {
 	std::string records_str = "";
 	int total_num_records;
 	int num_records_to_send;
-	int count;
+	int count = 0;
 	// bool begin_work_flag = false;
 	// bool received_input_flag = false;
 	CProxy_Main mainProxy;
@@ -137,7 +137,7 @@ public:
 	}
 
 	void sendData() {
-		CkPrintf("Reader %d sending record #%d\n", thisIndex, count);
+		if (count % 5000 == 0) CkPrintf("Reader %d sending record #%d\n", thisIndex, count);
 		std::string json_string = "{ \"age\": 66, \"biometrics\": { \"heart_rate\": 69, \"height_in\": 69.43711954623146, \"height_m\": 1.7637018840752616, \"steps\": 11568, \"weight_kg\": 62.57018197658849, \"weight_lb\": 137.94347458922653 }, \"name\": \"Rosemarie Woods\", \"pi\": 3.1415927169085367 }";
 		Ck::Stream::putRecord(output_id, (void*)json_string.c_str(), sizeof(char) * json_string.size() + 1);
 		++count;

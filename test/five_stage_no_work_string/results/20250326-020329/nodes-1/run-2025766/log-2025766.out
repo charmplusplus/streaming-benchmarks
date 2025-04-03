@@ -1,0 +1,53 @@
+Running job on 1 nodes with 128 PEs
+
+Running as 128 OS processes: ./streamtest-2025766
+charmrun> /usr/bin/setarch x86_64 -R mpirun -np 128 ./streamtest-2025766
+[cn067.delta.ncsa.illinois.edu:2368339] mca: base: components_register: registering framework ras components
+[cn067.delta.ncsa.illinois.edu:2368339] mca: base: components_register: found loaded component simulator
+[cn067.delta.ncsa.illinois.edu:2368339] mca: base: components_register: component simulator register function successful
+[cn067.delta.ncsa.illinois.edu:2368339] mca: base: components_register: found loaded component slurm
+[cn067.delta.ncsa.illinois.edu:2368339] mca: base: components_register: component slurm register function successful
+[cn067.delta.ncsa.illinois.edu:2368339] mca: base: components_open: opening ras components
+[cn067.delta.ncsa.illinois.edu:2368339] mca: base: components_open: found loaded component simulator
+[cn067.delta.ncsa.illinois.edu:2368339] mca: base: components_open: found loaded component slurm
+[cn067.delta.ncsa.illinois.edu:2368339] mca: base: components_open: component slurm open function successful
+[cn067.delta.ncsa.illinois.edu:2368339] mca:base:select: Auto-selecting ras components
+[cn067.delta.ncsa.illinois.edu:2368339] mca:base:select:(  ras) Querying component [simulator]
+[cn067.delta.ncsa.illinois.edu:2368339] mca:base:select:(  ras) Querying component [slurm]
+[cn067.delta.ncsa.illinois.edu:2368339] mca:base:select:(  ras) Query of component [slurm] set priority to 50
+[cn067.delta.ncsa.illinois.edu:2368339] mca:base:select:(  ras) Selected component [slurm]
+[cn067.delta.ncsa.illinois.edu:2368339] mca: base: close: unloading component simulator
+
+======================   ALLOCATED NODES   ======================
+	cn067: flags=0x11 slots=128 max_slots=0 slots_inuse=0 state=UP
+=================================================================
+Charm++> Running on MPI library: Open MPI v4.1.6, package: Open MPI svcdeltaswmgt@dt-login04.delta.ncsa.illinois.edu Distribution, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023 (MPI standard: 3.1)
+Charm++> Level of thread support used: MPI_THREAD_SINGLE (desired: MPI_THREAD_SINGLE)
+Charm++> Running in non-SMP mode: 128 processes (PEs)
+Converse/Charm++ Commit ID: v7.1.0-devel-352-g6f56cfbda
+Charm++ built without optimization.
+Do not use for performance benchmarking (build with --with-production to do so).
+Charm++ built with internal error checking enabled.
+Do not use for performance benchmarking (build without --enable-error-checking to do so).
+Charm++: Tracemode Projections enabled.
+Trace: traceroot: ./streamtest-2025766
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 hosts (2 sockets x 64 cores x 1 PUs = 128-way SMP)
+Charm++> cpu topology info is gathered in 0.134 seconds.
+CharmLB> Load balancing instrumentation for communication is off.
+Run ID: 2025766, Num PEs: 128, each stage will have 256 chares. Total num records: 2000000, per prod: 7812
+Readers all done!
+Validators all done!
+Filters all done!
+Transformers all done!
+Writers all done!
+Total time spend from creation of readers: 73.748208
+*************************************************************
+Warning: Projections log flushed to disk 87 times on 86 cores: 0 3 4 6 7 8 9 10 12 14 15 17 18 19 21 22 23 26 28 29 31 33 34 35 36 37 39 41 44 46 47 49 50 51 52 53 54 56 58 61 62 63 64 65 66 67 70 71 74 76 77 79 80 81 82 84 86 87 88 89 90 91 92 93 94 95 96 97 98 99 103 104 105 106 110 111 114 115 116 117 119 121 122 125 126 127.
+Warning: The performance data is likely invalid, unless the flushes have been explicitly synchronized by your program.
+Warning: This may be fixed by specifying a larger +logsize (current value 1000000).
+*************************************************************
+[Partition 0][Node 0] End of program
+[cn067.delta.ncsa.illinois.edu:2368339] mca: base: close: component slurm closed
+[cn067.delta.ncsa.illinois.edu:2368339] mca: base: close: unloading component slurm
